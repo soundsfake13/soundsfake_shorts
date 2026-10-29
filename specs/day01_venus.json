@@ -1,0 +1,27 @@
+{
+  "voice": "am_michael",
+  "speed": 1.12,
+  "bpm": 118,
+  "lines": [
+    {"text": "On Venus, a day is longer than a year.", "pause": 0.3,
+     "scene": {"type": "slam", "lines": ["A DAY", "IS LONGER", "THAN A", "YEAR."], "colors": ["cream", "yellow", "cream", "ink"], "size": 200, "y": 470, "bg": "blue", "stagger": 0.3}},
+    {"text": "Sounds fake? It's true.", "pause": 0.2,
+     "scene": {"type": "flash", "palette": ["red", "cream", "blue"]}},
+    {"text": "Venus spins so slowly, it takes two hundred and forty-three Earth days to turn around just once.",
+     "caption": "Venus spins so slowly, it takes 243 Earth days to turn around just once.",
+     "scene": {"type": "planet", "label": "ONE SPIN", "count": 243, "arrow": true, "r": 280, "y": 820, "spin_secs": 10, "bg": "blue"}},
+    {"text": "But it only needs two hundred and twenty-five days to travel all the way around the Sun.",
+     "caption": "But it only needs 225 days to travel all the way around the Sun.",
+     "scene": {"type": "orbit", "days": 225, "label": "ONE YEAR"}},
+    {"text": "So its year ends before its day does.", "pause": 0.25,
+     "scene": {"type": "bars", "rows": [["1 DAY", 243, "red"], ["1 YEAR", 225, "blue"]], "stamp": "THE DAY WINS"}},
+    {"text": "And it gets weirder. Venus spins backwards.",
+     "scene": {"type": "planet", "label": "BACKWARDS", "arrow": true, "dir": -1, "r": 300, "y": 900, "spin_secs": 4, "bg": "ink", "arrow_color": "red"}},
+    {"text": "So the Sun rises in the west, and sets in the east.",
+     "scene": {"type": "sunrise"}},
+    {"text": "If you could survive the heat. It's hot enough to melt lead.", "pause": 0.25,
+     "scene": {"type": "thermo", "value": 465, "max": 500, "marks": [["VENUS 465°C", 465, "yellow"], ["LEAD MELTS 327°C", 327, "cream"], ["WATER BOILS 100°C", 100, "ink"]]}},
+    {"text": "Sounds fake? It's true. Follow for more.", "pause": 0.3,
+     "scene": {"type": "toggle", "left": "FAKE", "right": "TRUE", "click_at": 0.9}}
+  ]
+}

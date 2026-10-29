@@ -1,0 +1,26 @@
+{
+  "voice": "am_michael",
+  "speed": 1.12,
+  "bpm": 118,
+  "lines": [
+    {"text": "Wombats poop cubes.", "pause": 0.3,
+     "scene": {"type": "slam", "lines": ["WOMBATS", "POOP", "CUBES."], "colors": ["cream", "ink", "cream"], "size": 240, "y": 560, "bg": "red", "cube": true}},
+    {"text": "Not round. Not lumpy. Actual cubes.", "pause": 0.2,
+     "scene": {"type": "flash", "palette": ["blue", "cream", "red"], "cube": true}},
+    {"text": "Up to a hundred of them, every single night.",
+     "caption": "Up to 100 of them, every single night.",
+     "scene": {"type": "grid", "count": 100, "label": "CUBES PER NIGHT", "bg": "red"}},
+    {"text": "For years, nobody knew how they did it.", "pause": 0.2,
+     "scene": {"type": "big", "text": "?", "bg": "ink", "color": "yellow", "sub": "NOBODY KNEW HOW"}},
+    {"text": "Then scientists studied wombat intestines, and found the trick.",
+     "scene": {"type": "cube", "bg": "blue", "label": "THE TRICK", "cube_color": "cream"}},
+    {"text": "The gut walls aren't equally stretchy. Some parts are stiff, others are soft. Squeeze through that, and you get corners.",
+     "scene": {"type": "squeeze"}},
+    {"text": "Wombats stack them on rocks to mark their turf. And cubes don't roll away.",
+     "scene": {"type": "rock"}},
+    {"text": "The research even won an Ig Nobel Prize.", "pause": 0.2,
+     "scene": {"type": "big", "text": "PRIZE", "size": 300, "bg": "red", "color": "cream", "sub": "IG NOBEL · 2019"}},
+    {"text": "Sounds fake? It's true. Follow for more.", "pause": 0.3,
+     "scene": {"type": "toggle", "left": "FAKE", "right": "TRUE", "click_at": 0.9}}
+  ]
+}
