@@ -1,19 +1,24 @@
 #!/usr/bin/env bash
-# Upload a rendered video as a GitHub release asset and print its public download URL.
+# Host a rendered video in the repo (videos/dayNN.mp4), push it, and print its public raw URL.
+# (Release uploads are not permitted from Claude sessions, so videos live as normal files.)
 # Usage: scripts/publish_video.sh <day-number> <path/to/video.mp4> "<title>"
 set -euo pipefail
 DAY=$(printf "%02d" "$1"); FILE="$2"; TITLE="${3:-Day $DAY}"
-REPO=$(gh repo view --json nameWithOwner -q .nameWithOwner)
-TAG="day$DAY"
-NAME="day${DAY}.mp4"
-cp "$FILE" "/tmp/$NAME"
-if gh release view "$TAG" >/dev/null 2>&1; then
-  gh release upload "$TAG" "/tmp/$NAME" --clobber >/dev/null
-else
-  gh release create "$TAG" "/tmp/$NAME" --title "Day $DAY · $TITLE" --notes "Sounds Fake short, day $DAY." >/dev/null
-fi
-URL="https://github.com/$REPO/releases/download/$TAG/$NAME"
-# confirm it is publicly downloadable (follows the redirect to GitHub's file host)
-CODE=$(curl -sSL -o /dev/null -w "%{http_code}" -r 0-1023 "$URL" || true)
+cd "$(git rev-parse --show-toplevel)"
+REPO=$(git config --get remote.origin.url | sed -E 's#(https://github.com/|git@github.com:)##; s#\.git$##')
+BRANCH=$(git rev-parse --abbrev-ref HEAD)
+SIZE=$(stat -c %s "$FILE")
+[ "$SIZE" -lt 95000000 ] || { echo "video is over 95 MB; re-encode smaller" >&2; exit 1; }
+mkdir -p videos
+cp "$FILE" "videos/day${DAY}.mp4"
+git add -f "videos/day${DAY}.mp4"
+git commit -q -m "Video: day $DAY · $TITLE" || true
+git push -q origin "$BRANCH"
+URL="https://raw.githubusercontent.com/$REPO/$BRANCH/videos/day${DAY}.mp4"
+for i in 1 2 3 4 5 6; do
+  CODE=$(curl -sSL -o /dev/null -w "%{http_code}" -r 0-1023 "$URL" || true)
+  { [ "$CODE" = "200" ] || [ "$CODE" = "206" ]; } && break
+  sleep 5
+done
 echo "$URL"
 [ "$CODE" = "200" ] || [ "$CODE" = "206" ] || echo "WARNING: public URL returned HTTP $CODE (is the repo public?)" >&2

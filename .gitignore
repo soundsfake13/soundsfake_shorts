@@ -1,5 +1,4 @@
 out/
-videos/
 *_audio.wav
 *.png
 __pycache__/
