@@ -12,7 +12,7 @@ SIZE=$(stat -c %s "$FILE")
 mkdir -p videos
 cp "$FILE" "videos/day${DAY}.mp4"
 git add -f "videos/day${DAY}.mp4"
-git commit -q -m "Video: day $DAY · $TITLE" || true
+git commit -q -m "Video: day $DAY · $TITLE" -m "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>" || true
 git push -q origin "$BRANCH"
 URL="https://raw.githubusercontent.com/$REPO/$BRANCH/videos/day${DAY}.mp4"
 for i in 1 2 3 4 5 6; do

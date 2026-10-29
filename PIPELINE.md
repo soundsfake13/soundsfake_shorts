@@ -63,9 +63,11 @@ Fix and re-render until clean.
 
 ## 5. Host the video
 ```bash
-bash scripts/publish_video.sh NN out/dayNN.mp4 "<short title>"   # prints the public URL
+bash scripts/publish_video.sh NN out/dayNN.mp4 "<short title>"   # commits videos/dayNN.mp4, pushes, prints the public raw URL
 ```
-The repo must be public; the script warns if the URL isn't downloadable.
+Videos are stored as normal files in `videos/` (GitHub release uploads are blocked in Claude sessions) and served from
+`raw.githubusercontent.com`. The repo must be public; the script warns if the URL isn't downloadable. Keep videos small
+(the kinetic style is ~2–4 MB).
 
 ## 6. Schedule on YouTube via Metricool
 `createScheduledPost` with `blogId` `7729832`, `date` `YYYY-MM-DDT19:00:00+04:00` and `info`:

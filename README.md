@@ -8,4 +8,4 @@ Real facts that sound made up. One short every day at 19:00 (Yerevan).
 - `specs/` — one script per video (plus fact sources).
 - `scripts/` — setup and video hosting helpers.
 
-Videos are hosted as GitHub release assets (`dayNN` releases) so Metricool can fetch them and publish to YouTube.
+Videos are stored in `videos/` and served from raw.githubusercontent.com so Metricool can fetch them and publish to YouTube.
