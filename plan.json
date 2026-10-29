@@ -6,15 +6,17 @@
   "days": [
     {
       "day": 1,
-      "date": "2026-10-30",
+      "date": "2026-10-29",
       "topic": "A day on Venus is longer than its year",
       "hook": "On Venus, a day is longer than a year.",
       "facts": "Venus rotates once every ~243 Earth days (sidereal) but orbits the Sun in ~225 days; it spins backwards (retrograde) so the Sun rises in the west; surface ~465°C, lead melts at 327°C. Do NOT claim sunrise-to-sunrise is 243 days (solar day is ~117 days).",
-      "status": "scheduled",
+      "status": "published",
       "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/day01.mp4",
       "title": "A Day on Venus Is Longer Than Its Year 🤯 #shorts",
       "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7729832&openWithPostUuid=3411617102091537084",
-      "spec": "specs/day01_venus.json"
+      "spec": "specs/day01_venus.json",
+      "youtube_url": "https://www.youtube.com/shorts/VarcInOZIKM",
+      "note": "Published early on Oct 29 as an end-to-end test."
     },
     {
       "day": 2,
