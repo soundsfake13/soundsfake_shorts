@@ -9,10 +9,10 @@
       "date": "2026-10-29",
       "topic": "A day on Venus is longer than its year",
       "hook": "On Venus, a day is longer than a year.",
-      "facts": "Venus rotates once every ~243 Earth days (sidereal) but orbits the Sun in ~225 days; it spins backwards (retrograde) so the Sun rises in the west; surface ~465°C, lead melts at 327°C. Do NOT claim sunrise-to-sunrise is 243 days (solar day is ~117 days).",
+      "facts": "Venus rotates once every ~243 Earth days (sidereal) but orbits the Sun in ~225 days; it spins backwards (retrograde) so the Sun rises in the west; surface ~465\u00b0C, lead melts at 327\u00b0C. Do NOT claim sunrise-to-sunrise is 243 days (solar day is ~117 days).",
       "status": "published",
       "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/day01.mp4",
-      "title": "A Day on Venus Is Longer Than Its Year 🤯 #shorts",
+      "title": "A Day on Venus Is Longer Than Its Year \ud83e\udd2f #shorts",
       "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7729832&openWithPostUuid=3411617102091537084",
       "spec": "specs/day01_venus.json",
       "youtube_url": "https://www.youtube.com/shorts/VarcInOZIKM",
@@ -26,7 +26,7 @@
       "facts": "80-100 cube-shaped droppings per night, ~2 cm; uneven elasticity of the intestine wall forms corners (Yang & Hu, Georgia Tech, 2018); cubes stack on rocks/logs and don't roll; 2019 Ig Nobel Prize in Physics.",
       "status": "scheduled",
       "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/day02.mp4",
-      "title": "Wombats Poop Cubes. Seriously. 🟫 #shorts",
+      "title": "Wombats Poop Cubes. Seriously. \ud83d\udfeb #shorts",
       "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7729832&openWithPostUuid=4782438122269199505",
       "spec": "specs/day02_wombat.json"
     },
@@ -36,7 +36,11 @@
       "topic": "The immortal jellyfish",
       "hook": "This jellyfish has figured out how to cheat death.",
       "facts": "Turritopsis dohrnii, ~4.5 mm; when stressed, injured or old it can revert from adult medusa to the polyp stage and grow up again; biologically 'immortal' in theory but most are eaten or die of disease.",
-      "status": "planned"
+      "status": "scheduled",
+      "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/day03.mp4",
+      "title": "This Jellyfish Can Reverse Its Own Life \ud83e\udebc #shorts",
+      "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7729832&openWithPostUuid=-7429299989060039627",
+      "spec": "specs/day03_jellyfish.json"
     },
     {
       "day": 4,
@@ -115,7 +119,7 @@
       "date": "2026-11-10",
       "topic": "Saturn would float in water",
       "hook": "Saturn is so light, it would float in a bathtub.",
-      "facts": "Saturn's average density ~0.69 g/cm³, less than water's 1 g/cm³. Purely theoretical (no such bathtub; it's mostly gas).",
+      "facts": "Saturn's average density ~0.69 g/cm\u00b3, less than water's 1 g/cm\u00b3. Purely theoretical (no such bathtub; it's mostly gas).",
       "status": "planned"
     },
     {
@@ -171,7 +175,7 @@
       "date": "2026-11-17",
       "topic": "Lightning is hotter than the Sun's surface",
       "hook": "A bolt of lightning is hotter than the surface of the Sun.",
-      "facts": "Lightning can heat air to ~30,000 K (~27,000-30,000 °C), about five times hotter than the Sun's surface (~5,500 °C / ~5,800 K).",
+      "facts": "Lightning can heat air to ~30,000 K (~27,000-30,000 \u00b0C), about five times hotter than the Sun's surface (~5,500 \u00b0C / ~5,800 K).",
       "status": "planned"
     },
     {
