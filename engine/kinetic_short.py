@@ -424,9 +424,120 @@ def sc_thermo(sc, lt, dur, ln):
         d.text((x0 + 165, y), label, font=FB(60), fill=COL[col], anchor="lm")
     return img
 
+# ---------- reusable creature / life-cycle scenes ----------
+def flat_jelly(img, cx, cy, r, t=0.0, body=CREAM, spot=RED, n_tent=6):
+    """Flat jellyfish: dome bell with INK outline, pulsing, wavy tentacles."""
+    d = ImageDraw.Draw(img)
+    pulse = 1 + 0.06 * math.sin(t * 5)
+    rw, rh = r * pulse, r * 0.85 / pulse
+    # tentacles (behind the bell)
+    for k in range(n_tent):
+        x0 = cx - rw * 0.75 + k * (1.5 * rw / max(1, n_tent - 1))
+        pts = [(x0 + 0.12 * r * math.sin(t * 4 + k + j * 0.6), cy + j * r * 0.16) for j in range(12)]
+        d.line(pts, fill=INK, width=max(4, int(r * 0.075)), joint="curve")
+        d.line(pts, fill=body, width=max(2, int(r * 0.04)), joint="curve")
+    # bell
+    d.pieslice([cx - rw, cy - rh, cx + rw, cy + rh], 180, 360, fill=body, outline=INK, width=max(4, int(r * 0.05)))
+    d.rounded_rectangle([cx - rw, cy - r * 0.04, cx + rw, cy + r * 0.12], r * 0.08, fill=body, outline=INK, width=max(4, int(r * 0.05)))
+    # inner spot (gut) + cheeks
+    d.ellipse([cx - r * 0.28, cy - rh * 0.62, cx + r * 0.28, cy - rh * 0.12], fill=spot, outline=INK, width=max(3, int(r * 0.03)))
+    return d
+
+def flat_polyp(img, cx, base, h, t=0.0, body=CREAM):
+    """Flat polyp: little stalk with a crown of tentacles, standing on a base line."""
+    d = ImageDraw.Draw(img); w = h * 0.16
+    sway = math.sin(t * 3) * h * 0.04
+    d.rounded_rectangle([cx - w / 2 + sway, base - h, cx + w / 2 + sway, base], w / 2, fill=body, outline=INK, width=max(3, int(h * 0.04)))
+    for k in range(5):
+        a = math.radians(-160 + k * 35) + 0.15 * math.sin(t * 4 + k)
+        x1, y1 = cx + sway, base - h
+        d.line([(x1, y1), (x1 + h * 0.32 * math.cos(a), y1 + h * 0.32 * math.sin(a))], fill=INK, width=max(4, int(h * 0.06)))
+    return d
+
+def sc_jelly(sc, lt, dur, ln):
+    """Bobbing flat jellyfish with optional label, sub-line and size ruler (e.g. '4.5 MM')."""
+    img = bg(sc.get("bg", "blue"))
+    r = sc.get("r", 230) * back(lt / 0.4)
+    y = sc.get("y", 820) + 20 * math.sin(lt * 2.2)
+    flat_jelly(img, W / 2, y, max(r, 2), lt, COL[sc.get("color", "cream")], COL[sc.get("spot", "red")])
+    if "label" in sc:
+        u = back((lt - 0.1) / 0.3); lbl = sc["label"]
+        kin_text(img, lbl, fit_size(lbl, 150, W - 100), COL[sc.get("label_color", "cream")], W / 2 + (1 - u) * 900, 300, vx=-(1 - u) * 60)
+    if "ruler" in sc and lt > 0.5:
+        d = ImageDraw.Draw(img); u = eout((lt - 0.5) / 0.4); R = sc.get("r", 230)
+        x0, x1, yy = W / 2 - R, W / 2 - R + 2 * R * u, y + R * 2.2
+        d.rectangle([x0, yy - 8, x1, yy + 8], fill=YEL)
+        d.rectangle([x0 - 8, yy - 36, x0 + 8, yy + 36], fill=YEL)
+        if u > 0.95: d.rectangle([x1 - 8, yy - 36, x1 + 8, yy + 36], fill=YEL)
+        kin_text(img, sc["ruler"], 110, YEL, W / 2, yy + 100)
+    if "sub" in sc:
+        u2 = eout((lt - 0.35) / 0.3)
+        kin_text(img, sc["sub"], fit_size(sc["sub"], 90, W - 100), COL[sc.get("sub_color", "cream")], W / 2 + (1 - u2) * 600, sc.get("sub_y", 1380), vx=-(1 - u2) * 50)
+    return img
+
+def sc_cycle(sc, lt, dur, ln):
+    """Life cycle: stages on a ring, a dot travels the arrows; optional highlighted
+    shortcut arrow ('reverse': [from_idx, to_idx]) drawn across the middle + stamp.
+    stage icons: 'jelly', 'polyp', 'dot'."""
+    img = bg(sc.get("bg", "ink")); d = ImageDraw.Draw(img)
+    st = sc["stages"]; n = len(st); icons = sc.get("icons", ["dot"] * n)
+    cx, cy, R = W / 2, sc.get("y", 860), sc.get("R", 330)
+    ang = [-math.pi / 2 + k * 2 * math.pi / n for k in range(n)]
+    pos = [(cx + R * math.cos(a), cy + R * math.sin(a)) for a in ang]
+    ring = sc.get("ring", "cream"); rc = (90, 92, 110) if sc.get("reverse") else COL[ring]
+    p = ease((lt - 0.2) / max(0.8, sc.get("ring_secs", dur - 0.4)))
+    d.arc([cx - R, cy - R, cx + R, cy + R], -90, -90 + 360 * (p if not sc.get("reverse") else 1), fill=rc, width=12)
+    for k in range(n):   # arrowheads between stages
+        a = ang[k] + math.pi / n
+        if sc.get("reverse") or p * n > k + 0.5:
+            hx, hy = cx + R * math.cos(a), cy + R * math.sin(a); ta = a + math.pi / 2
+            d.polygon([(hx + 34 * math.cos(ta), hy + 34 * math.sin(ta)), (hx + 26 * math.cos(ta + 2.4), hy + 26 * math.sin(ta + 2.4)),
+                       (hx + 26 * math.cos(ta - 2.4), hy + 26 * math.sin(ta - 2.4))], fill=rc)
+    for k, ((x, y), lab) in enumerate(zip(pos, st)):
+        u = back((lt - 0.1 * k) / 0.3)
+        if u <= 0: continue
+        d.ellipse([x - 105 * u, y - 105 * u, x + 105 * u, y + 105 * u], fill=COL[sc.get("node", "blue")], outline=INK, width=8)
+        ic = icons[k]
+        if ic == "jelly": flat_jelly(img, x, y - 10, 52 * u, lt)
+        elif ic == "polyp": d.rectangle([x - 60, y + 55, x + 60, y + 62], fill=INK) if u > 0.9 else None; flat_polyp(img, x, y + 58, 95 * u, lt)
+        else: d.ellipse([x - 30 * u, y - 30 * u, x + 30 * u, y + 30 * u], fill=CREAM, outline=INK, width=5)
+        side = 0 if abs(x - cx) < R * 0.5 else (1 if x > cx else -1)
+        ly = y - 170 if y < cy - R * 0.5 else y + 165
+        lx = x + side * 80   # push side labels outward so they clear the ring
+        kin_text(img, lab, fit_size(lab, 60 if side else 66, 300 if side else 420), CREAM, lx, ly)
+    if sc.get("reverse"):
+        a_i, b_i = sc["reverse"]; (x0, y0), (x1, y1) = pos[a_i], pos[b_i]
+        q = eout((lt - 0.5) / 0.7)
+        if q > 0:
+            mx, my = (x0 + x1) / 2, (y0 + y1) / 2
+            bx, by = mx + (cx - mx) * 1.6, my + (cy - my) * 1.6   # bow through the middle
+            pts = []
+            for j in range(int(40 * q) + 2):
+                s_ = j / 40 * 0.82
+                pts.append(((1 - s_) ** 2 * x0 + 2 * (1 - s_) * s_ * bx + s_ ** 2 * x1, (1 - s_) ** 2 * y0 + 2 * (1 - s_) * s_ * by + s_ ** 2 * y1))
+            pts = pts[3:] if len(pts) > 5 else pts
+            d.line(pts, fill=YEL, width=26, joint="curve")
+            if len(pts) > 3:
+                ex, ey = pts[-1]; px, py = pts[-3]; an = math.atan2(ey - py, ex - px)
+                d.polygon([(ex + 60 * math.cos(an), ey + 60 * math.sin(an)), (ex + 48 * math.cos(an + 2.3), ey + 48 * math.sin(an + 2.3)),
+                           (ex + 48 * math.cos(an - 2.3), ey + 48 * math.sin(an - 2.3))], fill=YEL)
+    if "label" in sc:
+        u = back((lt - 0.1) / 0.3)
+        kin_text(img, sc["label"], fit_size(sc["label"], 130, W - 100), COL[sc.get("label_color", "cream")], W / 2 - (1 - u) * 900, 250, vx=(1 - u) * 60)
+    if "stamp" in sc and lt > 1.3:
+        u = back((lt - 1.3) / 0.3); txt = sc["stamp"]
+        f = FB(int(96 * max(0.05, u))); tw = d.textlength(txt, font=f)
+        stamp = Image.new("RGBA", (int(tw + 80), 170), (0, 0, 0, 0)); sd = ImageDraw.Draw(stamp)
+        sd.rectangle([0, 0, tw + 79, 169], fill=YEL, outline=INK, width=8)
+        sd.text(((tw + 80) / 2, 85), txt, font=f, fill=INK, anchor="mm")
+        stamp = stamp.rotate(-6, expand=True, resample=Image.BICUBIC)
+        img.alpha_composite(stamp, (int(W / 2 - stamp.width / 2), sc.get("stamp_y", 1330)))
+    return img
+
 SCENES = {"slam": sc_slam, "flash": sc_flash, "cube": sc_cube, "grid": sc_grid, "big": sc_big,
           "squeeze": sc_squeeze, "rock": sc_rock, "toggle": sc_toggle,
-          "planet": sc_planet, "orbit": sc_orbit, "bars": sc_bars, "sunrise": sc_sunrise, "thermo": sc_thermo}
+          "planet": sc_planet, "orbit": sc_orbit, "bars": sc_bars, "sunrise": sc_sunrise, "thermo": sc_thermo,
+          "jelly": sc_jelly, "cycle": sc_cycle}
 
 # ================= captions =================
 groups, cur = [], []

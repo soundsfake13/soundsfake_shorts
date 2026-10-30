@@ -1,0 +1,28 @@
+{
+  "voice": "am_michael",
+  "speed": 1.12,
+  "bpm": 118,
+  "lines": [
+    {"text": "This jellyfish can cheat death.", "pause": 0.3,
+     "scene": {"type": "slam", "lines": ["THIS", "JELLYFISH", "CHEATS", "DEATH."], "colors": ["cream", "yellow", "cream", "ink"], "size": 210, "y": 470, "bg": "blue"}},
+    {"text": "Sounds fake? It's true.", "pause": 0.2,
+     "scene": {"type": "flash", "palette": ["red", "cream", "blue"]}},
+    {"text": "It's called the immortal jellyfish. Fully grown, it's only about four and a half millimeters wide.",
+     "caption": "It's called the immortal jellyfish. Fully grown, it's only about 4.5 millimeters wide.",
+     "scene": {"type": "jelly", "bg": "red", "label": "TINY", "ruler": "≈ 4.5 MM", "r": 200, "y": 700}},
+    {"text": "Most jellyfish grow up, get old, and die.",
+     "scene": {"type": "cycle", "bg": "ink", "label": "NORMAL LIFE", "stages": ["LARVA", "POLYP", "YOUNG", "ADULT"],
+               "icons": ["dot", "polyp", "jelly", "jelly"], "y": 900, "R": 320}},
+    {"text": "But when this one is hurt, starving, or old, it turns back into its baby form, called a polyp.",
+     "scene": {"type": "cycle", "bg": "blue", "node": "red", "label": "REWIND!", "label_color": "yellow", "stages": ["LARVA", "POLYP", "YOUNG", "ADULT"],
+               "icons": ["dot", "polyp", "jelly", "jelly"], "reverse": [3, 1], "y": 900, "R": 320, "stamp": "BACK TO BABY", "stamp_y": 1290}},
+    {"text": "Then it grows up all over again.", "pause": 0.2,
+     "scene": {"type": "big", "text": "AGAIN", "size": 300, "bg": "red", "color": "cream", "sub": "A WHOLE NEW LIFE"}},
+    {"text": "In theory, it could keep doing that forever.", "pause": 0.2,
+     "scene": {"type": "big", "text": "FOREVER?", "size": 260, "bg": "ink", "color": "yellow", "sub": "IN THEORY"}},
+    {"text": "In real life, most still get eaten, or get sick.",
+     "scene": {"type": "jelly", "bg": "cream", "color": "blue", "spot": "yellow", "label": "BUT…", "label_color": "ink", "r": 200, "y": 760, "sub": "NOT TRULY IMMORTAL", "sub_color": "red", "sub_y": 1300}},
+    {"text": "Sounds fake? It's true. Follow for more.", "pause": 0.3,
+     "scene": {"type": "toggle", "left": "FAKE", "right": "TRUE", "click_at": 0.9}}
+  ]
+}

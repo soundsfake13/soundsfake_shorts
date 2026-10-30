@@ -46,6 +46,8 @@ Same format as `specs/day01_venus.json` and `specs/day02_wombat.json` (study bot
 | `thermo` | thermometer with marks | `value`, `max`, `marks` [[label, value, color]] |
 | `sunrise`, `squeeze`, `rock` | specific to the first two videos | — |
 | `toggle` | cursor flips FAKE → TRUE (ending) | `left`, `right`, `click_at` |
+| `jelly` | bobbing flat jellyfish, optional size ruler | `bg`, `color`, `spot`, `r`, `y`, `label`, `label_color`, `ruler`, `sub`, `sub_color`, `sub_y` |
+| `cycle` | life cycle ring with stage nodes; optional yellow shortcut arrow + stamp | `stages`, `icons` (`dot`/`polyp`/`jelly`), `reverse` [from, to], `bg`, `node`, `label`, `label_color`, `stamp`, `stamp_y`, `y`, `R` |
 
 Colors: `red`, `blue`, `cream`, `ink`, `yellow`. Alternate backgrounds between scenes.
 
