@@ -60,8 +60,13 @@
       "topic": "Cleopatra lived closer to the Moon landing than to the Great Pyramid",
       "hook": "Cleopatra lived closer in time to the Moon landing than to the building of the Great Pyramid.",
       "facts": "Great Pyramid of Giza built ~2560 BC; Cleopatra VII lived 69-30 BC (~2,500 years later); Apollo 11 landed 1969 (~2,000 years after her).",
-      "status": "planned",
-      "style": "clock"
+      "status": "scheduled",
+      "style": "clock",
+      "title": "Cleopatra Lived Closer to the Moon Landing Than the Pyramids ⏰ #shorts",
+      "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/day05.mp4",
+      "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7729832&openWithPostUuid=7020760119425649467",
+      "spec": "specs/day05_cleopatra.json",
+      "note": "Made in advance as the style sample; approved by the owner."
     },
     {
       "day": 6,
@@ -69,8 +74,13 @@
       "topic": "Octopuses have three hearts and blue blood",
       "hook": "An octopus has three hearts. And its blood is blue.",
       "facts": "Two branchial hearts pump blood through the gills, one systemic heart to the body; the systemic heart stops beating while swimming; blood uses copper-based hemocyanin, making it blue.",
-      "status": "planned",
-      "style": "paper"
+      "status": "scheduled",
+      "style": "paper",
+      "title": "An Octopus Has 3 Hearts and Blue Blood 🐙 #shorts",
+      "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/day06.mp4",
+      "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7729832&openWithPostUuid=1984302646892184831",
+      "spec": "specs/day06_octopus.json",
+      "note": "Made in advance as the style sample; approved by the owner."
     },
     {
       "day": 7,
@@ -132,8 +142,13 @@
       "topic": "Saturn would float in water",
       "hook": "Saturn is so light, it would float in a bathtub.",
       "facts": "Saturn's average density ~0.69 g/cm³, less than water's 1 g/cm³. Purely theoretical (no such bathtub; it's mostly gas).",
-      "status": "planned",
-      "style": "space"
+      "status": "scheduled",
+      "style": "space",
+      "title": "Saturn Could Float in Water 🪐 #shorts",
+      "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/day13.mp4",
+      "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7729832&openWithPostUuid=8572593606466817150",
+      "spec": "specs/day13_saturn.json",
+      "note": "Made in advance as the style sample; approved by the owner."
     },
     {
       "day": 14,

@@ -1,0 +1,2 @@
+# Day 06 — Octopuses have three hearts and blue blood
+- Science ABC — "Why do octopuses have three hearts?": two branchial hearts pump blood through the gills, one systemic heart to the body; copper-based hemocyanin makes blood blue; the systemic heart stops beating during jet-propelled swimming, so octopuses tire quickly and prefer crawling. https://www.scienceabc.com/nature/animals/why-do-octopuses-have-three-hearts
