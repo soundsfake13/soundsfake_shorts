@@ -10,3 +10,5 @@ Verified 2026-10-30.
 | In practice most still die — eaten or disease | Wikipedia (predation and disease, "individuals can still die"); 2022 PNAS genome study coverage (CNN, Aug 30 2022) |
 
 Not used: "only immortal animal" (unverified superlative), specific rebirth counts.
+
+Re-made 2026-10-30 in the "abyss glow" style (specs/day03_jellyfish_abyss.json) with the same verified facts.

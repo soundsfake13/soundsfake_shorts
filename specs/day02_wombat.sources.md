@@ -1,0 +1,4 @@
+# Day 02 — Wombats poop cubes
+- CNN (2018-11-19), "Scientists solve mystery of wombats' cube-shaped poo": 80–100 cubes per night, ~2 cm; uneven elasticity of the intestine wall forms the corners (Yang, Georgia Tech; Carver, Univ. of Tasmania); cubes left on rocks/logs to communicate and don't roll away. https://edition.cnn.com/2018/11/19/australia/wombat-cube-poo-intl
+- Mental Floss, "Scientists figure out how wombats poop cubes": 80–100 per night; Hu & Yang, Georgia Tech; cubes stack and don't roll. https://www.mentalfloss.com/article/564224/scientists-figure-out-how-wombats-poop-cubes
+- Georgia Tech QBioS, "Studying Wombats' Cubic Poop" and Cosmos Magazine, "Poo scoop snares an Ig Nobel": 2019 Ig Nobel Prize (Physics). https://qbios.gatech.edu/node/312 · https://cosmosmagazine.com/society/poo-scoop-snares-an-ig-nobel

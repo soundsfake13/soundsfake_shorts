@@ -1,0 +1,24 @@
+{
+  "voice": "am_michael", "speed": 1.05,
+  "lines": [
+    {"text": "This jellyfish can cheat death.", "pause": 0.35,
+     "scene": {"type": "hook", "lines": ["THIS JELLYFISH", "CAN CHEAT DEATH"], "accent": {"1": 1}}},
+    {"text": "Sounds fake? It's true.", "pause": 0.3,
+     "scene": {"type": "words", "lines": ["SOUNDS FAKE?", "IT'S TRUE."], "accent": {"1": 1}}},
+    {"text": "It's called the immortal jellyfish. Fully grown, it's only about four and a half millimeters wide.",
+     "caption": "It's called the immortal jellyfish. Fully grown, it's only about 4.5 millimeters wide.",
+     "scene": {"type": "size"}},
+    {"text": "Most jellyfish grow up, get old, and die.", "pause": 0.4,
+     "scene": {"type": "life"}},
+    {"text": "But when this one is hurt, starving, or old, it turns back into its baby form, called a polyp.",
+     "scene": {"type": "rewind"}},
+    {"text": "Then it grows up all over again.", "pause": 0.3,
+     "scene": {"type": "regrow"}},
+    {"text": "In theory, it could keep doing that forever.", "pause": 0.35,
+     "scene": {"type": "forever"}},
+    {"text": "In real life, most still get eaten, or get sick.", "pause": 0.35,
+     "scene": {"type": "danger"}},
+    {"text": "Sounds fake? It's true. Follow for more.", "pause": 0.3,
+     "scene": {"type": "end", "click_at": 0.9}}
+  ]
+}

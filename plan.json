@@ -27,12 +27,12 @@
       "hook": "Wombats poop cubes.",
       "facts": "80-100 cube-shaped droppings per night, ~2 cm; uneven elasticity of the intestine wall forms corners (Yang & Hu, Georgia Tech, 2018); cubes stack on rocks/logs and don't roll; 2019 Ig Nobel Prize in Physics.",
       "status": "scheduled",
-      "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/day02.mp4",
+      "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/day02b.mp4",
       "title": "Wombats Poop Cubes. Seriously. 🟫 #shorts",
       "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7729832&openWithPostUuid=4782438122269199505",
-      "spec": "specs/day02_wombat.json",
-      "style": "kinetic",
-      "style_idea": "Bold type + spinning cube (claudevideo.org)"
+      "spec": "specs/day02_wombat_trailcam.json",
+      "style": "trailcam",
+      "style_idea": "Infrared night-vision trail camera: green-grey grain, REC/timestamp HUD, motion-detection boxes, ENHANCE zoom, time-lapse (wombats are nocturnal)."
     },
     {
       "day": 3,
@@ -41,12 +41,12 @@
       "hook": "This jellyfish has figured out how to cheat death.",
       "facts": "Turritopsis dohrnii, ~4.5 mm; when stressed, injured or old it can revert from adult medusa to the polyp stage and grow up again; biologically 'immortal' in theory but most are eaten or die of disease.",
       "status": "scheduled",
-      "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/day03.mp4",
+      "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/day03b.mp4",
       "title": "This Jellyfish Can Reverse Its Own Life 🪼 #shorts",
       "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7729832&openWithPostUuid=-7429299989060039627",
-      "spec": "specs/day03_jellyfish.json",
-      "style": "kinetic",
-      "style_idea": "Bold type + spinning cube (claudevideo.org)"
+      "spec": "specs/day03_jellyfish_abyss.json",
+      "style": "abyss",
+      "style_idea": "Deep-sea bioluminescence: glowing translucent jellyfish with red core, marine snow, light shafts, VHS rewind when it turns back into a polyp."
     },
     {
       "day": 4,

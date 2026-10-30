@@ -6,7 +6,9 @@ reference that best fits the topic; the plan's `style_idea` is the starting brie
 
 | day | style | engine | reference / idea |
 |---|---|---|---|
-| 1–3 | kinetic | `engine/kinetic_short.py` | Bold type and a spinning cube in a 15-second motion reel |
+| 1 | kinetic | `engine/kinetic_short.py` | Bold type and a spinning cube in a 15-second motion reel |
+| 2 | trailcam | `engine/styles/day02_trailcam.py` | Infrared wildlife trail camera (own idea: wombats are nocturnal) |
+| 3 | abyss | `engine/styles/day03_abyss.py` | Deep-sea bioluminescence + VHS rewind (glow technique from 'Ray-traced black hole') |
 | 5 | clock | `engine/clock_short.py` | Human inventions unfold on a one-day clock toward midnight |
 | 6 | paper | `engine/paper_short.py` | Paper-cutout girl writes a question, not a task |
 | 13 | space | `engine/space_short.py` | Ray-traced black hole bends its glowing accretion disk |
