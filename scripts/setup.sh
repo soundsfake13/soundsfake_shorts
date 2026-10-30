@@ -14,11 +14,11 @@ BASE=https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v
 # Fonts: use system Inter Display if present, otherwise download Inter from GitHub.
 if [ ! -f /usr/share/fonts/opentype/inter/InterDisplay-Black.otf ]; then
   FD="$HOME/.cache/inter"
-  if [ ! -f "$FD/InterDisplay-Black.otf" ]; then
+  if [ ! -f "$FD/InterDisplay-SemiBold.otf" ]; then
     mkdir -p "$FD"; tmp=$(mktemp -d)
     curl -sSL -o "$tmp/inter.zip" https://github.com/rsms/inter/releases/download/v4.0/Inter-4.0.zip
     unzip -q -o "$tmp/inter.zip" -d "$tmp/x"
-    find "$tmp/x" -name "InterDisplay-Black.otf" -o -name "InterDisplay-Bold.otf" | xargs -I{} cp {} "$FD/"
+    find "$tmp/x" -name "InterDisplay-Black.otf" -o -name "InterDisplay-Bold.otf" -o -name "InterDisplay-SemiBold.otf" | xargs -I{} cp {} "$FD/"
   fi
   echo "export FONT_DIR=$FD"
 fi

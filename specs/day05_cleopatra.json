@@ -1,0 +1,25 @@
+{
+  "voice": "am_michael", "speed": 1.06, "span": [-2560, 1969],
+  "lines": [
+    {"text": "Cleopatra lived closer to the Moon landing than to the building of the pyramids.", "pause": 0.35,
+     "scene": {"type": "headline", "lines": ["CLEOPATRA LIVED", "CLOSER TO THE", "MOON LANDING", "THAN TO THE", "PYRAMIDS."], "accent": {"2": 1, "4": 1}, "y": 420}},
+    {"text": "Sounds fake? It's true.", "pause": 0.3,
+     "scene": {"type": "headline", "lines": ["SOUNDS FAKE?", "IT'S TRUE."], "accent": {"1": 1}, "y": 700, "size": 150}},
+    {"text": "Let's squeeze history into one day. The Great Pyramid was finished around twenty-five sixty BC. Call that midnight.",
+     "caption": "Let's squeeze history into one day. The Great Pyramid was finished around 2560 BC. Call that midnight.",
+     "scene": {"type": "clock", "from": 0, "to": 0, "title": "HISTORY AS ONE DAY",
+               "events": [[-2560, "GREAT PYRAMID", "pyramid"], [-69, "CLEOPATRA", "crown"], [1969, "MOON LANDING", "rocket"]]}},
+    {"text": "Cleopatra is born about two and a half thousand years later. That's already past lunchtime.",
+     "caption": "Cleopatra is born about 2,500 years later. That's already past lunchtime.",
+     "scene": {"type": "clock", "from": 0, "to": 1, "title": "HISTORY AS ONE DAY", "note": "+2,500 YEARS", "note_at": 2.4,
+               "events": [[-2560, "GREAT PYRAMID", "pyramid"], [-69, "CLEOPATRA", "crown"], [1969, "MOON LANDING", "rocket"]]}},
+    {"text": "From her to Apollo eleven? Only about two thousand years. Midnight again.",
+     "caption": "From her to Apollo 11? Only about 2,000 years. Midnight again.", "pause": 0.4,
+     "scene": {"type": "clock", "from": 1, "to": 2, "title": "HISTORY AS ONE DAY", "note": "+2,000 YEARS", "note_at": 2.4,
+               "events": [[-2560, "GREAT PYRAMID", "pyramid"], [-69, "CLEOPATRA", "crown"], [1969, "MOON LANDING", "rocket"]]}},
+    {"text": "To Cleopatra, the pyramids were already ancient history.", "pause": 0.4,
+     "scene": {"type": "headline", "lines": ["TO CLEOPATRA,", "THE PYRAMIDS", "WERE ALREADY", "ANCIENT."], "accent": {"3": 1}, "y": 560}},
+    {"text": "Sounds fake? It's true. Follow for more.", "pause": 0.3,
+     "scene": {"type": "end", "click_at": 0.9}}
+  ]
+}

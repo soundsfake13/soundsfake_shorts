@@ -1,0 +1,19 @@
+{
+  "voice": "am_michael", "speed": 1.08,
+  "lines": [
+    {"text": "An octopus has three hearts.", "pause": 0.3,
+     "scene": {"type": "hook", "lines": ["AN OCTOPUS HAS", "THREE HEARTS"], "hi": {"1": 0}}},
+    {"text": "And its blood is blue.", "pause": 0.3,
+     "scene": {"type": "title", "lines": ["...AND", "BLUE BLOOD"], "bg": "yellow", "hi": {"1": 0}, "size": 120}},
+    {"text": "Two small hearts pump blood through its gills, and one big heart sends it around the body.",
+     "scene": {"type": "hearts"}},
+    {"text": "The blood is blue because it carries oxygen with copper, not iron like ours.", "pause": 0.3,
+     "scene": {"type": "blood"}},
+    {"text": "And here's the weird part. When an octopus swims, its main heart stops beating.", "pause": 0.3,
+     "scene": {"type": "swim"}},
+    {"text": "That's why it gets tired so fast, and would rather crawl.", "pause": 0.3,
+     "scene": {"type": "crawl", "lines": ["SWIMMING? TIRING.", "CRAWLING? FINE."]}},
+    {"text": "Sounds fake? It's true. Follow for more.", "pause": 0.3,
+     "scene": {"type": "end", "click_at": 0.9}}
+  ]
+}

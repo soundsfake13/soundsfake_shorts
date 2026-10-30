@@ -1,0 +1,23 @@
+{
+  "voice": "am_michael", "speed": 1.06,
+  "lines": [
+    {"text": "Saturn could float in water.", "pause": 0.35,
+     "scene": {"type": "hero", "lines": ["SATURN COULD", "FLOAT IN WATER"], "accent": {"1": true}, "size": 96, "y": 280}},
+    {"text": "Sounds fake? It's true.", "pause": 0.3,
+     "scene": {"type": "words", "lines": ["SOUNDS FAKE?", "IT'S TRUE."], "accent": {"1": true}}},
+    {"text": "Saturn is about nine times wider than Earth, and ninety-five times heavier.",
+     "caption": "Saturn is about 9 times wider than Earth, and 95 times heavier.",
+     "scene": {"type": "compare", "rows": [["9×", "WIDER"], ["95×", "HEAVIER"]]}},
+    {"text": "But it's made mostly of hydrogen and helium, the two lightest elements there are.",
+     "scene": {"type": "elements", "label": "THE TWO LIGHTEST ELEMENTS"}},
+    {"text": "So on average, Saturn is less dense than water.", "pause": 0.3,
+     "scene": {"type": "density"}},
+    {"text": "Drop it in a big enough ocean, and it would float.", "pause": 0.4,
+     "scene": {"type": "float", "label": "IT FLOATS"}},
+    {"text": "You'd just need a bathtub about a hundred and twenty thousand kilometers wide.",
+     "caption": "You'd just need a bathtub about 120,000 kilometers wide.", "pause": 0.4,
+     "scene": {"type": "tub", "label": "≈ 120,000 KM"}},
+    {"text": "Sounds fake? It's true. Follow for more.", "pause": 0.3,
+     "scene": {"type": "end", "click_at": 0.9}}
+  ]
+}
