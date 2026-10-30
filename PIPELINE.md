@@ -25,29 +25,34 @@ Use web search to confirm every claim in the entry's `facts` field with **at lea
 confirmed, soften it ("about", "up to") or drop it. Never add unverified extras.
 Write the sources to `specs/dayNN_<slug>.sources.md`.
 
-## 3. Pick the style and write the script → `specs/dayNN_<slug>.json`
-Every entry has a `style`. Use that style's engine (see the table). If a new topic is ever added without one, choose:
-
-| style | engine | look | use for | example specs |
-|---|---|---|---|---|
-| `kinetic` | `engine/kinetic_short.py` | flat red/blue/cream blocks, bold motion-blurred type, spinning cubes | numbers, physics, "how it works" | `day01_venus.json`, `day02_wombat.json` |
-| `paper` | `engine/paper_short.py` | cut-paper layers, soft shadows, paper grain, stop-motion boil | animals, plants, food, nature | `day06_octopus.json` |
-| `space` | `engine/space_short.py` | glowing starfield, shaded 3D planets and rings, bloom, glowing type | space | `day13_saturn.json` |
-| `clock` | `engine/clock_short.py` | minimal off-white 24-hour dial squeezing a time span into one day | surprising time gaps | `day05_cleopatra.json` |
-| `ink` | `engine/ink_short.py` | black & white film grain, silhouettes, ink-blot type | strange history, legends | — |
-
-**Study the example spec of the chosen style first** and follow its structure.
+## 3. Design this video's own style, then write the script → `specs/dayNN_<slug>.json`
+**Every short gets a new visual style that fits its topic — never reuse a previous video's look** (check `STYLES.md`).
+- If the entry's `style` is one of the existing engines (`kinetic`, `paper`, `space`, `clock`, `ink`) **and it is
+  already scheduled**, nothing to do. Otherwise treat `style` + `style_idea` in `plan.json` as the brief.
+- Look at https://claudevideo.org (WebFetch the home page or `/videos`, then the 1–2 most relevant video pages) for a
+  reference that fits the topic, and decide the look: palette (3–5 colors), textures, typography (1–2 fonts),
+  motion language, transitions, and an original music bed that matches the mood.
+- Build it as a **new engine** `engine/styles/dayNN_<style>.py` on top of `engine/core.py` (copy techniques from the
+  existing engines; see `STYLES.md` → Toolkit). Keep it self-contained so earlier videos still re-render.
+- Keep the **channel constants** in every style so the channel stays recognisable:
+  same voice (`am_michael`), word-by-word captions in the caption area (y ≈ 1540–1700) styled to fit the look but
+  always high-contrast, a thin progress bar at the bottom, and the signature ending — a FAKE → TRUE switch drawn in the
+  video's own style, with "Sounds fake? It's true. Follow for more."
+- Support the preview mode used by the other engines (`... spec.json out.mp4 2,6,10` writes frames only).
+- Add a row to `STYLES.md` (day, style name, engine path, reference) and commit it with the engine.
+- Quality bar: it should look intentional and polished, as good as the existing engines. If a style idea proves too
+  hard to make look good, simplify it (fewer elements, cleaner shapes) rather than ship something messy; as a last
+  resort use the closest existing engine with a clearly different palette and typography, and say so in the report.
 
 Script rules (all styles):
-- 25–35 seconds, 7–9 lines. Line 1 = the hook (≤ 10 words).
+- 25–35 seconds, 7–9 lines. Line 1 = the hook (≤ 10 words), shown big from the very first frame.
 - Line 2 is usually "Sounds fake? It's true."
 - Spell numbers out in `text` (for the voice) and put digits in `caption`.
 - Simple, friendly, family-safe English. No gore, no real-person likenesses, no brand logos or characters.
-- Last line always: "Sounds fake? It's true. Follow for more." with the style's ending scene (`toggle` in kinetic,
-  `end` in the others) — the FAKE → TRUE switch is the channel's signature.
-- voice `am_michael`; speed 1.12 (kinetic), 1.06–1.08 (paper, space, clock), 1.0 (ink).
+- Last line always: "Sounds fake? It's true. Follow for more."
+- voice `am_michael`; speed 1.0–1.12 to suit the mood.
 
-### Scenes per style
+### Existing engines (toolkit and examples)
 **kinetic** (`engine/kinetic_short.py`) — colors `red`, `blue`, `cream`, `ink`, `yellow`; alternate backgrounds.
 
 | type | use | params |
@@ -117,13 +122,12 @@ look, register it in `SCENES`, and add it to the table above. Never mix styles i
 
 ## 4. Render and check
 ```bash
-python3 engine/<style>_short.py specs/dayNN_<slug>.json out/dayNN.mp4
-python3 engine/<style>_short.py specs/dayNN_<slug>.json out/dayNN.mp4 2,6,10,14   # paper/space/clock: preview frames only
+python3 engine/styles/dayNN_<style>.py specs/dayNN_<slug>.json out/dayNN.mp4 2,6,10,14   # preview frames only
+python3 engine/styles/dayNN_<style>.py specs/dayNN_<slug>.json out/dayNN.mp4              # full render
 ```
-Preview a few frames at full size **before** the full render (paper, space and clock support the time list above;
-for kinetic/ink extract frames from the render). Check: duration 20–45 s; size < 90 MB. Make one contact sheet of
+Preview a few frames at full size **before** the full render, at the busiest moments, and look at them. Check: duration 20–45 s; size < 90 MB. Make one contact sheet of
 ~8 frames and **look at it**: no text cut off at the edges, nothing colliding with the caption area (y ≈ 1540–1700),
-every scene readable. Fix and re-render until clean. The ink style needs `-crf 30` (already set) to stay small.
+every scene readable. Fix and re-render until clean. Grainy/noisy looks compress badly: use `render(..., crf=30)` for those.
 
 ## 5. Host the video
 ```bash

@@ -17,7 +17,8 @@
       "spec": "specs/day01_venus.json",
       "youtube_url": "https://www.youtube.com/shorts/VarcInOZIKM",
       "note": "Published early on Oct 29 as an end-to-end test.",
-      "style": "kinetic"
+      "style": "kinetic",
+      "style_idea": "Bold type + spinning cube (claudevideo.org)"
     },
     {
       "day": 2,
@@ -30,7 +31,8 @@
       "title": "Wombats Poop Cubes. Seriously. 🟫 #shorts",
       "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7729832&openWithPostUuid=4782438122269199505",
       "spec": "specs/day02_wombat.json",
-      "style": "kinetic"
+      "style": "kinetic",
+      "style_idea": "Bold type + spinning cube (claudevideo.org)"
     },
     {
       "day": 3,
@@ -43,7 +45,8 @@
       "title": "This Jellyfish Can Reverse Its Own Life 🪼 #shorts",
       "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7729832&openWithPostUuid=-7429299989060039627",
       "spec": "specs/day03_jellyfish.json",
-      "style": "kinetic"
+      "style": "kinetic",
+      "style_idea": "Bold type + spinning cube (claudevideo.org)"
     },
     {
       "day": 4,
@@ -52,7 +55,8 @@
       "hook": "Sharks have been around longer than trees.",
       "facts": "Earliest shark-like fish ~450 million years ago; earliest true trees (e.g. Archaeopteris / Wattieza) ~385-390 million years ago. Sharks also predate dinosaurs (~230 Mya).",
       "status": "planned",
-      "style": "clock"
+      "style": "strata",
+      "style_idea": "Deep-time rock strata: camera digs down through layered sandstone cross-sections; fossil silhouettes; earthy ochre palette; depth gauge in millions of years. Ref: 'Animated timeline of humanity…' (claudevideo.org)."
     },
     {
       "day": 5,
@@ -66,7 +70,8 @@
       "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/day05.mp4",
       "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7729832&openWithPostUuid=7020760119425649467",
       "spec": "specs/day05_cleopatra.json",
-      "note": "Made in advance as the style sample; approved by the owner."
+      "note": "Made in advance as the style sample; approved by the owner.",
+      "style_idea": "One-day clock timeline (claudevideo.org)"
     },
     {
       "day": 6,
@@ -80,7 +85,8 @@
       "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/day06.mp4",
       "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7729832&openWithPostUuid=1984302646892184831",
       "spec": "specs/day06_octopus.json",
-      "note": "Made in advance as the style sample; approved by the owner."
+      "note": "Made in advance as the style sample; approved by the owner.",
+      "style_idea": "Paper-cutout (claudevideo.org)"
     },
     {
       "day": 7,
@@ -89,7 +95,8 @@
       "hook": "Oxford University is older than the Aztec Empire.",
       "facts": "Teaching at Oxford existed by 1096; Tenochtitlan was founded in 1325; the Aztec Triple Alliance formed 1428.",
       "status": "planned",
-      "style": "clock"
+      "style": "manuscript-vs-codex",
+      "style_idea": "Split screen: medieval illuminated manuscript (parchment, gold leaf initials, ink) vs flat-color codex-style glyph panels; pages turn. No sacred imagery. Ref: 'Jade-green Chinese landscape painting comes alive'."
     },
     {
       "day": 8,
@@ -98,7 +105,8 @@
       "hook": "Botanically, a banana is a berry. A strawberry is not.",
       "facts": "A botanical berry develops from a single flower with one ovary and has seeds inside (banana, tomato, grape); a strawberry is an 'accessory fruit' and its 'seeds' (achenes) are the actual fruits on the outside.",
       "status": "planned",
-      "style": "paper"
+      "style": "risograph",
+      "style_idea": "Retro fruit-crate label printed in risograph: 2-3 spot colors, halftone dots, slight misregistration, paper texture; botanical cutaway of a banana. Ref: 'Claude Pop music video with a halftone portrait overlay'."
     },
     {
       "day": 9,
@@ -107,7 +115,8 @@
       "hook": "One teaspoon of this star would weigh more than a mountain.",
       "facts": "Neutron stars pack more mass than the Sun into a sphere ~20 km across; a teaspoon of material would weigh on the order of billions of tons. Keep the figure as 'billions of tons'.",
       "status": "planned",
-      "style": "space"
+      "style": "pulsar-cinema",
+      "style_idea": "Cinematic blue-white neutron star: spinning lighthouse beams, gravitational glow, volumetric haze, scale comparisons with a teaspoon and a mountain. Ref: 'Ray-traced black hole'. Must look different from the Saturn video (cold monochrome, no warm gold)."
     },
     {
       "day": 10,
@@ -116,7 +125,8 @@
       "hook": "There are more possible chess games than atoms in the observable universe.",
       "facts": "Shannon number: ~10^120 possible chess games (a lower-bound estimate of game-tree complexity); atoms in the observable universe ~10^78-10^82.",
       "status": "planned",
-      "style": "kinetic"
+      "style": "voxel-chess",
+      "style_idea": "Isometric voxel chessboard; voxel pieces hop; counters explode into 10^120 vs 10^80 towers of tiny cubes. Ref: 'Voxel pelican rides a bike'."
     },
     {
       "day": 11,
@@ -125,7 +135,8 @@
       "hook": "The company behind Mario was founded in 1889. To sell playing cards.",
       "facts": "Nintendo was founded on 23 September 1889 in Kyoto by Fusajiro Yamauchi to make hanafuda playing cards. Same year the Eiffel Tower opened (1889). Do not show any Nintendo logos or characters.",
       "status": "planned",
-      "style": "clock"
+      "style": "hanafuda",
+      "style_idea": "Japanese flower-card (hanafuda) art: bold red/black/cream cards, flat woodblock-print plants and moon, cards flip and deal; 1889 Kyoto. Generic cards only — no Nintendo logos, characters or products. Ref: 'Jade-green Chinese landscape painting comes alive'."
     },
     {
       "day": 12,
@@ -134,7 +145,8 @@
       "hook": "When dinosaurs were alive, a day didn't last 24 hours.",
       "facts": "Earth's rotation slows due to tidal friction from the Moon; ~70 million years ago a day was about 23.5 hours (study of fossil rudist shells, 2020).",
       "status": "planned",
-      "style": "clock"
+      "style": "pixel-dino",
+      "style_idea": "16-bit pixel-art world: a dinosaur under a fast day/night cycle, pixel clock showing 23.5 h, scanlines. Ref: 'Pixel-art platformer where Clawd battles…'."
     },
     {
       "day": 13,
@@ -148,7 +160,8 @@
       "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/day13.mp4",
       "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7729832&openWithPostUuid=8572593606466817150",
       "spec": "specs/day13_saturn.json",
-      "note": "Made in advance as the style sample; approved by the owner."
+      "note": "Made in advance as the style sample; approved by the owner.",
+      "style_idea": "Glowing space / ray-traced look (claudevideo.org)"
     },
     {
       "day": 14,
@@ -157,7 +170,8 @@
       "hook": "A sloth can hold its breath longer than a dolphin.",
       "facts": "Sloths can slow their heart rate and hold their breath up to ~40 minutes underwater; dolphins typically surface every ~8-10 minutes. They are surprisingly good swimmers.",
       "status": "planned",
-      "style": "paper"
+      "style": "clay-rainforest",
+      "style_idea": "Soft claymation-look 3D rainforest: rounded pastel shapes, fingerprint texture, slow-motion pacing, sloth vs dolphin breath meters. Ref: 'Boxy orange mascot lives through a busy day'."
     },
     {
       "day": 15,
@@ -166,7 +180,8 @@
       "hook": "The Eiffel Tower gets taller every summer.",
       "facts": "Thermal expansion of iron: the tower can grow up to ~15 cm in heat and shrink in cold; it also tilts slightly away from the sun.",
       "status": "planned",
-      "style": "kinetic"
+      "style": "blueprint",
+      "style_idea": "Engineering blueprint: cyan grid, white line drawing of a lattice iron tower drawn stroke by stroke, dimension arrows, thermal expansion annotations. Ref: 'Turbofan jet engine opens into a 3D cutaway'."
     },
     {
       "day": 16,
@@ -175,7 +190,8 @@
       "hook": "Hippos sweat red. And it's sunscreen.",
       "facts": "Hippos secrete a reddish 'blood sweat' (not blood or sweat) containing hipposudoric and norhipposudoric acid that absorb UV light and may be antibacterial.",
       "status": "planned",
-      "style": "paper"
+      "style": "retro-ad",
+      "style_idea": "1960s magazine sunscreen ad: mid-century illustration, sun rays, cream paper, script + slab type, 'NEW! Hippo Formula' parody of a generic ad (no real brands). Ref: 'Motion promo for a game-asset generator'."
     },
     {
       "day": 17,
@@ -184,7 +200,8 @@
       "hook": "There's a planet where it rains glass. Sideways.",
       "facts": "Exoplanet HD 189733b, ~64 light-years away, a hot Jupiter; silicate particles in its atmosphere and winds ~8,700 km/h (~5,400 mph) suggest sideways 'glass rain'; its deep blue color was measured by Hubble (2013).",
       "status": "planned",
-      "style": "space"
+      "style": "weather-hud",
+      "style_idea": "Sci-fi interplanetary weather broadcast: HUD forecast UI, wind-speed dials, sideways glass-shard rain on a deep-blue planet. Ref: 'Frontier Lab Tycoon trailer with retro desktop UI'."
     },
     {
       "day": 18,
@@ -193,7 +210,8 @@
       "hook": "Scotland's national animal is a unicorn.",
       "facts": "The unicorn has been a Scottish heraldic symbol since the 12th-15th centuries (on the royal arms by the reign of James III); it represents purity and power, often shown chained.",
       "status": "planned",
-      "style": "ink"
+      "style": "heraldry",
+      "style_idea": "Heraldic tapestry: woven-thread texture, gold and navy, unicorn crest drawn like a coat of arms (generic, not the royal arms), banners unfurl."
     },
     {
       "day": 19,
@@ -202,7 +220,8 @@
       "hook": "Butterflies taste with their feet.",
       "facts": "Butterflies have chemoreceptors (taste sensors) on their feet/tarsi; females 'drum' on leaves to taste whether a plant is right for laying eggs.",
       "status": "planned",
-      "style": "paper"
+      "style": "watercolor-journal",
+      "style_idea": "Naturalist's watercolor field journal: soft bleeding washes, pencil sketch lines, handwritten notes, a butterfly 'tasting' a leaf with its feet."
     },
     {
       "day": 20,
@@ -211,7 +230,8 @@
       "hook": "A bolt of lightning is hotter than the surface of the Sun.",
       "facts": "Lightning can heat air to ~30,000 K (~27,000-30,000 °C), about five times hotter than the Sun's surface (~5,500 °C / ~5,800 K).",
       "status": "planned",
-      "style": "kinetic"
+      "style": "storm-neon",
+      "style_idea": "Electric storm: dark cloud layers, procedurally branching lightning bolts, neon thermal scale comparing lightning vs the Sun's surface."
     },
     {
       "day": 21,
@@ -220,7 +240,8 @@
       "hook": "That pineapple took about two years to grow.",
       "facts": "A pineapple plant usually takes ~18-24 months to produce its first fruit, and each plant typically produces one fruit at a time.",
       "status": "planned",
-      "style": "paper"
+      "style": "greenhouse-diorama",
+      "style_idea": "Tiny greenhouse diorama with tilt-shift look: a pineapple plant grows over a 24-month time-lapse calendar. Ref: 'Tropical island diorama with stilt huts'."
     },
     {
       "day": 22,
@@ -229,7 +250,8 @@
       "hook": "Some turtles can breathe through their butts.",
       "facts": "Cloacal respiration: e.g. Australia's Fitzroy River turtle and white-throated snapping turtle absorb oxygen through their cloaca, letting them stay underwater for long periods.",
       "status": "planned",
-      "style": "paper"
+      "style": "comic-panels",
+      "style_idea": "Family-friendly comic book: panels, halftone shading, speech bubbles, 'BLUB!' sound effects, a turtle doing its weird breathing trick underwater."
     },
     {
       "day": 23,
@@ -238,7 +260,8 @@
       "hook": "The shortest war in history lasted less than an hour.",
       "facts": "Anglo-Zanzibar War, 27 August 1896, lasted roughly 38-45 minutes. Keep the tone light but factual; no graphic imagery.",
       "status": "planned",
-      "style": "ink"
+      "style": "newsreel",
+      "style_idea": "Vintage newspaper + 1890s newsreel: sepia, film scratches, headline typesetting, a stopwatch for the ~38–45 minute war; no graphic violence. Ref: 'Superintelligence documentary opens on an antique notebook'."
     },
     {
       "day": 24,
@@ -247,7 +270,8 @@
       "hook": "A group of flamingos is called a flamboyance.",
       "facts": "Collective noun 'flamboyance'; also flamingos are pink from carotenoid pigments in their diet (algae, brine shrimp), and are born grey/white.",
       "status": "planned",
-      "style": "paper"
+      "style": "art-deco",
+      "style_idea": "Pastel art-deco travel poster: geometric sunrays, flamingos as elegant flat shapes forming a 'flamboyance', gold line accents."
     },
     {
       "day": 25,
@@ -256,7 +280,8 @@
       "hook": "Koala fingerprints are so similar to ours, they could confuse a crime lab.",
       "facts": "Koala fingerprints are remarkably similar to human ones even under a microscope (Henneberg et al., 1996); evolved independently (convergent evolution).",
       "status": "planned",
-      "style": "paper"
+      "style": "forensic-lab",
+      "style_idea": "Forensic lab UI: fingerprint scans side by side (human vs koala), magnifier sweep, match-percentage meter, evidence board with string."
     },
     {
       "day": 26,
@@ -265,7 +290,8 @@
       "hook": "The Moon is running away from us.",
       "facts": "Lunar laser ranging (reflectors left by Apollo missions) shows the Moon recedes ~3.8 cm per year, about as fast as fingernails grow.",
       "status": "planned",
-      "style": "space"
+      "style": "retro-mission",
+      "style_idea": "1970s space-mission print graphics: orange/brown/cream, mission-patch shapes, laser beam to the Moon's reflector, 3.8 cm/year ruler. No real agency logos."
     },
     {
       "day": 27,
@@ -274,7 +300,8 @@
       "hook": "This shrimp punches so fast, the water around it boils.",
       "facts": "Peacock mantis shrimp strike at ~23 m/s with huge acceleration, creating cavitation bubbles that collapse with flashes of light and briefly reach thousands of degrees; strong enough to break aquarium glass.",
       "status": "planned",
-      "style": "paper"
+      "style": "anime-impact",
+      "style_idea": "Anime action: speed lines, impact frames, screen shake, a bubble collapsing with a flash of light, hand-drawn energy effects."
     },
     {
       "day": 28,
@@ -283,7 +310,8 @@
       "hook": "Ancient Romans brushed their teeth with urine.",
       "facts": "The ammonia in urine was used in Roman times for cleaning, laundry (fullonicae) and reportedly tooth whitening (mentioned by the poet Catullus); urine was valuable enough to be taxed under Vespasian.",
       "status": "planned",
-      "style": "ink"
+      "style": "roman-mosaic",
+      "style_idea": "Roman floor mosaic: everything built from small stone tesserae that assemble and re-tile into each scene; terracotta, ochre, black, white."
     },
     {
       "day": 29,
@@ -292,7 +320,8 @@
       "hook": "This tiny animal survived the vacuum of space.",
       "facts": "Tardigrades (water bears, ~0.5 mm) survived exposure to space vacuum and cosmic radiation on the FOTON-M3 mission in 2007 by entering a dried-out 'tun' state.",
       "status": "planned",
-      "style": "space"
+      "style": "microscope",
+      "style_idea": "Microscope slide view: circular lens vignette, focus pulls, a tardigrade drawn as a scientific illustration, then a mission capsule. Ref: 'Proton collision inside a Large Hadron Collider detector'."
     },
     {
       "day": 30,
@@ -301,14 +330,9 @@
       "hook": "Thirty days of facts that sound fake. Here are the five weirdest.",
       "facts": "Quick-fire recap of five of the month's facts (pick the best performers in Metricool analytics if available), ending with a thank-you and follow call.",
       "status": "planned",
-      "style": "kinetic"
+      "style": "montage",
+      "style_idea": "Recap montage: each of the five weirdest facts shown in the style its own video used, cut to a beat, ending on the FAKE → TRUE switch."
     }
   ],
-  "styles": {
-    "kinetic": "engine/kinetic_short.py — flat color blocks, bold kinetic type, spinning cubes. Numbers, physics, 'how it works'.",
-    "paper": "engine/paper_short.py — cut-paper layers, soft shadows, stop-motion boil. Animals, plants, nature.",
-    "space": "engine/space_short.py — glowing starfield, shaded 3D planets, bloom. Space.",
-    "clock": "engine/clock_short.py — minimal 24-hour clock squeezing a time span into one day. Surprising time gaps.",
-    "ink": "engine/ink_short.py — black & white film grain, silhouettes, ink-blot type. Strange history and legends."
-  }
+  "style_rule": "Every video gets its own visual style designed around its topic (see PIPELINE.md step 3 and STYLES.md). Never reuse a previous video's look."
 }
