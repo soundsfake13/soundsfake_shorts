@@ -1,0 +1,28 @@
+{
+  "voice": "am_michael", "speed": 1.08,
+  "lines": [
+    {"text": "Sharks are older than trees.", "pause": 0.35,
+     "scene": {"type": "hook", "lines": ["SHARKS ARE", "OLDER THAN TREES"]}},
+    {"text": "Sounds fake? It's true.", "pause": 0.3,
+     "scene": {"type": "hook", "lines": ["SOUNDS FAKE?", "IT'S TRUE."], "stamp": true}},
+    {"text": "Let's dig. Deeper rock means older rock.", "pause": 0.3,
+     "scene": {"type": "dig", "depth": 120, "kicker": "THE RULE OF ROCK", "lines": ["DEEPER = OLDER"]}},
+    {"text": "About two hundred thirty million years ago, the first dinosaurs show up.",
+     "caption": "About 230 million years ago, the first dinosaurs show up.", "pause": 0.3,
+     "scene": {"type": "find", "depth": 230, "fossil": "dino", "kicker": "230 MILLION YEARS AGO", "lines": ["FIRST DINOSAURS"]}},
+    {"text": "Dig deeper. About three hundred eighty-five million years ago, the first trees appear.",
+     "caption": "Dig deeper. About 385 million years ago, the first trees appear.", "pause": 0.3,
+     "scene": {"type": "find", "depth": 385, "fossil": "tree", "kicker": "385 MILLION YEARS AGO", "lines": ["FIRST TREES"]}},
+    {"text": "Deeper still. About four hundred fifty million years ago: the oldest shark-like scales ever found.",
+     "caption": "Deeper still. About 450 million years ago: the oldest shark-like scales ever found.", "pause": 0.35,
+     "scene": {"type": "find", "depth": 450, "fossil": "shark", "kicker": "450 MILLION YEARS AGO", "lines": ["FIRST SHARKS"]}},
+    {"text": "So sharks beat trees by about sixty-five million years.",
+     "caption": "So sharks beat trees by about 65 million years.", "pause": 0.3,
+     "scene": {"type": "compare", "from": 385, "to": 450, "big": "65", "kicker": "SHARKS BEAT TREES BY", "lines": ["65 MILLION YEARS"]}},
+    {"text": "And they beat the dinosaurs by over two hundred million.",
+     "caption": "And they beat the dinosaurs by over 200 million.", "pause": 0.35,
+     "scene": {"type": "compare", "from": 230, "to": 450, "big": "200+", "kicker": "AND THE DINOSAURS BY", "lines": ["200+ MILLION YEARS"]}},
+    {"text": "Sounds fake? It's true. Follow for more.", "pause": 0.3,
+     "scene": {"type": "end", "click_at": 0.9}}
+  ]
+}

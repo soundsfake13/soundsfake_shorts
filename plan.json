@@ -54,9 +54,14 @@
       "topic": "Sharks are older than trees",
       "hook": "Sharks have been around longer than trees.",
       "facts": "Earliest shark-like fish ~450 million years ago; earliest true trees (e.g. Archaeopteris / Wattieza) ~385-390 million years ago. Sharks also predate dinosaurs (~230 Mya).",
-      "status": "planned",
+      "status": "scheduled",
       "style": "strata",
-      "style_idea": "Deep-time rock strata: camera digs down through layered sandstone cross-sections; fossil silhouettes; earthy ochre palette; depth gauge in millions of years. Ref: 'Animated timeline of humanity…' (claudevideo.org)."
+      "style_idea": "Deep-time rock strata: camera digs down through layered sandstone cross-sections; fossil silhouettes; earthy ochre palette; depth gauge in millions of years. Ref: 'Animated timeline of humanity…' (claudevideo.org).",
+      "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/day04.mp4",
+      "title": "Sharks Are Older Than Trees 🦈🌳 #shorts",
+      "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7729832&openWithPostUuid=2657476116778666139",
+      "spec": "specs/day04_sharks.json",
+      "engine": "engine/styles/day04_strata.py"
     },
     {
       "day": 5,
