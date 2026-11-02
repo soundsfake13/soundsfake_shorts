@@ -1,7 +1,8 @@
 # Daily pipeline — "Sounds Fake" YouTube Shorts
 
-This is the procedure the daily scheduled task follows. One run = one video,
-scheduled for **tomorrow at 19:00 Asia/Yerevan** (one day of buffer).
+This is the procedure the daily scheduled tasks follow. The channel posts **twice a day: 19:00 and 23:00 Asia/Yerevan**.
+There is one scheduled task per slot; each run makes **one** video for **its slot tomorrow** (one day of buffer).
+Every plan entry has a `date` and a `time` ("19:00" or "23:00"); together they identify the slot.
 
 ## 0. Setup
 ```bash
@@ -10,14 +11,15 @@ bash scripts/setup.sh            # deps, voice model, fonts (prints FONT_DIR exp
 If it prints an `export FONT_DIR=...` line, export it before rendering.
 
 ## 1. Pick the topic
-Open `plan.json`. Take the entry whose `date` is **tomorrow** (Yerevan time).
+Open `plan.json`. Take the entry whose `date` is **tomorrow** (Yerevan time) **and whose `time` is your slot**.
 - If its `status` is `scheduled` or `published` (it was made in advance), there is nothing to do: report "tomorrow is
   already scheduled" and stop.
 - If it is `planned` (or `failed`), make it.
 If no entry has tomorrow's date, report "plan finished" and stop.
 
 Before doing anything else, call Metricool `getScheduledPosts` (brand `7729832`, timezone `Asia/Yerevan`)
-for that date. If a YouTube post is already scheduled that day, mark the entry `scheduled` and stop — never double-post.
+for that date. If a YouTube post is already scheduled **at your slot's time** that day, mark the entry `scheduled` and
+stop — never double-post. (The other slot's post the same day is expected; ignore it.)
 
 ## 2. Verify the facts (mandatory)
 Use web search to confirm every claim in the entry's `facts` field with **at least two reliable sources**
@@ -138,14 +140,14 @@ Videos are stored as normal files in `videos/` (GitHub release uploads are block
 (most styles are 2–6 MB; ink ~20 MB).
 
 ## 6. Schedule on YouTube via Metricool
-`createScheduledPost` with `blogId` `7729832`, `date` `YYYY-MM-DDT19:00:00+04:00` and `info`:
+`createScheduledPost` with `blogId` `7729832`, `date` `YYYY-MM-DDT<slot>:00+04:00` (slot = 19:00 or 23:00) and `info`:
 ```json
 {
   "autoPublish": true, "draft": false, "descendants": [], "firstCommentText": "",
   "hasNotReadNotes": false, "shortener": false, "smartLinkData": {"ids": []},
   "media": ["<raw video URL>"], "mediaAltText": [],
   "providers": [{"network": "youtube"}],
-  "publicationDate": {"dateTime": "YYYY-MM-DDT19:00:00", "timezone": "Asia/Yerevan"},
+  "publicationDate": {"dateTime": "YYYY-MM-DDT<slot>:00", "timezone": "Asia/Yerevan"},
   "text": "<description>",
   "youtubeData": {"title": "<title>", "type": "short", "privacy": "public",
                   "tags": ["facts", "science", "did you know", "sounds fake", "<topic tags>"],

@@ -1,6 +1,5 @@
 {
   "channel": "Sounds Fake",
-  "post_time": "19:00",
   "timezone": "Asia/Yerevan",
   "metricool_brand_id": "7729832",
   "days": [
@@ -18,7 +17,8 @@
       "youtube_url": "https://www.youtube.com/shorts/VarcInOZIKM",
       "note": "Published early on Oct 29 as an end-to-end test.",
       "style": "kinetic",
-      "style_idea": "Bold type + spinning cube (claudevideo.org)"
+      "style_idea": "Bold type + spinning cube (claudevideo.org)",
+      "time": "19:00"
     },
     {
       "day": 2,
@@ -32,7 +32,8 @@
       "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7729832&openWithPostUuid=4782438122269199505",
       "spec": "specs/day02_wombat_trailcam.json",
       "style": "trailcam",
-      "style_idea": "Infrared night-vision trail camera: green-grey grain, REC/timestamp HUD, motion-detection boxes, ENHANCE zoom, time-lapse (wombats are nocturnal)."
+      "style_idea": "Infrared night-vision trail camera: green-grey grain, REC/timestamp HUD, motion-detection boxes, ENHANCE zoom, time-lapse (wombats are nocturnal).",
+      "time": "19:00"
     },
     {
       "day": 3,
@@ -46,7 +47,8 @@
       "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7729832&openWithPostUuid=-7429299989060039627",
       "spec": "specs/day03_jellyfish_abyss.json",
       "style": "abyss",
-      "style_idea": "Deep-sea bioluminescence: glowing translucent jellyfish with red core, marine snow, light shafts, VHS rewind when it turns back into a polyp."
+      "style_idea": "Deep-sea bioluminescence: glowing translucent jellyfish with red core, marine snow, light shafts, VHS rewind when it turns back into a polyp.",
+      "time": "19:00"
     },
     {
       "day": 4,
@@ -61,7 +63,8 @@
       "title": "Sharks Are Older Than Trees 🦈🌳 #shorts",
       "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7729832&openWithPostUuid=2657476116778666139",
       "spec": "specs/day04_sharks.json",
-      "engine": "engine/styles/day04_strata.py"
+      "engine": "engine/styles/day04_strata.py",
+      "time": "19:00"
     },
     {
       "day": 5,
@@ -76,7 +79,8 @@
       "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7729832&openWithPostUuid=7020760119425649467",
       "spec": "specs/day05_cleopatra.json",
       "note": "Made in advance as the style sample; approved by the owner.",
-      "style_idea": "One-day clock timeline (claudevideo.org)"
+      "style_idea": "One-day clock timeline (claudevideo.org)",
+      "time": "19:00"
     },
     {
       "day": 6,
@@ -91,7 +95,8 @@
       "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7729832&openWithPostUuid=1984302646892184831",
       "spec": "specs/day06_octopus.json",
       "note": "Made in advance as the style sample; approved by the owner.",
-      "style_idea": "Paper-cutout (claudevideo.org)"
+      "style_idea": "Paper-cutout (claudevideo.org)",
+      "time": "19:00"
     },
     {
       "day": 7,
@@ -101,7 +106,8 @@
       "facts": "Teaching at Oxford existed by 1096; Tenochtitlan was founded in 1325; the Aztec Triple Alliance formed 1428.",
       "status": "planned",
       "style": "manuscript-vs-codex",
-      "style_idea": "Split screen: medieval illuminated manuscript (parchment, gold leaf initials, ink) vs flat-color codex-style glyph panels; pages turn. No sacred imagery. Ref: 'Jade-green Chinese landscape painting comes alive'."
+      "style_idea": "Split screen: medieval illuminated manuscript (parchment, gold leaf initials, ink) vs flat-color codex-style glyph panels; pages turn. No sacred imagery. Ref: 'Jade-green Chinese landscape painting comes alive'.",
+      "time": "19:00"
     },
     {
       "day": 8,
@@ -111,7 +117,8 @@
       "facts": "A botanical berry develops from a single flower with one ovary and has seeds inside (banana, tomato, grape); a strawberry is an 'accessory fruit' and its 'seeds' (achenes) are the actual fruits on the outside.",
       "status": "planned",
       "style": "risograph",
-      "style_idea": "Retro fruit-crate label printed in risograph: 2-3 spot colors, halftone dots, slight misregistration, paper texture; botanical cutaway of a banana. Ref: 'Claude Pop music video with a halftone portrait overlay'."
+      "style_idea": "Retro fruit-crate label printed in risograph: 2-3 spot colors, halftone dots, slight misregistration, paper texture; botanical cutaway of a banana. Ref: 'Claude Pop music video with a halftone portrait overlay'.",
+      "time": "19:00"
     },
     {
       "day": 9,
@@ -121,7 +128,8 @@
       "facts": "Neutron stars pack more mass than the Sun into a sphere ~20 km across; a teaspoon of material would weigh on the order of billions of tons. Keep the figure as 'billions of tons'.",
       "status": "planned",
       "style": "pulsar-cinema",
-      "style_idea": "Cinematic blue-white neutron star: spinning lighthouse beams, gravitational glow, volumetric haze, scale comparisons with a teaspoon and a mountain. Ref: 'Ray-traced black hole'. Must look different from the Saturn video (cold monochrome, no warm gold)."
+      "style_idea": "Cinematic blue-white neutron star: spinning lighthouse beams, gravitational glow, volumetric haze, scale comparisons with a teaspoon and a mountain. Ref: 'Ray-traced black hole'. Must look different from the Saturn video (cold monochrome, no warm gold).",
+      "time": "19:00"
     },
     {
       "day": 10,
@@ -131,7 +139,8 @@
       "facts": "Shannon number: ~10^120 possible chess games (a lower-bound estimate of game-tree complexity); atoms in the observable universe ~10^78-10^82.",
       "status": "planned",
       "style": "voxel-chess",
-      "style_idea": "Isometric voxel chessboard; voxel pieces hop; counters explode into 10^120 vs 10^80 towers of tiny cubes. Ref: 'Voxel pelican rides a bike'."
+      "style_idea": "Isometric voxel chessboard; voxel pieces hop; counters explode into 10^120 vs 10^80 towers of tiny cubes. Ref: 'Voxel pelican rides a bike'.",
+      "time": "19:00"
     },
     {
       "day": 11,
@@ -141,7 +150,8 @@
       "facts": "Nintendo was founded on 23 September 1889 in Kyoto by Fusajiro Yamauchi to make hanafuda playing cards. Same year the Eiffel Tower opened (1889). Do not show any Nintendo logos or characters.",
       "status": "planned",
       "style": "hanafuda",
-      "style_idea": "Japanese flower-card (hanafuda) art: bold red/black/cream cards, flat woodblock-print plants and moon, cards flip and deal; 1889 Kyoto. Generic cards only — no Nintendo logos, characters or products. Ref: 'Jade-green Chinese landscape painting comes alive'."
+      "style_idea": "Japanese flower-card (hanafuda) art: bold red/black/cream cards, flat woodblock-print plants and moon, cards flip and deal; 1889 Kyoto. Generic cards only — no Nintendo logos, characters or products. Ref: 'Jade-green Chinese landscape painting comes alive'.",
+      "time": "19:00"
     },
     {
       "day": 12,
@@ -151,7 +161,8 @@
       "facts": "Earth's rotation slows due to tidal friction from the Moon; ~70 million years ago a day was about 23.5 hours (study of fossil rudist shells, 2020).",
       "status": "planned",
       "style": "pixel-dino",
-      "style_idea": "16-bit pixel-art world: a dinosaur under a fast day/night cycle, pixel clock showing 23.5 h, scanlines. Ref: 'Pixel-art platformer where Clawd battles…'."
+      "style_idea": "16-bit pixel-art world: a dinosaur under a fast day/night cycle, pixel clock showing 23.5 h, scanlines. Ref: 'Pixel-art platformer where Clawd battles…'.",
+      "time": "19:00"
     },
     {
       "day": 13,
@@ -166,7 +177,8 @@
       "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7729832&openWithPostUuid=8572593606466817150",
       "spec": "specs/day13_saturn.json",
       "note": "Made in advance as the style sample; approved by the owner.",
-      "style_idea": "Glowing space / ray-traced look (claudevideo.org)"
+      "style_idea": "Glowing space / ray-traced look (claudevideo.org)",
+      "time": "19:00"
     },
     {
       "day": 14,
@@ -176,7 +188,8 @@
       "facts": "Sloths can slow their heart rate and hold their breath up to ~40 minutes underwater; dolphins typically surface every ~8-10 minutes. They are surprisingly good swimmers.",
       "status": "planned",
       "style": "clay-rainforest",
-      "style_idea": "Soft claymation-look 3D rainforest: rounded pastel shapes, fingerprint texture, slow-motion pacing, sloth vs dolphin breath meters. Ref: 'Boxy orange mascot lives through a busy day'."
+      "style_idea": "Soft claymation-look 3D rainforest: rounded pastel shapes, fingerprint texture, slow-motion pacing, sloth vs dolphin breath meters. Ref: 'Boxy orange mascot lives through a busy day'.",
+      "time": "19:00"
     },
     {
       "day": 15,
@@ -186,7 +199,8 @@
       "facts": "Thermal expansion of iron: the tower can grow up to ~15 cm in heat and shrink in cold; it also tilts slightly away from the sun.",
       "status": "planned",
       "style": "blueprint",
-      "style_idea": "Engineering blueprint: cyan grid, white line drawing of a lattice iron tower drawn stroke by stroke, dimension arrows, thermal expansion annotations. Ref: 'Turbofan jet engine opens into a 3D cutaway'."
+      "style_idea": "Engineering blueprint: cyan grid, white line drawing of a lattice iron tower drawn stroke by stroke, dimension arrows, thermal expansion annotations. Ref: 'Turbofan jet engine opens into a 3D cutaway'.",
+      "time": "19:00"
     },
     {
       "day": 16,
@@ -196,7 +210,8 @@
       "facts": "Hippos secrete a reddish 'blood sweat' (not blood or sweat) containing hipposudoric and norhipposudoric acid that absorb UV light and may be antibacterial.",
       "status": "planned",
       "style": "retro-ad",
-      "style_idea": "1960s magazine sunscreen ad: mid-century illustration, sun rays, cream paper, script + slab type, 'NEW! Hippo Formula' parody of a generic ad (no real brands). Ref: 'Motion promo for a game-asset generator'."
+      "style_idea": "1960s magazine sunscreen ad: mid-century illustration, sun rays, cream paper, script + slab type, 'NEW! Hippo Formula' parody of a generic ad (no real brands). Ref: 'Motion promo for a game-asset generator'.",
+      "time": "19:00"
     },
     {
       "day": 17,
@@ -206,7 +221,8 @@
       "facts": "Exoplanet HD 189733b, ~64 light-years away, a hot Jupiter; silicate particles in its atmosphere and winds ~8,700 km/h (~5,400 mph) suggest sideways 'glass rain'; its deep blue color was measured by Hubble (2013).",
       "status": "planned",
       "style": "weather-hud",
-      "style_idea": "Sci-fi interplanetary weather broadcast: HUD forecast UI, wind-speed dials, sideways glass-shard rain on a deep-blue planet. Ref: 'Frontier Lab Tycoon trailer with retro desktop UI'."
+      "style_idea": "Sci-fi interplanetary weather broadcast: HUD forecast UI, wind-speed dials, sideways glass-shard rain on a deep-blue planet. Ref: 'Frontier Lab Tycoon trailer with retro desktop UI'.",
+      "time": "19:00"
     },
     {
       "day": 18,
@@ -216,7 +232,8 @@
       "facts": "The unicorn has been a Scottish heraldic symbol since the 12th-15th centuries (on the royal arms by the reign of James III); it represents purity and power, often shown chained.",
       "status": "planned",
       "style": "heraldry",
-      "style_idea": "Heraldic tapestry: woven-thread texture, gold and navy, unicorn crest drawn like a coat of arms (generic, not the royal arms), banners unfurl."
+      "style_idea": "Heraldic tapestry: woven-thread texture, gold and navy, unicorn crest drawn like a coat of arms (generic, not the royal arms), banners unfurl.",
+      "time": "19:00"
     },
     {
       "day": 19,
@@ -226,7 +243,8 @@
       "facts": "Butterflies have chemoreceptors (taste sensors) on their feet/tarsi; females 'drum' on leaves to taste whether a plant is right for laying eggs.",
       "status": "planned",
       "style": "watercolor-journal",
-      "style_idea": "Naturalist's watercolor field journal: soft bleeding washes, pencil sketch lines, handwritten notes, a butterfly 'tasting' a leaf with its feet."
+      "style_idea": "Naturalist's watercolor field journal: soft bleeding washes, pencil sketch lines, handwritten notes, a butterfly 'tasting' a leaf with its feet.",
+      "time": "19:00"
     },
     {
       "day": 20,
@@ -236,7 +254,8 @@
       "facts": "Lightning can heat air to ~30,000 K (~27,000-30,000 °C), about five times hotter than the Sun's surface (~5,500 °C / ~5,800 K).",
       "status": "planned",
       "style": "storm-neon",
-      "style_idea": "Electric storm: dark cloud layers, procedurally branching lightning bolts, neon thermal scale comparing lightning vs the Sun's surface."
+      "style_idea": "Electric storm: dark cloud layers, procedurally branching lightning bolts, neon thermal scale comparing lightning vs the Sun's surface.",
+      "time": "19:00"
     },
     {
       "day": 21,
@@ -246,7 +265,8 @@
       "facts": "A pineapple plant usually takes ~18-24 months to produce its first fruit, and each plant typically produces one fruit at a time.",
       "status": "planned",
       "style": "greenhouse-diorama",
-      "style_idea": "Tiny greenhouse diorama with tilt-shift look: a pineapple plant grows over a 24-month time-lapse calendar. Ref: 'Tropical island diorama with stilt huts'."
+      "style_idea": "Tiny greenhouse diorama with tilt-shift look: a pineapple plant grows over a 24-month time-lapse calendar. Ref: 'Tropical island diorama with stilt huts'.",
+      "time": "19:00"
     },
     {
       "day": 22,
@@ -256,7 +276,8 @@
       "facts": "Cloacal respiration: e.g. Australia's Fitzroy River turtle and white-throated snapping turtle absorb oxygen through their cloaca, letting them stay underwater for long periods.",
       "status": "planned",
       "style": "comic-panels",
-      "style_idea": "Family-friendly comic book: panels, halftone shading, speech bubbles, 'BLUB!' sound effects, a turtle doing its weird breathing trick underwater."
+      "style_idea": "Family-friendly comic book: panels, halftone shading, speech bubbles, 'BLUB!' sound effects, a turtle doing its weird breathing trick underwater.",
+      "time": "19:00"
     },
     {
       "day": 23,
@@ -266,7 +287,8 @@
       "facts": "Anglo-Zanzibar War, 27 August 1896, lasted roughly 38-45 minutes. Keep the tone light but factual; no graphic imagery.",
       "status": "planned",
       "style": "newsreel",
-      "style_idea": "Vintage newspaper + 1890s newsreel: sepia, film scratches, headline typesetting, a stopwatch for the ~38–45 minute war; no graphic violence. Ref: 'Superintelligence documentary opens on an antique notebook'."
+      "style_idea": "Vintage newspaper + 1890s newsreel: sepia, film scratches, headline typesetting, a stopwatch for the ~38–45 minute war; no graphic violence. Ref: 'Superintelligence documentary opens on an antique notebook'.",
+      "time": "19:00"
     },
     {
       "day": 24,
@@ -276,7 +298,8 @@
       "facts": "Collective noun 'flamboyance'; also flamingos are pink from carotenoid pigments in their diet (algae, brine shrimp), and are born grey/white.",
       "status": "planned",
       "style": "art-deco",
-      "style_idea": "Pastel art-deco travel poster: geometric sunrays, flamingos as elegant flat shapes forming a 'flamboyance', gold line accents."
+      "style_idea": "Pastel art-deco travel poster: geometric sunrays, flamingos as elegant flat shapes forming a 'flamboyance', gold line accents.",
+      "time": "19:00"
     },
     {
       "day": 25,
@@ -286,7 +309,8 @@
       "facts": "Koala fingerprints are remarkably similar to human ones even under a microscope (Henneberg et al., 1996); evolved independently (convergent evolution).",
       "status": "planned",
       "style": "forensic-lab",
-      "style_idea": "Forensic lab UI: fingerprint scans side by side (human vs koala), magnifier sweep, match-percentage meter, evidence board with string."
+      "style_idea": "Forensic lab UI: fingerprint scans side by side (human vs koala), magnifier sweep, match-percentage meter, evidence board with string.",
+      "time": "19:00"
     },
     {
       "day": 26,
@@ -296,7 +320,8 @@
       "facts": "Lunar laser ranging (reflectors left by Apollo missions) shows the Moon recedes ~3.8 cm per year, about as fast as fingernails grow.",
       "status": "planned",
       "style": "retro-mission",
-      "style_idea": "1970s space-mission print graphics: orange/brown/cream, mission-patch shapes, laser beam to the Moon's reflector, 3.8 cm/year ruler. No real agency logos."
+      "style_idea": "1970s space-mission print graphics: orange/brown/cream, mission-patch shapes, laser beam to the Moon's reflector, 3.8 cm/year ruler. No real agency logos.",
+      "time": "19:00"
     },
     {
       "day": 27,
@@ -306,7 +331,8 @@
       "facts": "Peacock mantis shrimp strike at ~23 m/s with huge acceleration, creating cavitation bubbles that collapse with flashes of light and briefly reach thousands of degrees; strong enough to break aquarium glass.",
       "status": "planned",
       "style": "anime-impact",
-      "style_idea": "Anime action: speed lines, impact frames, screen shake, a bubble collapsing with a flash of light, hand-drawn energy effects."
+      "style_idea": "Anime action: speed lines, impact frames, screen shake, a bubble collapsing with a flash of light, hand-drawn energy effects.",
+      "time": "19:00"
     },
     {
       "day": 28,
@@ -316,7 +342,8 @@
       "facts": "The ammonia in urine was used in Roman times for cleaning, laundry (fullonicae) and reportedly tooth whitening (mentioned by the poet Catullus); urine was valuable enough to be taxed under Vespasian.",
       "status": "planned",
       "style": "roman-mosaic",
-      "style_idea": "Roman floor mosaic: everything built from small stone tesserae that assemble and re-tile into each scene; terracotta, ochre, black, white."
+      "style_idea": "Roman floor mosaic: everything built from small stone tesserae that assemble and re-tile into each scene; terracotta, ochre, black, white.",
+      "time": "19:00"
     },
     {
       "day": 29,
@@ -326,7 +353,8 @@
       "facts": "Tardigrades (water bears, ~0.5 mm) survived exposure to space vacuum and cosmic radiation on the FOTON-M3 mission in 2007 by entering a dried-out 'tun' state.",
       "status": "planned",
       "style": "microscope",
-      "style_idea": "Microscope slide view: circular lens vignette, focus pulls, a tardigrade drawn as a scientific illustration, then a mission capsule. Ref: 'Proton collision inside a Large Hadron Collider detector'."
+      "style_idea": "Microscope slide view: circular lens vignette, focus pulls, a tardigrade drawn as a scientific illustration, then a mission capsule. Ref: 'Proton collision inside a Large Hadron Collider detector'.",
+      "time": "19:00"
     },
     {
       "day": 30,
@@ -336,8 +364,299 @@
       "facts": "Quick-fire recap of five of the month's facts (pick the best performers in Metricool analytics if available), ending with a thank-you and follow call.",
       "status": "planned",
       "style": "montage",
-      "style_idea": "Recap montage: each of the five weirdest facts shown in the style its own video used, cut to a beat, ending on the FAKE → TRUE switch."
+      "style_idea": "Recap montage: each of the five weirdest facts shown in the style its own video used, cut to a beat, ending on the FAKE → TRUE switch.",
+      "time": "19:00"
+    },
+    {
+      "day": 31,
+      "date": "2026-11-02",
+      "time": "23:00",
+      "topic": "Honey never spoils",
+      "hook": "Archaeologists have found pots of honey in ancient Egyptian tombs that were still edible.",
+      "facts": "Honey's low water content and acidity stop bacteria; jars of honey thousands of years old found in Egyptian tombs reportedly still edible (Smithsonian Magazine).",
+      "status": "planned",
+      "style": "honeycomb",
+      "style_idea": "Golden honeycomb macro: hexagon cells filling with slow amber liquid, drips, warm backlight, ancient jar silhouette."
+    },
+    {
+      "day": 32,
+      "date": "2026-11-03",
+      "time": "23:00",
+      "topic": "There are more trees on Earth than stars in our galaxy",
+      "hook": "There are more trees on Earth than stars in the Milky Way.",
+      "facts": "~3 trillion trees on Earth (Crowther et al., Nature 2015) vs roughly 100–400 billion stars in the Milky Way.",
+      "status": "planned",
+      "style": "pointillism",
+      "style_idea": "Pointillism: thousands of colored dots that form a forest, then scatter into a galaxy; dots counted on screen."
+    },
+    {
+      "day": 33,
+      "date": "2026-11-04",
+      "time": "23:00",
+      "topic": "Wood frogs freeze solid and come back to life",
+      "hook": "This frog freezes solid every winter. Then it thaws and hops away.",
+      "facts": "Wood frogs (Lithobates sylvaticus) survive freezing: heart stops, up to ~2/3 of body water freezes; glucose acts as antifreeze; they thaw in spring.",
+      "status": "planned",
+      "style": "ice-crystal",
+      "style_idea": "Ice-crystal macro: frost ferns growing across the screen, cold blue palette, a frog frozen then thawing with a heartbeat restart."
+    },
+    {
+      "day": 34,
+      "date": "2026-11-05",
+      "time": "23:00",
+      "topic": "Pluto hasn't finished one orbit since it was discovered",
+      "hook": "Pluto hasn't finished a single lap around the Sun since we found it.",
+      "facts": "Pluto discovered 1930 by Clyde Tombaugh; orbital period ~248 Earth years; first full orbit since discovery completes ~2178.",
+      "status": "planned",
+      "style": "plate-astronomy",
+      "style_idea": "1930s astronomical glass photographic plates: negative star fields, blink-comparator flicker, handwritten plate labels."
+    },
+    {
+      "day": 35,
+      "date": "2026-11-06",
+      "time": "23:00",
+      "topic": "Bubble wrap was invented as wallpaper",
+      "hook": "Bubble wrap was supposed to be wallpaper.",
+      "facts": "Invented 1957 by Alfred Fielding and Marc Chavannes as textured wallpaper; later used as packaging (Sealed Air founded 1960).",
+      "status": "planned",
+      "style": "wallpaper-60s",
+      "style_idea": "1960s mod wallpaper patterns: repeating bold motifs, then bubbles inflate and pop out of the pattern."
+    },
+    {
+      "day": 36,
+      "date": "2026-11-07",
+      "time": "23:00",
+      "topic": "Ketchup was once sold as medicine",
+      "hook": "In the 1830s, ketchup was sold as medicine.",
+      "facts": "In the 1830s Dr. John Cook Bennet promoted tomato ketchup as a remedy; 'tomato pills' were sold before being exposed as quackery (Smithsonian, Andrew F. Smith).",
+      "status": "planned",
+      "style": "apothecary",
+      "style_idea": "Victorian apothecary label: engraved borders, ornate type, sepia paper, a bottle label being 'printed' layer by layer."
+    },
+    {
+      "day": 37,
+      "date": "2026-11-08",
+      "time": "23:00",
+      "topic": "Sea otters hold hands while they sleep",
+      "hook": "Sea otters hold hands while they sleep.",
+      "facts": "Sea otters often hold paws or wrap in kelp while resting in groups ('rafts') to avoid drifting apart.",
+      "status": "planned",
+      "style": "felt-craft",
+      "style_idea": "Cozy felt and wool craft: fuzzy textures, stitched outlines, gentle bobbing on knitted waves."
+    },
+    {
+      "day": 38,
+      "date": "2026-11-09",
+      "time": "23:00",
+      "topic": "A blue whale's heart is as big as a small car",
+      "hook": "A blue whale's heart is about the size of a small car.",
+      "facts": "Blue whale heart ~180 kg, roughly bumper-car sized (Canadian blue whale heart preserved by Royal Ontario Museum, 2015); heartbeat can drop to ~2 bpm while diving (Goldbogen et al., 2019).",
+      "status": "planned",
+      "style": "museum-scale",
+      "style_idea": "Natural-history museum infographic: scale silhouettes on cream, measuring lines, big heartbeat monitor slowing to 2 bpm."
+    },
+    {
+      "day": 39,
+      "date": "2026-11-10",
+      "time": "23:00",
+      "topic": "Crows can remember human faces",
+      "hook": "Crows can remember your face. For years.",
+      "facts": "University of Washington mask experiments (Marzluff): crows recognised a 'dangerous' mask years later and taught other crows.",
+      "status": "planned",
+      "style": "noir",
+      "style_idea": "Film-noir detective: hard shadows, venetian-blind light, rain, typewriter case file on 'the masked suspect'."
+    },
+    {
+      "day": 40,
+      "date": "2026-11-11",
+      "time": "23:00",
+      "topic": "Hawaii is moving toward Japan",
+      "hook": "Hawaii is slowly moving toward Japan.",
+      "facts": "The Pacific Plate moves northwest about 7–10 cm per year, carrying Hawaii toward Japan.",
+      "status": "planned",
+      "style": "topo-map",
+      "style_idea": "Topographic contour map: animated contour lines, plate arrows, a ruler showing cm per year over millions of years."
+    },
+    {
+      "day": 41,
+      "date": "2026-11-12",
+      "time": "23:00",
+      "topic": "Spider silk is stronger than steel, by weight",
+      "hook": "Strand for strand, spider silk is stronger than steel.",
+      "facts": "By weight, some spider dragline silk is stronger than steel and tougher than Kevlar.",
+      "status": "planned",
+      "style": "dew-macro",
+      "style_idea": "Macro photography look: dewy web at dawn, shallow depth of field, glistening droplets, a strand stretching under load."
+    },
+    {
+      "day": 42,
+      "date": "2026-11-13",
+      "time": "23:00",
+      "topic": "Dolphins sleep with half their brain",
+      "hook": "Dolphins sleep with one half of their brain at a time.",
+      "facts": "Unihemispheric slow-wave sleep: one hemisphere sleeps while the other stays alert, one eye open; lets them surface to breathe.",
+      "status": "planned",
+      "style": "split-dream",
+      "style_idea": "Split screen dreamscape: left half moonlit and dreamy, right half alert and crisp, a dolphin across the seam."
+    },
+    {
+      "day": 43,
+      "date": "2026-11-14",
+      "time": "23:00",
+      "topic": "Woolly mammoths were alive when the pyramids were built",
+      "hook": "Woolly mammoths were still alive when the Great Pyramid was built.",
+      "facts": "Last mammoths survived on Wrangel Island until ~4,000 years ago (~2000 BC); Great Pyramid ~2560 BC.",
+      "status": "planned",
+      "style": "cave-painting",
+      "style_idea": "Cave painting: ochre and charcoal on rough rock, flickering torchlight, figures drawn stroke by stroke."
+    },
+    {
+      "day": 44,
+      "date": "2026-11-15",
+      "time": "23:00",
+      "topic": "There's enough gold in Earth's core to coat the planet",
+      "hook": "There's enough gold in Earth's core to cover the whole planet.",
+      "facts": "Estimates suggest enough gold in the core to coat Earth's surface ~0.5 m deep (Bernard Wood, Nature 2013).",
+      "status": "planned",
+      "style": "liquid-gold",
+      "style_idea": "Molten gold: liquid metal reflections, cross-section of Earth with a glowing core, gold pouring over a globe."
+    },
+    {
+      "day": 45,
+      "date": "2026-11-16",
+      "time": "23:00",
+      "topic": "Antarctica is the biggest desert on Earth",
+      "hook": "The biggest desert on Earth isn't hot. It's Antarctica.",
+      "facts": "Deserts are defined by low precipitation; Antarctica (~14 million km²) gets very little and is the largest desert, larger than the Sahara.",
+      "status": "planned",
+      "style": "polar-minimal",
+      "style_idea": "Minimal polar design: white on white, subtle snow shading, thin blue lines, wind particles, sparse elegant type."
+    },
+    {
+      "day": 46,
+      "date": "2026-11-17",
+      "time": "23:00",
+      "topic": "Hummingbirds can fly backwards",
+      "hook": "Hummingbirds are the only birds that can truly fly backwards.",
+      "facts": "Hummingbirds can hover and fly backwards; wings beat dozens of times per second (up to ~80 in small species).",
+      "status": "planned",
+      "style": "motion-study",
+      "style_idea": "Eadweard Muybridge-style motion study: sequential photo frames in a grid, sepia, frame numbers, stroboscopic wing positions."
+    },
+    {
+      "day": 47,
+      "date": "2026-11-18",
+      "time": "23:00",
+      "topic": "Astronauts get taller in space",
+      "hook": "Astronauts get taller in space.",
+      "facts": "Without gravity compressing the spine, astronauts can grow up to ~3% taller (NASA); it reverses back on Earth.",
+      "status": "planned",
+      "style": "zero-g",
+      "style_idea": "Playful zero-gravity UI: floating rounded panels, drifting objects, soft pastel space station interior, a height scale."
+    },
+    {
+      "day": 48,
+      "date": "2026-11-19",
+      "time": "23:00",
+      "topic": "Sound travels faster in water than in air",
+      "hook": "Sound moves about four times faster in water than in air.",
+      "facts": "Speed of sound ~343 m/s in air (20°C) vs ~1,480 m/s in fresh water.",
+      "status": "planned",
+      "style": "oscilloscope",
+      "style_idea": "Retro oscilloscope: phosphor-green waveforms on a CRT grid, knobs, waves racing between two lanes (air vs water)."
+    },
+    {
+      "day": 49,
+      "date": "2026-11-20",
+      "time": "23:00",
+      "topic": "The Great Pyramid was the tallest building for 3,800 years",
+      "hook": "For about 3,800 years, the tallest building on Earth was the Great Pyramid.",
+      "facts": "At ~146 m the Great Pyramid was the tallest human-made structure until Lincoln Cathedral's spire (~1311 AD).",
+      "status": "planned",
+      "style": "stone-relief",
+      "style_idea": "Carved stone relief: sandstone texture, chiselled reveal of shapes and numbers, low raking light."
+    },
+    {
+      "day": 50,
+      "date": "2026-11-21",
+      "time": "23:00",
+      "topic": "Glass frogs have see-through skin",
+      "hook": "You can see this frog's heart beating through its skin.",
+      "facts": "Glass frogs (Centrolenidae) have translucent belly skin showing organs; at rest they can hide most of their red blood cells in the liver to become more transparent (Science, 2022).",
+      "status": "planned",
+      "style": "x-ray",
+      "style_idea": "X-ray/transparency look: dark background, glowing translucent layers, a scanner sweep revealing organs and a beating heart."
+    },
+    {
+      "day": 51,
+      "date": "2026-11-22",
+      "time": "23:00",
+      "topic": "Polar bears have black skin",
+      "hook": "Under that white fur, a polar bear's skin is black.",
+      "facts": "Polar bear skin is black; fur hairs are translucent/hollow and look white by scattering light.",
+      "status": "planned",
+      "style": "thermal",
+      "style_idea": "Thermal camera palette (purple-orange-yellow): heat map of an icy scene, a polar bear silhouette, fur 'turning' transparent."
+    },
+    {
+      "day": 52,
+      "date": "2026-11-23",
+      "time": "23:00",
+      "topic": "Some bamboo can grow almost a meter in a day",
+      "hook": "Some bamboo can grow almost a meter in a single day.",
+      "facts": "Some bamboo species can grow up to ~91 cm (35 in) in 24 hours (Guinness World Records).",
+      "status": "planned",
+      "style": "ink-brush",
+      "style_idea": "Zen ink brush painting: sumi-e strokes on rice paper, bamboo growing segment by segment, red seal stamp."
+    },
+    {
+      "day": 53,
+      "date": "2026-11-24",
+      "time": "23:00",
+      "topic": "A fluffy cloud can weigh as much as 100 elephants",
+      "hook": "That fluffy cloud weighs about as much as a hundred elephants.",
+      "facts": "USGS: a typical cumulus cloud holds ~500 tonnes (≈1.1 million lb) of water; an elephant ~5–6 tonnes.",
+      "status": "planned",
+      "style": "watercolor-sky",
+      "style_idea": "Dreamy watercolor sky: soft bleeding washes, paper grain, elephants drawn as clouds drifting, a hanging scale."
+    },
+    {
+      "day": 54,
+      "date": "2026-11-25",
+      "time": "23:00",
+      "topic": "Honeybees dance to give directions",
+      "hook": "Honeybees dance to tell each other where food is.",
+      "facts": "The waggle dance encodes direction (angle to the sun) and distance (waggle duration) — Karl von Frisch, Nobel Prize 1973.",
+      "status": "planned",
+      "style": "bauhaus",
+      "style_idea": "Bauhaus geometry: primary colors, circles/triangles/lines, the dance path drawn as a geometric diagram with the sun angle."
+    },
+    {
+      "day": 55,
+      "date": "2026-11-26",
+      "time": "23:00",
+      "topic": "Titan has rain, rivers and lakes — of methane",
+      "hook": "On Saturn's moon Titan, it rains. But not water.",
+      "facts": "Titan has methane/ethane rain, rivers and lakes (Cassini–Huygens); surface ~-179°C.",
+      "status": "planned",
+      "style": "pulp-scifi",
+      "style_idea": "1950s pulp sci-fi magazine cover: painterly orange skies, bold retro lettering, halftone, rocket-age drama (no real titles)."
+    },
+    {
+      "day": 56,
+      "date": "2026-11-27",
+      "time": "23:00",
+      "topic": "Chickens are close relatives of T. rex",
+      "hook": "The closest living relatives of T. rex include… chickens.",
+      "facts": "Birds are living dinosaurs; 2007–2008 T. rex collagen protein studies found its closest match among living animals in chickens and ostriches.",
+      "status": "planned",
+      "style": "chalk-skeleton",
+      "style_idea": "Museum blackboard chalk drawings: skeletons sketched in chalk, dust, arrows morphing a T. rex skeleton into a chicken."
     }
   ],
-  "style_rule": "Every video gets its own visual style designed around its topic (see PIPELINE.md step 3 and STYLES.md). Never reuse a previous video's look."
+  "style_rule": "Every video gets its own visual style designed around its topic (see PIPELINE.md step 3 and STYLES.md). Never reuse a previous video's look.",
+  "post_times": [
+    "19:00",
+    "23:00"
+  ]
 }
