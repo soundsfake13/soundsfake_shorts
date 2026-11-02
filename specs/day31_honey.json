@@ -1,0 +1,22 @@
+{
+  "voice": "am_michael", "speed": 1.06,
+  "lines": [
+    {"text": "Honey basically never goes bad.", "pause": 0.35,
+     "scene": {"type": "hook", "lines": ["HONEY BASICALLY", "NEVER GOES BAD"], "accent": {"1": 1}}},
+    {"text": "Sounds fake? It's true.", "pause": 0.3,
+     "scene": {"type": "words", "lines": ["SOUNDS FAKE?", "IT'S TRUE."], "accent": {"1": 1}}},
+    {"text": "Pots of honey have even turned up in ancient Egyptian tombs, thousands of years old.",
+     "scene": {"type": "tomb", "label": "THOUSANDS OF YEARS OLD"}},
+    {"text": "Here's the trick. Honey is only about seventeen percent water. Germs need water, and honey's sugar pulls it right out of them.",
+     "caption": "Here's the trick. Honey is only about 17% water. Germs need water, and honey's sugar pulls it right out of them.",
+     "scene": {"type": "water"}},
+    {"text": "It's also acidic, so most germs can't grow in it.", "pause": 0.25,
+     "scene": {"type": "acid"}},
+    {"text": "And bees even add an enzyme that helps fight germs.", "pause": 0.25,
+     "scene": {"type": "bee"}},
+    {"text": "Just keep it sealed. If it turns grainy, those are only sugar crystals. Warm it up, and it's fine.", "pause": 0.35,
+     "scene": {"type": "crystal"}},
+    {"text": "Sounds fake? It's true. Follow for more.", "pause": 0.3,
+     "scene": {"type": "end", "click_at": 0.9}}
+  ]
+}

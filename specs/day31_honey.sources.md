@@ -1,0 +1,5 @@
+# Day 31 — Honey (basically) never goes bad
+Verified 2026-11-02.
+- Smithsonian Magazine, "Why honey never spoils": low moisture (sugar draws water), pH ~3–4.5, bee enzyme producing hydrogen peroxide; stays good if sealed; honey found in ancient Egyptian tombs. https://www.smithsonianmag.com/smart-news/why-honey-never-spoils-1218690/
+- My Modern Met, "Honey never spoils": low moisture, pH 3–4.5, glucose oxidase → hydrogen peroxide; sealing is the most important element; crystallised honey is still fine if sealed. https://mymodernmet.com/honey-never-spoils-science/
+- ScienceBlog: honey ~17% water, water activity ~0.5–0.6, pH ~3.4–4.5; the "archaeologists ate 3,000-year-old tomb honey" story is largely folklore — so the video only says honey has been FOUND in tombs, never that it was eaten. https://scienceblog.com/honey-recovered-from-egyptian-tombs-sealed-more-than-3000-years-ago-can-remain-edible-because-honeys-low-water-content-acidic-ph-and-bee-made-peroxide-chemistry-make-it-almost-impossible-for-bact/
