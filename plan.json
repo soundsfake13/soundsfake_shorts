@@ -372,11 +372,16 @@
       "date": "2026-11-02",
       "time": "23:00",
       "topic": "Honey never spoils",
-      "hook": "Archaeologists have found pots of honey in ancient Egyptian tombs that were still edible.",
+      "hook": "Honey basically never goes bad.",
       "facts": "Honey's low water content and acidity stop bacteria; jars of honey thousands of years old found in Egyptian tombs reportedly still edible (Smithsonian Magazine).",
-      "status": "planned",
+      "status": "scheduled",
       "style": "honeycomb",
-      "style_idea": "Golden honeycomb macro: hexagon cells filling with slow amber liquid, drips, warm backlight, ancient jar silhouette."
+      "style_idea": "Golden honeycomb macro: hexagon cells filling with slow amber liquid, drips, warm backlight, ancient jar silhouette.",
+      "title": "Honey Basically Never Goes Bad 🍯 #shorts",
+      "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/day31.mp4",
+      "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7729832&openWithPostUuid=3322572064613417659",
+      "spec": "specs/day31_honey.json",
+      "note": "Tomb-tasting story is folklore; video only says honey was found in tombs."
     },
     {
       "day": 32,

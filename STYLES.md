@@ -15,6 +15,8 @@ reference that best fits the topic; the plan's `style_idea` is the starting brie
 | 13 | space | `engine/space_short.py` | Ray-traced black hole bends its glowing accretion disk |
 | — | ink (unused so far) | `engine/ink_short.py` | Grainy silhouettes and ink-blot type form a title card |
 
+| 31 (23:00) | honeycomb | `engine/styles/day31_honeycomb.py` | Golden honeycomb macro: cells filling with amber, drips, serif type on wax labels (own idea) |
+
 ## Toolkit for building a new style
 - `engine/core.py` — narration + word timings (`narrate`), audio mix with ducking (`write_audio`), `tone`/`place` for
   composing original music, caption grouping, easing, and `render()` (one ffmpeg pass, temp file renamed on success).
