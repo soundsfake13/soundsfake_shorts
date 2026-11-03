@@ -10,7 +10,13 @@
       "topic": "Space",
       "title": "10 Space Facts That Sound Fake (But Are 100% Real)",
       "fact_ideas": "Voyager 1 one light-day away; 40,000-year-old sunlight; Sun = 99.8% of mass; Olympus Mons; Uranus on its side; neutron-star teaspoon; Enceladus geysers; Moon footprints; Sgr A*; diamond rain.",
-      "status": "scheduled"
+      "status": "scheduled",
+      "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/ep01.mp4",
+      "thumb_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/thumbs/ep01.jpg",
+      "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7729832&openWithPostUuid=7427302783091032620",
+      "spec": "specs/long/ep01_space.json",
+      "engine": "engine/long/space_deep_dive.py",
+      "duration": "7:56"
     },
     {
       "ep": 2,
