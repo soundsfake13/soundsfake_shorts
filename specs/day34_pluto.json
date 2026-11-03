@@ -1,0 +1,9 @@
+{"voice":"am_michael","speed":1.15,"lines":[
+ {"text":"Since we discovered Pluto, it hasn't finished a single trip around the Sun.","pause":0.15,"scene":{"type":"hook"}},
+ {"text":"And the date it finally will is wild.","pause":0.15,"scene":{"type":"hook","loop":true,"label":"the end date is wild..."}},
+ {"text":"Clyde Tombaugh found it in nineteen thirty, by flipping between two photos of the sky and spotting a dot that moved.","caption":"Clyde Tombaugh found it in 1930, by flipping between two photos of the sky and spotting a dot that moved.","scene":{"type":"blink"}},
+ {"text":"One lap around the Sun takes Pluto about two hundred and forty-eight years.","caption":"One lap around the Sun takes Pluto about 248 years.","scene":{"type":"orbit","frac":0.0,"to":1.0,"head":"ONE LAP = ~248 YEARS"}},
+ {"text":"So far, it's made it less than halfway around.","scene":{"type":"orbit","frac":0.0,"to":0.39,"head":"SINCE 1930...","stamp":"LESS THAN HALFWAY"}},
+ {"text":"Its first full lap since we found it ends on March twenty-third, twenty-one seventy-eight.","caption":"Its first full lap since we found it ends on March 23, 2178.","scene":{"type":"date"}},
+ {"text":"Oh, and its name? Suggested by an eleven-year-old girl.","caption":"Oh, and its name? Suggested by an 11-year-old girl.","pause":0.2,"scene":{"type":"named"}},
+ {"text":"Sounds fake? It's true.","pause":0.1,"scene":{"type":"end","click_at":0.45}}]}

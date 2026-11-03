@@ -1,0 +1,3 @@
+# Day 34 — Pluto hasn't finished an orbit since discovery (verified 2026-11-03)
+- Earth.com: discovered Feb 18 1930 by Clyde Tombaugh (Lowell Observatory) with a blink comparator; orbit ~248 years; first full orbit since discovery March 23 2178; name suggested by 11-year-old Venetia Burney. https://www.earth.com/news/pluto-has-not-completed-a-full-orbit-since-its-1930-discovery
+- IFLScience: first full orbit since discovery on March 23 2178; ~248-year orbit; moving object found between Jan 23 and 29 1930 plates; name suggested by Venetia Burney (age 11). https://www.iflscience.com/on-march-23-2178-pluto-will-complete-its-first-full-orbit-since-its-discovery-82174
