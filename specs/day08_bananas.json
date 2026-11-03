@@ -1,0 +1,8 @@
+{"voice":"am_michael","speed":1.1,"lines":[
+ {"text":"Bananas are berries. Strawberries aren't.","pause":0.15,"scene":{"type":"hook"}},
+ {"text":"And wait till you hear what else counts as a berry.","pause":0.15,"scene":{"type":"hook","loop":true}},
+ {"text":"To a botanist, a berry grows from one flower with a single ovary, and has seeds inside.","scene":{"type":"rule"}},
+ {"text":"A banana fits. One ovary, seeds inside. Berry.","scene":{"type":"banana"}},
+ {"text":"A strawberry grows from a flower with lots of ovaries. Every little dot on the outside is actually its own tiny fruit.","scene":{"type":"straw"}},
+ {"text":"So what else is a true berry? Tomatoes. Grapes. Eggplants. Even watermelons and pumpkins.","pause":0.2,"scene":{"type":"list"}},
+ {"text":"Sounds fake? It's true.","pause":0.1,"scene":{"type":"end","click_at":0.45}}]}

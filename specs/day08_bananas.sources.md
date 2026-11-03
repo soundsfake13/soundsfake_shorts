@@ -1,0 +1,3 @@
+# Day 08 — Bananas are berries, strawberries aren't (verified 2026-11-03)
+- Live Science, "Why are bananas berries but strawberries aren't?" (Judy Jernstedt, UC Davis): berry = 3 fleshy layers, one flower with one ovary, 2+ seeds; banana qualifies; strawberry comes from a flower with many ovaries, surface dots are achenes; true berries include tomatoes, grapes, eggplants, watermelons. https://www.livescience.com/57477-why-are-bananas-considered-berries.html
+- ScienceNotes, "Is a strawberry a berry?": strawberry is an aggregate accessory fruit; each achene is a tiny fruit from one ovary; berries include banana, grape, tomato, eggplant; watermelon and pumpkin are pepos (a berry type). https://sciencenotes.org/is-a-strawberry-a-berry-why-the-answer-is-surprisingly-no/
