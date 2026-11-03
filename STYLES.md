@@ -14,6 +14,7 @@ reference that best fits the topic; the plan's `style_idea` is the starting brie
 | 6 | paper | `engine/paper_short.py` | Paper-cutout girl writes a question, not a task |
 | 13 | space | `engine/space_short.py` | Ray-traced black hole bends its glowing accretion disk |
 | 7 | codex | `engine/styles/day07_codex.py` | Two books on one screen: illuminated manuscript (vellum, gold-leaf type with moving sheen, drop caps, Fraktur script written by a quill) vs flat-colour screenfold codex panels (amate paper, terracotta/turquoise/ochre, step-fret borders, footprints, hill place-signs); page-turn transitions; lute + hand-drum bed (brief: 'Jade-green Chinese landscape painting comes alive'; claudevideo.org unreachable this run) |
+| 8 (19:00) | risograph | `engine/styles/day08_risograph.py` | Risograph print: pink/blue/yellow spot inks multiplied, halftone dots, mis-registration, rubber stamps (ref: halftone portrait overlay) |
 | — | ink (unused so far) | `engine/ink_short.py` | Grainy silhouettes and ink-blot type form a title card |
 | 32 (23:00) | pointillism | `engine/styles/day32_pointillism.py` | Seurat-like dots morphing galaxy ↔ forest; hook claim on a navy plate at frame 0 (first video to the hook rules) |
 | 31 (23:00) | honeycomb | `engine/styles/day31_honeycomb.py` | Golden honeycomb macro: cells filling with amber, drips, serif type on wax labels (own idea) |
