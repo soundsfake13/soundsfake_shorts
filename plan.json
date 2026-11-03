@@ -104,10 +104,15 @@
       "topic": "Oxford University is older than the Aztec Empire",
       "hook": "Oxford University is older than the Aztec Empire.",
       "facts": "Teaching at Oxford existed by 1096; Tenochtitlan was founded in 1325; the Aztec Triple Alliance formed 1428.",
-      "status": "planned",
+      "status": "scheduled",
       "style": "manuscript-vs-codex",
       "style_idea": "Split screen: medieval illuminated manuscript (parchment, gold leaf initials, ink) vs flat-color codex-style glyph panels; pages turn. No sacred imagery. Ref: 'Jade-green Chinese landscape painting comes alive'.",
-      "time": "19:00"
+      "time": "19:00",
+      "title": "Oxford Is Older Than the Aztec Empire 🤯 #shorts",
+      "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/day07.mp4",
+      "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7729832&openWithPostUuid=6593721002993864088",
+      "spec": "specs/day07_oxford.json",
+      "engine": "engine/styles/day07_codex.py"
     },
     {
       "day": 8,
