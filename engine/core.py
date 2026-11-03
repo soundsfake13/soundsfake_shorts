@@ -18,14 +18,30 @@ def kokoro():
     kd = os.path.expanduser(os.environ.get("KOKORO_DIR", "~/.cache/kokoro"))
     return Kokoro(os.path.join(kd, "kokoro.onnx"), os.path.join(kd, "voices.bin"))
 
+_TTS_CACHE = os.path.expanduser(os.environ.get("TTS_CACHE", "~/.cache/sf_tts"))
+def _tts_cached(tts, text, voice, speed):
+    """Kokoro TTS with an on-disk cache (same text+voice+speed -> same audio), so re-renders don't re-synthesise."""
+    import hashlib
+    os.makedirs(_TTS_CACHE, exist_ok=True)
+    key = hashlib.sha1(f"{voice}|{speed}|{text}".encode()).hexdigest()
+    path = os.path.join(_TTS_CACHE, key + ".npy")
+    if os.path.exists(path): return np.load(path)
+    s, _ = tts.create(text, voice=voice, speed=speed, lang="en-us")
+    np.save(path, s.astype(np.float32)); return s
+
+class _LazyTTS:
+    _t = None
+    def create(self, *a, **k):
+        if _LazyTTS._t is None: _LazyTTS._t = kokoro()
+        return _LazyTTS._t.create(*a, **k)
+
 def narrate(spec, lead=0.08, default_gap=0.28, tail=0.9):
     """Speak each line; annotate lines with _s/_e/_se and word index range; return voice, words, total."""
-    tts = kokoro()
+    tts = _LazyTTS()
     t = lead
     parts, words = [np.zeros(int(SR * lead), np.float32)], []
     for si, ln in enumerate(spec["lines"]):
-        s, _ = tts.create(ln["text"], voice=spec.get("voice", "am_michael"),
-                          speed=spec.get("speed", 1.08), lang="en-us")
+        s = _tts_cached(tts, ln["text"], spec.get("voice", "am_michael"), spec.get("speed", 1.08))
         nz = np.where(np.abs(s) > 0.01)[0]
         s = s[max(nz[0] - 600, 0): nz[-1] + 1200]
         dur = len(s) / SR

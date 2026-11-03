@@ -1,0 +1,795 @@
+{
+ "voice": "am_michael",
+ "speed": 0.93,
+ "lines": [
+  {
+   "text": "In about two weeks, a spaceship launched in nineteen seventy-seven will be so far away that its signal takes a full day to reach us.",
+   "scene": {
+    "type": "cold",
+    "lines": [
+     "A SPACESHIP FROM 1977",
+     "IS ALMOST ONE LIGHT-DAY AWAY"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 104
+   },
+   "caption": "In about two weeks, a spaceship launched in 1977 will be so far away that its signal takes a full day to reach us."
+  },
+  {
+   "text": "And that's only fact number one. Before this video ends, you'll know where in our solar system it rains diamonds.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "10 SPACE FACTS",
+     "THAT SOUND FAKE"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 130,
+    "y": 420
+   }
+  },
+  {
+   "text": "Every single one is real, checked against NASA and real research. Let's go.",
+   "scene": {
+    "type": "cold",
+    "lines": [
+     "ALL REAL.",
+     "ALL CHECKED."
+    ],
+    "sub": "SOURCES IN THE DESCRIPTION",
+    "size": 120
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number one.",
+   "scene": {
+    "type": "chapter",
+    "ch": 1,
+    "title": "THE SPACESHIP A DAY AWAY",
+    "sub": "Voyager 1"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "Voyager one launched in September nineteen seventy-seven. It has been flying away from us ever since. For almost forty-nine years.",
+   "scene": {
+    "type": "probe",
+    "mode": "fly",
+    "km": 25.9,
+    "label": "LAUNCHED SEPTEMBER 1977"
+   },
+   "caption": "Voyager 1 launched in September 1977. It has been flying away from us ever since. For almost 49 years."
+  },
+  {
+   "text": "On November eighteenth, twenty twenty-six, it will be about twenty-five point nine billion kilometers from Earth.",
+   "scene": {
+    "type": "counter",
+    "from": 0,
+    "to": 25.9,
+    "fmt": "f1",
+    "suffix": " BN KM",
+    "label": "FROM EARTH ON NOVEMBER 18, 2026",
+    "size": 180,
+    "secs": 3
+   },
+   "caption": "On November 18, 2026, it will be about 25.9 billion kilometers from Earth."
+  },
+  {
+   "text": "That's so far that a radio signal, moving at the speed of light, needs a whole day to get there. One light-day.",
+   "scene": {
+    "type": "probe",
+    "mode": "signal",
+    "label": "ONE-WAY SIGNAL: ABOUT 24 HOURS"
+   }
+  },
+  {
+   "text": "To compare, light from the Moon reaches us in about one second.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "MOON: ABOUT 1 SECOND",
+     "VOYAGER 1: ABOUT 1 DAY"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 100,
+    "y": 430
+   }
+  },
+  {
+   "text": "In twenty twelve, it became the first spacecraft to leave the Sun's bubble and cross into interstellar space.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "2012",
+     "FIRST IN INTERSTELLAR SPACE"
+    ],
+    "accent": {
+     "0": 1
+    },
+    "size": 120,
+    "y": 420
+   },
+   "caption": "In 2012, it became the first spacecraft to leave the Sun's bubble and cross into interstellar space."
+  },
+  {
+   "text": "And it's carrying a golden record, with sounds and pictures of life on Earth, just in case someone out there ever finds it.",
+   "scene": {
+    "type": "record",
+    "lines": [
+     "THE GOLDEN RECORD",
+     "sounds & pictures of Earth"
+    ]
+   }
+  },
+  {
+   "text": "Most of its instruments have been switched off to save power. NASA turned off another one in April twenty twenty-six. But it's still talking to us.",
+   "scene": {
+    "type": "probe",
+    "mode": "signal",
+    "label": "STILL SENDING DATA HOME"
+   },
+   "caption": "Most of its instruments have been switched off to save power. NASA turned off another one in April 2026. But it's still talking to us."
+  },
+  {
+   "text": "Its twin, Voyager two, won't reach one light-day until around twenty thirty-five.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "VOYAGER 2",
+     "ONE LIGHT-DAY IN ~2035"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 110,
+    "y": 430
+   },
+   "caption": "Its twin, Voyager 2, won't reach one light-day until around 2035.",
+   "pause": 0.5
+  },
+  {
+   "text": "Number two.",
+   "scene": {
+    "type": "chapter",
+    "ch": 2,
+    "title": "YOUR SUNLIGHT IS ANCIENT"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "When sunlight touches your face, it left the surface of the Sun about eight minutes earlier. That part, you might already know.",
+   "scene": {
+    "type": "sunwalk",
+    "years": 40000
+   }
+  },
+  {
+   "text": "But the energy in that light was made deep in the Sun's core. And in there, light can't fly straight. It gets absorbed and thrown out again, over and over, zigzagging like a pinball.",
+   "scene": {
+    "type": "sunwalk",
+    "years": 40000
+   }
+  },
+  {
+   "text": "NASA estimates that this trip, from the core to the surface, takes around forty thousand years.",
+   "scene": {
+    "type": "counter",
+    "from": 0,
+    "to": 40000,
+    "fmt": "int",
+    "suffix": " YEARS",
+    "label": "FROM THE SUN'S CORE TO ITS SURFACE",
+    "size": 190,
+    "secs": 2.5
+   },
+   "caption": "NASA estimates that this trip, from the core to the surface, takes around 40,000 years."
+  },
+  {
+   "text": "Then, once it finally escapes, it crosses about a hundred and fifty million kilometers to Earth in just eight minutes. Forty thousand years of struggle. Then eight minutes of freedom.",
+   "scene": {
+    "type": "sunwalk",
+    "years": 40000
+   },
+   "caption": "Then, once it finally escapes, it crosses about 150 million kilometers to Earth in just 8 minutes. 40,000 years of struggle. Then 8 minutes of freedom."
+  },
+  {
+   "text": "So the warmth you feel today started its journey long before the first cities on Earth were built.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "YOUR SUNLIGHT IS",
+     "OLDER THAN CIVILIZATION"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 110,
+    "y": 430
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number three.",
+   "scene": {
+    "type": "chapter",
+    "ch": 3,
+    "title": "THE SUN IS ALMOST EVERYTHING"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "Add up everything in our solar system. All eight planets, every moon, every asteroid and comet. The Sun alone is about ninety-nine point eight percent of all that mass.",
+   "scene": {
+    "type": "sunearth",
+    "mode": "mass"
+   },
+   "caption": "Add up everything in our solar system. All eight planets, every moon, every asteroid and comet. The Sun alone is about 99.8% of all that mass."
+  },
+  {
+   "text": "It's so big that around one point three million Earths could fit inside it.",
+   "scene": {
+    "type": "sunearth",
+    "mode": "fit"
+   },
+   "caption": "It's so big that around 1.3 million Earths could fit inside it."
+  },
+  {
+   "text": "Inside its core, the temperature is more than thirteen million degrees. That's where hydrogen is fused into helium, and that's what makes the Sun shine.",
+   "scene": {
+    "type": "counter",
+    "from": 0,
+    "to": 13.6,
+    "fmt": "f1",
+    "suffix": " MILLION °",
+    "label": "KELVIN, IN THE SUN'S CORE",
+    "size": 170,
+    "secs": 2
+   },
+   "caption": "Inside its core, the temperature is more than 13 million degrees. That's where hydrogen is fused into helium, and that's what makes the Sun shine."
+  },
+  {
+   "text": "Everything else out here, including every planet and every one of us, is basically the leftover crumbs.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "EVERYTHING ELSE?",
+     "LEFTOVER CRUMBS."
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 130,
+    "y": 430
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number four.",
+   "scene": {
+    "type": "chapter",
+    "ch": 4,
+    "title": "THE GIANT VOLCANO OF MARS"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "Mount Everest is about eight point eight kilometers tall. On Mars, there's a volcano called Olympus Mons. It's about twenty-two kilometers high. That's two and a half Everests.",
+   "scene": {
+    "type": "mountains",
+    "label": "≈ 2.5× EVEREST"
+   },
+   "caption": "Mount Everest is about 8.8 kilometers tall. On Mars, there's a volcano called Olympus Mons. It's about 22 kilometers high. That's two and a half Everests."
+  },
+  {
+   "text": "Its base is around six hundred kilometers wide. That's roughly the size of the state of Arizona.",
+   "scene": {
+    "type": "planet",
+    "stops": [
+     [
+      190,
+      90,
+      50
+     ],
+     [
+      160,
+      70,
+      40
+     ],
+     [
+      210,
+      120,
+      70
+     ],
+     [
+      140,
+      60,
+      35
+     ]
+    ],
+    "r": 330,
+    "x": 560,
+    "seed": 4,
+    "lines": [
+     "~600 KM WIDE",
+     "about the size of Arizona"
+    ],
+    "tx": 1400
+   },
+   "caption": "Its base is around 600 kilometers wide. That's roughly the size of the state of Arizona."
+  },
+  {
+   "text": "It's often called the tallest volcano in the whole solar system.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "THE TALLEST VOLCANO",
+     "IN THE SOLAR SYSTEM"
+    ],
+    "accent": {
+     "0": 1
+    },
+    "size": 110,
+    "y": 430
+   }
+  },
+  {
+   "text": "But its slopes are so gentle that if you stood on it, you might not even realize you were on a mountain.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "SO GENTLE,",
+     "YOU MIGHT NOT NOTICE"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 120,
+    "y": 430
+   }
+  },
+  {
+   "text": "On average, they rise only about two to five degrees. Climbing it would feel like a very, very long gentle hill, stretching over hundreds of kilometers.",
+   "scene": {
+    "type": "counter",
+    "from": 0,
+    "to": 5,
+    "fmt": "int",
+    "suffix": "°",
+    "prefix": "2–",
+    "label": "AVERAGE SLOPE",
+    "size": 220,
+    "secs": 1.2
+   },
+   "caption": "On average, they rise only about 2 to 5 degrees. Climbing it would feel like a very, very long gentle hill, stretching over hundreds of kilometers.",
+   "pause": 0.5
+  },
+  {
+   "text": "Number five.",
+   "scene": {
+    "type": "chapter",
+    "ch": 5,
+    "title": "THE PLANET ON ITS SIDE"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "Uranus is tipped over on its side. Instead of spinning upright like a top, it rolls around the Sun like a ball.",
+   "scene": {
+    "type": "planet",
+    "stops": [
+     [
+      150,
+      220,
+      230
+     ],
+     [
+      130,
+      205,
+      220
+     ],
+     [
+      170,
+      230,
+      235
+     ]
+    ],
+    "r": 300,
+    "x": 600,
+    "seed": 8,
+    "tilt": 1.57,
+    "axis": true,
+    "lines": [
+     "TIPPED ON ITS SIDE",
+     "it rolls around the Sun"
+    ],
+    "tx": 1400
+   }
+  },
+  {
+   "text": "One trip around the Sun takes eighty-four years. And because of that tilt, each pole gets about forty-two years of nonstop sunlight.",
+   "scene": {
+    "type": "uranus"
+   },
+   "caption": "One trip around the Sun takes 84 years. And because of that tilt, each pole gets about 42 years of nonstop sunlight."
+  },
+  {
+   "text": "Followed by forty-two years of darkness.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "42 YEARS",
+     "OF DARKNESS"
+    ],
+    "accent": {
+     "0": 1
+    },
+    "size": 140,
+    "y": 430
+   },
+   "caption": "Followed by 42 years of darkness."
+  },
+  {
+   "text": "So if you lived at one of its poles, you could be born at sunrise, and see your very first sunset at the age of forty-two.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "BORN AT SUNRISE.",
+     "FIRST SUNSET AT 42."
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 110,
+    "y": 430
+   },
+   "caption": "So if you lived at one of its poles, you could be born at sunrise, and see your very first sunset at the age of 42."
+  },
+  {
+   "text": "Nobody knows for sure how it ended up like this. One idea is that something huge crashed into it, long ago.",
+   "scene": {
+    "type": "planet",
+    "stops": [
+     [
+      150,
+      220,
+      230
+     ],
+     [
+      130,
+      205,
+      220
+     ],
+     [
+      170,
+      230,
+      235
+     ]
+    ],
+    "r": 260,
+    "x": 1300,
+    "seed": 8,
+    "tilt": 1.57,
+    "lines": []
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number six.",
+   "scene": {
+    "type": "chapter",
+    "ch": 6,
+    "title": "THE HEAVIEST TEASPOON"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "When a giant star dies, its core can collapse into something called a neutron star. It packs more mass than our whole Sun into a ball about the size of a city.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "MORE THAN A SUN,",
+     "CRUSHED TO CITY SIZE"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 110,
+    "y": 430
+   }
+  },
+  {
+   "text": "It's so dense that a single teaspoon of it is thought to weigh billions of tons.",
+   "scene": {
+    "type": "spoon"
+   }
+  },
+  {
+   "text": "And some of them spin like crazy. The fastest one we've found turns seven hundred and sixteen times every second.",
+   "scene": {
+    "type": "pulsar",
+    "label": "ABOUT 20 MILES ACROSS"
+   },
+   "caption": "And some of them spin like crazy. The fastest one we've found turns 716 times every second."
+  },
+  {
+   "text": "That's about twice as fast as a kitchen blender. It's called P S R J seventeen forty-eight, and it lives in a star cluster about twenty-eight thousand light-years from us.",
+   "scene": {
+    "type": "pulsar",
+    "label": "PSR J1748-2446ad · 28,000 LIGHT-YEARS"
+   },
+   "caption": "That's about twice as fast as a kitchen blender. It's called PSR J1748-2446ad, and it lives in a star cluster about 28,000 light-years from us.",
+   "pause": 0.5
+  },
+  {
+   "text": "Number seven.",
+   "scene": {
+    "type": "chapter",
+    "ch": 7,
+    "title": "A MOON THAT SPRAYS WATER INTO SPACE"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "Saturn's small moon Enceladus is covered in ice. But near its south pole, the Cassini spacecraft spotted more than a hundred geysers, blasting water vapor and ice out into space.",
+   "scene": {
+    "type": "geysers",
+    "title": "ENCELADUS",
+    "label": "100+ GEYSERS OF WATER & ICE"
+   }
+  },
+  {
+   "text": "Researchers pinned down where those geysers come from using almost seven years of Cassini pictures.",
+   "scene": {
+    "type": "geysers",
+    "title": "ENCELADUS",
+    "label": "MAPPED FROM ~7 YEARS OF CASSINI IMAGES"
+   }
+  },
+  {
+   "text": "Scientists think those geysers reach down to a hidden ocean of liquid water, under the ice.",
+   "scene": {
+    "type": "planet",
+    "stops": [
+     [
+      225,
+      238,
+      248
+     ],
+     [
+      205,
+      222,
+      238
+     ],
+     [
+      240,
+      248,
+      252
+     ]
+    ],
+    "r": 320,
+    "x": 580,
+    "seed": 11,
+    "lines": [
+     "A HIDDEN OCEAN",
+     "under the ice"
+    ],
+    "tx": 1400
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number eight.",
+   "scene": {
+    "type": "chapter",
+    "ch": 8,
+    "title": "FOOTPRINTS THAT WON'T FADE"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "On Earth, wind and rain wipe away footprints in days. But the Moon has no wind, no rain, and no flowing water.",
+   "scene": {
+    "type": "footprint",
+    "years": 1000000,
+    "label": "NO WIND · NO RAIN"
+   }
+  },
+  {
+   "text": "The Moon only has an extremely thin layer of gas around it, far too weak to blow any dust around.",
+   "scene": {
+    "type": "footprint",
+    "years": 1000000,
+    "label": "ALMOST NO ATMOSPHERE"
+   }
+  },
+  {
+   "text": "So the bootprints the Apollo astronauts left behind could last for millions of years. Their biggest threat? Getting hit by a meteorite.",
+   "scene": {
+    "type": "footprint",
+    "years": 1000000,
+    "label": "BIGGEST THREAT: METEORITES"
+   }
+  },
+  {
+   "text": "The first ones were made in nineteen sixty-nine. More than fifty years later, they're most likely still there, looking almost exactly the same.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "1969 → TODAY",
+     "PROBABLY STILL THERE"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 120,
+    "y": 430
+   },
+   "caption": "The first ones were made in 1969. More than 50 years later, they're most likely still there, looking almost exactly the same.",
+   "pause": 0.5
+  },
+  {
+   "text": "Number nine.",
+   "scene": {
+    "type": "chapter",
+    "ch": 9,
+    "title": "THE MONSTER IN THE MIDDLE"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "At the center of our galaxy sits a black hole called Sagittarius A star. It's about four million times heavier than the Sun.",
+   "scene": {
+    "type": "blackhole",
+    "label": "27,000 LIGHT-YEARS AWAY"
+   },
+   "caption": "At the center of our galaxy sits a black hole called Sagittarius A*. It's about 4 million times heavier than the Sun."
+  },
+  {
+   "text": "Don't worry, it's about twenty-seven thousand light-years away. In twenty twenty-two, astronomers released its first picture, by linking radio telescopes around the world into one telescope the size of the planet.",
+   "scene": {
+    "type": "blackhole",
+    "label": "FIRST IMAGE: 2022"
+   },
+   "caption": "Don't worry, it's about 27,000 light-years away. In 2022, astronomers released its first picture, by linking radio telescopes around the world into one telescope the size of the planet."
+  },
+  {
+   "text": "And for something so heavy, it's surprisingly compact. It would fit inside the orbit of Venus. The data for that picture was so huge, it was shipped around the world on hard drives.",
+   "scene": {
+    "type": "blackhole",
+    "label": "COULD FIT INSIDE VENUS'S ORBIT"
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "And number ten. The one I promised.",
+   "scene": {
+    "type": "chapter",
+    "ch": 10,
+    "title": "WHERE IT RAINS DIAMONDS"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "Deep inside Uranus and Neptune, the pressure is enormous. Scientists believe it can squeeze carbon into diamonds.",
+   "scene": {
+    "type": "diamonds",
+    "title": "DIAMOND RAIN",
+    "lines": [
+     "inside Uranus & Neptune"
+    ]
+   }
+  },
+  {
+   "text": "And then those diamonds slowly sink down through the planet. Like rain.",
+   "scene": {
+    "type": "diamonds",
+    "title": "DIAMOND RAIN",
+    "lines": [
+     "inside Uranus & Neptune",
+     "they sink... like rain"
+    ]
+   }
+  },
+  {
+   "text": "This isn't just a wild guess. In the lab, researchers have squeezed and heated plastic, and watched tiny diamonds form, under conditions like the ones inside those planets.",
+   "scene": {
+    "type": "diamonds",
+    "title": "MADE IN A LAB",
+    "lines": [
+     "plastic + huge pressure + heat",
+     "= tiny diamonds"
+    ]
+   }
+  },
+  {
+   "text": "Some scientists even think those sinking diamonds could help explain the strange, lopsided magnetic fields of these two planets.",
+   "scene": {
+    "type": "diamonds",
+    "title": "A WILD IDEA",
+    "lines": [
+     "sinking diamonds might help",
+     "shape their odd magnetic fields"
+    ]
+   },
+   "pause": 0.6
+  },
+  {
+   "text": "Quick recap.",
+   "scene": {
+    "type": "cold",
+    "lines": [
+     "QUICK RECAP"
+    ],
+    "size": 140
+   },
+   "pause": 0.2
+  },
+  {
+   "text": "A spaceship one light-day away. Sunlight older than civilization. A Sun that's almost everything.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "1 · A SHIP ONE LIGHT-DAY AWAY",
+     "2 · 40,000-YEAR-OLD SUNLIGHT",
+     "3 · THE SUN IS 99.8% OF EVERYTHING"
+    ],
+    "size": 72,
+    "y": 330,
+    "accent": {
+     "0": 1
+    }
+   },
+   "pause": 0.3
+  },
+  {
+   "text": "A volcano two and a half Everests tall. A planet on its side. A teaspoon that weighs billions of tons.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "4 · A 22 KM VOLCANO",
+     "5 · A PLANET ON ITS SIDE",
+     "6 · A BILLION-TON TEASPOON"
+    ],
+    "size": 72,
+    "y": 330,
+    "accent": {
+     "0": 1
+    }
+   },
+   "pause": 0.3
+  },
+  {
+   "text": "A moon spraying water into space. Footprints that won't fade. A monster at the center of our galaxy. And diamond rain.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "7 · WATER GEYSERS IN SPACE",
+     "8 · FOOTPRINTS FOR MILLIONS OF YEARS",
+     "9 · A 4-MILLION-SUN BLACK HOLE",
+     "10 · DIAMOND RAIN"
+    ],
+    "size": 72,
+    "y": 330,
+    "accent": {
+     "0": 1
+    }
+   },
+   "pause": 0.3
+  },
+  {
+   "text": "So. Which one sounded the most fake to you? Tell me in the comments. And if you want more facts that sound fake, but aren't, subscribe. There's a new deep dive every Tuesday and Friday.",
+   "scene": {
+    "type": "outro",
+    "click_at": 4.0
+   }
+  }
+ ],
+ "title": "10 Space Facts That Sound Fake (But Are 100% Real)"
+}

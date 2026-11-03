@@ -1,0 +1,72 @@
+{
+  "slot": "21:00",
+  "timezone": "Asia/Yerevan",
+  "days": "Tuesday, Friday",
+  "format": "16:9, 8-10 min, one topic in depth, 10 chapters",
+  "episodes": [
+    {
+      "ep": 1,
+      "date": "2026-11-03",
+      "topic": "Space",
+      "title": "10 Space Facts That Sound Fake (But Are 100% Real)",
+      "fact_ideas": "Voyager 1 one light-day away; 40,000-year-old sunlight; Sun = 99.8% of mass; Olympus Mons; Uranus on its side; neutron-star teaspoon; Enceladus geysers; Moon footprints; Sgr A*; diamond rain.",
+      "status": "scheduled"
+    },
+    {
+      "ep": 2,
+      "date": "2026-11-06",
+      "topic": "Your body",
+      "title": "Your Body Is Doing 10 Things That Sound Fake",
+      "fact_ideas": "Ideas to verify: stomach lining renews in days; you're slightly taller in the morning; bones are ~5x stronger than steel by weight?; your body has ~37 trillion cells; you glow faintly (ultra-weak bioluminescence, Kyoto 2009); babies have ~300 bones; skin sheds; nose can distinguish many odours; heart beats ~100,000 times a day; eyes see a single photon? (verify carefully, drop anything shaky).",
+      "status": "planned"
+    },
+    {
+      "ep": 3,
+      "date": "2026-11-10",
+      "topic": "The deep ocean",
+      "title": "10 Deep-Sea Facts That Sound Fake",
+      "fact_ideas": "Ideas: we've mapped Mars better than our seafloor (verify current %); Mariana Trench depth vs Everest; whale fall ecosystems; giant squid eye size; vampire squid; underwater lakes/brine pools; hydrothermal vents life without sunlight; bioluminescence share of deep-sea animals; Greenland shark age 270–500 yrs; ocean produces ~half of Earth's oxygen.",
+      "status": "planned"
+    },
+    {
+      "ep": 4,
+      "date": "2026-11-13",
+      "topic": "Animal superpowers",
+      "title": "10 Animal Superpowers That Sound Fake",
+      "fact_ideas": "Ideas: mantis shrimp punch; tardigrade survival; axolotl regeneration; pistol shrimp snap; electric eel voltage; peregrine falcon dive speed; octopus arms with neurons; immortal jellyfish (brief); bombardier beetle; homing pigeons / magnetoreception.",
+      "status": "planned"
+    },
+    {
+      "ep": 5,
+      "date": "2026-11-17",
+      "topic": "History",
+      "title": "10 Real Moments in History That Sound Fake",
+      "fact_ideas": "Ideas: Great Emu War (1932); Anglo-Zanzibar war; dancing plague of 1518; Napoleon/rabbits story (verify!); Cleopatra/Moon landing; Oxford vs Aztecs; mammoths & pyramids; Titanic baker survived cold (verify); the 1904 Olympic marathon; London beer flood 1814.",
+      "status": "planned"
+    },
+    {
+      "ep": 6,
+      "date": "2026-11-20",
+      "topic": "Planet Earth",
+      "title": "10 Facts About Earth That Sound Fake",
+      "fact_ideas": "Ideas: Earth isn't a perfect sphere; a day is getting longer; there's a 'Point Nemo'; lightning ~44 times per second worldwide; the Sahara was green ~6,000 years ago; Earth's magnetic poles flip; Antarctica desert; Hawaii moving; gold in the core; tallest mountain from base is Mauna Kea.",
+      "status": "planned"
+    },
+    {
+      "ep": 7,
+      "date": "2026-11-24",
+      "topic": "Time",
+      "title": "Time Is Weirder Than You Think: 10 Facts",
+      "fact_ideas": "Ideas: GPS satellites' clocks run fast vs Earth (relativity, ~38 µs/day); leap seconds; dinosaur 23.5h days; Russia has 11 time zones; France has 12 incl. territories; the 'missing' 11 days of 1752 (Britain); Samoa skipped a day in 2011; atomic clocks; a year on Mercury vs its day; the oldest living tree.",
+      "status": "planned"
+    },
+    {
+      "ep": 8,
+      "date": "2026-11-27",
+      "topic": "Accidental inventions",
+      "title": "10 Inventions That Happened by Accident",
+      "fact_ideas": "Ideas: penicillin; microwave oven (melted chocolate bar); Post-it notes; X-rays; bubble wrap; super glue; pacemaker; Velcro (burrs); potato chips story (verify, often legend); vulcanised rubber.",
+      "status": "planned"
+    }
+  ]
+}
