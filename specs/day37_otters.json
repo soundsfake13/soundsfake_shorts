@@ -1,0 +1,8 @@
+{"voice":"am_michael","speed":1.1,"lines":[
+ {"text":"Sea otters hold hands while they sleep.","pause":0.12,"scene":{"type":"hook"}},
+ {"text":"So they don't drift apart. And that's not even the weird part.","pause":0.15,"scene":{"type":"hook","loop":true}},
+ {"text":"They nap floating on their backs, in groups called rafts.","scene":{"type":"raft"}},
+ {"text":"No one to hold? They wrap themselves in kelp, like a seatbelt.","scene":{"type":"kelp"}},
+ {"text":"Their fur is the thickest of any animal. Up to a million hairs per square inch.","caption":"Their fur is the thickest of any animal. Up to 1,000,000 hairs per square inch.","scene":{"type":"fur"}},
+ {"text":"And the weird part? Under each arm, they have a pocket of loose skin, where they keep a favorite rock for cracking shellfish.","pause":0.2,"scene":{"type":"pocket"}},
+ {"text":"Sounds fake? It's true.","pause":0.1,"scene":{"type":"end","click_at":0.45}}]}
