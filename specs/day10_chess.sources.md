@@ -1,0 +1,3 @@
+# Day 10 — More possible chess games than atoms in the universe (verified 2026-11-03)
+- Chess.com blog "The Limits of Comprehension": Shannon (1950) estimated at least 10^120 possible games; ~10^80 atoms in the observable universe; 20 first moves, 400 games after 1 move each, 197,281 after 2 moves each. https://www.chess.com/blog/JasminOcelli/the-limits-of-comprehension
+- FactMyth: Shannon number ~10^120 (game-tree complexity, "Programming a computer for playing chess", 1950); ~10^80 atoms (ESA Planck-based estimate). https://factmyth.com/factoids/there-are-more-possible-iterations-of-a-game-of-chess-than-there-are-atoms-in-the-known-universe

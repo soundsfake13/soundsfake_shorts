@@ -1,0 +1,9 @@
+{"voice":"am_michael","speed":1.1,"lines":[
+ {"text":"There are more possible chess games than atoms in the universe.","pause":0.15,"scene":{"type":"hook"}},
+ {"text":"And it explodes after just four moves.","pause":0.15,"scene":{"type":"hook","loop":true,"label":"IT EXPLODES IN 4 MOVES"}},
+ {"text":"White starts with twenty possible first moves.","caption":"White starts with 20 possible first moves.","scene":{"type":"count","n":20,"label":"POSSIBLE FIRST MOVES","board":true}},
+ {"text":"After both players move once, there are four hundred possible games.","caption":"After both players move once, there are 400 possible games.","scene":{"type":"count","n":400,"label":"GAMES AFTER 1 MOVE EACH","cubes":40}},
+ {"text":"After two moves each? Almost two hundred thousand.","caption":"After two moves each? Almost 200,000.","scene":{"type":"count","n":197281,"label":"GAMES AFTER 2 MOVES EACH","cubes":120,"cols":4}},
+ {"text":"Mathematician Claude Shannon estimated there are at least ten to the hundred and twentieth possible games.","caption":"Mathematician Claude Shannon estimated there are at least 10^120 possible games.","scene":{"type":"power","big":"10¹²⁰","label":"POSSIBLE CHESS GAMES (AT LEAST)"}},
+ {"text":"The observable universe has only about ten to the eightieth atoms.","caption":"The observable universe has only about 10^80 atoms.","pause":0.2,"scene":{"type":"compare"}},
+ {"text":"Sounds fake? It's true.","pause":0.1,"scene":{"type":"end","click_at":0.45}}]}
