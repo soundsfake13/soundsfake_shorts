@@ -21,6 +21,7 @@ reference that best fits the topic; the plan's `style_idea` is the starting brie
 | 35 (23:00) | wallpaper-60s | `engine/styles/day35_wallpaper.py` | 1960s mod wallpaper: bold repeating flowers/circles/waves in mustard-orange-teal-chocolate, glossy popping bubbles, Righteous retro type |
 | 36 (23:00) | apothecary | `engine/styles/day36_apothecary.py` | Victorian apothecary label: double-rule borders, black+vermilion letterpress, serif display, bottle, pill box, newspaper feud, QUACKERY stamps |
 | 11 (19:00) | hanafuda | `day11_hanafuda.py` | Jade-green Chinese landscape painting comes alive |
+| 37 (23:00) | felt-craft | `day37_felt.py` | Cozy handmade felt/wool craft |
 | — | ink (unused so far) | `engine/ink_short.py` | Grainy silhouettes and ink-blot type form a title card |
 | 32 (23:00) | pointillism | `engine/styles/day32_pointillism.py` | Seurat-like dots morphing galaxy ↔ forest; hook claim on a navy plate at frame 0 (first video to the hook rules) |
 | 31 (23:00) | honeycomb | `engine/styles/day31_honeycomb.py` | Golden honeycomb macro: cells filling with amber, drips, serif type on wax labels (own idea) |
