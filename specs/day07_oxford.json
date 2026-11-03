@@ -1,0 +1,25 @@
+{
+  "voice": "am_michael", "speed": 1.08,
+  "lines": [
+    {"text": "Oxford University is older than the Aztec Empire.", "pause": 0.25,
+     "scene": {"type": "hook"}},
+    {"text": "And that's not even the weird part.", "pause": 0.25,
+     "scene": {"type": "rubric", "lines": ["NOT EVEN", "THE WEIRD PART"], "accent": {"1": 1}}},
+    {"text": "Teaching at Oxford was already happening by ten ninety-six.",
+     "caption": "Teaching at Oxford was already happening by 1096.",
+     "scene": {"type": "scriptorium", "year": "1096", "label": "TEACHING AT OXFORD"}},
+    {"text": "The Aztec capital was founded around thirteen twenty-five, on an island in a lake.",
+     "caption": "The Aztec capital was founded around 1325, on an island in a lake.",
+     "scene": {"type": "lake", "year": "c.1325", "label": "CAPITAL ON A LAKE"}},
+    {"text": "The Aztec Empire itself formed in fourteen twenty-eight.",
+     "caption": "The Aztec Empire itself formed in 1428.",
+     "scene": {"type": "alliance", "year": "1428", "label": "THREE CITIES UNITE"}},
+    {"text": "That's over three hundred years after Oxford.",
+     "caption": "That's over 300 years after Oxford.",
+     "scene": {"type": "gap", "from": 1096, "to": 1428}},
+    {"text": "The weird part? The empire rose and fell, and Oxford is still teaching today.", "pause": 0.3,
+     "scene": {"type": "today"}},
+    {"text": "Sounds fake? It's true. Follow for more.", "pause": 0.3,
+     "scene": {"type": "end", "click_at": 0.75}}
+  ]
+}
