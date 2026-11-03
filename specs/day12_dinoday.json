@@ -1,0 +1,8 @@
+{"voice":"am_michael","speed":1.12,"lines":[
+ {"text":"When dinosaurs were alive, a day wasn't twenty-four hours.","caption":"When dinosaurs were alive, a day wasn't 24 hours.","pause":0.12,"scene":{"type":"hook"}},
+ {"text":"It was shorter. And that's not even the weird part.","pause":0.15,"scene":{"type":"hook","loop":true}},
+ {"text":"Seventy million years ago, Earth spun faster. A day lasted about twenty-three and a half hours.","caption":"70 million years ago, Earth spun faster. A day lasted about 23.5 hours.","scene":{"type":"spin"}},
+ {"text":"Scientists read it in a fossil clam, which grew a new layer every single day, like tree rings.","scene":{"type":"clam"}},
+ {"text":"The culprit is the Moon. Its tides work like a brake, slowing Earth down, a tiny bit every century.","scene":{"type":"moon"}},
+ {"text":"And the weird part? Back then, one year had three hundred and seventy-two days.","caption":"And the weird part? Back then, one year had 372 days.","pause":0.2,"scene":{"type":"year"}},
+ {"text":"Sounds fake? It's true.","pause":0.1,"scene":{"type":"end","click_at":0.45}}]}
