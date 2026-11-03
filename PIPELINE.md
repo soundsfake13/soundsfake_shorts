@@ -46,9 +46,34 @@ Write the sources to `specs/dayNN_<slug>.sources.md`.
   hard to make look good, simplify it (fewer elements, cleaner shapes) rather than ship something messy; as a last
   resort use the closest existing engine with a clearly different palette and typography, and say so in the report.
 
+## THE FIRST 2 SECONDS DECIDE EVERYTHING (mandatory hook & retention rules)
+Shorts live or die on the swipe-away rate in the first 1–2 seconds and on how many viewers reach the end.
+Every video must pass all of these:
+
+1. **Frame 0 is the money shot.** No fade from black, no logo, no empty scene, no slow build. The very first frame
+   already shows the most surprising visual AND the hook text, big (≥ 110 px), centred in the upper half.
+   (Use `lt` offsets so the opening scene starts fully drawn; never apply a fade-in to the first scene.)
+2. **Voice starts within 0.1 s.** `narrate(spec, lead=0.08)`. Add an impact sound at t = 0 (`hook_hit(music)` in core).
+3. **Hook line ≤ 8 words, a bold claim or a direct challenge** — never "Did you know…", never a greeting, never the
+   channel name. Good: "This frog freezes solid. Then it hops away." · "You've never seen a day this long." ·
+   "There are more trees on Earth than stars in our galaxy."
+4. **Open a loop in the first 3 seconds** — promise a payoff that only comes near the end:
+   "…and the reason why is even stranger." / "Wait for the last part." / "But that's not the weird part."
+   Pay it off in the last 25 % of the video. (Do NOT spend line 2 on "Sounds fake? It's true." any more — that slows
+   the start. Keep it only in the ending.)
+5. **Something changes every 1.5–2.5 s**: new scene, zoom, word slam, counter, sound hit. No static stretch longer
+   than ~2.5 s. Add a whoosh/hit on each scene change (`whoosh(music, t)` in core).
+6. **20–30 seconds total.** Cut anything that doesn't serve the hook or the payoff.
+7. **End fast and loop.** The ending switch + "Sounds fake? It's true." takes ≤ 2.5 s; the last frame should flow
+   visually into the first so the Short replays seamlessly. Put a comment question in the pinned first comment
+   (`firstCommentText`), e.g. "Did you know this? Yes/No 👇".
+8. **YouTube title = the hook's curiosity gap**, not a summary. ≤ 60 characters + `#shorts`.
+
+Check before rendering: save frames at t = 0.0, 0.5 and 1.5 s and look at them. If frame 0.0 would not stop
+YOU from scrolling, redo the opening.
+
 Script rules (all styles):
-- 25–35 seconds, 7–9 lines. Line 1 = the hook (≤ 10 words), shown big from the very first frame.
-- Line 2 is usually "Sounds fake? It's true."
+- 20–30 seconds, 6–8 lines. Line 1 = the hook (≤ 8 words), on screen from frame 0. Line 2 opens the loop (see above).
 - Spell numbers out in `text` (for the voice) and put digits in `caption`.
 - Simple, friendly, family-safe English. No gore, no real-person likenesses, no brand logos or characters.
 - Last line always: "Sounds fake? It's true. Follow for more."
@@ -143,7 +168,7 @@ Videos are stored as normal files in `videos/` (GitHub release uploads are block
 `createScheduledPost` with `blogId` `7729832`, `date` `YYYY-MM-DDT<slot>:00+04:00` (slot = 19:00 or 23:00) and `info`:
 ```json
 {
-  "autoPublish": true, "draft": false, "descendants": [], "firstCommentText": "",
+  "autoPublish": true, "draft": false, "descendants": [], "firstCommentText": "<comment question, e.g. Did you know this? 👇>",
   "hasNotReadNotes": false, "shortener": false, "smartLinkData": {"ids": []},
   "media": ["<raw video URL>"], "mediaAltText": [],
   "providers": [{"network": "youtube"}],

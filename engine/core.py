@@ -18,7 +18,7 @@ def kokoro():
     kd = os.path.expanduser(os.environ.get("KOKORO_DIR", "~/.cache/kokoro"))
     return Kokoro(os.path.join(kd, "kokoro.onnx"), os.path.join(kd, "voices.bin"))
 
-def narrate(spec, lead=0.35, default_gap=0.28, tail=0.9):
+def narrate(spec, lead=0.08, default_gap=0.28, tail=0.9):
     """Speak each line; annotate lines with _s/_e/_se and word index range; return voice, words, total."""
     tts = kokoro()
     t = lead
@@ -100,3 +100,21 @@ def tone(f, dur, decay=4.0, harm=(1, 2, 3), amp=1.0):
 def place(buf, at, sig, gain=1.0):
     a = int(at * SR); b = min(a + len(sig), len(buf))
     if 0 <= a < len(buf): buf[a:b] += sig[: b - a] * gain
+
+def hook_hit(music, gain=0.35):
+    """Impact at t=0: low boom + bright click, so the first frame lands with sound."""
+    t = np.arange(int(0.6 * SR)) / SR
+    boom = np.sin(2 * np.pi * (40 + 60 * np.exp(-t * 20)) * t) * np.exp(-t * 6)
+    click = np.random.default_rng(0).normal(0, 1, len(t)) * np.exp(-t * 120) * 0.4
+    place(music, 0.0, boom + click, gain)
+
+def whoosh(music, at, gain=0.12, dur=0.35):
+    """Short filtered-noise swish for scene changes (peaks at `at`)."""
+    n = int(dur * SR); t = np.arange(n) / SR
+    nz = np.random.default_rng(int(at * 1000)).normal(0, 1, n)
+    nz = np.convolve(nz, np.ones(6) / 6, mode="same")
+    env = np.sin(np.pi * t / dur) ** 2
+    place(music, max(0.0, at - dur * 0.6), nz * env, gain)
+
+def scene_starts(spec):
+    return [ln["_s"] for ln in spec["lines"] if "_s" in ln][1:]
