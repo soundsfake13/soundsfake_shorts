@@ -1,0 +1,8 @@
+{"voice":"am_michael","speed":1.1,"lines":[
+ {"text":"Bubble wrap was supposed to be wallpaper.","pause":0.15,"scene":{"type":"hook"}},
+ {"text":"And before it found its real job, it failed twice.","pause":0.15,"scene":{"type":"hook","loop":true}},
+ {"text":"In nineteen fifty-seven, two inventors sealed two shower curtains together, trapping air bubbles, to make a textured wallpaper.","caption":"In 1957, two inventors sealed two shower curtains together, trapping air bubbles, to make a textured wallpaper.","scene":{"type":"curtains"}},
+ {"text":"As wallpaper, it never caught on.","scene":{"type":"walls","lines":["AS WALLPAPER?","FLOP."]}},
+ {"text":"So they tried selling it as greenhouse insulation. That didn't work well either.","scene":{"type":"green"}},
+ {"text":"Then IBM needed a way to ship its new computer without breaking it. Bubble wrap did the job, and the rest is history.","pause":0.2,"scene":{"type":"computer"}},
+ {"text":"Sounds fake? It's true.","pause":0.1,"scene":{"type":"end","click_at":0.45}}]}

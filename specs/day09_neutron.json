@@ -1,0 +1,8 @@
+{"voice":"am_michael","speed":1.1,"lines":[
+ {"text":"One teaspoon of this star weighs billions of tons.","pause":0.15,"scene":{"type":"hook"}},
+ {"text":"And it spins faster than your blender.","pause":0.15,"scene":{"type":"hook","loop":true,"spin":3.0}},
+ {"text":"It's a neutron star: the crushed core of a dead giant star.","scene":{"type":"core"}},
+ {"text":"It packs more mass than our whole Sun into a ball about the size of a city.","scene":{"type":"city"}},
+ {"text":"That makes it as dense as the nucleus of an atom. One teaspoon would weigh more than three billion tons.","caption":"That makes it as dense as the nucleus of an atom. One teaspoon would weigh more than 3 billion tons.","scene":{"type":"dense"}},
+ {"text":"And the fastest one we know spins seven hundred and sixteen times every second. About twice as fast as a kitchen blender.","caption":"And the fastest one we know spins 716 times every second. About twice as fast as a kitchen blender.","pause":0.2,"scene":{"type":"spin"}},
+ {"text":"Sounds fake? It's true.","pause":0.1,"scene":{"type":"end","click_at":0.45}}]}
