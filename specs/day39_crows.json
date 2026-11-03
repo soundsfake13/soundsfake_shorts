@@ -1,0 +1,8 @@
+{"voice":"am_michael","speed":1.1,"lines":[
+ {"text":"Crows can remember your face. For years.","pause":0.12,"scene":{"type":"hook"}},
+ {"text":"And that's not even the weird part.","pause":0.15,"scene":{"type":"hook","loop":true}},
+ {"text":"In Seattle, scientists put on a scary caveman mask, and trapped seven crows.","scene":{"type":"trap"}},
+ {"text":"After that, anyone wearing that mask got scolded and dive-bombed. A different mask? Ignored.","scene":{"type":"lineup"}},
+ {"text":"Hat on, mask upside down. They still knew.","scene":{"type":"disguise"}},
+ {"text":"And the weird part? Crows that were never caught joined in. They learned the face from other crows, and kept the grudge for years.","pause":0.2,"scene":{"type":"mob"}},
+ {"text":"Sounds fake? It's true.","pause":0.1,"scene":{"type":"end","click_at":0.45}}]}
