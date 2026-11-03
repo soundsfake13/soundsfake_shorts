@@ -1,0 +1,4 @@
+# Day 38 — A blue whale's heart is the size of a bumper car
+- Heart from a whale beached in Rocky Harbour, Newfoundland, preserved by the Royal Ontario Museum; ~180 kg — https://amp.cbc.ca/news/canada/newfoundland-labrador/heart-of-blue-whale-beached-in-rocky-harbour-being-dissected-preserved-1.3118204 ; https://www.koreatimes.co.kr/world/20150914/worlds-biggest-heart-180kg-of-blue-whale
+- First ECG of a wild blue whale (Goldbogen et al. 2019, PNAS): 2 bpm minimum during dives, up to ~37 bpm at surface — https://www.sciencealert.com/scientists-listen-to-the-slow-rhythmic-heartbeat-of-a-blue-whale-for-the-first-time ; https://m.startribune.com/blue-whale-hearts-may-beat-only-twice-a-minute-during-a-dive/566852352/
+- "Size of a bumper car / small car" comparison widely reported with the ROM heart (Korea Times / CBC coverage).

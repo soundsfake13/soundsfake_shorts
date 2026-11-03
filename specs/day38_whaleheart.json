@@ -1,0 +1,8 @@
+{"voice":"am_michael","speed":1.1,"lines":[
+ {"text":"A blue whale's heart is the size of a bumper car.","pause":0.12,"scene":{"type":"hook"}},
+ {"text":"And that's not even the weird part.","pause":0.15,"scene":{"type":"hook","loop":true}},
+ {"text":"One preserved blue whale heart weighs about one hundred and eighty kilograms. As much as two grown adults.","caption":"One preserved blue whale heart weighs about 180 kilograms. As much as two grown adults.","scene":{"type":"scale"}},
+ {"text":"It's the biggest heart of any animal we know, inside the biggest animal that has ever lived.","scene":{"type":"whale"}},
+ {"text":"At the surface, it pounds at more than thirty beats a minute.","scene":{"type":"fast"}},
+ {"text":"And the weird part? On a deep dive, it slows down to just two beats. Per. Minute.","pause":0.2,"scene":{"type":"slow"}},
+ {"text":"Sounds fake? It's true.","pause":0.1,"scene":{"type":"end","click_at":0.45}}]}
