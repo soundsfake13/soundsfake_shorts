@@ -24,6 +24,7 @@ reference that best fits the topic; the plan's `style_idea` is the starting brie
 | 37 (23:00) | felt-craft | `day37_felt.py` | Cozy handmade felt/wool craft |
 | 12 (19:00) | pixel-dino | `day12_pixeldino.py` | Pixel-art platformer |
 | 38 (23:00) | museum-scale | `day38_museum.py` | Natural-history museum infographic |
+| 39 (23:00) | noir | `day39_noir.py` | Film noir detective |
 | — | ink (unused so far) | `engine/ink_short.py` | Grainy silhouettes and ink-blot type form a title card |
 | 32 (23:00) | pointillism | `engine/styles/day32_pointillism.py` | Seurat-like dots morphing galaxy ↔ forest; hook claim on a navy plate at frame 0 (first video to the hook rules) |
 | 31 (23:00) | honeycomb | `engine/styles/day31_honeycomb.py` | Golden honeycomb macro: cells filling with amber, drips, serif type on wax labels (own idea) |
