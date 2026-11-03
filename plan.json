@@ -390,9 +390,14 @@
       "topic": "There are more trees on Earth than stars in our galaxy",
       "hook": "There are more trees on Earth than stars in the Milky Way.",
       "facts": "~3 trillion trees on Earth (Crowther et al., Nature 2015) vs roughly 100–400 billion stars in the Milky Way.",
-      "status": "planned",
+      "status": "scheduled",
       "style": "pointillism",
-      "style_idea": "Pointillism: thousands of colored dots that form a forest, then scatter into a galaxy; dots counted on screen."
+      "style_idea": "Pointillism: thousands of colored dots that form a forest, then scatter into a galaxy; dots counted on screen.",
+      "title": "More Trees on Earth Than Stars in Our Galaxy?! 🌳✨ #shorts",
+      "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/day32.mp4",
+      "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7729832&openWithPostUuid=-4987241812682390480",
+      "spec": "specs/day32_trees.json",
+      "note": "Made manually after the 23:00 task hit the usage limit; first video built to the hook rules."
     },
     {
       "day": 33,
