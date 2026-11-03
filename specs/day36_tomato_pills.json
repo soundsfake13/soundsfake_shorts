@@ -1,0 +1,8 @@
+{"voice":"am_michael","speed":1.15,"lines":[
+ {"text":"In the eighteen thirties, tomatoes were sold as medicine.","caption":"In the 1830s, tomatoes were sold as medicine.","pause":0.15,"scene":{"type":"hook"}},
+ {"text":"And the pills had a shocking secret.","pause":0.15,"scene":{"type":"hook","loop":true}},
+ {"text":"In eighteen thirty-four, a doctor named John Cook Bennett claimed tomatoes could treat diarrhea, indigestion and headaches, and even prevent cholera.","caption":"In 1834, a doctor named John Cook Bennett claimed tomatoes could treat diarrhea, indigestion and headaches, and even prevent cholera.","scene":{"type":"claims"}},
+ {"text":"Soon, tomato pills were everywhere, promising to cure almost anything.","scene":{"type":"pills"}},
+ {"text":"Two sellers fought in the newspapers for two years, each calling the other a fraud.","scene":{"type":"feud"}},
+ {"text":"Then people tested the pills. There was no tomato in them at all. They were basically laxatives.","pause":0.2,"scene":{"type":"test"}},
+ {"text":"Sounds fake? It's true.","pause":0.1,"scene":{"type":"end","click_at":0.45}}]}

@@ -1,0 +1,3 @@
+# Day 35 — Bubble wrap was invented as wallpaper (verified 2026-11-03)
+- Mental Floss: 1957, Al Fielding & Marc Chavannes sealed two shower curtains to trap air bubbles for textured wallpaper; then marketed as greenhouse insulation (didn't catch on); Sealed Air's Frederick Bowers pitched it to IBM to ship the 1401 computer. https://www.mentalfloss.com/history/bubble-wrap-was-originally-supposed-be-wallpaper
+- U.S. Embassy (American View): 1957 invention as textured wallpaper; greenhouse insulation didn't work well; Sealed Air founded 1960; IBM 1401 shipping (1961) made it a success. https://amview.japan.usembassy.gov/en/invention-of-bubble-wrap/
