@@ -1,0 +1,21 @@
+{
+  "voice": "am_michael", "speed": 1.1,
+  "lines": [
+    {"text": "Earth has more trees than our galaxy has stars.", "pause": 0.15,
+     "scene": {"type": "hook", "l1": "MORE TREES", "l2": "THAN STARS"}},
+    {"text": "And that's not even the weird part.", "pause": 0.15,
+     "scene": {"type": "loop", "label": "THAT'S NOT EVEN THE WEIRD PART"}},
+    {"text": "The Milky Way has about one hundred to four hundred billion stars.",
+     "caption": "The Milky Way has about 100 to 400 billion stars.",
+     "scene": {"type": "galaxy"}},
+    {"text": "Earth has around three trillion trees.", "caption": "Earth has around 3 trillion trees.",
+     "scene": {"type": "forest"}},
+    {"text": "That's four hundred and twenty-two trees for every person alive.",
+     "caption": "That's 422 trees for every person alive.",
+     "scene": {"type": "person"}},
+    {"text": "The weird part? Before humans started farming, there were almost twice as many.", "pause": 0.2,
+     "scene": {"type": "twist"}},
+    {"text": "Sounds fake? It's true.", "pause": 0.1,
+     "scene": {"type": "end", "click_at": 0.45}}
+  ]
+}
