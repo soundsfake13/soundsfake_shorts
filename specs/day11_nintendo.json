@@ -1,0 +1,9 @@
+{"voice":"am_michael","speed":1.12,"lines":[
+ {"text":"The company behind Mario was born in eighteen eighty-nine.","caption":"The company behind Mario was born in 1889.","pause":0.12,"scene":{"type":"hook"}},
+ {"text":"To sell playing cards. And that's not even the weird part.","pause":0.15,"scene":{"type":"hook","loop":true}},
+ {"text":"In Kyoto, a craftsman named Fusajiro Yamauchi started making hand-painted flower cards, called hanafuda.","scene":{"type":"kyoto"}},
+ {"text":"They became a hit, especially with gamblers, and the little card shop grew.","scene":{"type":"deal"}},
+ {"text":"Decades later, it tried almost anything. A taxi company. Instant rice.","scene":{"type":"weird"}},
+ {"text":"Then it switched to toys, and later, video games.","scene":{"type":"toys"}},
+ {"text":"And here's the weird part. More than a hundred and thirty years later, it still sells those flower cards today.","caption":"And here's the weird part. More than 130 years later, it still sells those flower cards today.","pause":0.2,"scene":{"type":"today"}},
+ {"text":"Sounds fake? It's true.","pause":0.1,"scene":{"type":"end","click_at":0.45}}]}
