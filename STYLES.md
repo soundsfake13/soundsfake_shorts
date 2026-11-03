@@ -17,6 +17,7 @@ reference that best fits the topic; the plan's `style_idea` is the starting brie
 | 8 (19:00) | risograph | `engine/styles/day08_risograph.py` | Risograph print: pink/blue/yellow spot inks multiplied, halftone dots, mis-registration, rubber stamps (ref: halftone portrait overlay) |
 | 34 (23:00) | plate-astronomy | `engine/styles/day34_plates.py` | 1930s glass photographic plates: negative star field, blink comparator, grease-pencil circles, handwritten labels, typewriter dates (own idea) |
 | 9 (19:00) | pulsar-cinema | `engine/styles/day09_pulsar.py` | Cold monochrome cinema: sweeping pulsar beams, anamorphic flares, letterbox, grain, wide-tracked titles (ref: ray-traced black hole, but cold) |
+| 10 (19:00) | voxel-chess | `engine/styles/day10_voxel.py` | Isometric voxel world: cube-built chessboard, glowing move tiles, numbers grow into voxel towers, chiptune (ref: Voxel pelican rides a bike) |
 | — | ink (unused so far) | `engine/ink_short.py` | Grainy silhouettes and ink-blot type form a title card |
 | 32 (23:00) | pointillism | `engine/styles/day32_pointillism.py` | Seurat-like dots morphing galaxy ↔ forest; hook claim on a navy plate at frame 0 (first video to the hook rules) |
 | 31 (23:00) | honeycomb | `engine/styles/day31_honeycomb.py` | Golden honeycomb macro: cells filling with amber, drips, serif type on wax labels (own idea) |

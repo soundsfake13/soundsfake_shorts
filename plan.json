@@ -148,10 +148,13 @@
       "topic": "More possible chess games than atoms in the universe",
       "hook": "There are more possible chess games than atoms in the observable universe.",
       "facts": "Shannon number: ~10^120 possible chess games (a lower-bound estimate of game-tree complexity); atoms in the observable universe ~10^78-10^82.",
-      "status": "planned",
+      "status": "scheduled",
       "style": "voxel-chess",
       "style_idea": "Isometric voxel chessboard; voxel pieces hop; counters explode into 10^120 vs 10^80 towers of tiny cubes. Ref: 'Voxel pelican rides a bike'.",
-      "time": "19:00"
+      "time": "19:00",
+      "title": "More Chess Games Than Atoms in the Universe?! ♟️ #shorts",
+      "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/day10.mp4",
+      "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7729832&openWithPostUuid=4990981174925348460"
     },
     {
       "day": 11,
