@@ -1,0 +1,8 @@
+{"voice":"am_michael","speed":1.1,"lines":[
+ {"text":"This frog freezes solid. Then it comes back to life.","pause":0.12,"scene":{"type":"hook"}},
+ {"text":"And that's not even the weird part.","pause":0.15,"scene":{"type":"hook","loop":true}},
+ {"text":"Every winter, the wood frog lets up to sixty percent of its body turn into ice.","caption":"Every winter, the wood frog lets up to 60% of its body turn into ice.","scene":{"type":"freeze"}},
+ {"text":"Its heart stops beating. It stops breathing.","scene":{"type":"flat"}},
+ {"text":"Its secret? It floods its body with sugar, a natural antifreeze that protects its cells.","scene":{"type":"sugar"}},
+ {"text":"And the weird part? In tests, Alaskan wood frogs survived minus eighteen degrees, frozen for up to two hundred and eighteen days. Then in spring, they thaw and hop away.","caption":"And the weird part? In tests, Alaskan wood frogs survived −18 °C, frozen for up to 218 days. Then in spring, they thaw and hop away.","pause":0.2,"scene":{"type":"alaska"}},
+ {"text":"Sounds fake? It's true.","pause":0.1,"scene":{"type":"end","click_at":0.45}}]}
