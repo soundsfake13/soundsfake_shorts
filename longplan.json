@@ -24,7 +24,13 @@
       "topic": "Your body",
       "title": "Your Body Is Doing 10 Things That Sound Fake",
       "fact_ideas": "Ideas to verify: stomach lining renews in days; you're slightly taller in the morning; bones are ~5x stronger than steel by weight?; your body has ~37 trillion cells; you glow faintly (ultra-weak bioluminescence, Kyoto 2009); babies have ~300 bones; skin sheds; nose can distinguish many odours; heart beats ~100,000 times a day; eyes see a single photon? (verify carefully, drop anything shaky).",
-      "status": "planned"
+      "status": "scheduled",
+      "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/ep02.mp4",
+      "thumb_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/thumbs/ep02.jpg",
+      "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7729832&openWithPostUuid=-2529335344583587403",
+      "spec": "specs/long/ep02_body.json",
+      "engine": "engine/long/ep02_body.py",
+      "duration": "8:19"
     },
     {
       "ep": 3,
