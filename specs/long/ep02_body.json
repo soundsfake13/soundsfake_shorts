@@ -1,0 +1,659 @@
+{
+ "voice": "am_michael",
+ "speed": 0.93,
+ "lines": [
+  {
+   "text": "Right now, as you watch this, your body is glowing. Real, visible light. It's just about a thousand times too faint for your eyes to see.",
+   "scene": {
+    "type": "glow",
+    "mode": "hook",
+    "lines": [
+     "YOUR BODY IS GLOWING",
+     "RIGHT NOW"
+    ]
+   },
+   "caption": "Right now, as you watch this, your body is glowing. Real, visible light. It's just about 1,000 times too faint for your eyes to see."
+  },
+  {
+   "text": "And that's not even the strangest thing about you. Before this video ends, you'll know which part of you is almost fourteen billion years old.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "10 BODY FACTS",
+     "THAT SOUND FAKE"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 130,
+    "y": 420
+   },
+   "caption": "And that's not even the strangest thing about you. Before this video ends, you'll know which part of you is almost 14 billion years old."
+  },
+  {
+   "text": "Every single one is real, and checked against real research. Let's go.",
+   "scene": {
+    "type": "cold",
+    "lines": [
+     "ALL REAL.",
+     "ALL CHECKED."
+    ],
+    "sub": "SOURCES IN THE DESCRIPTION",
+    "size": 120
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number one.",
+   "scene": {
+    "type": "chapter",
+    "ch": 1,
+    "title": "YOU SHRINK EVERY DAY",
+    "sub": "and grow back every night"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "Measure your height in the morning, and then again before bed. You'll probably find that you've shrunk.",
+   "scene": {
+    "type": "height",
+    "mode": "day"
+   }
+  },
+  {
+   "text": "All day long, gravity squeezes the soft, spongy discs between the bones of your spine. They lose a little fluid, and your whole spine gets slightly shorter.",
+   "scene": {
+    "type": "spine",
+    "mode": "squeeze"
+   }
+  },
+  {
+   "text": "For many adults, the difference is around a centimeter. Back in seventeen twenty-four, an English clergyman measured himself and found he lost up to about half an inch by evening.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "≈ 1 CM SHORTER",
+     "BY BEDTIME"
+    ],
+    "accent": {
+     "0": 1
+    },
+    "size": 120,
+    "y": 430
+   },
+   "caption": "For many adults, the difference is around a centimeter. Back in 1724, an English clergyman measured himself and found he lost up to about half an inch by evening."
+  },
+  {
+   "text": "Then at night, while you lie down, the discs soak fluid back up, and you grow back.",
+   "scene": {
+    "type": "spine",
+    "mode": "relax"
+   }
+  },
+  {
+   "text": "Astronauts take this to the extreme. With no gravity pressing down, they can grow up to three percent taller in space. For a tall person, that's about five centimeters.",
+   "scene": {
+    "type": "height",
+    "mode": "space"
+   },
+   "caption": "Astronauts take this to the extreme. With no gravity pressing down, they can grow up to 3% taller in space. For a tall person, that's about 5 centimeters."
+  },
+  {
+   "text": "And a few months after they come home, they shrink right back.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "BACK ON EARTH?",
+     "THEY SHRINK AGAIN"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 110,
+    "y": 430
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number two.",
+   "scene": {
+    "type": "chapter",
+    "ch": 2,
+    "title": "THE BONES THAT DISAPPEARED"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "Right now, you have two hundred and six bones. But you were born with a lot more. Somewhere around three hundred.",
+   "scene": {
+    "type": "bones",
+    "mode": "count"
+   },
+   "caption": "Right now, you have 206 bones. But you were born with a lot more. Somewhere around 300."
+  },
+  {
+   "text": "Many of a baby's bones start out partly made of soft, bendy cartilage. That flexibility helps a baby curl up before birth, and then squeeze out into the world.",
+   "scene": {
+    "type": "bones",
+    "mode": "soft"
+   }
+  },
+  {
+   "text": "As you grow, that cartilage hardens into bone, and lots of separate pieces fuse together, like a puzzle slowly putting itself together. The soft spots on a baby's head close up as the skull bones join.",
+   "scene": {
+    "type": "bones",
+    "mode": "merge"
+   }
+  },
+  {
+   "text": "So you didn't just grow bigger. You ended up with almost a hundred fewer bones, without losing a single one.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "~300 → 206",
+     "NONE LOST. THEY MERGED."
+    ],
+    "accent": {
+     "0": 1
+    },
+    "size": 120,
+    "y": 430
+   },
+   "caption": "So you didn't just grow bigger. You ended up with almost 100 fewer bones, without losing a single one.",
+   "pause": 0.5
+  },
+  {
+   "text": "Number three.",
+   "scene": {
+    "type": "chapter",
+    "ch": 3,
+    "title": "THE MUSCLE THAT NEVER RESTS"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "Put your hand on your chest. That muscle in there beats about a hundred thousand times. Every single day.",
+   "scene": {
+    "type": "heart",
+    "mode": "beats",
+    "to": 100000,
+    "label": "BEATS EVERY DAY"
+   },
+   "caption": "Put your hand on your chest. That muscle in there beats about 100,000 times. Every single day."
+  },
+  {
+   "text": "And each day it pumps around two thousand gallons of blood. That's about seventy-five hundred liters. Enough to fill roughly fifty bathtubs.",
+   "scene": {
+    "type": "tubs",
+    "n": 50
+   },
+   "caption": "And each day it pumps around 2,000 gallons of blood. That's about 7,500 liters. Enough to fill roughly 50 bathtubs."
+  },
+  {
+   "text": "It never takes a day off. Over a lifetime, that adds up to billions of beats. Around two and a half billion by the age of seventy.",
+   "scene": {
+    "type": "counter",
+    "from": 0,
+    "to": 2.5,
+    "fmt": "f1",
+    "suffix": " BILLION",
+    "label": "HEARTBEATS BY AGE 70",
+    "size": 190,
+    "secs": 2.5
+   },
+   "caption": "It never takes a day off. Over a lifetime, that adds up to billions of beats. Around 2.5 billion by the age of 70."
+  },
+  {
+   "text": "And the engine doing all of that is only about the size of your two hands, clasped together.",
+   "scene": {
+    "type": "heart",
+    "mode": "size",
+    "label": "ABOUT THE SIZE OF TWO CLASPED HANDS"
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number four.",
+   "scene": {
+    "type": "chapter",
+    "ch": 4,
+    "title": "THE HUNGRIEST THING YOU OWN"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "Your brain is only about two percent of your body weight.",
+   "scene": {
+    "type": "brainbar",
+    "stage": 1
+   },
+   "caption": "Your brain is only about 2% of your body weight."
+  },
+  {
+   "text": "But even while you rest, it burns roughly a fifth of all your energy. Some scientists put it closer to a quarter.",
+   "scene": {
+    "type": "brainbar",
+    "stage": 2
+   }
+  },
+  {
+   "text": "At rest, it runs on about twenty watts of power. That's less than a lot of old light bulbs.",
+   "scene": {
+    "type": "bulb"
+   },
+   "caption": "At rest, it runs on about 20 watts of power. That's less than a lot of old light bulbs."
+  },
+  {
+   "text": "And on that tiny power budget, it runs around eighty-six billion nerve cells, all talking to each other at once.",
+   "scene": {
+    "type": "neurons"
+   },
+   "caption": "And on that tiny power budget, it runs around 86 billion nerve cells, all talking to each other at once."
+  },
+  {
+   "text": "So being you is one of the most energy-hungry jobs your body has.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "BEING YOU",
+     "IS EXPENSIVE"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 110,
+    "y": 430
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number five.",
+   "scene": {
+    "type": "chapter",
+    "ch": 5,
+    "title": "TWO METERS IN EVERY CELL"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "Inside almost every cell in your body there's a tiny nucleus. And folded up inside it is your DNA.",
+   "scene": {
+    "type": "dna",
+    "mode": "coil"
+   }
+  },
+  {
+   "text": "If you pulled the DNA out of just one of those cells and stretched it out, it would be about two meters long. Taller than most people.",
+   "scene": {
+    "type": "dna",
+    "mode": "stretch"
+   },
+   "caption": "If you pulled the DNA out of just one of those cells and stretched it out, it would be about 2 meters long. Taller than most people."
+  },
+  {
+   "text": "And it all fits into a space so small, you'd need a microscope to see it. Two meters of DNA, in a space much thinner than a single hair.",
+   "scene": {
+    "type": "dna",
+    "mode": "coil"
+   }
+  },
+  {
+   "text": "Now do that for every cell you have. Scientists at the Salk Institute say that all the DNA in your body, laid end to end, would reach Pluto.",
+   "scene": {
+    "type": "dna",
+    "mode": "pluto"
+   }
+  },
+  {
+   "text": "Pluto is billions of kilometers away. And the instructions to reach it are folded up inside you.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "FROM YOUR BODY",
+     "TO PLUTO"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 110,
+    "y": 430
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number six.",
+   "scene": {
+    "type": "chapter",
+    "ch": 6,
+    "title": "A NEW GUT EVERY FEW DAYS"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "The inside of your gut is covered with a thin lining of cells. And they have a rough job. Acid, digestive juices, and food constantly rushing past.",
+   "scene": {
+    "type": "gut",
+    "label": "THE LINING OF YOUR GUT"
+   }
+  },
+  {
+   "text": "So your body doesn't bother trying to keep them forever. It replaces them. Researchers have found that your gut lining is renewed, on average, every few days.",
+   "scene": {
+    "type": "gut",
+    "label": "RENEWED EVERY FEW DAYS"
+   }
+  },
+  {
+   "text": "Most of those cells live for less than a week. Then they're shed and swept away, and fresh ones take their place. It's like repaving a road every few days, while the traffic never stops.",
+   "scene": {
+    "type": "gut",
+    "label": "LIFESPAN: UNDER A WEEK"
+   }
+  },
+  {
+   "text": "So the inside of your gut today is not the same one you had last week.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "NEW GUT LINING",
+     "EVERY FEW DAYS"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 110,
+    "y": 430
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number seven.",
+   "scene": {
+    "type": "chapter",
+    "ch": 7,
+    "title": "THE BODY THAT REBUILDS ITSELF"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "And that's just one small part of something much bigger. Every single day, about three hundred and thirty billion of your cells die and are replaced.",
+   "scene": {
+    "type": "cells",
+    "mode": "day"
+   },
+   "caption": "And that's just one small part of something much bigger. Every single day, about 330 billion of your cells die and are replaced."
+  },
+  {
+   "text": "That's roughly three point eight million new cells every second. Including the second you just spent listening to this.",
+   "scene": {
+    "type": "cells",
+    "mode": "second"
+   },
+   "caption": "That's roughly 3.8 million new cells every second. Including the second you just spent listening to this."
+  },
+  {
+   "text": "Most of them are blood cells, plus those gut cells from a moment ago.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "MOSTLY BLOOD CELLS",
+     "+ GUT CELLS"
+    ],
+    "accent": {
+     "0": 1
+    },
+    "size": 100,
+    "y": 430
+   }
+  },
+  {
+   "text": "Scientists estimate that every eighty days or so, you make as many new cells as there are in your whole body. Around thirty trillion. You're less like a statue, and more like a river. Always flowing. Always being rebuilt.",
+   "scene": {
+    "type": "counter",
+    "from": 0,
+    "to": 30,
+    "fmt": "int",
+    "suffix": " TRILLION",
+    "label": "NEW CELLS EVERY ~80 DAYS",
+    "size": 190,
+    "secs": 2.5
+   },
+   "caption": "Scientists estimate that every 80 days or so, you make as many new cells as there are in your whole body. Around 30 trillion. You're less like a statue, and more like a river. Always flowing. Always being rebuilt.",
+   "pause": 0.5
+  },
+  {
+   "text": "Number eight.",
+   "scene": {
+    "type": "chapter",
+    "ch": 8,
+    "title": "YOU ARE HALF BACTERIA"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "Speaking of thirty trillion. That's roughly how many human cells make up you.",
+   "scene": {
+    "type": "bacteria",
+    "mode": "human"
+   },
+   "caption": "Speaking of 30 trillion. That's roughly how many human cells make up you."
+  },
+  {
+   "text": "But you're also carrying around thirty-eight trillion bacteria. Most of them live in your large intestine.",
+   "scene": {
+    "type": "bacteria",
+    "mode": "both"
+   },
+   "caption": "But you're also carrying around 38 trillion bacteria. Most of them live in your large intestine."
+  },
+  {
+   "text": "So if you counted every cell inside you, about half would be bacteria. Maybe even slightly more than half.",
+   "scene": {
+    "type": "bacteria",
+    "mode": "both"
+   }
+  },
+  {
+   "text": "For years, people said bacteria outnumber our cells ten to one. When scientists at the Weizmann Institute checked, they found it's much closer to one to one. So when someone says you're not yourself today, technically, they're about half right.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "OLD MYTH: 10 TO 1",
+     "REALITY: ABOUT 1 TO 1"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 100,
+    "y": 430
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number nine.",
+   "scene": {
+    "type": "chapter",
+    "ch": 9,
+    "title": "YOU GLOW IN THE DARK"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "Now back to that glow from the start. In two thousand nine, researchers in Japan put volunteers in a pitch-black room, in front of ultra-sensitive cameras.",
+   "scene": {
+    "type": "glow",
+    "mode": "dark"
+   },
+   "caption": "Now back to that glow from the start. In 2009, researchers in Japan put volunteers in a pitch-black room, in front of ultra-sensitive cameras."
+  },
+  {
+   "text": "And the cameras saw them glowing. Real, visible light, coming from their bodies.",
+   "scene": {
+    "type": "glow",
+    "mode": "reveal"
+   }
+  },
+  {
+   "text": "The glow is about a thousand times weaker than what your eyes can detect. It was brightest around the face. And it changed during the day. Dimmest around ten in the morning, and brightest around four in the afternoon.",
+   "scene": {
+    "type": "glow",
+    "mode": "clock"
+   },
+   "caption": "The glow is about 1,000 times weaker than what your eyes can detect. It was brightest around the face. And it changed during the day. Dimmest around 10 in the morning, and brightest around 4 in the afternoon."
+  },
+  {
+   "text": "And it's not body heat. Scientists think it comes from chemical reactions in your cells, involving molecules called free radicals, that release tiny bits of light.",
+   "scene": {
+    "type": "glow",
+    "mode": "reveal",
+    "label": "NOT HEAT: CHEMISTRY"
+   }
+  },
+  {
+   "text": "So if your eyes were a thousand times more sensitive, you'd see everyone around you softly glowing. Especially in the late afternoon.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "EVERYONE GLOWS.",
+     "WE JUST CAN'T SEE IT."
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 110,
+    "y": 430
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "And number ten. The one I promised.",
+   "scene": {
+    "type": "chapter",
+    "ch": 10,
+    "title": "PART OF YOU IS ANCIENT"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "Count up all the atoms in your body, and most of them are hydrogen. About sixty-three percent.",
+   "scene": {
+    "type": "atoms"
+   },
+   "caption": "Count up all the atoms in your body, and most of them are hydrogen. About 63%."
+  },
+  {
+   "text": "And that hydrogen wasn't made on Earth. It was made shortly after the Big Bang. Before the first stars. Before the first galaxies.",
+   "scene": {
+    "type": "bigbang",
+    "mode": "bang"
+   }
+  },
+  {
+   "text": "The universe is about thirteen point eight billion years old. So the hydrogen atoms inside you are almost that old, too.",
+   "scene": {
+    "type": "counter",
+    "from": 0,
+    "to": 13.8,
+    "fmt": "f1",
+    "suffix": " BILLION YEARS",
+    "label": "HOW OLD YOUR HYDROGEN IS",
+    "size": 160,
+    "secs": 2.5
+   },
+   "caption": "The universe is about 13.8 billion years old. So the hydrogen atoms inside you are almost that old, too."
+  },
+  {
+   "text": "And much of the rest of you, like the carbon and the oxygen, was forged inside stars, long before the Earth even existed. So every glass of water you drink holds hydrogen that's almost as old as time.",
+   "scene": {
+    "type": "bigbang",
+    "mode": "stars"
+   }
+  },
+  {
+   "text": "You might be just a few decades old. But part of you is almost as old as the universe itself.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "PART OF YOU IS",
+     "ALMOST AS OLD AS THE UNIVERSE"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 96,
+    "y": 430
+   },
+   "pause": 0.6
+  },
+  {
+   "text": "Quick recap.",
+   "scene": {
+    "type": "cold",
+    "lines": [
+     "QUICK RECAP"
+    ],
+    "size": 140
+   },
+   "pause": 0.2
+  },
+  {
+   "text": "You shrink every day. You lost almost a hundred bones. Your heart beats a hundred thousand times a day.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "1 · YOU SHRINK EVERY DAY",
+     "2 · ~100 BONES FUSED AWAY",
+     "3 · 100,000 HEARTBEATS A DAY"
+    ],
+    "accent": {
+     "0": 1
+    },
+    "size": 72,
+    "y": 330
+   },
+   "pause": 0.3
+  },
+  {
+   "text": "Your brain is a power hog. Two meters of DNA in every cell. A brand-new gut lining every few days.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "4 · A 20-WATT POWER HOG",
+     "5 · 2 METERS OF DNA PER CELL",
+     "6 · A NEW GUT EVERY FEW DAYS"
+    ],
+    "accent": {
+     "0": 1
+    },
+    "size": 72,
+    "y": 330
+   },
+   "pause": 0.3
+  },
+  {
+   "text": "Billions of new cells a day. You're about half bacteria. You glow. And part of you is nearly as old as the universe.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "7 · 330 BILLION NEW CELLS A DAY",
+     "8 · ABOUT HALF BACTERIA",
+     "9 · YOU GLOW",
+     "10 · 13.8-BILLION-YEAR-OLD ATOMS"
+    ],
+    "accent": {
+     "0": 1
+    },
+    "size": 72,
+    "y": 330
+   },
+   "pause": 0.3
+  },
+  {
+   "text": "So. Which one sounded the most fake to you? Tell me in the comments. And if you want more facts that sound fake, but aren't, subscribe. There's a new deep dive every Tuesday and Friday.",
+   "scene": {
+    "type": "outro",
+    "click_at": 4.0
+   }
+  }
+ ]
+}
