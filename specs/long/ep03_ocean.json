@@ -1,0 +1,701 @@
+{
+ "voice": "am_michael",
+ "speed": 0.93,
+ "lines": [
+  {
+   "text": "Take Mount Everest, the tallest mountain on Earth, and drop it into the deepest part of the ocean. Its peak would still be more than two kilometers underwater.",
+   "scene": {
+    "type": "trench",
+    "mode": "hook",
+    "lines": [
+     "EVEREST WOULD",
+     "VANISH"
+    ]
+   },
+   "caption": "Take Mount Everest, the tallest mountain on Earth, and drop it into the deepest part of the ocean. Its peak would still be more than 2 kilometers underwater."
+  },
+  {
+   "text": "And that's just the start. Before this video ends, you'll meet an animal that can live for centuries. Some of them swimming today may be older than the United States.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "10 DEEP-SEA FACTS",
+     "THAT SOUND FAKE"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 130,
+    "y": 420
+   }
+  },
+  {
+   "text": "Every fact is real, and checked. Sources are in the description. Let's dive in.",
+   "scene": {
+    "type": "cold",
+    "lines": [
+     "ALL REAL.",
+     "ALL CHECKED."
+    ],
+    "sub": "SOURCES IN THE DESCRIPTION",
+    "size": 120
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number one.",
+   "scene": {
+    "type": "chapter",
+    "ch": 1,
+    "title": "WE MAPPED MARS BETTER",
+    "sub": "than our own ocean floor"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "Scientists say we have more detailed maps of the surface of Mars than we do of our own ocean floor. A planet millions of kilometers away.",
+   "scene": {
+    "type": "map",
+    "mode": "mars"
+   }
+  },
+  {
+   "text": "The problem is water. Sunlight can't get through more than the first few hundred feet of seawater, so you can't just photograph the bottom from space.",
+   "scene": {
+    "type": "map",
+    "mode": "light"
+   }
+  },
+  {
+   "text": "Instead, ships have to bounce sound off the seafloor and map it one strip at a time.",
+   "scene": {
+    "type": "map",
+    "mode": "sonar"
+   }
+  },
+  {
+   "text": "As of twenty twenty-five, only about twenty-seven percent of the ocean floor had been mapped to modern standards.",
+   "scene": {
+    "type": "map",
+    "mode": "percent"
+   },
+   "caption": "As of 2025, only about 27% of the ocean floor had been mapped to modern standards."
+  },
+  {
+   "text": "So most of the bottom of our own planet has still never been mapped in detail.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "~73% OF THE SEAFLOOR",
+     "STILL UNMAPPED IN DETAIL"
+    ],
+    "accent": {
+     "0": 1
+    },
+    "size": 100,
+    "y": 430
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number two.",
+   "scene": {
+    "type": "chapter",
+    "ch": 2,
+    "title": "THE MOUNTAIN THAT DISAPPEARS"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "The deepest known spot in the ocean is called Challenger Deep, in the Mariana Trench, in the western Pacific.",
+   "scene": {
+    "type": "trench",
+    "mode": "depth",
+    "label": "CHALLENGER DEEP"
+   }
+  },
+  {
+   "text": "A twenty twenty-one measurement put it at about ten thousand nine hundred meters down. That's almost eleven kilometers.",
+   "scene": {
+    "type": "counter",
+    "from": 0,
+    "to": 10935,
+    "suffix": " m",
+    "label": "DOWN TO CHALLENGER DEEP",
+    "size": 200,
+    "secs": 2.5
+   },
+   "caption": "A 2021 measurement put it at about 10,900 meters down. That's almost 11 kilometers."
+  },
+  {
+   "text": "Mount Everest is about eight thousand eight hundred and forty-eight meters tall. So if you dropped it in, there would be over two kilometers of water above its summit.",
+   "scene": {
+    "type": "trench",
+    "mode": "compare"
+   },
+   "caption": "Mount Everest is about 8,848 meters tall. So if you dropped it in, there would be over 2 kilometers of water above its summit."
+  },
+  {
+   "text": "And the pressure down there is crushing. More than eight tons pushing on every square inch. That's over a thousand times the pressure at the surface.",
+   "scene": {
+    "type": "pressure"
+   },
+   "caption": "And the pressure down there is crushing. More than 8 tons pushing on every square inch. That's over 1,000 times the pressure at the surface."
+  },
+  {
+   "text": "Picture about five cars, stacked on a single postage stamp.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "≈ 5 CARS",
+     "ON A POSTAGE STAMP"
+    ],
+    "accent": {
+     "0": 1
+    },
+    "size": 120,
+    "y": 430
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number three.",
+   "scene": {
+    "type": "chapter",
+    "ch": 3,
+    "title": "THE BIGGEST MIGRATION ON EARTH",
+    "sub": "and it happens every night"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "When you think of huge migrations, you probably picture herds crossing the plains, or birds flying south for the winter.",
+   "scene": {
+    "type": "migrate",
+    "mode": "day"
+   }
+  },
+  {
+   "text": "But the biggest migration on Earth happens in the ocean. Every single night.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "THE BIGGEST MIGRATION ON EARTH",
+     "EVERY. SINGLE. NIGHT."
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 96,
+    "y": 430
+   }
+  },
+  {
+   "text": "As the sun sets, billions and billions of animals, fish, shrimp, squid and jellies, swim up from the dark twilight zone, somewhere between two hundred and a thousand meters down, to feed near the surface.",
+   "scene": {
+    "type": "migrate",
+    "mode": "night"
+   },
+   "caption": "As the sun sets, billions and billions of animals, fish, shrimp, squid and jellies, swim up from the dark twilight zone, somewhere between 200 and 1,000 meters down, to feed near the surface."
+  },
+  {
+   "text": "Then, before the sun comes up, they swim all the way back down into the dark.",
+   "scene": {
+    "type": "migrate",
+    "mode": "dawn"
+   }
+  },
+  {
+   "text": "It's so massive that all that swimming may even help stir the ocean itself.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "BILLIONS OF ANIMALS",
+     "STIRRING THE SEA"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 110,
+    "y": 430
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number four.",
+   "scene": {
+    "type": "chapter",
+    "ch": 4,
+    "title": "THE OCEAN THAT GLOWS"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "Down in the deep, there's no sunlight at all. But it isn't completely dark.",
+   "scene": {
+    "type": "glowers",
+    "mode": "dark"
+   }
+  },
+  {
+   "text": "Scientists in California went through years of video from deep-sea robots, and counted which animals could make their own light.",
+   "scene": {
+    "type": "glowers",
+    "mode": "many"
+   }
+  },
+  {
+   "text": "In the open water, about three out of every four animals they saw could glow. Seventy-six percent. Even on the seafloor, it was almost half.",
+   "scene": {
+    "type": "glowers",
+    "mode": "pct"
+   },
+   "caption": "In the open water, about 3 out of every 4 animals they saw could glow. 76%. Even on the seafloor, it was almost half."
+  },
+  {
+   "text": "So in the deep sea, making your own light isn't rare. It's normal.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "MAKING LIGHT",
+     "ISN'T RARE. IT'S NORMAL."
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 110,
+    "y": 430
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number five.",
+   "scene": {
+    "type": "chapter",
+    "ch": 5,
+    "title": "EYES THE SIZE OF DINNER PLATES"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "The giant squid and its heavier cousin, the colossal squid, have the biggest eyes of any known animal.",
+   "scene": {
+    "type": "eye",
+    "mode": "size",
+    "grow": true
+   }
+  },
+  {
+   "text": "Up to about twenty-seven centimeters across. Roughly the size of a dinner plate, with a pupil about nine centimeters wide. That's three times wider than the eyes of a swordfish, which has the next biggest.",
+   "scene": {
+    "type": "eye",
+    "mode": "size"
+   },
+   "caption": "Up to about 27 centimeters across. Roughly the size of a dinner plate, with a pupil about 9 centimeters wide. That's 3 times wider than the eyes of a swordfish, which has the next biggest."
+  },
+  {
+   "text": "So why so big? Scientists think it's about one enemy. The sperm whale.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "WHY SO BIG?",
+     "ONE ENEMY."
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 120,
+    "y": 430
+   }
+  },
+  {
+   "text": "When a whale swims through the dark, it disturbs tiny glowing creatures, and they light up all around it.",
+   "scene": {
+    "type": "eye",
+    "mode": "whale"
+   }
+  },
+  {
+   "text": "Those huge eyes may let a squid spot that ghostly outline from about a hundred and twenty meters away. Just enough time to escape.",
+   "scene": {
+    "type": "eye",
+    "mode": "whale",
+    "dist": true
+   },
+   "caption": "Those huge eyes may let a squid spot that ghostly outline from about 120 meters away. Just enough time to escape.",
+   "pause": 0.5
+  },
+  {
+   "text": "Number six.",
+   "scene": {
+    "type": "chapter",
+    "ch": 6,
+    "title": "LAKES AT THE BOTTOM OF THE SEA"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "There are lakes at the bottom of the ocean. Underwater lakes, with their own surface and their own shoreline.",
+   "scene": {
+    "type": "brine",
+    "mode": "lake"
+   }
+  },
+  {
+   "text": "They're called brine pools. The water in them is so salty that it's heavier than the seawater around it, so it settles on the seafloor and doesn't mix.",
+   "scene": {
+    "type": "brine",
+    "mode": "sink"
+   }
+  },
+  {
+   "text": "One in the Gulf of Mexico covers about a hundred and twenty-three square kilometers. That's roughly twice the size of Manhattan.",
+   "scene": {
+    "type": "counter",
+    "from": 0,
+    "to": 123,
+    "suffix": " km²",
+    "label": "ONE UNDERWATER LAKE · ~2× MANHATTAN",
+    "size": 200,
+    "secs": 2.0
+   },
+   "caption": "One in the Gulf of Mexico covers about 123 square kilometers. That's roughly twice the size of Manhattan."
+  },
+  {
+   "text": "It's about eight times saltier than normal seawater. And scientists think it's been there for around eight thousand years.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "~8× SALTIER THAN SEAWATER",
+     "~8,000 YEARS OLD"
+    ],
+    "accent": {
+     "0": 1
+    },
+    "size": 100,
+    "y": 430
+   },
+   "caption": "It's about 8 times saltier than normal seawater. And scientists think it's been there for around 8,000 years."
+  },
+  {
+   "text": "For most animals, brine is deadly. In one pool more than a kilometer down, crabs that wander in don't make it out. Its floor is dotted with their shells.",
+   "scene": {
+    "type": "brine",
+    "mode": "deadly"
+   }
+  },
+  {
+   "text": "And yet, mussels crowd along the shoreline, living off methane that seeps up from below.",
+   "scene": {
+    "type": "brine",
+    "mode": "mussels"
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number seven.",
+   "scene": {
+    "type": "chapter",
+    "ch": 7,
+    "title": "WATER THAT WON'T BOIL"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "In some places, seawater seeps down through cracks in the ocean floor, gets heated by magma, and then shoots back out of openings called hydrothermal vents.",
+   "scene": {
+    "type": "vent",
+    "mode": "chimney"
+   }
+  },
+  {
+   "text": "That water can be hotter than four hundred degrees Celsius. Hot enough to melt lead.",
+   "scene": {
+    "type": "vent",
+    "mode": "thermo"
+   },
+   "caption": "That water can be hotter than 400 degrees Celsius. Hot enough to melt lead."
+  },
+  {
+   "text": "On land, water boils at a hundred degrees. So why doesn't this water boil? Because of the crushing pressure. All that ocean pressing down keeps it liquid.",
+   "scene": {
+    "type": "vent",
+    "mode": "pressure"
+   },
+   "caption": "On land, water boils at 100 degrees. So why doesn't this water boil? Because of the crushing pressure. All that ocean pressing down keeps it liquid."
+  },
+  {
+   "text": "Meanwhile, the deep water all around it is only about two degrees.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "400°C NEXT TO 2°C",
+     "AND IT DOESN'T BOIL"
+    ],
+    "accent": {
+     "0": 1
+    },
+    "size": 110,
+    "y": 430
+   },
+   "caption": "Meanwhile, the deep water all around it is only about 2 degrees.",
+   "pause": 0.5
+  },
+  {
+   "text": "Number eight.",
+   "scene": {
+    "type": "chapter",
+    "ch": 8,
+    "title": "LIFE WITHOUT THE SUN"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "In nineteen seventy-seven, scientists in a small submarine dove about two and a half kilometers down near the Galápagos Islands, to one of these vents.",
+   "scene": {
+    "type": "vent",
+    "mode": "sub"
+   },
+   "caption": "In 1977, scientists in a small submarine dove about 2.5 kilometers down near the Galápagos Islands, to one of these vents."
+  },
+  {
+   "text": "In total darkness, they found an oasis of life. Including giant tube worms, more than two meters long, with bright red plumes. The crew nicknamed the place the Garden of Eden.",
+   "scene": {
+    "type": "worm",
+    "mode": "scale"
+   },
+   "caption": "In total darkness, they found an oasis of life. Including giant tube worms, more than 2 meters long, with bright red plumes. The crew nicknamed the place the Garden of Eden."
+  },
+  {
+   "text": "And here's the twist. These worms have no mouth, and no stomach.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "NO MOUTH.",
+     "NO STOMACH."
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 130,
+    "y": 430
+   }
+  },
+  {
+   "text": "Instead, bacteria living inside them turn chemicals from the vent water into food. No sunlight needed.",
+   "scene": {
+    "type": "worm",
+    "mode": "inside"
+   }
+  },
+  {
+   "text": "It showed that whole communities of life can run on chemical energy, instead of sunlight.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "LIFE THAT RUNS",
+     "ON CHEMISTRY"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 120,
+    "y": 430
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number nine.",
+   "scene": {
+    "type": "chapter",
+    "ch": 9,
+    "title": "A FEAST THAT LASTS DECADES"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "When a whale dies, its body can sink all the way to the deep seafloor. Scientists call it a whale fall.",
+   "scene": {
+    "type": "whale",
+    "mode": "fall"
+   }
+  },
+  {
+   "text": "Down where food is scarce, it's a giant feast. Sharks, hagfish and crabs arrive first, and strip the flesh away.",
+   "scene": {
+    "type": "whale",
+    "mode": "feast"
+   }
+  },
+  {
+   "text": "Then come the strangest guests. Bone-eating worms, nicknamed zombie worms. They have no eyes, no mouths, and no stomachs. They grow root-like tendrils into the bones, and bacteria help them feed.",
+   "scene": {
+    "type": "whale",
+    "mode": "worms"
+   }
+  },
+  {
+   "text": "And when scientists first collected them, every single worm seemed to be female. The tiny males turned out to be living inside the females.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "THE MALES?",
+     "LIVING INSIDE THE FEMALES"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 110,
+    "y": 430
+   }
+  },
+  {
+   "text": "At least a hundred known species can live on a whale fall. And in some places, one skeleton may keep feeding life for fifty to a hundred years.",
+   "scene": {
+    "type": "whale",
+    "mode": "years"
+   },
+   "caption": "At least 100 known species can live on a whale fall. And in some places, one skeleton may keep feeding life for 50 to 100 years.",
+   "pause": 0.5
+  },
+  {
+   "text": "And number ten.",
+   "scene": {
+    "type": "chapter",
+    "ch": 10,
+    "title": "THE SHARK OLDER THAN COUNTRIES"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "In the cold, dark waters of the North Atlantic and the Arctic lives the Greenland shark. It grows only about one centimeter a year.",
+   "scene": {
+    "type": "shark",
+    "mode": "swim"
+   },
+   "caption": "In the cold, dark waters of the North Atlantic and the Arctic lives the Greenland shark. It grows only about 1 centimeter a year."
+  },
+  {
+   "text": "Its skeleton is soft cartilage, so scientists couldn't count growth rings like in other fish. Instead, they carbon-dated the very center of its eye lens, which forms when the shark is still a baby.",
+   "scene": {
+    "type": "shark",
+    "mode": "lens"
+   }
+  },
+  {
+   "text": "As a time marker, they used a spike of radiocarbon that nuclear bomb tests left in the ocean in the nineteen fifties.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "TIME MARKER:",
+     "1950s BOMB-TEST CARBON"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 110,
+    "y": 430
+   },
+   "caption": "As a time marker, they used a spike of radiocarbon that nuclear bomb tests left in the ocean in the 1950s."
+  },
+  {
+   "text": "In twenty sixteen, they published the results. The oldest shark in the study was about three hundred and ninety-two years old. Give or take a hundred and twenty.",
+   "scene": {
+    "type": "counter",
+    "from": 0,
+    "to": 392,
+    "suffix": " YEARS",
+    "label": "± 120 YEARS · THE OLDEST SHARK IN THE STUDY",
+    "size": 200,
+    "secs": 3.0
+   },
+   "caption": "In 2016, they published the results. The oldest shark in the study was about 392 years old. Give or take 120."
+  },
+  {
+   "text": "That makes it the longest-living animal with a backbone known to science. Females may not even have babies until they're about a hundred and fifty.",
+   "scene": {
+    "type": "shark",
+    "mode": "timeline"
+   },
+   "caption": "That makes it the longest-living animal with a backbone known to science. Females may not even have babies until they're about 150."
+  },
+  {
+   "text": "Which means some of the sharks gliding through the deep right now may be older than the United States. Still out there. Still swimming. Very, very slowly.",
+   "scene": {
+    "type": "shark",
+    "mode": "final"
+   },
+   "pause": 0.6
+  },
+  {
+   "text": "Quick recap.",
+   "scene": {
+    "type": "cold",
+    "lines": [
+     "QUICK RECAP"
+    ],
+    "size": 140
+   },
+   "pause": 0.2
+  },
+  {
+   "text": "We mapped Mars better than our seafloor. Everest would vanish in the trench. The biggest migration happens every night.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "1 · MARS IS BETTER MAPPED",
+     "2 · EVEREST WOULD VANISH",
+     "3 · A NIGHTLY MEGA-MIGRATION"
+    ],
+    "accent": {
+     "0": 1
+    },
+    "size": 72,
+    "y": 330
+   },
+   "pause": 0.3
+  },
+  {
+   "text": "Most deep animals glow. Squid eyes the size of plates. Lakes under the sea. Water that won't boil.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "4 · 76% CAN GLOW",
+     "5 · DINNER-PLATE EYES",
+     "6 · LAKES UNDER THE SEA",
+     "7 · 400°C WATER, NO BOILING"
+    ],
+    "accent": {
+     "0": 1
+    },
+    "size": 72,
+    "y": 300
+   },
+   "pause": 0.3
+  },
+  {
+   "text": "Worms with no mouths. Whale feasts that last decades. And a shark that can live for centuries.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "8 · WORMS WITH NO MOUTH",
+     "9 · DECADES-LONG WHALE FEASTS",
+     "10 · THE ~400-YEAR-OLD SHARK"
+    ],
+    "accent": {
+     "0": 1
+    },
+    "size": 72,
+    "y": 330
+   },
+   "pause": 0.3
+  },
+  {
+   "text": "So. Which one sounded the most fake to you? Tell me in the comments. And if you want more facts that sound fake, but aren't, subscribe. There's a new deep dive every Tuesday and Friday.",
+   "scene": {
+    "type": "outro",
+    "click_at": 4.0
+   }
+  }
+ ]
+}
