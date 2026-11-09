@@ -36,9 +36,15 @@
       "ep": 3,
       "date": "2026-11-10",
       "topic": "The deep ocean",
-      "title": "10 Deep-Sea Facts That Sound Fake",
+      "title": "Everest Would Vanish Down Here: 10 Deep-Sea Facts That Sound Fake",
       "fact_ideas": "Ideas: we've mapped Mars better than our seafloor (verify current %); Mariana Trench depth vs Everest; whale fall ecosystems; giant squid eye size; vampire squid; underwater lakes/brine pools; hydrothermal vents life without sunlight; bioluminescence share of deep-sea animals; Greenland shark age 270–500 yrs; ocean produces ~half of Earth's oxygen.",
-      "status": "planned"
+      "status": "scheduled",
+      "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/ep03.mp4",
+      "thumb_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/thumbs/ep03.jpg",
+      "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7729832&openWithPostUuid=-16547037232020303",
+      "spec": "specs/long/ep03_ocean.json",
+      "engine": "engine/long/ep03_ocean.py",
+      "duration": "8:36"
     },
     {
       "ep": 4,
