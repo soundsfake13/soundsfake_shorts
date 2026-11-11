@@ -1,0 +1,8 @@
+{"voice":"am_michael","speed":1.1,"lines":[
+ {"text":"Sloths can hold their breath for forty minutes.","caption":"Sloths can hold their breath for 40 minutes.","pause":0.12,"scene":{"type":"hook"}},
+ {"text":"And that's not even the weird part.","pause":0.15,"scene":{"type":"hook","loop":true}},
+ {"text":"Underwater, they slow their heart to less than a third of its normal rate.","scene":{"type":"heart"}},
+ {"text":"And in water, these famous slowpokes swim three times faster than they move on land.","scene":{"type":"swim"}},
+ {"text":"Their fur is a tiny jungle, with green algae growing in it, and moths living inside.","scene":{"type":"fur"}},
+ {"text":"And the weird part? They climb down only about once a week, to poop. And it can weigh up to a third of their body weight.","pause":0.2,"scene":{"type":"poop"}},
+ {"text":"Sounds fake? It's true.","pause":0.1,"scene":{"type":"end","click_at":0.45}}]}
