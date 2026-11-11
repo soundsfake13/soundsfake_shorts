@@ -1,0 +1,8 @@
+{"voice":"am_michael","speed":1.08,"lines":[
+ {"text":"The Eiffel Tower gets taller every summer.","pause":0.12,"scene":{"type":"hook"}},
+ {"text":"And that's not even the strangest part.","pause":0.15,"scene":{"type":"hook","loop":true}},
+ {"text":"It's built from about seven thousand three hundred tonnes of iron.","caption":"It's built from about 7,300 tonnes of iron.","scene":{"type":"iron"}},
+ {"text":"And iron grows when it gets hot.","scene":{"type":"expand"}},
+ {"text":"From the coldest winter day to the hottest summer day, the tower can grow up to fifteen centimeters.","caption":"From the coldest winter day to the hottest summer day, the tower can grow up to 15 centimeters.","scene":{"type":"grow"}},
+ {"text":"And the strangest part? On sunny days, the sunny side expands more, so the whole tower leans slightly away from the sun.","pause":0.2,"scene":{"type":"tilt"}},
+ {"text":"Sounds fake? It's true. Follow for more.","pause":0.1,"scene":{"type":"end","click_at":0.45}}]}
