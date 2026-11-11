@@ -17,7 +17,7 @@ Open `plan.json`. Take the entry whose `date` is **tomorrow** (Yerevan time) **a
 - If it is `planned` (or `failed`), make it.
 If no entry has tomorrow's date, report "plan finished" and stop.
 
-Before doing anything else, call Metricool `getScheduledPosts` (brand `7729832`, timezone `Asia/Yerevan`)
+Before doing anything else, call Metricool `getScheduledPosts` (brand = the Metricool brand whose YouTube channel is `UCY3XcG3zirCDIaz84RZUVeQ` — find its id with `getBrandSettings` first (do NOT hard-code an old id; the account may change), timezone `Asia/Yerevan`)
 for that date. If a YouTube post is already scheduled **at your slot's time** that day, mark the entry `scheduled` and
 stop — never double-post. (The other slot's post the same day is expected; ignore it.)
 
@@ -165,7 +165,7 @@ Videos are stored as normal files in `videos/` (GitHub release uploads are block
 (most styles are 2–6 MB; ink ~20 MB).
 
 ## 6. Schedule on YouTube via Metricool
-`createScheduledPost` with `blogId` `7729832`, `date` `YYYY-MM-DDT<slot>:00+04:00` (slot = 19:00 or 23:00) and `info`:
+`createScheduledPost` with `blogId` = that brand id, `date` `YYYY-MM-DDT<slot>:00+04:00` (slot = 19:00 or 23:00) and `info`:
 ```json
 {
   "autoPublish": true, "draft": false, "descendants": [], "firstCommentText": "<comment question, e.g. Did you know this? 👇>",

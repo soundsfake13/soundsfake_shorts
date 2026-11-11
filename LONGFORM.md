@@ -50,7 +50,7 @@ See `engine/long/thumb_ep01.py`. Never put text over the bottom-right corner (Yo
 bash scripts/publish_video.sh epNN out/epNN.mp4 "<title>"     # -> raw URL of videos/epNN.mp4
 git add -f thumbs/epNN.jpg && git commit -m "Thumbnail epNN" && git push   # raw URL of the thumbnail
 ```
-Metricool `createScheduledPost`, `blogId` 7729832, date `YYYY-MM-DDT21:00:00+04:00`, info:
+Metricool `createScheduledPost`, `blogId` = the Metricool brand whose YouTube channel is `UCY3XcG3zirCDIaz84RZUVeQ` — find its id with `getBrandSettings` first (do NOT hard-code an old id; the account may change), date `YYYY-MM-DDT21:00:00+04:00`, info:
 `providers` [{"network":"youtube"}], `media` [video URL], `videoThumbnailUrl` = thumbnail URL (if Metricool rejects it
 with VIDEO_THUMBNAIL_NOT_APPLICABLE, resend without it and tell the user), `firstCommentText` = a question,
 `youtubeData`: {"title": "<≤ 70 chars, curiosity first>", "type": "video", "privacy": "public",
