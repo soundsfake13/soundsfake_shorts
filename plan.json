@@ -217,10 +217,14 @@
       "topic": "The Eiffel Tower grows in summer",
       "hook": "The Eiffel Tower gets taller every summer.",
       "facts": "Thermal expansion of iron: the tower can grow up to ~15 cm in heat and shrink in cold; it also tilts slightly away from the sun.",
-      "status": "planned",
+      "status": "scheduled",
       "style": "blueprint",
       "style_idea": "Engineering blueprint: cyan grid, white line drawing of a lattice iron tower drawn stroke by stroke, dimension arrows, thermal expansion annotations. Ref: 'Turbofan jet engine opens into a 3D cutaway'.",
-      "time": "19:00"
+      "time": "19:00",
+      "title": "The Eiffel Tower Gets TALLER Every Summer 🗼 #shorts",
+      "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/day15.mp4",
+      "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7729832&openWithPostUuid=2131994069923744223",
+      "spec": "specs/day15_eiffel.json"
     },
     {
       "day": 16,

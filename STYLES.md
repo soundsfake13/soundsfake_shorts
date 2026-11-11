@@ -26,6 +26,7 @@ reference that best fits the topic; the plan's `style_idea` is the starting brie
 | 38 (23:00) | museum-scale | `day38_museum.py` | Natural-history museum infographic |
 | 39 (23:00) | noir | `day39_noir.py` | Film noir detective |
 | 33 (23:00) | ice-crystal | `day33_ice.py` | Frost dendrites / winter glass |
+| 15 (19:00) | blueprint | `engine/styles/day15_blueprint.py` | Cyanotype engineering drawing: Prussian-blue mottled paper + grid, white glowing lattice tower drawn stroke by stroke, dimension arrows, condensed technical titles + mono annotations, orange heat accents, knife-switch FAKE → TRUE (brief: 'Turbofan jet engine opens into a 3D cutaway'; claudevideo.org not reachable this run) |
 | — | ink (unused so far) | `engine/ink_short.py` | Grainy silhouettes and ink-blot type form a title card |
 | 32 (23:00) | pointillism | `engine/styles/day32_pointillism.py` | Seurat-like dots morphing galaxy ↔ forest; hook claim on a navy plate at frame 0 (first video to the hook rules) |
 | 31 (23:00) | honeycomb | `engine/styles/day31_honeycomb.py` | Golden honeycomb macro: cells filling with amber, drips, serif type on wax labels (own idea) |
