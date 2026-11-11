@@ -1,0 +1,9 @@
+{"voice":"am_michael","speed":1.1,"lines":[
+ {"text":"Hawaii is sliding toward Japan. Right now.","pause":0.12,"scene":{"type":"hook"}},
+ {"text":"And scientists have worked out when it would arrive.","pause":0.15,"scene":{"type":"hook","loop":true}},
+ {"text":"The islands ride on the Pacific Plate, a giant slab of Earth's outer shell.","scene":{"type":"plate"}},
+ {"text":"It creeps northwest, about seven to ten centimeters every year.","caption":"It creeps northwest, about 7 to 10 centimeters every year.","scene":{"type":"speed"}},
+ {"text":"That's roughly the length of your finger.","scene":{"type":"finger"}},
+ {"text":"Japan is about six thousand three hundred kilometers away.","caption":"Japan is about 6,300 kilometers away.","scene":{"type":"distance"}},
+ {"text":"At that pace, the Big Island would reach Japan in about sixty-three million years. If the plate never changes course.","caption":"At that pace, the Big Island would reach Japan in about 63 million years. If the plate never changes course.","pause":0.2,"scene":{"type":"eta"}},
+ {"text":"Sounds fake? It's true. Follow for more.","pause":0.1,"scene":{"type":"end","click_at":0.45}}]}
