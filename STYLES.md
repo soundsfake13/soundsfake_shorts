@@ -32,6 +32,7 @@ reference that best fits the topic; the plan's `style_idea` is the starting brie
 | 32 (23:00) | pointillism | `engine/styles/day32_pointillism.py` | Seurat-like dots morphing galaxy ↔ forest; hook claim on a navy plate at frame 0 (first video to the hook rules) |
 | 31 (23:00) | honeycomb | `engine/styles/day31_honeycomb.py` | Golden honeycomb macro: cells filling with amber, drips, serif type on wax labels (own idea) |
 | 40 (23:00) | topo-map | `engine/styles/day40_topo.py` | Living vintage survey chart: procedural sea floor as stepped hypsometric tints + anti-aliased contour lines, hill-shading, segmented neatline, spaced italic place names (Cormorant), Josefin Sans cartouches, DM Mono legend + scale bars, marching red track arrows, compass-rose FAKE → TRUE (north) ending; marimba + sonar pings (own idea; claudevideo.org not reachable this run) |
+| 16 (19:00) | retro-ad | `engine/styles/day16_retroad.py` | 1960s magazine sunscreen ad: cream coated paper, rotating mustard sunburst disc, flat mid-century hippo with glossy red-orange sheen, Alfa Slab headlines with misregistered offset shadows, Pacifico script taglines, NEW!/BUT WAIT! starbursts, dashed coupons, paint-chip swatches, generic lotion tube, appliance-dial FAKE → TRUE; bossa vibraphone jingle (brief: 'Motion promo for a game-asset generator'; claudevideo.org not reachable this run) |
 
 ## Toolkit for building a new style
 - `engine/core.py` — narration + word timings (`narrate`), audio mix with ducking (`write_audio`), `tone`/`place` for

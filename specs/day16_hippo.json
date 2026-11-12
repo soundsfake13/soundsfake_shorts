@@ -1,0 +1,9 @@
+{"voice":"am_michael","speed":1.08,"lines":[
+ {"text":"Hippos sweat red. And it's sunscreen.","pause":0.12,"scene":{"type":"hook"}},
+ {"text":"And that's not even the best part.","pause":0.15,"scene":{"type":"hook","loop":true}},
+ {"text":"It's not blood. And it's not really sweat, either.","scene":{"type":"notit"}},
+ {"text":"It oozes out clear, then turns red-orange within minutes.","scene":{"type":"color"}},
+ {"text":"Its two pigments, one red and one orange, soak up ultraviolet light.","scene":{"type":"rays"}},
+ {"text":"And the red one even stops some germs from growing.","scene":{"type":"germs"}},
+ {"text":"Sunscreen and germ fighter, made by the hippo itself.","pause":0.2,"scene":{"type":"product"}},
+ {"text":"Sounds fake? It's true. Follow for more.","pause":0.1,"scene":{"type":"end","click_at":0.45}}]}
