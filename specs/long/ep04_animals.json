@@ -1,0 +1,666 @@
+{
+ "voice": "am_michael",
+ "speed": 0.93,
+ "lines": [
+  {
+   "text": "There's a frog that freezes solid every winter. Its heart stops beating. It stops breathing. And when spring comes, it thaws out, and hops away.",
+   "scene": {
+    "type": "frog",
+    "mode": "hook",
+    "lines": [
+     "THIS FROG",
+     "FREEZES SOLID"
+    ]
+   }
+  },
+  {
+   "text": "And that's not even the strangest one. Before this video ends, you'll meet an animal that can turn back its own clock, and start its life over.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "10 ANIMAL SUPERPOWERS",
+     "THAT SOUND FAKE"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 120,
+    "y": 420
+   }
+  },
+  {
+   "text": "Every fact is real, and checked. Sources are in the description. Let's go.",
+   "scene": {
+    "type": "cold",
+    "lines": [
+     "ALL REAL.",
+     "ALL CHECKED."
+    ],
+    "sub": "SOURCES IN THE DESCRIPTION",
+    "size": 120
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number one.",
+   "scene": {
+    "type": "chapter",
+    "ch": 1,
+    "title": "THE LIVING MISSILE",
+    "sub": "the fastest animal on Earth"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "The fastest animal on Earth isn't the cheetah. It's a bird. The peregrine falcon.",
+   "scene": {
+    "type": "falcon",
+    "mode": "perch"
+   }
+  },
+  {
+   "text": "When it spots prey far below, it tucks in its wings and dives. Scientists estimate it can reach about three hundred and twenty kilometers an hour. Around two hundred miles an hour.",
+   "scene": {
+    "type": "falcon",
+    "mode": "dive"
+   },
+   "caption": "When it spots prey far below, it tucks in its wings and dives. Scientists estimate it can reach about 320 kilometers an hour. Around 200 miles an hour."
+  },
+  {
+   "text": "For comparison, in normal flight it cruises at around forty to fifty-five kilometers an hour. The dive is where it turns into a missile.",
+   "scene": {
+    "type": "falcon",
+    "mode": "cruise"
+   },
+   "caption": "For comparison, in normal flight it cruises at around 40 to 55 kilometers an hour. The dive is where it turns into a missile."
+  },
+  {
+   "text": "And in one famous experiment in nineteen ninety-nine, a trained falcon diving from a plane was reportedly clocked at three hundred and eighty-nine kilometers an hour.",
+   "scene": {
+    "type": "counter",
+    "from": 0,
+    "to": 389,
+    "suffix": " km/h",
+    "label": "ONE TRAINED FALCON · 1999 EXPERIMENT",
+    "size": 210,
+    "secs": 2.5
+   },
+   "caption": "And in one famous experiment in 1999, a trained falcon diving from a plane was reportedly clocked at 389 kilometers an hour."
+  },
+  {
+   "text": "That's nearly four times faster than a car on the highway. Powered by nothing but gravity, and feathers.",
+   "scene": {
+    "type": "falcon",
+    "mode": "compare"
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number two.",
+   "scene": {
+    "type": "chapter",
+    "ch": 2,
+    "title": "IT THINKS WITH ITS ARMS"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "An octopus has around five hundred million neurons. That's roughly as many as a dog.",
+   "scene": {
+    "type": "octo",
+    "mode": "neurons"
+   },
+   "caption": "An octopus has around 500 million neurons. That's roughly as many as a dog."
+  },
+  {
+   "text": "But here's the twist. About two thirds of those neurons aren't in its head. They're in its arms.",
+   "scene": {
+    "type": "octo",
+    "mode": "split"
+   }
+  },
+  {
+   "text": "Each arm carries roughly forty million neurons of its own, and can run a lot of its own movements with local reflexes.",
+   "scene": {
+    "type": "counter",
+    "from": 0,
+    "to": 40,
+    "suffix": " MILLION",
+    "label": "NEURONS IN EACH ARM",
+    "size": 190,
+    "secs": 2.0
+   },
+   "caption": "Each arm carries roughly 40 million neurons of its own, and can run a lot of its own movements with local reflexes."
+  },
+  {
+   "text": "The central brain still does the learning, then shares what it learned with every arm.",
+   "scene": {
+    "type": "octo",
+    "mode": "share"
+   }
+  },
+  {
+   "text": "So in a way, an octopus is a bit like an animal with nine control centers. One in the middle, and one in every arm.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "9 CONTROL CENTERS",
+     "1 BRAIN + 8 SMART ARMS"
+    ],
+    "accent": {
+     "0": 1
+    },
+    "size": 110,
+    "y": 430
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number three.",
+   "scene": {
+    "type": "chapter",
+    "ch": 3,
+    "title": "IT STEERS BY THE GALAXY"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "Dung beetles roll balls of dung away from the pile, as straight and as fast as they can, so rival beetles can't steal them.",
+   "scene": {
+    "type": "beetle",
+    "mode": "roll"
+   }
+  },
+  {
+   "text": "But they manage it even on dark, moonless nights. So scientists took the beetles into a planetarium.",
+   "scene": {
+    "type": "beetle",
+    "mode": "dome"
+   }
+  },
+  {
+   "text": "When the dome showed only the faint glowing band of the Milky Way, the beetles still rolled out in straight lines.",
+   "scene": {
+    "type": "beetle",
+    "mode": "milky"
+   }
+  },
+  {
+   "text": "Adding thousands of extra stars made no difference. Taking the Milky Way away did. It was the glow of the galaxy that mattered.",
+   "scene": {
+    "type": "beetle",
+    "mode": "nomilky"
+   }
+  },
+  {
+   "text": "But when scientists fitted them with tiny caps that blocked their view of the sky, they wandered around aimlessly.",
+   "scene": {
+    "type": "beetle",
+    "mode": "cap"
+   }
+  },
+  {
+   "text": "It may be the first animal ever shown to find its way using the Milky Way. A bug, steering by our galaxy.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "A BUG THAT NAVIGATES",
+     "BY THE MILKY WAY"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 110,
+    "y": 430
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number four.",
+   "scene": {
+    "type": "chapter",
+    "ch": 4,
+    "title": "A FISH WITH A POWER PLANT"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "In twenty nineteen, scientists described a new species of electric eel from the Amazon. They named it Electrophorus voltai.",
+   "scene": {
+    "type": "eel",
+    "mode": "swim"
+   },
+   "caption": "In 2019, scientists described a new species of electric eel from the Amazon. They named it Electrophorus voltai."
+  },
+  {
+   "text": "It can discharge up to eight hundred and sixty volts. The most electricity of any animal known.",
+   "scene": {
+    "type": "counter",
+    "from": 0,
+    "to": 860,
+    "suffix": " V",
+    "label": "THE HIGHEST VOLTAGE OF ANY KNOWN ANIMAL",
+    "size": 230,
+    "secs": 2.2
+   },
+   "caption": "It can discharge up to 860 volts. The most electricity of any animal known."
+  },
+  {
+   "text": "The old record holder, the electric eel scientists had known about for some two hundred and fifty years, tops out at around six hundred and fifty volts.",
+   "scene": {
+    "type": "eel",
+    "mode": "bars"
+   },
+   "caption": "The old record holder, the electric eel scientists had known about for some 250 years, tops out at around 650 volts."
+  },
+  {
+   "text": "A standard wall outlet in the United States runs at about one hundred and twenty volts. So this fish packs about seven times that.",
+   "scene": {
+    "type": "eel",
+    "mode": "compare"
+   },
+   "caption": "A standard wall outlet in the United States runs at about 120 volts. So this fish packs about 7 times that."
+  },
+  {
+   "text": "And it's huge. It can grow to over two meters long. Basically, a living battery the length of a sofa.",
+   "scene": {
+    "type": "eel",
+    "mode": "zap"
+   },
+   "caption": "And it's huge. It can grow to over 2 meters long. Basically, a living battery the length of a sofa.",
+   "pause": 0.5
+  },
+  {
+   "text": "Number five.",
+   "scene": {
+    "type": "chapter",
+    "ch": 5,
+    "title": "IT REGROWS WHAT IT LOSES"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "Meet the axolotl. A smiling salamander from Mexico, with feathery gills on the sides of its head.",
+   "scene": {
+    "type": "axo",
+    "mode": "hello"
+   }
+  },
+  {
+   "text": "If it loses a leg, it simply grows a brand new one. The exact missing limb, in the right place. And it can do this again and again.",
+   "scene": {
+    "type": "axo",
+    "mode": "regrow"
+   }
+  },
+  {
+   "text": "When it's finished, you can't even tell where the leg was lost.",
+   "scene": {
+    "type": "axo",
+    "mode": "done"
+   }
+  },
+  {
+   "text": "And it's not just legs. Axolotls can regenerate parts of the spinal cord, pieces of the heart, and even parts of the brain.",
+   "scene": {
+    "type": "axo",
+    "mode": "parts"
+   }
+  },
+  {
+   "text": "That's why scientists around the world study them, hoping to one day help humans heal the same way.",
+   "scene": {
+    "type": "axo",
+    "mode": "lab"
+   }
+  },
+  {
+   "text": "If you cut your finger, you get a scar. An axolotl would just grow the whole thing back.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "YOU: A SCAR",
+     "AXOLOTL: A NEW LEG"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 120,
+    "y": 430
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number six.",
+   "scene": {
+    "type": "chapter",
+    "ch": 6,
+    "title": "THE BOILING CANNON"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "The bombardier beetle has a chemical weapon built into the back of its body.",
+   "scene": {
+    "type": "bomb",
+    "mode": "intro"
+   }
+  },
+  {
+   "text": "Inside, there are two chambers. One stores fuel chemicals. The other holds enzymes that set them off. When the beetle is attacked, it opens a valve and mixes them.",
+   "scene": {
+    "type": "bomb",
+    "mode": "chambers"
+   }
+  },
+  {
+   "text": "The reaction heats the liquid to around one hundred degrees Celsius. The boiling point of water. And it blasts that spray at the attacker.",
+   "scene": {
+    "type": "bomb",
+    "mode": "spray"
+   },
+   "caption": "The reaction heats the liquid to around 100 degrees Celsius. The boiling point of water. And it blasts that spray at the attacker."
+  },
+  {
+   "text": "It doesn't fire just once, either. Each blast snaps the valve shut, then it reopens. Hundreds of tiny explosions, every second.",
+   "scene": {
+    "type": "counter",
+    "from": 0,
+    "to": 500,
+    "prefix": "UP TO ~",
+    "suffix": "",
+    "label": "EXPLOSIONS PER SECOND",
+    "size": 190,
+    "secs": 2.0
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number seven.",
+   "scene": {
+    "type": "chapter",
+    "ch": 7,
+    "title": "THE PUNCH THAT HITS TWICE"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "The mantis shrimp hunts with a pair of folded, club-like arms, and it uses them to smash open snail shells.",
+   "scene": {
+    "type": "mantis",
+    "mode": "intro"
+   }
+  },
+  {
+   "text": "When scientists filmed it with high-speed cameras, the club was moving at around eighty kilometers an hour, with an acceleration of thousands of times the force of gravity.",
+   "scene": {
+    "type": "mantis",
+    "mode": "strike"
+   },
+   "caption": "When scientists filmed it with high-speed cameras, the club was moving at around 80 kilometers an hour, with an acceleration of thousands of times the force of gravity."
+  },
+  {
+   "text": "It's so fast that it tears the water open, and creates a bubble.",
+   "scene": {
+    "type": "mantis",
+    "mode": "bubble"
+   }
+  },
+  {
+   "text": "When that bubble collapses, it releases a burst of heat, sound, and even a tiny flash of light.",
+   "scene": {
+    "type": "mantis",
+    "mode": "flash"
+   }
+  },
+  {
+   "text": "So every punch actually hits twice. Once with the club, and once with the shockwave of the collapsing bubble.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "EVERY PUNCH",
+     "HITS TWICE"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 140,
+    "y": 430
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number eight.",
+   "scene": {
+    "type": "chapter",
+    "ch": 8,
+    "title": "THE FROG THAT FREEZES"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "Remember that frog from the beginning? It's the wood frog, and it lives as far north as Alaska.",
+   "scene": {
+    "type": "frog",
+    "mode": "meet"
+   }
+  },
+  {
+   "text": "In winter, up to about sixty percent of its body freezes solid.",
+   "scene": {
+    "type": "frog",
+    "mode": "ice"
+   },
+   "caption": "In winter, up to about 60% of its body freezes solid."
+  },
+  {
+   "text": "Its heart stops. Its brain stops. It stops breathing. By any normal measure, it looks dead.",
+   "scene": {
+    "type": "frog",
+    "mode": "flat"
+   }
+  },
+  {
+   "text": "Its secret is sugar. Its liver floods its body with glucose, which works like antifreeze inside its cells. It can survive down to around minus sixteen degrees Celsius.",
+   "scene": {
+    "type": "frog",
+    "mode": "sugar"
+   },
+   "caption": "Its secret is sugar. Its liver floods its body with glucose, which works like antifreeze inside its cells. It can survive down to around −16 degrees Celsius."
+  },
+  {
+   "text": "Then in spring, it thaws out, its heart starts beating again, and it hops off to find a mate.",
+   "scene": {
+    "type": "frog",
+    "mode": "thaw"
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number nine.",
+   "scene": {
+    "type": "chapter",
+    "ch": 9,
+    "title": "THEY SURVIVED OPEN SPACE"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "Tardigrades, also called water bears, are tiny eight-legged animals, usually no bigger than one millimeter.",
+   "scene": {
+    "type": "tard",
+    "mode": "hello"
+   },
+   "caption": "Tardigrades, also called water bears, are tiny eight-legged animals, usually no bigger than 1 millimeter."
+  },
+  {
+   "text": "When they dry out, they curl up into a little ball called a tun, and their bodies almost completely shut down.",
+   "scene": {
+    "type": "tard",
+    "mode": "tun"
+   }
+  },
+  {
+   "text": "In twenty oh seven, scientists put dried tardigrades on a European spacecraft and exposed them directly to space for ten days, about two hundred and seventy kilometers above Earth. No spacesuit. No shield.",
+   "scene": {
+    "type": "tard",
+    "mode": "orbit"
+   },
+   "caption": "In 2007, scientists put dried tardigrades on a European spacecraft and exposed them directly to space for 10 days, about 270 kilometers above Earth. No spacesuit. No shield."
+  },
+  {
+   "text": "The vacuum. The cold. Cosmic radiation. And when they got home, most of them survived. Some even survived the Sun's brutal ultraviolet light.",
+   "scene": {
+    "type": "tard",
+    "mode": "survive"
+   }
+  },
+  {
+   "text": "They became the first animals known to survive the vacuum of space. And afterwards, they laid eggs that hatched.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "FIRST ANIMALS TO SURVIVE",
+     "THE VACUUM OF SPACE"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 100,
+    "y": 430
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "And number ten. The one I promised.",
+   "scene": {
+    "type": "chapter",
+    "ch": 10,
+    "title": "THE JELLYFISH THAT AGES BACKWARDS"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "This is Turritopsis dohrnii. A jellyfish about four and a half millimeters across. Smaller than your little fingernail.",
+   "scene": {
+    "type": "jelly",
+    "mode": "size"
+   },
+   "caption": "This is Turritopsis dohrnii. A jellyfish about 4.5 millimeters across. Smaller than your little fingernail."
+  },
+  {
+   "text": "Normally, a jellyfish starts life as a tiny polyp, grows into a swimming adult, reproduces, and dies.",
+   "scene": {
+    "type": "jelly",
+    "mode": "cycle"
+   }
+  },
+  {
+   "text": "But when this one is injured, starving, or stressed, it does something that sounds impossible. It shrinks into a little blob, and turns back into a polyp. Its baby stage.",
+   "scene": {
+    "type": "jelly",
+    "mode": "rewind"
+   }
+  },
+  {
+   "text": "That polyp then buds off brand new jellyfish, genetically identical to the original. Its life starts over.",
+   "scene": {
+    "type": "jelly",
+    "mode": "bud"
+   }
+  },
+  {
+   "text": "And as far as scientists know, it can do this again and again. It can still be eaten, or get sick. But in ideal conditions, it may never die of old age.",
+   "scene": {
+    "type": "jelly",
+    "mode": "loop"
+   }
+  },
+  {
+   "text": "That's why it's called the immortal jellyfish.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "THE IMMORTAL",
+     "JELLYFISH"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 150,
+    "y": 430
+   },
+   "pause": 0.6
+  },
+  {
+   "text": "Quick recap.",
+   "scene": {
+    "type": "cold",
+    "lines": [
+     "QUICK RECAP"
+    ],
+    "size": 140
+   },
+   "pause": 0.2
+  },
+  {
+   "text": "A falcon diving at almost four hundred kilometers an hour. Arms that think. A beetle that reads the galaxy.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "1 · THE 389 KM/H DIVE",
+     "2 · ARMS THAT THINK",
+     "3 · STEERING BY THE GALAXY"
+    ],
+    "accent": {
+     "0": 1
+    },
+    "size": 72,
+    "y": 330
+   },
+   "pause": 0.3
+  },
+  {
+   "text": "An eight hundred and sixty volt fish. Legs that grow back. A boiling cannon. A punch that hits twice.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "4 · THE 860-VOLT FISH",
+     "5 · LEGS THAT GROW BACK",
+     "6 · THE BOILING CANNON",
+     "7 · THE DOUBLE PUNCH"
+    ],
+    "accent": {
+     "0": 1
+    },
+    "size": 72,
+    "y": 300
+   },
+   "pause": 0.3
+  },
+  {
+   "text": "A frog that freezes solid. Animals that survived space. And a jellyfish that starts its life over.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "8 · THE FROZEN FROG",
+     "9 · SURVIVORS OF SPACE",
+     "10 · THE JELLYFISH THAT AGES BACKWARDS"
+    ],
+    "accent": {
+     "0": 1
+    },
+    "size": 72,
+    "y": 330
+   },
+   "pause": 0.3
+  },
+  {
+   "text": "So. Which one sounded the most fake to you? Tell me in the comments. And if you want more facts that sound fake, but aren't, subscribe. There's a new deep dive every Tuesday and Friday.",
+   "scene": {
+    "type": "outro",
+    "click_at": 4.0
+   }
+  }
+ ]
+}
