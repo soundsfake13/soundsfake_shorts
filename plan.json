@@ -235,10 +235,15 @@
    "topic": "Hippos make their own sunscreen",
    "hook": "Hippos sweat red. And it's sunscreen.",
    "facts": "Hippos secrete a reddish 'blood sweat' (not blood or sweat) containing hipposudoric and norhipposudoric acid that absorb UV light and may be antibacterial.",
-   "status": "planned",
+   "status": "scheduled",
    "style": "retro-ad",
    "style_idea": "1960s magazine sunscreen ad: mid-century illustration, sun rays, cream paper, script + slab type, 'NEW! Hippo Formula' parody of a generic ad (no real brands). Ref: 'Motion promo for a game-asset generator'.",
-   "time": "19:00"
+   "time": "19:00",
+   "title": "Hippos Sweat RED… and It's Sunscreen 🦛☀️ #shorts",
+   "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/day16.mp4",
+   "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7727862&openWithPostUuid=-7469095250039979798",
+   "spec": "specs/day16_hippo.json",
+   "engine": "engine/styles/day16_retroad.py"
   },
   {
    "day": 17,
