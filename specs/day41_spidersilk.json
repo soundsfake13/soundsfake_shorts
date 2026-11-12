@@ -1,0 +1,9 @@
+{"voice":"am_michael","speed":1.12,"lines":[
+ {"text":"Spider silk beats steel. Pound for pound.","pause":0.12,"scene":{"type":"hook"}},
+ {"text":"But one spider's silk is almost unfair.","pause":0.15,"scene":{"type":"hook","loop":true}},
+ {"text":"A single strand is much thinner than a human hair.","scene":{"type":"hair"}},
+ {"text":"Yet for its weight, it can hold more than steel wire before it snaps.","scene":{"type":"snap"}},
+ {"text":"And some silk stretches up to four times its length without breaking.","caption":"And some silk stretches up to 4× its length without breaking.","scene":{"type":"stretch"}},
+ {"text":"Now meet Darwin's bark spider, from Madagascar. It hangs webs over rivers on lines up to twenty-five meters long.","caption":"Now meet Darwin's bark spider, from Madagascar. It hangs webs over rivers on lines up to 25 meters long.","scene":{"type":"river"}},
+ {"text":"Its silk is about ten times tougher than Kevlar.","caption":"Its silk is about 10× tougher than Kevlar.","pause":0.2,"scene":{"type":"kevlar"}},
+ {"text":"Sounds fake? It's true. Follow for more.","pause":0.1,"scene":{"type":"end","click_at":0.45}}]}
