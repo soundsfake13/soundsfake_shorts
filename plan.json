@@ -553,9 +553,14 @@
    "topic": "Spider silk is stronger than steel, by weight",
    "hook": "Strand for strand, spider silk is stronger than steel.",
    "facts": "By weight, some spider dragline silk is stronger than steel and tougher than Kevlar.",
-   "status": "planned",
+   "status": "scheduled",
    "style": "dew-macro",
-   "style_idea": "Macro photography look: dewy web at dawn, shallow depth of field, glistening droplets, a strand stretching under load."
+   "style_idea": "Macro photography look: dewy web at dawn, shallow depth of field, glistening droplets, a strand stretching under load.",
+   "title": "Spider Silk Beats Steel… Pound for Pound 🕸️ #shorts",
+   "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/day41.mp4",
+   "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7727862&openWithPostUuid=3678757178468287789",
+   "spec": "specs/day41_spidersilk.json",
+   "engine": "engine/styles/day41_dewmacro.py"
   },
   {
    "day": 42,
