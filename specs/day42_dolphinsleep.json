@@ -1,0 +1,9 @@
+{"voice":"am_michael","speed":1.1,"lines":[
+ {"text":"Dolphins sleep with half their brain.","pause":0.12,"scene":{"type":"hook"}},
+ {"text":"And wait till you see what their eyes do.","pause":0.15,"scene":{"type":"hook","loop":true}},
+ {"text":"One half of the brain falls asleep. The other half stays awake.","scene":{"type":"brain"}},
+ {"text":"Dolphins choose every breath, so the awake half swims up for air.","scene":{"type":"breathe"}},
+ {"text":"The eye linked to the sleeping half closes. The other eye stays open, on watch.","scene":{"type":"eyes"}},
+ {"text":"About two hours later, the halves swap.","caption":"About 2 hours later, the halves swap.","scene":{"type":"swap"}},
+ {"text":"In one study, dolphins stayed alert like this for fifteen days straight.","caption":"In one study, dolphins stayed alert like this for 15 days straight.","pause":0.2,"scene":{"type":"days"}},
+ {"text":"Sounds fake? It's true. Follow for more.","pause":0.1,"scene":{"type":"end","click_at":0.45}}]}
