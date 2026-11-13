@@ -250,11 +250,16 @@
    "date": "2026-11-14",
    "topic": "A planet where it rains glass sideways",
    "hook": "There's a planet where it rains glass. Sideways.",
-   "facts": "Exoplanet HD 189733b, ~64 light-years away, a hot Jupiter; silicate particles in its atmosphere and winds ~8,700 km/h (~5,400 mph) suggest sideways 'glass rain'; its deep blue color was measured by Hubble (2013).",
-   "status": "planned",
+   "facts": "Exoplanet HD 189733b, ~63 light-years away, a hot Jupiter; silicate particles in its atmosphere and winds ~8,700 km/h (~5,400 mph) suggest sideways 'glass rain'; its deep blue color was measured by Hubble (2013).",
+   "status": "scheduled",
    "style": "weather-hud",
    "style_idea": "Sci-fi interplanetary weather broadcast: HUD forecast UI, wind-speed dials, sideways glass-shard rain on a deep-blue planet. Ref: 'Frontier Lab Tycoon trailer with retro desktop UI'.",
-   "time": "19:00"
+   "time": "19:00",
+   "title": "This Planet Rains Glass… SIDEWAYS 🌧️🪐 #shorts",
+   "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/day17.mp4",
+   "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7727862&openWithPostUuid=5413805314937734678",
+   "spec": "specs/day17_glassrain.json",
+   "engine": "engine/styles/day17_weatherhud.py"
   },
   {
    "day": 18,
