@@ -1,0 +1,63 @@
+{
+ "voice": "am_michael",
+ "speed": 1.12,
+ "lines": [
+  {
+   "text": "This planet rains glass. Sideways.",
+   "pause": 0.12,
+   "scene": {
+    "type": "hook"
+   }
+  },
+  {
+   "text": "And the forecast only gets wilder.",
+   "pause": 0.15,
+   "scene": {
+    "type": "hook",
+    "loop": true
+   }
+  },
+  {
+   "text": "It's a gas giant, about sixty-three light-years away. And it's deep cobalt blue.",
+   "caption": "It's a gas giant, about 63 light-years away. And it's deep cobalt blue.",
+   "scene": {
+    "type": "locate"
+   }
+  },
+  {
+   "text": "Scientists think its clouds hold silicate particles that form tiny drops of glass.",
+   "scene": {
+    "type": "sky"
+   }
+  },
+  {
+   "text": "The air up there is hotter than one thousand degrees Celsius.",
+   "caption": "The air up there is hotter than 1,000 °C.",
+   "scene": {
+    "type": "temp"
+   }
+  },
+  {
+   "text": "And the winds howl at over seven thousand kilometers per hour.",
+   "caption": "And the winds howl at over 7,000 km/h.",
+   "scene": {
+    "type": "wind"
+   }
+  },
+  {
+   "text": "So that glass rain doesn't fall down. It flies sideways.",
+   "pause": 0.2,
+   "scene": {
+    "type": "side"
+   }
+  },
+  {
+   "text": "Sounds fake? It's true. Follow for more.",
+   "pause": 0.1,
+   "scene": {
+    "type": "end",
+    "click_at": 0.45
+   }
+  }
+ ]
+}
