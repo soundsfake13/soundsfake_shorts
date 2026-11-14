@@ -1,0 +1,65 @@
+{
+ "voice": "am_michael",
+ "speed": 1.12,
+ "lines": [
+  {
+   "text": "Mammoths were alive when the pyramids went up.",
+   "pause": 0.12,
+   "scene": {
+    "type": "hook"
+   }
+  },
+  {
+   "text": "And wait till you hear how long they lasted.",
+   "pause": 0.15,
+   "scene": {
+    "type": "hook",
+    "loop": true
+   }
+  },
+  {
+   "text": "About ten thousand years ago, rising seas trapped a few mammoths on an Arctic island.",
+   "caption": "About 10,000 years ago, rising seas trapped a few mammoths on an Arctic island.",
+   "scene": {
+    "type": "island"
+   }
+  },
+  {
+   "text": "Wrangel Island, off Siberia. The herd started with fewer than ten.",
+   "caption": "Wrangel Island, off Siberia. The herd started with fewer than 10.",
+   "scene": {
+    "type": "tally"
+   }
+  },
+  {
+   "text": "Then it grew to about three hundred.",
+   "caption": "Then it grew to about 300.",
+   "scene": {
+    "type": "dots"
+   }
+  },
+  {
+   "text": "Around twenty-five sixty BC, Egypt was building the Great Pyramid.",
+   "caption": "Around 2560 BC, Egypt was building the Great Pyramid.",
+   "scene": {
+    "type": "pyramid"
+   }
+  },
+  {
+   "text": "The mammoths? Still there, for centuries. The last ones died out about four thousand years ago.",
+   "caption": "The mammoths? Still there, for centuries. The last ones died out about 4,000 years ago.",
+   "pause": 0.2,
+   "scene": {
+    "type": "timeline"
+   }
+  },
+  {
+   "text": "Sounds fake? It's true. Follow for more.",
+   "pause": 0.1,
+   "scene": {
+    "type": "end",
+    "click_at": 0.45
+   }
+  }
+ ]
+}
