@@ -595,9 +595,14 @@
    "topic": "Woolly mammoths were alive when the pyramids were built",
    "hook": "Woolly mammoths were still alive when the Great Pyramid was built.",
    "facts": "Last mammoths survived on Wrangel Island until ~4,000 years ago (~2000 BC); Great Pyramid ~2560 BC.",
-   "status": "planned",
+   "status": "scheduled",
    "style": "cave-painting",
-   "style_idea": "Cave painting: ochre and charcoal on rough rock, flickering torchlight, figures drawn stroke by stroke."
+   "style_idea": "Cave painting: ochre and charcoal on rough rock, flickering torchlight, figures drawn stroke by stroke.",
+   "title": "Mammoths Were Alive When the Pyramids Went Up 🦣 #shorts",
+   "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/day43.mp4",
+   "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7727862&openWithPostUuid=-6910416199019511474",
+   "spec": "specs/day43_mammoths.json",
+   "engine": "engine/styles/day43_cave.py"
   },
   {
    "day": 44,
