@@ -267,10 +267,15 @@
    "topic": "Scotland's national animal is the unicorn",
    "hook": "Scotland's national animal is a unicorn.",
    "facts": "The unicorn has been a Scottish heraldic symbol since the 12th-15th centuries (on the royal arms by the reign of James III); it represents purity and power, often shown chained.",
-   "status": "planned",
+   "status": "scheduled",
    "style": "heraldry",
    "style_idea": "Heraldic tapestry: woven-thread texture, gold and navy, unicorn crest drawn like a coat of arms (generic, not the royal arms), banners unfurl.",
-   "time": "19:00"
+   "time": "19:00",
+   "title": "Scotland's National Animal Is… a UNICORN 🦄 #shorts",
+   "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/day18.mp4",
+   "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7727862&openWithPostUuid=6969136468987759523",
+   "spec": "specs/day18_unicorn.json",
+   "engine": "engine/styles/day18_heraldry.py"
   },
   {
    "day": 19,
