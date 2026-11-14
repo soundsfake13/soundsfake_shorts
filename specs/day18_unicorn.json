@@ -1,0 +1,9 @@
+{"voice":"am_michael","speed":1.13,"lines":[
+ {"text":"Scotland's national animal is a unicorn.","pause":0.12,"scene":{"type":"hook"}},
+ {"text":"Not a lion. Not a stag. And wait till you see the chains.","pause":0.15,"scene":{"type":"nots"}},
+ {"text":"Scottish kings put unicorns on their royal coat of arms.","scene":{"type":"arms"}},
+ {"text":"They even made a gold coin called the unicorn, first struck in fourteen eighty-four.","caption":"They even made a gold coin called the unicorn, first struck in 1484.","scene":{"type":"coin"}},
+ {"text":"In Celtic legend, the unicorn stood for purity and power.","scene":{"type":"virtues"}},
+ {"text":"So why the golden chains? It's thought only a Scottish king could tame one.","pause":0.2,"scene":{"type":"chains"}},
+ {"text":"Since sixteen oh three, it has stood beside the English lion on the royal arms.","caption":"Since 1603, it has stood beside the English lion on the royal arms.","pause":0.15,"scene":{"type":"lion"}},
+ {"text":"Sounds fake? It's true. Follow for more.","pause":0.1,"scene":{"type":"end","click_at":0.45}}]}
