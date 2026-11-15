@@ -1,0 +1,14 @@
+{
+ "voice": "am_michael",
+ "speed": 1.1,
+ "lines": [
+  {"text": "Earth's core hides enough gold to coat the planet.", "pause": 0.12, "scene": {"type": "hook"}},
+  {"text": "And that's not even the strangest part.", "pause": 0.14, "scene": {"type": "hook", "loop": true}},
+  {"text": "When the young Earth was molten, heavy iron sank to the center, dragging gold with it.", "scene": {"type": "sink"}},
+  {"text": "Scientists estimate there's enough gold down there to cover the whole surface,", "pause": 0.08, "scene": {"type": "coat"}},
+  {"text": "about half a meter deep. Knee-deep, everywhere.", "caption": "about 0.5 m deep. Knee-deep, everywhere.", "scene": {"type": "depth"}},
+  {"text": "The strange part? More than ninety-nine percent of Earth's gold is down there.", "caption": "The strange part? More than 99% of Earth's gold is down there.", "scene": {"type": "percent"}},
+  {"text": "Every gold ring ever made comes from the tiny bit left up here.", "pause": 0.2, "scene": {"type": "ring"}},
+  {"text": "Sounds fake? It's true. Follow for more.", "pause": 0.1, "scene": {"type": "end", "click_at": 0.45}}
+ ]
+}
