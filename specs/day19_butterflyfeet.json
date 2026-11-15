@@ -1,0 +1,14 @@
+{
+ "voice": "am_michael",
+ "speed": 1.08,
+ "lines": [
+  {"text": "This butterfly is tasting with its feet.", "pause": 0.12, "scene": {"type": "hook"}},
+  {"text": "And what it's tasting for is the clever part.", "pause": 0.15, "scene": {"type": "hook", "loop": true}},
+  {"text": "Butterflies have taste sensors on their feet.", "scene": {"type": "foot"}},
+  {"text": "When a mother lands on a leaf, she drums on it with her front legs.", "scene": {"type": "drum"}},
+  {"text": "The tapping releases the leaf's juices, so she can taste them.", "scene": {"type": "juice"}},
+  {"text": "She's not choosing lunch. She's checking if it's safe food for her caterpillars.", "scene": {"type": "babies"}},
+  {"text": "Right plant? She lays her eggs. Wrong plant? She flies away.", "pause": 0.2, "scene": {"type": "verdict"}},
+  {"text": "Sounds fake? It's true. Follow for more.", "pause": 0.1, "scene": {"type": "end", "click_at": 0.45}}
+ ]
+}
