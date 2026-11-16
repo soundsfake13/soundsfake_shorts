@@ -1,0 +1,924 @@
+{
+ "voice": "am_michael",
+ "speed": 0.93,
+ "lines": [
+  {
+   "text": "In nineteen thirty-two, Australia sent soldiers with machine guns to fight a war against birds. Emus. And the emus won.",
+   "scene": {
+    "type": "emu",
+    "mode": "hook",
+    "lines": [
+     "THE ARMY",
+     "LOST TO BIRDS"
+    ]
+   },
+   "caption": "In 1932, Australia sent soldiers with machine guns to fight a war against birds. Emus. And the emus won."
+  },
+  {
+   "text": "And that's not even the strangest one. Before this video ends, you'll find out which famous queen lived closer in time to us than to the building of the Great Pyramid.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "10 MOMENTS IN HISTORY",
+     "THAT SOUND FAKE"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 120,
+    "y": 430
+   }
+  },
+  {
+   "text": "Every fact is real, and checked. Sources are in the description. Let's go.",
+   "scene": {
+    "type": "cold",
+    "lines": [
+     "ALL REAL.",
+     "ALL CHECKED."
+    ],
+    "sub": "SOURCES IN THE DESCRIPTION",
+    "size": 120
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number one.",
+   "scene": {
+    "type": "chapter",
+    "ch": 1,
+    "title": "THE 38-MINUTE WAR",
+    "sub": "the shortest war on record"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "On the morning of August twenty-seventh, eighteen ninety-six, Britain went to war with Zanzibar, an island nation off the coast of East Africa.",
+   "scene": {
+    "type": "headline",
+    "kicker": "WAR!",
+    "head": [
+     "BRITAIN v. ZANZIBAR"
+    ],
+    "sub": "27 AUGUST 1896 · EAST AFRICA"
+   },
+   "caption": "On the morning of August 27th, 1896, Britain went to war with Zanzibar, an island nation off the coast of East Africa."
+  },
+  {
+   "text": "The reason? A new sultan had taken the throne without British approval, and refused an order to step down.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "NEW SULTAN",
+     "REFUSES TO STEP DOWN"
+    ],
+    "accent": {
+     "0": 1
+    },
+    "size": 110,
+    "y": 440
+   }
+  },
+  {
+   "text": "At about nine in the morning, British warships opened fire on the palace.",
+   "scene": {
+    "type": "clock",
+    "from": 540,
+    "to": 541,
+    "label": "WARSHIPS OPEN FIRE"
+   },
+   "caption": "At about 9 in the morning, British warships opened fire on the palace."
+  },
+  {
+   "text": "The sultan had around three thousand defenders. Britain had a squadron of warships parked in the harbor.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "≈ 3,000 DEFENDERS",
+     "vs. A SQUADRON OF WARSHIPS"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 100,
+    "y": 450
+   },
+   "caption": "The sultan had around 3,000 defenders. Britain had a squadron of warships parked in the harbor."
+  },
+  {
+   "text": "By nine forty, the palace flag came down, and the war was over.",
+   "scene": {
+    "type": "clock",
+    "from": 541,
+    "to": 580,
+    "label": "THE FLAG COMES DOWN"
+   },
+   "caption": "By 9:40, the palace flag came down, and the war was over."
+  },
+  {
+   "text": "About thirty-eight minutes, start to finish. It's often called the shortest war in recorded history.",
+   "scene": {
+    "type": "counter",
+    "from": 0,
+    "to": 38,
+    "suffix": " MIN",
+    "label": "THE ENTIRE WAR",
+    "note": "often called the shortest war in history",
+    "secs": 2.0
+   },
+   "caption": "About 38 minutes, start to finish. It's often called the shortest war in recorded history."
+  },
+  {
+   "text": "That's shorter than one half of a football match. You could have missed the whole war on a coffee break.",
+   "scene": {
+    "type": "compare",
+    "left": [
+     "ONE HALF",
+     "OF FOOTBALL"
+    ],
+    "lv": "45 MIN",
+    "right": [
+     "THE WHOLE",
+     "WAR"
+    ],
+    "rv": "38 MIN"
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number two.",
+   "scene": {
+    "type": "chapter",
+    "ch": 2,
+    "title": "THE ARMY THAT LOST TO BIRDS"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "In nineteen thirty-two, farmers in Western Australia had a problem. Around twenty thousand emus had moved onto their wheat fields.",
+   "scene": {
+    "type": "emu",
+    "mode": "herd",
+    "label": "≈ 20,000 EMUS"
+   },
+   "caption": "In 1932, farmers in Western Australia had a problem. Around 20,000 emus had moved onto their wheat fields."
+  },
+  {
+   "text": "So the government sent in the army. Three soldiers, two machine guns, and ten thousand rounds of ammunition.",
+   "scene": {
+    "type": "tally",
+    "rows": [
+     [
+      "3",
+      "SOLDIERS"
+     ],
+     [
+      "2",
+      "MACHINE GUNS"
+     ],
+     [
+      "10,000",
+      "ROUNDS OF AMMO"
+     ]
+    ]
+   },
+   "caption": "So the government sent in the army. 3 soldiers, 2 machine guns, and 10,000 rounds of ammunition."
+  },
+  {
+   "text": "It did not go to plan. The emus split up into small groups, sprinted off, and turned out to be incredibly hard to hit.",
+   "scene": {
+    "type": "emu",
+    "mode": "run"
+   }
+  },
+  {
+   "text": "Within days the soldiers were pulled out. Then they were sent back for a second try.",
+   "scene": {
+    "type": "emu",
+    "mode": "retreat",
+    "label": "ROUND TWO"
+   }
+  },
+  {
+   "text": "After the first three days, the soldiers had brought down only about thirty birds.",
+   "scene": {
+    "type": "counter",
+    "from": 20000,
+    "to": 30,
+    "label": "BIRDS STOPPED AFTER 3 DAYS",
+    "note": "out of about 20,000",
+    "secs": 2.2
+   },
+   "caption": "After the first 3 days, the soldiers had brought down only about 30 birds."
+  },
+  {
+   "text": "The officer in charge later said the emus could face machine guns with the invulnerability of tanks.",
+   "scene": {
+    "type": "quote",
+    "lines": [
+     "“...could face machine guns",
+     "with the invulnerability",
+     "of tanks.”"
+    ],
+    "by": "— the officer in charge, on the emus"
+   }
+  },
+  {
+   "text": "Within weeks the operation was called off. And to this day, the emus are usually named the winners of the Great Emu War.",
+   "scene": {
+    "type": "stamp",
+    "lines": [
+     "THE GREAT EMU WAR"
+    ],
+    "stamp": "EMUS WIN"
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number three.",
+   "scene": {
+    "type": "chapter",
+    "ch": 3,
+    "title": "THE BEER TSUNAMI"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "October seventeenth, eighteen fourteen. London. Inside a brewery, a giant vat of dark beer suddenly bursts open.",
+   "scene": {
+    "type": "headline",
+    "kicker": "LONDON",
+    "head": [
+     "BREWERY VAT BURSTS"
+    ],
+    "sub": "17 OCTOBER 1814"
+   },
+   "caption": "October 17th, 1814. London. Inside a brewery, a giant vat of dark beer suddenly bursts open."
+  },
+  {
+   "text": "It smashes into other vats, and a flood of more than half a million litres of beer pours out into the streets.",
+   "scene": {
+    "type": "wave",
+    "liquid": "beer",
+    "mode": "burst",
+    "label": "500,000+ LITRES OF BEER"
+   },
+   "caption": "It smashes into other vats, and a flood of more than half a million litres of beer pours out into the streets."
+  },
+  {
+   "text": "Reports describe a wave of beer about four and a half meters high. That's taller than a double-decker bus.",
+   "scene": {
+    "type": "wave",
+    "liquid": "beer",
+    "mode": "height",
+    "h": 4.6,
+    "label": "≈ 4.5 m WAVE",
+    "bus": true
+   },
+   "caption": "Reports describe a wave of beer about 4.5 meters high. That's taller than a double-decker bus."
+  },
+  {
+   "text": "It flooded homes and cellars in the neighborhood, and sadly, several people died.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "HOMES FLOODED",
+     "WITH BEER"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 120,
+    "y": 450
+   }
+  },
+  {
+   "text": "London was hit by a tsunami. A tsunami made of beer.",
+   "scene": {
+    "type": "stamp",
+    "lines": [
+     "LONDON, 1814"
+    ],
+    "stamp": "BEER TSUNAMI"
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number four.",
+   "scene": {
+    "type": "chapter",
+    "ch": 4,
+    "title": "THE MOLASSES WAVE"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "Boston. January fifteenth, nineteen nineteen. A huge storage tank holding about eight point seven million litres of molasses suddenly splits apart.",
+   "scene": {
+    "type": "headline",
+    "kicker": "BOSTON",
+    "head": [
+     "MOLASSES TANK BURSTS"
+    ],
+    "sub": "15 JANUARY 1919 · 8.7 MILLION LITRES"
+   },
+   "caption": "Boston. January 15th, 1919. A huge storage tank holding about 8.7 million litres of molasses suddenly splits apart."
+  },
+  {
+   "text": "Molasses is thick and sticky. You'd expect it to ooze. Instead, a wave at least seven and a half meters tall rushed through the streets.",
+   "scene": {
+    "type": "wave",
+    "liquid": "molasses",
+    "mode": "height",
+    "h": 7.6,
+    "label": "7.5+ m WAVE",
+    "bus": true
+   },
+   "caption": "Molasses is thick and sticky. You'd expect it to ooze. Instead, a wave at least 7.5 meters tall rushed through the streets."
+  },
+  {
+   "text": "The first wave moved at around fifty-five kilometers an hour. Thirty-five miles an hour. Far too fast for anyone to outrun.",
+   "scene": {
+    "type": "counter",
+    "from": 0,
+    "to": 55,
+    "suffix": " km/h",
+    "label": "A WAVE OF SYRUP",
+    "note": "about 35 mph — faster than a sprinter",
+    "secs": 2.0
+   },
+   "caption": "The first wave moved at around 55 kilometers an hour. 35 miles an hour. Far too fast for anyone to outrun."
+  },
+  {
+   "text": "It knocked down buildings, and twenty-one people lost their lives. And in the freezing January air, the molasses grew even thicker, making rescue incredibly hard.",
+   "scene": {
+    "type": "wave",
+    "liquid": "molasses",
+    "mode": "settle",
+    "label": "IT THICKENED IN THE COLD"
+   },
+   "caption": "It knocked down buildings, and 21 people lost their lives. And in the freezing January air, the molasses grew even thicker, making rescue incredibly hard."
+  },
+  {
+   "text": "A deadly flood, made of syrup.",
+   "scene": {
+    "type": "stamp",
+    "lines": [
+     "BOSTON, 1919"
+    ],
+    "stamp": "SYRUP FLOOD"
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number five.",
+   "scene": {
+    "type": "chapter",
+    "ch": 5,
+    "title": "THE ANCIENT VENDING MACHINE"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "Around two thousand years ago, an engineer called Hero of Alexandria described a machine you'd recognize today.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "ALEXANDRIA, EGYPT",
+     "1ST CENTURY AD"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 110,
+    "y": 440
+   },
+   "caption": "Around 2,000 years ago, an engineer called Hero of Alexandria described a machine you'd recognize today."
+  },
+  {
+   "text": "You dropped a coin into a slot at the top.",
+   "scene": {
+    "type": "vending",
+    "mode": "coin"
+   }
+  },
+  {
+   "text": "The coin landed on a little lever. Its weight tipped the lever, which pulled up a plug, and out came a portion of holy water.",
+   "scene": {
+    "type": "vending",
+    "mode": "pour"
+   }
+  },
+  {
+   "text": "When the coin slid off, the lever swung back, and the water stopped.",
+   "scene": {
+    "type": "vending",
+    "mode": "reset"
+   }
+  },
+  {
+   "text": "It even had a practical job. It saved temple priests from measuring out every single portion by hand.",
+   "scene": {
+    "type": "vending",
+    "mode": "idle"
+   }
+  },
+  {
+   "text": "A coin-operated vending machine, in the first century.",
+   "scene": {
+    "type": "stamp",
+    "lines": [
+     "COIN-OPERATED"
+    ],
+    "stamp": "1ST CENTURY"
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number six.",
+   "scene": {
+    "type": "chapter",
+    "ch": 6,
+    "title": "THE ANCIENT COMPUTER"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "In nineteen oh one, sponge divers exploring an ancient shipwreck near the Greek island of Antikythera brought up lumps of corroded bronze.",
+   "scene": {
+    "type": "headline",
+    "kicker": "FOUND",
+    "head": [
+     "SHIPWRECK SECRET"
+    ],
+    "sub": "1901 · ANTIKYTHERA, GREECE"
+   },
+   "caption": "In 1901, sponge divers exploring an ancient shipwreck near the Greek island of Antikythera brought up lumps of corroded bronze."
+  },
+  {
+   "text": "Hidden inside were gears. Tiny, precise, interlocking bronze gears.",
+   "scene": {
+    "type": "gears",
+    "mode": "reveal"
+   }
+  },
+  {
+   "text": "It's about two thousand years old, and scientists call it the world's first analog computer.",
+   "scene": {
+    "type": "gears",
+    "mode": "label",
+    "lines": [
+     "≈ 2,000 YEARS OLD",
+     "THE FIRST ANALOG COMPUTER"
+    ]
+   },
+   "caption": "It's about 2,000 years old, and scientists call it the world's first analog computer."
+  },
+  {
+   "text": "Turn a handle, and it showed the positions of the Sun, the Moon and the planets, predicted eclipses, and even tracked the dates of the Olympic Games.",
+   "scene": {
+    "type": "gears",
+    "mode": "sky"
+   }
+  },
+  {
+   "text": "Researchers are still decoding it. In twenty twenty-one, a team at University College London published a new model of how its front displayed the whole known cosmos.",
+   "scene": {
+    "type": "gears",
+    "mode": "label",
+    "lines": [
+     "STILL BEING DECODED",
+     "NEW MODEL · 2021"
+    ]
+   },
+   "caption": "Researchers are still decoding it. In 2021, a team at University College London published a new model of how its front displayed the whole known cosmos."
+  },
+  {
+   "text": "Only about a third of it survives, in eighty-two fragments, with thirty bronze gears still inside.",
+   "scene": {
+    "type": "counter",
+    "from": 0,
+    "to": 30,
+    "label": "BRONZE GEARS SURVIVE",
+    "note": "in 82 fragments · about a third of the machine",
+    "secs": 1.6
+   },
+   "caption": "Only about a third of it survives, in 82 fragments, with 30 bronze gears still inside."
+  },
+  {
+   "text": "A two-thousand-year-old computer, made of bronze.",
+   "scene": {
+    "type": "stamp",
+    "lines": [
+     "2,000 YEARS OLD"
+    ],
+    "stamp": "COMPUTER"
+   },
+   "caption": "A 2,000-year-old computer, made of bronze.",
+   "pause": 0.5
+  },
+  {
+   "text": "Number seven.",
+   "scene": {
+    "type": "chapter",
+    "ch": 7,
+    "title": "THE FAX CAME FIRST"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "Quick question. Which came first: the fax machine, or the telephone?",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "FAX MACHINE",
+     "OR TELEPHONE?"
+    ],
+    "accent": {
+     "0": 1
+    },
+    "size": 120,
+    "y": 440
+   }
+  },
+  {
+   "text": "The fax. By a lot. In eighteen forty-three, a Scottish inventor named Alexander Bain patented a way to send images over telegraph wires.",
+   "scene": {
+    "type": "wire",
+    "mode": "fax",
+    "label": "1843 · IMAGES BY WIRE"
+   },
+   "caption": "The fax. By a lot. In 1843, a Scottish inventor named Alexander Bain patented a way to send images over telegraph wires."
+  },
+  {
+   "text": "And by around eighteen sixty, an Italian inventor's version called the pantelegraph was being tested to send images between French cities.",
+   "scene": {
+    "type": "wire",
+    "mode": "fax",
+    "label": "1860s · PARIS – MARSEILLE"
+   },
+   "caption": "And by around 1860, an Italian inventor's version called the pantelegraph was being tested to send images between French cities."
+  },
+  {
+   "text": "The telephone patent came in eighteen seventy-six. Thirty-three years later.",
+   "scene": {
+    "type": "timeline",
+    "span": [
+     1835,
+     1885
+    ],
+    "points": [
+     [
+      1843,
+      "FAX PATENT"
+     ],
+     [
+      1876,
+      "TELEPHONE"
+     ]
+    ],
+    "brackets": [
+     [
+      1843,
+      1876,
+      "33 YEARS"
+     ]
+    ]
+   },
+   "caption": "The telephone patent came in 1876. 33 years later."
+  },
+  {
+   "text": "So the idea of the fax machine is older than the telephone, and even older than the American Civil War.",
+   "scene": {
+    "type": "timeline",
+    "span": [
+     1835,
+     1885
+    ],
+    "points": [
+     [
+      1843,
+      "FAX PATENT"
+     ],
+     [
+      1861,
+      "CIVIL WAR"
+     ],
+     [
+      1876,
+      "TELEPHONE"
+     ]
+    ],
+    "brackets": []
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number eight.",
+   "scene": {
+    "type": "chapter",
+    "ch": 8,
+    "title": "THE SKY RAN THE TELEGRAPH"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "On September first, eighteen fifty-nine, astronomer Richard Carrington saw a burst of brilliant light on the Sun. The first solar flare ever observed.",
+   "scene": {
+    "type": "sun",
+    "mode": "flare",
+    "label": "1 SEPTEMBER 1859"
+   },
+   "caption": "On September 1st, 1859, astronomer Richard Carrington saw a burst of brilliant light on the Sun. The first solar flare ever observed."
+  },
+  {
+   "text": "Soon after, a massive solar storm slammed into Earth. Northern lights were seen as far south as the Caribbean.",
+   "scene": {
+    "type": "sun",
+    "mode": "aurora",
+    "label": "AURORAS AS FAR SOUTH AS THE CARIBBEAN"
+   }
+  },
+  {
+   "text": "Telegraph systems went haywire. Operators got electric shocks, and sparks set paper on fire.",
+   "scene": {
+    "type": "wire",
+    "mode": "sparks",
+    "label": "SHOCKS & SPARKS"
+   }
+  },
+  {
+   "text": "And then, the strangest part. Operators in Boston and Portland disconnected their batteries, and kept sending messages, powered only by the storm.",
+   "scene": {
+    "type": "wire",
+    "mode": "nobattery",
+    "label": "BATTERY: DISCONNECTED"
+   }
+  },
+  {
+   "text": "For a while, the sky itself was running the telegraph.",
+   "scene": {
+    "type": "stamp",
+    "lines": [
+     "POWERED BY"
+    ],
+    "stamp": "THE SKY"
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number nine.",
+   "scene": {
+    "type": "chapter",
+    "ch": 9,
+    "title": "MAMMOTHS SAW THE PYRAMIDS"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "The Great Pyramid of Giza was built around two thousand five hundred and sixty B.C.",
+   "scene": {
+    "type": "mammoth",
+    "mode": "pyramid",
+    "label": "≈ 2560 BC"
+   },
+   "caption": "The Great Pyramid of Giza was built around 2560 BC."
+  },
+  {
+   "text": "And at that time, there were still woolly mammoths alive on Earth.",
+   "scene": {
+    "type": "mammoth",
+    "mode": "both"
+   }
+  },
+  {
+   "text": "The last ones lived on Wrangel Island, off the coast of Siberia, and survived until about four thousand years ago.",
+   "scene": {
+    "type": "mammoth",
+    "mode": "island",
+    "label": "WRANGEL ISLAND · UNTIL ≈ 4,000 YEARS AGO"
+   },
+   "caption": "The last ones lived on Wrangel Island, off the coast of Siberia, and survived until about 4,000 years ago."
+  },
+  {
+   "text": "Rising seas had cut the island off from the mainland, trapping fewer than ten mammoths. Their herd held on there for about six thousand years.",
+   "scene": {
+    "type": "counter",
+    "from": 0,
+    "to": 6000,
+    "suffix": " YEARS",
+    "label": "ONE ISOLATED HERD",
+    "note": "started from fewer than 10 mammoths",
+    "secs": 2.0
+   },
+   "caption": "Rising seas had cut the island off from the mainland, trapping fewer than 10 mammoths. Their herd held on there for about 6,000 years."
+  },
+  {
+   "text": "So while Egyptians were stacking giant stone blocks, mammoths were still walking the Earth. For centuries afterwards.",
+   "scene": {
+    "type": "timeline",
+    "span": [
+     -2800,
+     -1500
+    ],
+    "bc": true,
+    "points": [
+     [
+      -2560,
+      "GREAT PYRAMID"
+     ],
+     [
+      -2000,
+      "LAST MAMMOTHS"
+     ]
+    ],
+    "brackets": [
+     [
+      -2560,
+      -2000,
+      "STILL ALIVE"
+     ]
+    ]
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number ten. The one I promised.",
+   "scene": {
+    "type": "chapter",
+    "ch": 10,
+    "title": "CLEOPATRA AND THE MOON"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "Cleopatra, the last ruler of the Ptolemaic kingdom of ancient Egypt, died in thirty B.C.",
+   "scene": {
+    "type": "headline",
+    "kicker": "EGYPT",
+    "head": [
+     "THE LAST PHARAOH"
+    ],
+    "sub": "CLEOPATRA VII · DIED 30 BC"
+   },
+   "caption": "Cleopatra, the last ruler of the Ptolemaic kingdom of ancient Egypt, died in 30 BC."
+  },
+  {
+   "text": "By her time, the Great Pyramid was already about two and a half thousand years old.",
+   "scene": {
+    "type": "timeline",
+    "span": [
+     -2800,
+     2100
+    ],
+    "bc": true,
+    "points": [
+     [
+      -2560,
+      "GREAT PYRAMID"
+     ],
+     [
+      -30,
+      "CLEOPATRA"
+     ]
+    ],
+    "brackets": [
+     [
+      -2560,
+      -30,
+      "≈ 2,530 YEARS"
+     ]
+    ]
+   },
+   "caption": "By her time, the Great Pyramid was already about 2,500 years old."
+  },
+  {
+   "text": "And from Cleopatra to the first Moon landing, in nineteen sixty-nine? About two thousand years.",
+   "scene": {
+    "type": "timeline",
+    "span": [
+     -2800,
+     2100
+    ],
+    "bc": true,
+    "points": [
+     [
+      -2560,
+      "GREAT PYRAMID"
+     ],
+     [
+      -30,
+      "CLEOPATRA"
+     ],
+     [
+      1969,
+      "MOON LANDING"
+     ]
+    ],
+    "brackets": [
+     [
+      -2560,
+      -30,
+      "≈ 2,530 YEARS"
+     ],
+     [
+      -30,
+      1969,
+      "≈ 2,000 YEARS"
+     ]
+    ]
+   },
+   "caption": "And from Cleopatra to the first Moon landing, in 1969? About 2,000 years."
+  },
+  {
+   "text": "So Cleopatra lived closer in time to the Moon landing than to the building of the Great Pyramid.",
+   "scene": {
+    "type": "stamp",
+    "lines": [
+     "CLEOPATRA → MOON LANDING",
+     "IS SHORTER THAN",
+     "PYRAMID → CLEOPATRA"
+    ],
+    "stamp": "TRUE"
+   }
+  },
+  {
+   "text": "She even lived closer to the age of smartphones than to the pyramid.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "CLOSER TO SMARTPHONES",
+     "THAN TO THE PYRAMID"
+    ],
+    "accent": {
+     "0": 1
+    },
+    "size": 100,
+    "y": 450
+   }
+  },
+  {
+   "text": "Ancient Egypt was ancient, even to the ancient Egyptians.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "ANCIENT EGYPT WAS ANCIENT",
+     "EVEN TO THE ANCIENT EGYPTIANS"
+    ],
+    "accent": {
+     "0": 1
+    },
+    "size": 90,
+    "y": 460
+   },
+   "pause": 0.6
+  },
+  {
+   "text": "Quick recap. A war that lasted thirty-eight minutes. An army that lost to emus. Floods of beer and molasses.",
+   "scene": {
+    "type": "recap",
+    "items": [
+     "38-MINUTE WAR",
+     "ARMY LOST TO EMUS",
+     "BEER TSUNAMI",
+     "MOLASSES WAVE"
+    ],
+    "title": "QUICK RECAP"
+   },
+   "caption": "Quick recap. A war that lasted 38 minutes. An army that lost to emus. Floods of beer and molasses."
+  },
+  {
+   "text": "A vending machine and a computer from two thousand years ago. The fax before the phone. A storm that ran the telegraph.",
+   "scene": {
+    "type": "recap",
+    "items": [
+     "ANCIENT VENDING MACHINE",
+     "ANCIENT COMPUTER",
+     "FAX BEFORE PHONE",
+     "SKY-POWERED TELEGRAPH"
+    ],
+    "title": "QUICK RECAP"
+   },
+   "caption": "A vending machine and a computer from 2,000 years ago. The fax before the phone. A storm that ran the telegraph."
+  },
+  {
+   "text": "Mammoths alive while the pyramid rose. And Cleopatra, closer to the Moon landing than to the pyramids.",
+   "scene": {
+    "type": "recap",
+    "items": [
+     "MAMMOTHS + PYRAMIDS",
+     "CLEOPATRA + THE MOON"
+    ],
+    "title": "QUICK RECAP"
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Which one sounded the most fake? Tell me in the comments. A new deep dive comes out every Tuesday and Friday. See you in the next one.",
+   "scene": {
+    "type": "outro",
+    "click_at": 2.2
+   }
+  }
+ ]
+}
