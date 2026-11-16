@@ -299,10 +299,15 @@
    "topic": "Lightning is hotter than the Sun's surface",
    "hook": "A bolt of lightning is hotter than the surface of the Sun.",
    "facts": "Lightning can heat air to ~30,000 K (~27,000-30,000 °C), about five times hotter than the Sun's surface (~5,500 °C / ~5,800 K).",
-   "status": "planned",
+   "status": "scheduled",
    "style": "storm-neon",
    "style_idea": "Electric storm: dark cloud layers, procedurally branching lightning bolts, neon thermal scale comparing lightning vs the Sun's surface.",
-   "time": "19:00"
+   "time": "19:00",
+   "title": "Lightning Is Hotter Than the Sun ⚡ #shorts",
+   "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/day20.mp4",
+   "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7727862&openWithPostUuid=-4720144273739002242",
+   "spec": "specs/day20_lightning.json",
+   "engine": "engine/styles/day20_stormneon.py"
   },
   {
    "day": 21,
