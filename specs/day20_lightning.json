@@ -1,0 +1,14 @@
+{
+ "voice": "am_michael",
+ "speed": 1.08,
+ "lines": [
+  {"text": "Lightning is hotter than the Sun.", "pause": 0.12, "scene": {"type": "hook"}},
+  {"text": "Not a little hotter. And that heat makes a sound you know.", "pause": 0.14, "scene": {"type": "loop"}},
+  {"text": "The surface of the Sun is about five thousand five hundred degrees Celsius.", "caption": "The surface of the Sun is about 5,500 °C.", "scene": {"type": "scale", "phase": "sun"}},
+  {"text": "A lightning bolt can heat the air to about thirty thousand.", "caption": "A lightning bolt can heat the air to about 30,000 °C.", "scene": {"type": "scale", "phase": "bolt"}},
+  {"text": "That's about five times hotter than the Sun's surface.", "caption": "That's about 5x hotter than the Sun's surface.", "scene": {"type": "times"}},
+  {"text": "The air heats up so fast, it bursts outward.", "pause": 0.1, "scene": {"type": "blast"}},
+  {"text": "That blast is the thunder you hear.", "pause": 0.2, "scene": {"type": "thunder"}},
+  {"text": "Sounds fake? It's true. Follow for more.", "pause": 0.1, "scene": {"type": "end", "click_at": 0.45}}
+ ]
+}
