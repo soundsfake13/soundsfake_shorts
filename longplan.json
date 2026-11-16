@@ -64,9 +64,15 @@
    "ep": 5,
    "date": "2026-11-17",
    "topic": "History",
-   "title": "10 Real Moments in History That Sound Fake",
+   "title": "The Army Lost to Birds: 10 Moments in History That Sound Fake",
    "fact_ideas": "Ideas: Great Emu War (1932); Anglo-Zanzibar war; dancing plague of 1518; Napoleon/rabbits story (verify!); Cleopatra/Moon landing; Oxford vs Aztecs; mammoths & pyramids; Titanic baker survived cold (verify); the 1904 Olympic marathon; London beer flood 1814.",
-   "status": "planned"
+   "status": "scheduled",
+   "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/ep05.mp4",
+   "thumb_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/thumbs/ep05.jpg",
+   "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7727862&openWithPostUuid=8749483333962187983",
+   "spec": "specs/long/ep05_history.json",
+   "engine": "engine/long/ep05_history.py",
+   "duration": "8:24"
   },
   {
    "ep": 6,
