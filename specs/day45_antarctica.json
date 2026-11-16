@@ -1,0 +1,14 @@
+{
+ "voice": "am_michael",
+ "speed": 1.06,
+ "lines": [
+  {"text": "The biggest desert on Earth isn't hot.", "pause": 0.12, "scene": {"type": "hook"}},
+  {"text": "It's not the Sahara. And the reason why is even stranger.", "pause": 0.14, "scene": {"type": "loop"}},
+  {"text": "It's Antarctica.", "pause": 0.16, "scene": {"type": "reveal"}},
+  {"text": "A desert isn't about heat. It's about how little falls from the sky.", "scene": {"type": "sky"}},
+  {"text": "Less than two hundred fifty millimeters of rain or snow a year makes a desert.", "caption": "Less than 250 mm of rain or snow a year makes a desert.", "scene": {"type": "gauge", "phase": "limit"}},
+  {"text": "Much of Antarctica's interior gets only about fifty.", "caption": "Much of Antarctica's interior gets only about 50.", "scene": {"type": "gauge", "phase": "ice"}},
+  {"text": "And at fourteen million square kilometers, it beats the Sahara's nine.", "caption": "And at 14 million km², it beats the Sahara's ~9.", "pause": 0.16, "scene": {"type": "compare"}},
+  {"text": "Sounds fake? It's true. Follow for more.", "pause": 0.1, "scene": {"type": "end", "click_at": 0.45}}
+ ]
+}
