@@ -1,0 +1,14 @@
+{
+ "voice": "am_michael",
+ "speed": 1.06,
+ "lines": [
+  {"text": "This pineapple took about two years to grow.", "caption": "This pineapple took about 2 years to grow.", "pause": 0.12, "scene": {"type": "hook"}},
+  {"text": "And how it's built is even stranger.", "pause": 0.14, "scene": {"type": "loop"}},
+  {"text": "Pineapples don't grow on trees. They grow from a spiky plant in the ground.", "pause": 0.14, "scene": {"type": "ground"}},
+  {"text": "From planting, it takes about eighteen to twenty-four months to get the first fruit.", "caption": "From planting, it takes about 18 to 24 months to get the first fruit.", "pause": 0.14, "scene": {"type": "grow"}},
+  {"text": "And each plant makes just one pineapple at a time.", "pause": 0.14, "scene": {"type": "one"}},
+  {"text": "The strange part? It starts as dozens of tiny purple flowers,", "pause": 0.08, "scene": {"type": "flowers"}},
+  {"text": "that fuse together into a single fruit.", "pause": 0.16, "scene": {"type": "fuse"}},
+  {"text": "Sounds fake? It's true. Follow for more.", "pause": 0.1, "scene": {"type": "end", "click_at": 0.45}}
+ ]
+}
