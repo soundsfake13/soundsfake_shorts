@@ -315,10 +315,15 @@
    "topic": "A pineapple takes about two years to grow",
    "hook": "That pineapple took about two years to grow.",
    "facts": "A pineapple plant usually takes ~18-24 months to produce its first fruit, and each plant typically produces one fruit at a time.",
-   "status": "planned",
+   "status": "scheduled",
    "style": "greenhouse-diorama",
    "style_idea": "Tiny greenhouse diorama with tilt-shift look: a pineapple plant grows over a 24-month time-lapse calendar. Ref: 'Tropical island diorama with stilt huts'.",
-   "time": "19:00"
+   "time": "19:00",
+   "title": "This Pineapple Took 2 Years to Grow \ud83c\udf4d #shorts",
+   "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/day21.mp4",
+   "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7727862&openWithPostUuid=3804711790303723849",
+   "spec": "specs/day21_pineapple.json",
+   "engine": "engine/styles/day21_diorama.py"
   },
   {
    "day": 22,
