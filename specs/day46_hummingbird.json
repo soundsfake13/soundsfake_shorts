@@ -1,0 +1,13 @@
+{
+ "voice": "am_michael",
+ "speed": 1.07,
+ "lines": [
+  {"text": "This bird can fly in reverse.", "pause": 0.12, "scene": {"type": "hook"}},
+  {"text": "And the secret is hiding in its wings.", "pause": 0.14, "scene": {"type": "loop"}},
+  {"text": "Hummingbirds fly forwards, backwards, sideways, even straight up and down.", "scene": {"type": "dirs"}},
+  {"text": "Unlike other birds, they can truly hover in one spot.", "scene": {"type": "hover"}},
+  {"text": "Their wings can beat up to eighty times a second.", "caption": "Their wings can beat up to 80 times a second.", "scene": {"type": "beats"}},
+  {"text": "The secret? Each wing swivels at the shoulder and traces a figure eight.", "caption": "The secret? Each wing swivels at the shoulder and traces a figure 8.", "pause": 0.16, "scene": {"type": "secret"}},
+  {"text": "Sounds fake? It's true. Follow for more.", "pause": 0.1, "scene": {"type": "end", "click_at": 0.45}}
+ ]
+}
