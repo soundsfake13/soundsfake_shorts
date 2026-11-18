@@ -679,9 +679,14 @@
    "topic": "Astronauts get taller in space",
    "hook": "Astronauts get taller in space.",
    "facts": "Without gravity compressing the spine, astronauts can grow up to ~3% taller (NASA); it reverses back on Earth.",
-   "status": "planned",
+   "status": "scheduled",
    "style": "zero-g",
-   "style_idea": "Playful zero-gravity UI: floating rounded panels, drifting objects, soft pastel space station interior, a height scale."
+   "style_idea": "Playful zero-gravity UI: floating rounded panels, drifting objects, soft pastel space station interior, a height scale.",
+   "title": "Space Makes You Taller (Until You Land) 🚀 #shorts",
+   "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/day47.mp4",
+   "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7727862&openWithPostUuid=-5544436726039032974",
+   "spec": "specs/day47_astrotall.json",
+   "engine": "engine/styles/day47_zerog.py"
   },
   {
    "day": 48,
