@@ -331,10 +331,15 @@
    "topic": "Some turtles breathe through their butts",
    "hook": "Some turtles can breathe through their butts.",
    "facts": "Cloacal respiration: e.g. Australia's Fitzroy River turtle and white-throated snapping turtle absorb oxygen through their cloaca, letting them stay underwater for long periods.",
-   "status": "planned",
+   "status": "scheduled",
    "style": "comic-panels",
    "style_idea": "Family-friendly comic book: panels, halftone shading, speech bubbles, 'BLUB!' sound effects, a turtle doing its weird breathing trick underwater.",
-   "time": "19:00"
+   "time": "19:00",
+   "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/day22.mp4",
+   "title": "This Turtle Breathes Through Its Butt 🐢 #shorts",
+   "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7727862&openWithPostUuid=-8521565562798715409",
+   "engine": "engine/styles/day22_comic.py",
+   "spec": "specs/day22_turtlebutt.json"
   },
   {
    "day": 23,
