@@ -1,0 +1,788 @@
+{
+ "voice": "am_michael",
+ "speed": 0.93,
+ "lines": [
+  {
+   "text": "There's a spot on Earth so remote that the closest humans to you would be astronauts, flying through space.",
+   "scene": {
+    "type": "globe",
+    "mode": "hook",
+    "lat": -48.88,
+    "lon": -123.39,
+    "lines": [
+     "THE NEAREST HUMANS",
+     "ARE IN SPACE"
+    ],
+    "mark": [
+     -48.88,
+     -123.39
+    ],
+    "iss": true
+   }
+  },
+  {
+   "text": "And that's not even the strangest one. Before this video ends, you'll know where there's enough gold and platinum to coat the entire planet.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "10 FACTS ABOUT EARTH",
+     "THAT SOUND FAKE"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 120,
+    "y": 430,
+    "globe": true
+   }
+  },
+  {
+   "text": "Every fact is real, and checked. Sources are in the description. Let's go.",
+   "scene": {
+    "type": "cold",
+    "lines": [
+     "ALL REAL.",
+     "ALL CHECKED."
+    ],
+    "sub": "SOURCES IN THE DESCRIPTION",
+    "size": 120
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number one.",
+   "scene": {
+    "type": "chapter",
+    "ch": 1,
+    "title": "YOU ARE NOT SITTING STILL",
+    "sub": "Earth's double speed"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "Right now, you probably feel like you're sitting perfectly still. You're not.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "YOU FEEL STILL.",
+     "YOU'RE NOT."
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 120,
+    "y": 440
+   }
+  },
+  {
+   "text": "Near the equator, the ground under your feet is spinning around Earth's axis at about one thousand six hundred and seventy kilometers an hour.",
+   "scene": {
+    "type": "globe",
+    "mode": "spin",
+    "lat": 10,
+    "lon": -30,
+    "spin": 0.35,
+    "counter": [
+     0,
+     1670,
+     " KM/H"
+    ],
+    "label": "SPIN SPEED AT THE EQUATOR",
+    "equator": true
+   },
+   "caption": "Near the equator, the ground under your feet is spinning around Earth's axis at about 1,670 kilometers an hour."
+  },
+  {
+   "text": "And at the same time, the whole planet is racing around the Sun at about one hundred and seven thousand kilometers an hour.",
+   "scene": {
+    "type": "orbit",
+    "to": 107000,
+    "label": "AROUND THE SUN"
+   },
+   "caption": "And at the same time, the whole planet is racing around the Sun at about 107,000 kilometers an hour."
+  },
+  {
+   "text": "That's about thirty kilometers every single second.",
+   "scene": {
+    "type": "counter",
+    "from": 0,
+    "to": 30,
+    "suffix": " KM",
+    "label": "EVERY SECOND",
+    "note": "≈ 107,000 km/h ÷ 3,600",
+    "secs": 1.4
+   },
+   "caption": "That's about 30 kilometers every single second."
+  },
+  {
+   "text": "Over one day, that's about two and a half million kilometers, without ever leaving your chair.",
+   "scene": {
+    "type": "counter",
+    "from": 0,
+    "to": 2.5,
+    "fmt": "f1",
+    "suffix": " MILLION KM",
+    "label": "TRAVELED EVERY DAY",
+    "note": "≈ 107,000 km/h × 24 h",
+    "secs": 1.6,
+    "size": 170
+   },
+   "caption": "Over one day, that's about 2.5 million kilometers, without ever leaving your chair."
+  },
+  {
+   "text": "So in the time it took you to hear that sentence, you flew farther than a marathon. Several times over.",
+   "scene": {
+    "type": "compare",
+    "left": [
+     "A MARATHON"
+    ],
+    "lv": 42,
+    "lt": "42 KM",
+    "right": [
+     "EARTH IN",
+     "5 SECONDS"
+    ],
+    "rv": 150,
+    "rt": "≈ 150 KM"
+   }
+  },
+  {
+   "text": "You can't feel any of it, because everything around you, the air, the oceans and the ground, is moving right along with you.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "EVERYTHING MOVES",
+     "WITH YOU"
+    ],
+    "accent": {
+     "0": 1
+    },
+    "size": 110,
+    "y": 450
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number two.",
+   "scene": {
+    "type": "chapter",
+    "ch": 2,
+    "title": "THE LONELIEST PLACE ON EARTH",
+    "sub": "Point Nemo"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "In the middle of the South Pacific, there's a spot called Point Nemo.",
+   "scene": {
+    "type": "globe",
+    "mode": "fly",
+    "from": [
+     10,
+     -30
+    ],
+    "lat": -48.88,
+    "lon": -123.39,
+    "mark": [
+     -48.88,
+     -123.39
+    ],
+    "marklabel": "POINT NEMO"
+   }
+  },
+  {
+   "text": "Nemo is Latin for no one. And the name fits.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "NEMO = “NO ONE”"
+    ],
+    "size": 130,
+    "y": 470,
+    "globe": true
+   }
+  },
+  {
+   "text": "It's the place in the ocean farthest from any land. The nearest islands are about two thousand seven hundred kilometers away.",
+   "scene": {
+    "type": "nemo",
+    "mode": "map"
+   },
+   "caption": "It's the place in the ocean farthest from any land. The nearest islands are about 2,700 kilometers away."
+  },
+  {
+   "text": "To get there from any coast, you'd sail for days and days through nothing but open ocean.",
+   "scene": {
+    "type": "nemo",
+    "mode": "sail"
+   }
+  },
+  {
+   "text": "But the International Space Station flies only about four hundred kilometers above the Earth.",
+   "scene": {
+    "type": "nemo",
+    "mode": "side"
+   },
+   "caption": "But the International Space Station flies only about 400 kilometers above the Earth."
+  },
+  {
+   "text": "So when the station passes overhead, the closest people to you aren't on Earth at all. They're in space.",
+   "scene": {
+    "type": "stamp",
+    "lines": [
+     "CLOSEST HUMANS:",
+     "IN ORBIT"
+    ],
+    "stamp": "TRUE"
+   }
+  },
+  {
+   "text": "It's so empty out there that space agencies use it as a spacecraft graveyard. Since the nineteen seventies, hundreds of old spacecraft have been steered down to crash into the sea there, on purpose.",
+   "scene": {
+    "type": "nemo",
+    "mode": "graveyard"
+   },
+   "caption": "It's so empty out there that space agencies use it as a spacecraft graveyard. Since the 1970s, hundreds of old spacecraft have been steered down to crash into the sea there, on purpose."
+  },
+  {
+   "text": "And one day, NASA plans to bring the International Space Station itself down there too. The astronauts' home will end up at the loneliest spot on the planet.",
+   "scene": {
+    "type": "nemo",
+    "mode": "iss"
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number three.",
+   "scene": {
+    "type": "chapter",
+    "ch": 3,
+    "title": "LIGHTNING THAT NEVER STOPS"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "Lightning flashes somewhere on Earth about forty-five times every second. Right now, as you watch this, it's happening.",
+   "scene": {
+    "type": "lightning",
+    "rate": 45
+   },
+   "caption": "Lightning flashes somewhere on Earth about 45 times every second. Right now, as you watch this, it's happening."
+  },
+  {
+   "text": "We know because NASA satellites watched the whole planet and counted the flashes, for more than seventeen years.",
+   "scene": {
+    "type": "lightning",
+    "rate": 45,
+    "sat": true,
+    "label": "17+ YEARS OF SATELLITE DATA"
+   },
+   "caption": "We know because NASA satellites watched the whole planet and counted the flashes, for more than 17 years."
+  },
+  {
+   "text": "That's nearly four million lightning flashes every single day.",
+   "scene": {
+    "type": "counter",
+    "from": 0,
+    "to": 4000000,
+    "label": "FLASHES EVERY DAY",
+    "secs": 1.8,
+    "size": 180
+   },
+   "caption": "That's nearly 4 million lightning flashes every single day."
+  },
+  {
+   "text": "That adds up to about one point four billion flashes every year.",
+   "scene": {
+    "type": "counter",
+    "from": 0,
+    "to": 1.4,
+    "fmt": "f1",
+    "suffix": " BILLION",
+    "label": "FLASHES EVERY YEAR",
+    "secs": 1.6,
+    "size": 190
+   },
+   "caption": "That adds up to about 1.4 billion flashes every year."
+  },
+  {
+   "text": "So by the end of this video, more than twenty thousand bolts will have lit up the planet.",
+   "scene": {
+    "type": "counter",
+    "from": 0,
+    "to": 20000,
+    "suffix": "+",
+    "label": "FLASHES DURING THIS VIDEO",
+    "note": "≈ 45 per second × 8 minutes",
+    "secs": 2.2
+   },
+   "caption": "So by the end of this video, more than 20,000 bolts will have lit up the planet.",
+   "pause": 0.5
+  },
+  {
+   "text": "Number four.",
+   "scene": {
+    "type": "chapter",
+    "ch": 4,
+    "title": "THE GROUND IS MOVING",
+    "sub": "continental drift"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "The continents are moving, right now. Roughly as fast as your fingernails grow.",
+   "scene": {
+    "type": "drift",
+    "mode": "nail"
+   }
+  },
+  {
+   "text": "The Atlantic Ocean, for example, gets a few centimeters wider every single year, as the Americas and Europe and Africa drift apart.",
+   "scene": {
+    "type": "drift",
+    "mode": "atlantic"
+   }
+  },
+  {
+   "text": "Add that up since Columbus crossed it in fourteen ninety-two, and the Atlantic is now more than ten meters wider.",
+   "scene": {
+    "type": "counter",
+    "from": 0,
+    "to": 10,
+    "prefix": "+",
+    "suffix": " M",
+    "label": "WIDER SINCE 1492",
+    "note": "a few cm a year × 530+ years",
+    "secs": 1.8
+   },
+   "caption": "Add that up since Columbus crossed it in 1492, and the Atlantic is now more than 10 meters wider."
+  },
+  {
+   "text": "Even in one human lifetime, the ocean grows by a couple of meters.",
+   "scene": {
+    "type": "drift",
+    "mode": "life"
+   }
+  },
+  {
+   "text": "Too slow to see. But it never stops.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "TOO SLOW TO SEE.",
+     "IT NEVER STOPS."
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 110,
+    "y": 450
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number five.",
+   "scene": {
+    "type": "chapter",
+    "ch": 5,
+    "title": "THE GREEN SAHARA"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "Picture the Sahara. Sand, as far as you can see.",
+   "scene": {
+    "type": "sahara",
+    "mode": "sand"
+   }
+  },
+  {
+   "text": "But between about eleven thousand and five thousand years ago, it was green.",
+   "scene": {
+    "type": "sahara",
+    "mode": "turn",
+    "label": "≈ 11,000 – 5,000 YEARS AGO"
+   },
+   "caption": "But between about 11,000 and 5,000 years ago, it was green."
+  },
+  {
+   "text": "Monsoon rains filled huge lakes and rivers. Hippos and crocodiles lived there.",
+   "scene": {
+    "type": "sahara",
+    "mode": "lakes"
+   }
+  },
+  {
+   "text": "Archaeologists have dug up their bones in what is now desert, along with fish about two meters long.",
+   "scene": {
+    "type": "sahara",
+    "mode": "bones"
+   },
+   "caption": "Archaeologists have dug up their bones in what is now desert, along with fish about 2 meters long."
+  },
+  {
+   "text": "And in one cave, people painted little figures that look like they're swimming.",
+   "scene": {
+    "type": "sahara",
+    "mode": "cave"
+   }
+  },
+  {
+   "text": "Swimming. In the Sahara.",
+   "scene": {
+    "type": "stamp",
+    "lines": [
+     "SWIMMING.",
+     "IN THE SAHARA."
+    ],
+    "stamp": "TRUE"
+   }
+  },
+  {
+   "text": "And it wasn't a one-off. Tiny wobbles in Earth's orbit shift the monsoon rains, so the Sahara has flipped between desert and green again and again, roughly every twenty thousand years.",
+   "scene": {
+    "type": "sahara",
+    "mode": "cycle"
+   },
+   "caption": "And it wasn't a one-off. Tiny wobbles in Earth's orbit shift the monsoon rains, so the Sahara has flipped between desert and green again and again, roughly every 20,000 years.",
+   "pause": 0.5
+  },
+  {
+   "text": "Number six.",
+   "scene": {
+    "type": "chapter",
+    "ch": 6,
+    "title": "DINOSAUR DAYS WERE SHORTER"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "Seventy million years ago, when dinosaurs still walked the Earth, a day lasted only about twenty-three and a half hours.",
+   "scene": {
+    "type": "clock",
+    "hours": 23.5,
+    "label": "ONE DAY, 70 MILLION YEARS AGO"
+   },
+   "caption": "70 million years ago, when dinosaurs still walked the Earth, a day lasted only about 23 and a half hours."
+  },
+  {
+   "text": "Scientists worked that out by counting daily growth layers in a fossil shell from that time.",
+   "scene": {
+    "type": "shell"
+   }
+  },
+  {
+   "text": "Back then, one year had three hundred and seventy-two days. The dinosaurs got more sunrises, but each one came a little sooner.",
+   "scene": {
+    "type": "counter",
+    "from": 365,
+    "to": 372,
+    "label": "DAYS IN A YEAR",
+    "note": "70 million years ago",
+    "secs": 1.6
+   },
+   "caption": "Back then, one year had 372 days. The dinosaurs got more sunrises, but each one came a little sooner."
+  },
+  {
+   "text": "The reason is the Moon. Its tides act like a brake on Earth's spin, so our days slowly get longer.",
+   "scene": {
+    "type": "moon",
+    "mode": "brake"
+   }
+  },
+  {
+   "text": "And as Earth slows down, the Moon drifts away from us, about three point eight centimeters every year.",
+   "scene": {
+    "type": "moon",
+    "mode": "away"
+   },
+   "caption": "And as Earth slows down, the Moon drifts away from us, about 3.8 centimeters every year.",
+   "pause": 0.5
+  },
+  {
+   "text": "Number seven.",
+   "scene": {
+    "type": "chapter",
+    "ch": 7,
+    "title": "TALLER THAN EVEREST"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "Mount Everest rises about eight thousand eight hundred and forty-nine meters above sea level. Nothing on land reaches higher.",
+   "scene": {
+    "type": "mountain",
+    "mode": "everest"
+   },
+   "caption": "Mount Everest rises about 8,849 meters above sea level. Nothing on land reaches higher."
+  },
+  {
+   "text": "So Everest is the highest mountain above sea level. But it's not the tallest mountain on Earth.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "HIGHEST ≠ TALLEST"
+    ],
+    "size": 140,
+    "y": 500
+   }
+  },
+  {
+   "text": "That's Mauna Kea, in Hawaii. Above the waves, it's about four thousand two hundred meters tall.",
+   "scene": {
+    "type": "mountain",
+    "mode": "above"
+   },
+   "caption": "That's Mauna Kea, in Hawaii. Above the waves, it's about 4,200 meters tall."
+  },
+  {
+   "text": "But that's only the tip. About six thousand meters of it is hidden under the ocean. From its base on the sea floor to its peak, it's about ten thousand two hundred meters.",
+   "scene": {
+    "type": "mountain",
+    "mode": "full"
+   },
+   "caption": "But that's only the tip. About six thousand meters of it is hidden under the ocean. From its base on the sea floor to its peak, it's about 10,200 meters."
+  },
+  {
+   "text": "That's more than a kilometer taller than Everest. Drain the oceans, and Mauna Kea would be the true giant of the planet.",
+   "scene": {
+    "type": "mountain",
+    "mode": "versus"
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number eight.",
+   "scene": {
+    "type": "chapter",
+    "ch": 8,
+    "title": "THE PEAK CLOSEST TO SPACE"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "So which mountaintop is closest to space? Still not Everest.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "CLOSEST TO SPACE?",
+     "NOT EVEREST."
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 110,
+    "y": 450
+   }
+  },
+  {
+   "text": "Earth isn't a perfect ball. Because it spins, it bulges out around the equator.",
+   "scene": {
+    "type": "bulge",
+    "mode": "shape"
+   }
+  },
+  {
+   "text": "Now meet Mount Chimborazo, a volcano in Ecuador. It's only about six thousand two hundred and seventy meters high. But it sits almost right on top of that bulge.",
+   "scene": {
+    "type": "bulge",
+    "mode": "peaks"
+   },
+   "caption": "Now meet Mount Chimborazo, a volcano in Ecuador. It's only about 6,270 meters high. But it sits almost right on top of that bulge."
+  },
+  {
+   "text": "So even though it's more than two and a half kilometers lower than Everest above sea level, its summit is about two kilometers farther from the center of the Earth.",
+   "scene": {
+    "type": "bulge",
+    "mode": "lines"
+   },
+   "caption": "So even though it's more than 2.5 kilometers lower than Everest above sea level, its summit is about 2 kilometers farther from the center of the Earth."
+  },
+  {
+   "text": "Standing up there, you're closer to the stars than anywhere else on the planet's surface.",
+   "scene": {
+    "type": "stamp",
+    "lines": [
+     "CHIMBORAZO BEATS EVEREST"
+    ],
+    "stamp": "TRUE"
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number nine.",
+   "scene": {
+    "type": "chapter",
+    "ch": 9,
+    "title": "A SUN UNDER YOUR FEET"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "Deep beneath your feet, at the center of the planet, is a ball of solid iron.",
+   "scene": {
+    "type": "core",
+    "mode": "cut"
+   }
+  },
+  {
+   "text": "In twenty thirteen, scientists squeezed tiny samples of iron between two diamonds, heated them with lasers, and blasted them with X-rays.",
+   "scene": {
+    "type": "anvil"
+   },
+   "caption": "In 2013, scientists squeezed tiny samples of iron between two diamonds, heated them with lasers, and blasted them with X-rays."
+  },
+  {
+   "text": "They recreated pressures of more than two million times the air around you, and watched the iron melt.",
+   "scene": {
+    "type": "counter",
+    "from": 0,
+    "to": 2.2,
+    "fmt": "f1",
+    "suffix": " MILLION ×",
+    "label": "THE PRESSURE OF OUR AIR",
+    "note": "measured in the lab, then extrapolated to the core",
+    "secs": 1.6,
+    "size": 180
+   },
+   "caption": "They recreated pressures of more than 2 million times the air around you, and watched the iron melt."
+  },
+  {
+   "text": "Then they worked out what happens at the real core, where the pressure is about three point three million times the air at sea level.",
+   "scene": {
+    "type": "counter",
+    "from": 2.2,
+    "to": 3.3,
+    "fmt": "f1",
+    "suffix": " MILLION ×",
+    "label": "PRESSURE AT THE INNER CORE",
+    "secs": 1.4,
+    "size": 180
+   },
+   "caption": "Then they worked out what happens at the real core, where the pressure is about 3.3 million times the air at sea level."
+  },
+  {
+   "text": "Their result? The edge of the inner core is about six thousand degrees Celsius.",
+   "scene": {
+    "type": "core",
+    "mode": "temp"
+   },
+   "caption": "Their result? The edge of the inner core is about 6,000 degrees Celsius."
+  },
+  {
+   "text": "That's about as hot as the surface of the Sun.",
+   "scene": {
+    "type": "sunvs"
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "And number ten.",
+   "scene": {
+    "type": "chapter",
+    "ch": 10,
+    "title": "THE GOLDEN CORE",
+    "sub": "the promised payoff"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "When the young Earth was partly molten, heavy iron sank to the center to form the core.",
+   "scene": {
+    "type": "gold",
+    "mode": "sink"
+   }
+  },
+  {
+   "text": "And it dragged almost all of the planet's precious metals, like gold and platinum, down with it.",
+   "scene": {
+    "type": "gold",
+    "mode": "core"
+   }
+  },
+  {
+   "text": "Scientists at the University of Bristol estimated there are enough precious metals in the core to cover the entire surface of the Earth in a layer four meters thick.",
+   "scene": {
+    "type": "gold",
+    "mode": "coat"
+   },
+   "caption": "Scientists at the University of Bristol estimated there are enough precious metals in the core to cover the entire surface of the Earth in a layer 4 meters thick."
+  },
+  {
+   "text": "That's more than twice as tall as a grown adult. Over every ocean, every city and every mountain. And we will never be able to dig down and reach it.",
+   "scene": {
+    "type": "gold",
+    "mode": "person"
+   }
+  },
+  {
+   "text": "So where does the gold we mine come from? Scientists think much of it arrived later, in a storm of meteorites, after the core had formed.",
+   "scene": {
+    "type": "gold",
+    "mode": "meteors"
+   }
+  },
+  {
+   "text": "The clue came from rocks in Greenland that are nearly four billion years old. Their chemistry is slightly different from today's rocks, as if something was added later, from space.",
+   "scene": {
+    "type": "gold",
+    "mode": "rocks"
+   }
+  },
+  {
+   "text": "Which means the gold in a ring may have, quite literally, fallen from the sky.",
+   "scene": {
+    "type": "stamp",
+    "lines": [
+     "YOUR GOLD",
+     "FELL FROM THE SKY"
+    ],
+    "stamp": "TRUE"
+   },
+   "pause": 0.7
+  },
+  {
+   "text": "Quick recap. You're flying at a hundred thousand kilometers an hour. The nearest humans can be in space. Lightning, forty-five times a second.",
+   "scene": {
+    "type": "recap",
+    "items": [
+     "100,000+ KM/H",
+     "NEAREST HUMANS IN SPACE",
+     "45 FLASHES A SECOND"
+    ]
+   },
+   "caption": "Quick recap. You're flying at 100,000 kilometers an hour. The nearest humans can be in space. Lightning, 45 times a second."
+  },
+  {
+   "text": "Moving continents. A green Sahara. Shorter dinosaur days. A mountain taller than Everest, and a peak closer to space.",
+   "scene": {
+    "type": "recap",
+    "items": [
+     "MOVING CONTINENTS",
+     "A GREEN SAHARA",
+     "SHORTER DINO DAYS",
+     "TALLER THAN EVEREST",
+     "CLOSEST TO SPACE"
+    ]
+   }
+  },
+  {
+   "text": "A core as hot as the Sun. And enough gold and platinum down there to coat the whole planet.",
+   "scene": {
+    "type": "recap",
+    "items": [
+     "AS HOT AS THE SUN",
+     "A 4-METER GOLDEN COAT"
+    ]
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Which one sounded the most fake? Tell me in the comments. A new deep dive comes out every Tuesday and Friday. See you in the next one.",
+   "scene": {
+    "type": "outro",
+    "click_at": 2.2
+   }
+  }
+ ]
+}
