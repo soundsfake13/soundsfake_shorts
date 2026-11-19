@@ -1,0 +1,14 @@
+{
+ "voice": "am_michael",
+ "speed": 1.08,
+ "lines": [
+  {"text": "Sound moves four times faster in water.", "caption": "Sound moves 4× faster in water.", "pause": 0.12, "scene": {"type": "hook"}},
+  {"text": "And that's not even the fastest it can go.", "pause": 0.14, "scene": {"type": "loop"}},
+  {"text": "In air, sound covers about three hundred forty-three meters every second.", "caption": "In air, sound covers about 343 meters every second.", "scene": {"type": "air"}},
+  {"text": "In water? About one thousand four hundred eighty.", "caption": "In water? About 1,480.", "scene": {"type": "water"}},
+  {"text": "Race it over one kilometer, and water wins by more than two seconds.", "caption": "Race it over 1 kilometer, and water wins by more than 2 seconds.", "scene": {"type": "race"}},
+  {"text": "Why? Water is much harder to squeeze, so each push is passed along faster.", "scene": {"type": "squeeze"}},
+  {"text": "And through steel, sound races about seventeen times faster than in air.", "caption": "And through steel, sound races about 17× faster than in air.", "pause": 0.16, "scene": {"type": "steel"}},
+  {"text": "Sounds fake? It's true. Follow for more.", "pause": 0.1, "scene": {"type": "end", "click_at": 0.45}}
+ ]
+}
