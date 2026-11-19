@@ -1,0 +1,14 @@
+{
+ "voice": "am_michael",
+ "speed": 1.06,
+ "lines": [
+  {"text": "This war lasted less than an hour.", "pause": 0.14, "scene": {"type": "hook"}},
+  {"text": "And why it started is even stranger.", "pause": 0.14, "scene": {"type": "loop"}},
+  {"text": "Zanzibar. August twenty-seventh, eighteen ninety-six.", "caption": "Zanzibar. August 27, 1896.", "pause": 0.14, "scene": {"type": "place"}},
+  {"text": "British ships set a deadline: nine a.m. sharp.", "caption": "British ships set a deadline: 9 a.m. sharp.", "pause": 0.12, "scene": {"type": "deadline"}},
+  {"text": "The deadline passed, and the guns opened fire just after nine.", "caption": "The deadline passed, and the guns opened fire just after 9.", "pause": 0.12, "scene": {"type": "fire"}},
+  {"text": "By nine forty, it was over. About thirty-eight minutes.", "caption": "By 9:40, it was over. About 38 minutes.", "pause": 0.16, "scene": {"type": "over"}},
+  {"text": "Why? A new sultan took the throne without Britain's approval.", "pause": 0.14, "scene": {"type": "why", "stamp_word": 9}},
+  {"text": "Sounds fake? It's true. Follow for more.", "pause": 0.1, "scene": {"type": "end", "click_at": 0.5}}
+ ]
+}
