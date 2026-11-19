@@ -347,10 +347,15 @@
    "topic": "The shortest war in history lasted under an hour",
    "hook": "The shortest war in history lasted less than an hour.",
    "facts": "Anglo-Zanzibar War, 27 August 1896, lasted roughly 38-45 minutes. Keep the tone light but factual; no graphic imagery.",
-   "status": "planned",
+   "status": "scheduled",
    "style": "newsreel",
    "style_idea": "Vintage newspaper + 1890s newsreel: sepia, film scratches, headline typesetting, a stopwatch for the ~38–45 minute war; no graphic violence. Ref: 'Superintelligence documentary opens on an antique notebook'.",
-   "time": "19:00"
+   "time": "19:00",
+   "title": "This War Lasted Less Than an Hour ⏱️ #shorts",
+   "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/day23.mp4",
+   "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7727862&openWithPostUuid=7362770023010421778",
+   "engine": "engine/styles/day23_newsreel.py",
+   "spec": "specs/day23_shortestwar.json"
   },
   {
    "day": 24,
