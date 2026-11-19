@@ -700,9 +700,14 @@
    "topic": "Sound travels faster in water than in air",
    "hook": "Sound moves about four times faster in water than in air.",
    "facts": "Speed of sound ~343 m/s in air (20°C) vs ~1,480 m/s in fresh water.",
-   "status": "planned",
+   "status": "scheduled",
    "style": "oscilloscope",
-   "style_idea": "Retro oscilloscope: phosphor-green waveforms on a CRT grid, knobs, waves racing between two lanes (air vs water)."
+   "style_idea": "Retro oscilloscope: phosphor-green waveforms on a CRT grid, knobs, waves racing between two lanes (air vs water).",
+   "title": "Sound Is Faster Underwater (Steel Is Even Crazier) #shorts",
+   "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/day48.mp4",
+   "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7727862&openWithPostUuid=7917739967207523543",
+   "spec": "specs/day48_soundwater.json",
+   "engine": "engine/styles/day48_oscilloscope.py"
   },
   {
    "day": 49,
