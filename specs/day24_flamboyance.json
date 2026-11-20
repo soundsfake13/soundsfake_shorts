@@ -1,0 +1,14 @@
+{
+ "voice": "am_michael",
+ "speed": 1.06,
+ "lines": [
+  {"text": "A group of flamingos is called a flamboyance.", "pause": 0.14, "scene": {"type": "hook"}},
+  {"text": "But their famous pink? It isn't really theirs.", "pause": 0.14, "scene": {"type": "loop"}},
+  {"text": "Flamingo chicks hatch fluffy, white and gray.", "pause": 0.12, "scene": {"type": "chick"}},
+  {"text": "The pink comes from their food: algae and tiny brine shrimp.", "pause": 0.12, "scene": {"type": "food"}},
+  {"text": "They're packed with natural pigments called carotenoids.", "pause": 0.12, "scene": {"type": "pigment"}},
+  {"text": "And they eat upside down, filtering water through their bills.", "pause": 0.12, "scene": {"type": "feed"}},
+  {"text": "It takes several years of that diet to turn fully pink.", "pause": 0.16, "scene": {"type": "years"}},
+  {"text": "Sounds fake? It's true. Follow for more.", "pause": 0.1, "scene": {"type": "end", "click_at": 0.5}}
+ ]
+}
