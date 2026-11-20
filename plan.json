@@ -721,9 +721,14 @@
    "topic": "The Great Pyramid was the tallest building for 3,800 years",
    "hook": "For about 3,800 years, the tallest building on Earth was the Great Pyramid.",
    "facts": "At ~146 m the Great Pyramid was the tallest human-made structure until Lincoln Cathedral's spire (~1311 AD).",
-   "status": "planned",
+   "status": "scheduled",
    "style": "stone-relief",
-   "style_idea": "Carved stone relief: sandstone texture, chiselled reveal of shapes and numbers, low raking light."
+   "style_idea": "Carved stone relief: sandstone texture, chiselled reveal of shapes and numbers, low raking light.",
+   "title": "This Was Earth's Tallest Building for 3,800 Years 🏛️ #shorts",
+   "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/day49.mp4",
+   "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7727862&openWithPostUuid=-7246834814454182497",
+   "spec": "specs/day49_pyramid.json",
+   "engine": "engine/styles/day49_relief.py"
   },
   {
    "day": 50,
