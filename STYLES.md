@@ -58,3 +58,4 @@ reference that best fits the topic; the plan's `style_idea` is the starting brie
   data-viz dials (`clock`), film grain and ink-forming type (`ink`), motion-blurred kinetic type and 3D cubes (`kinetic`).
 - Fonts: Inter Display (system or `FONT_DIR`), `engine/fonts/` (Fredoka, DM Serif Display). More free fonts can be
   downloaded from `https://raw.githubusercontent.com/google/fonts/main/ofl/<family>/…` into `engine/fonts/` (OFL only).
+| 49 (23:00) | stone-relief | `engine/styles/day49_relief.py` | Carved sandstone slab relit every frame from a height field: sunken-relief Cinzel inscriptions with traces of gold / Egyptian-blue / ochre pigment, raised-relief pyramid and cathedral, low raking sun with cast shadows that stretch on every cut, chisel-wipe reveals with sand chips, basalt caption tablet, cartouche FAKE → TRUE slider; D-Hijaz plucked strings + frame drum (own idea from the plan brief; claudevideo.org unreachable this run) |

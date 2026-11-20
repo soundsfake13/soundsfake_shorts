@@ -1,0 +1,26 @@
+{
+ "voice": "am_michael",
+ "speed": 1.08,
+ "lines": [
+  {"text": "This was Earth's tallest building for thirty-eight hundred years.",
+   "caption": "This was Earth's tallest building for 3,800 years.",
+   "pause": 0.12, "scene": {"type": "hook"}},
+  {"text": "And what finally beat it is even stranger.",
+   "pause": 0.15, "scene": {"type": "hook", "loop": true}},
+  {"text": "Built about forty-five hundred years ago, the Great Pyramid stood about one hundred forty-six meters tall.",
+   "caption": "Built about 4,500 years ago, the Great Pyramid stood about 146 meters tall.",
+   "scene": {"type": "build"}},
+  {"text": "Empires rose and fell. For thousands of years, nothing got taller.",
+   "scene": {"type": "ages"}},
+  {"text": "Then, in thirteen eleven, a church spire in England finally beat it.",
+   "caption": "Then, in 1311, a church spire in England finally beat it.",
+   "scene": {"type": "spire"}},
+  {"text": "But a storm knocked that spire down in fifteen forty-eight.",
+   "caption": "But a storm knocked that spire down in 1548.",
+   "scene": {"type": "storm"}},
+  {"text": "The pyramid? Still standing.",
+   "pause": 0.2, "scene": {"type": "stand"}},
+  {"text": "Sounds fake? It's true. Follow for more.",
+   "pause": 0.1, "scene": {"type": "end", "click_at": 0.45}}
+ ]
+}
