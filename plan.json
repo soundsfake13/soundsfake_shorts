@@ -363,10 +363,15 @@
    "topic": "A group of flamingos is called a flamboyance",
    "hook": "A group of flamingos is called a flamboyance.",
    "facts": "Collective noun 'flamboyance'; also flamingos are pink from carotenoid pigments in their diet (algae, brine shrimp), and are born grey/white.",
-   "status": "planned",
+   "status": "scheduled",
    "style": "art-deco",
    "style_idea": "Pastel art-deco travel poster: geometric sunrays, flamingos as elegant flat shapes forming a 'flamboyance', gold line accents.",
-   "time": "19:00"
+   "time": "19:00",
+   "title": "Their Pink Isn't Even Theirs 🦩 #shorts",
+   "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/day24.mp4",
+   "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7727862&openWithPostUuid=-8013109704480438790",
+   "engine": "engine/styles/day24_artdeco.py",
+   "spec": "specs/day24_flamboyance.json"
   },
   {
    "day": 25,
