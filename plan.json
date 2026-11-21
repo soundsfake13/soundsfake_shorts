@@ -742,9 +742,14 @@
    "topic": "Glass frogs have see-through skin",
    "hook": "You can see this frog's heart beating through its skin.",
    "facts": "Glass frogs (Centrolenidae) have translucent belly skin showing organs; at rest they can hide most of their red blood cells in the liver to become more transparent (Science, 2022).",
-   "status": "planned",
+   "status": "scheduled",
    "style": "x-ray",
-   "style_idea": "X-ray/transparency look: dark background, glowing translucent layers, a scanner sweep revealing organs and a beating heart."
+   "style_idea": "X-ray/transparency look: dark background, glowing translucent layers, a scanner sweep revealing organs and a beating heart.",
+   "title": "You Can Watch This Frog's Heart Beat 🐸 #shorts",
+   "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/day50.mp4",
+   "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7727862&openWithPostUuid=-3908494319674438128",
+   "spec": "specs/day50_glassfrog.json",
+   "engine": "engine/styles/day50_xray.py"
   },
   {
    "day": 51,
