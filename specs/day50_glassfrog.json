@@ -1,0 +1,61 @@
+{
+ "voice": "am_michael",
+ "speed": 1.12,
+ "lines": [
+  {
+   "text": "You can see this frog's heart beating.",
+   "pause": 0.12,
+   "scene": {
+    "type": "hook"
+   }
+  },
+  {
+   "text": "But what it does while it sleeps is even stranger.",
+   "pause": 0.15,
+   "scene": {
+    "type": "loop"
+   }
+  },
+  {
+   "text": "Most glass frogs are just two to three centimeters long.",
+   "caption": "Most glass frogs are just 2–3 cm long.",
+   "scene": {
+    "type": "leaf"
+   }
+  },
+  {
+   "text": "Many have see-through belly skin, so you can watch their heart and organs.",
+   "scene": {
+    "type": "belly"
+   }
+  },
+  {
+   "text": "When they sleep, they pack nearly ninety percent of their red blood cells into their liver.",
+   "caption": "When they sleep, they pack nearly 90% of their red blood cells into their liver.",
+   "scene": {
+    "type": "pack"
+   }
+  },
+  {
+   "text": "That liver is coated in mirror-like crystals, so the blood stays hidden.",
+   "scene": {
+    "type": "mirror"
+   }
+  },
+  {
+   "text": "Now they're two to three times more see-through. When they wake, the blood flows back.",
+   "caption": "Now they're 2–3× more see-through. When they wake, the blood flows back.",
+   "scene": {
+    "type": "vanish"
+   }
+  },
+  {
+   "text": "Sounds fake? It's true. Follow for more.",
+   "pause": 0.1,
+   "scene": {
+    "type": "end",
+    "click_at": 0.45
+   }
+  }
+ ]
+}
