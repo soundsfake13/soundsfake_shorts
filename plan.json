@@ -379,10 +379,15 @@
    "topic": "Koalas have fingerprints like humans",
    "hook": "Koala fingerprints are so similar to ours, they could confuse a crime lab.",
    "facts": "Koala fingerprints are remarkably similar to human ones even under a microscope (Henneberg et al., 1996); evolved independently (convergent evolution).",
-   "status": "planned",
+   "status": "scheduled",
    "style": "forensic-lab",
    "style_idea": "Forensic lab UI: fingerprint scans side by side (human vs koala), magnifier sweep, match-percentage meter, evidence board with string.",
-   "time": "19:00"
+   "time": "19:00",
+   "title": "Koala Fingerprints Look Almost Exactly Like Ours 🐨 #shorts",
+   "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/day25.mp4",
+   "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7727862&openWithPostUuid=-6681797228288325887",
+   "engine": "engine/styles/day25_forensic.py",
+   "spec": "specs/day25_koalaprints.json"
   },
   {
    "day": 26,
