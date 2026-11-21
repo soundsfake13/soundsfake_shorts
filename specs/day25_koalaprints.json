@@ -1,0 +1,14 @@
+{
+ "voice": "am_michael",
+ "speed": 1.08,
+ "lines": [
+  {"text": "Koala fingerprints look almost exactly like ours.", "pause": 0.12, "scene": {"type": "hook"}},
+  {"text": "And the reason why is even stranger.", "pause": 0.12, "scene": {"type": "loop"}},
+  {"text": "Under a microscope, scientists could barely tell them apart.", "pause": 0.12, "scene": {"type": "micro"}},
+  {"text": "Koalas even have two thumbs on each hand.", "pause": 0.12, "scene": {"type": "thumbs"}},
+  {"text": "Yet their cousins, wombats and kangaroos, have no fingerprints at all.", "pause": 0.12, "scene": {"type": "lineup"}},
+  {"text": "Koalas evolved them on their own, separately from us.", "pause": 0.12, "scene": {"type": "tree"}},
+  {"text": "The likely reason? A better grip on branches and eucalyptus leaves.", "pause": 0.16, "scene": {"type": "motive"}},
+  {"text": "Sounds fake? It's true. Follow for more.", "pause": 0.1, "scene": {"type": "end", "click_at": 0.45}}
+ ]
+}
