@@ -763,9 +763,14 @@
    "topic": "Polar bears have black skin",
    "hook": "Under that white fur, a polar bear's skin is black.",
    "facts": "Polar bear skin is black; fur hairs are translucent/hollow and look white by scattering light.",
-   "status": "planned",
+   "status": "scheduled",
    "style": "thermal",
-   "style_idea": "Thermal camera palette (purple-orange-yellow): heat map of an icy scene, a polar bear silhouette, fur 'turning' transparent."
+   "style_idea": "Thermal camera palette (purple-orange-yellow): heat map of an icy scene, a polar bear silhouette, fur 'turning' transparent.",
+   "title": "A Polar Bear's Skin Is Actually Black 🐻‍❄️ #shorts",
+   "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/day51.mp4",
+   "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7727862&openWithPostUuid=4089353060081878318",
+   "spec": "specs/day51_polarskin.json",
+   "engine": "engine/styles/day51_thermal.py"
   },
   {
    "day": 52,
