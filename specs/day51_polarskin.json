@@ -1,0 +1,13 @@
+{
+ "voice": "am_michael",
+ "speed": 1.08,
+ "lines": [
+  {"text": "A polar bear's skin is black.", "pause": 0.12, "scene": {"type": "hook"}},
+  {"text": "And its fur isn't even white. Wait for the last part.", "pause": 0.15, "scene": {"type": "loop"}},
+  {"text": "See that black nose? The same dark skin covers its whole body.", "scene": {"type": "skin"}},
+  {"text": "Each hair is clear, with no pigment, and hollow inside.", "scene": {"type": "hair"}},
+  {"text": "Like snow and ice, the hairs scatter sunlight, so the coat looks white.", "scene": {"type": "scatter"}},
+  {"text": "And the fur holds heat so well, on a heat camera the bear almost disappears.", "scene": {"type": "vanish"}},
+  {"text": "Sounds fake? It's true. Follow for more.", "scene": {"type": "end", "click_at": 0.5}}
+ ]
+}
