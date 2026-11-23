@@ -411,10 +411,16 @@
    "topic": "The mantis shrimp punch boils water",
    "hook": "This shrimp punches so fast, the water around it boils.",
    "facts": "Peacock mantis shrimp strike at ~23 m/s with huge acceleration, creating cavitation bubbles that collapse with flashes of light and briefly reach thousands of degrees; strong enough to break aquarium glass.",
-   "status": "planned",
+   "status": "scheduled",
    "style": "anime-impact",
    "style_idea": "Anime action: speed lines, impact frames, screen shake, a bubble collapsing with a flash of light, hand-drawn energy effects.",
-   "time": "19:00"
+   "time": "19:00",
+   "title": "This Shrimp Punches So Hard, Water Boils 🥊 #shorts",
+   "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/day27.mp4",
+   "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7727862&openWithPostUuid=4266315566876936251",
+   "engine": "engine/styles/day27_anime.py",
+   "spec": "specs/day27_mantispunch.json",
+   "note": "Dropped the unverified \"thousands of degrees\" figure; video says heat. Acceleration softened to \"up to 10,000 G\"."
   },
   {
    "day": 28,
