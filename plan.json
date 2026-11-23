@@ -785,9 +785,15 @@
    "topic": "Some bamboo can grow almost a meter in a day",
    "hook": "Some bamboo can grow almost a meter in a single day.",
    "facts": "Some bamboo species can grow up to ~91 cm (35 in) in 24 hours (Guinness World Records).",
-   "status": "planned",
+   "status": "scheduled",
    "style": "ink-brush",
-   "style_idea": "Zen ink brush painting: sumi-e strokes on rice paper, bamboo growing segment by segment, red seal stamp."
+   "style_idea": "Zen ink brush painting: sumi-e strokes on rice paper, bamboo growing segment by segment, red seal stamp.",
+   "title": "This Grass Grows Almost a Meter a Day 🎋 #shorts",
+   "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/day52.mp4",
+   "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7727862&openWithPostUuid=-6281116281365380921",
+   "engine": "engine/styles/day52_sumie.py",
+   "spec": "specs/day52_bamboo.json",
+   "note": "Kept to \"some bamboo\", \"almost a meter\" (91 cm/24 h), \"nearly 4 cm/hour\" (derived), \"about 30 m\". claudevideo.org unreachable this run."
   },
   {
    "day": 53,
