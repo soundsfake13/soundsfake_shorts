@@ -90,9 +90,16 @@
       "ep": 7,
       "date": "2026-11-24",
       "topic": "Time",
-      "title": "Time Is Weirder Than You Think: 10 Facts",
+      "title": "Your Head Is Older Than Your Feet: 10 Time Facts That Sound Fake",
       "fact_ideas": "Ideas: GPS satellites' clocks run fast vs Earth (relativity, ~38 µs/day); leap seconds; dinosaur 23.5h days; Russia has 11 time zones; France has 12 incl. territories; the 'missing' 11 days of 1752 (Britain); Samoa skipped a day in 2011; atomic clocks; a year on Mercury vs its day; the oldest living tree.",
-      "status": "planned"
+      "status": "scheduled",
+      "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/ep07.mp4",
+      "thumb_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/thumbs/ep07.jpg",
+      "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7727862&openWithPostUuid=-1170463342789967681",
+      "spec": "specs/long/ep07_time.json",
+      "engine": "engine/long/ep07_time.py",
+      "duration": "8:23",
+      "facts": "Light = the past (Sun 8 min, Andromeda 2.5 My); Venus day > year; Britain skipped 11 days 1752; Sweden Feb 30 1712; Samoa skipped Fri 30 Dec 2011; Oxford 1096 vs Tenochtitlan 1325; Wrangel mammoths after Great Pyramid; Cleopatra closer to Moon landing; T. rex closer to us than Stegosaurus; head older than feet (NIST 33 cm) + GPS 38 us/day"
     },
     {
       "ep": 8,
