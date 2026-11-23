@@ -1,0 +1,1143 @@
+{
+ "voice": "am_michael",
+ "speed": 0.93,
+ "lines": [
+  {
+   "text": "Tyrannosaurus rex lived closer in time to you than to Stegosaurus.",
+   "scene": {
+    "type": "timeline",
+    "mode": "hook",
+    "span": [
+     160,
+     0
+    ],
+    "unit": "MILLION YEARS AGO",
+    "events": [
+     [
+      150,
+      "STEGOSAURUS",
+      "dim"
+     ],
+     [
+      66,
+      "T. REX",
+      "gold"
+     ],
+     [
+      0,
+      "YOU",
+      "cyan"
+     ]
+    ],
+    "brackets": [
+     [
+      150,
+      66,
+      "≈ 80+ MILLION YEARS",
+      "dim"
+     ],
+     [
+      66,
+      0,
+      "66 MILLION YEARS",
+      "gold"
+     ]
+    ],
+    "lines": [
+     "T. REX LIVED CLOSER",
+     "TO YOU THAN TO",
+     "STEGOSAURUS"
+    ]
+   }
+  },
+  {
+   "text": "And that's not even the strangest one. Before this video ends, you'll know why your head is older than your feet.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "10 FACTS ABOUT TIME",
+     "THAT SOUND FAKE"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 120,
+    "y": 440,
+    "clock": true
+   }
+  },
+  {
+   "text": "Time feels like the one thing we all understand. It's much stranger than that.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "TIME IS STRANGER",
+     "THAN YOU THINK"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 120,
+    "y": 440,
+    "clock": true
+   }
+  },
+  {
+   "text": "Every fact is real, and checked. Sources are in the description. Let's go.",
+   "scene": {
+    "type": "cold",
+    "lines": [
+     "ALL REAL.",
+     "ALL CHECKED."
+    ],
+    "sub": "SOURCES IN THE DESCRIPTION",
+    "size": 120
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number one.",
+   "scene": {
+    "type": "chapter",
+    "ch": 1,
+    "title": "YOU ARE LOOKING AT THE PAST",
+    "sub": "Light takes time to travel"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "Light is the fastest thing in the universe. But it still takes time to get anywhere.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "EVEN LIGHT",
+     "TAKES TIME"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 130,
+    "y": 440
+   }
+  },
+  {
+   "text": "Sunlight needs about eight minutes to cross the roughly one hundred and fifty million kilometers between the Sun and Earth.",
+   "scene": {
+    "type": "light",
+    "mode": "sun"
+   },
+   "caption": "Sunlight needs about 8 minutes to cross the roughly 150 million kilometers between the Sun and Earth."
+  },
+  {
+   "text": "So when you see the Sun, you're seeing it as it was eight minutes ago. If it suddenly vanished, you wouldn't know for eight more minutes.",
+   "scene": {
+    "type": "light",
+    "mode": "late"
+   },
+   "caption": "So when you see the Sun, you're seeing it as it was 8 minutes ago. If it suddenly vanished, you wouldn't know for 8 more minutes."
+  },
+  {
+   "text": "Even the Moon you see is about one second old.",
+   "scene": {
+    "type": "light",
+    "mode": "moon"
+   },
+   "caption": "Even the Moon you see is about 1 second old."
+  },
+  {
+   "text": "Now go farther. On a dark night, you can spot a faint smudge called the Andromeda galaxy.",
+   "scene": {
+    "type": "light",
+    "mode": "andromeda"
+   }
+  },
+  {
+   "text": "The light hitting your eyes from it left about two and a half million years ago.",
+   "scene": {
+    "type": "counter",
+    "from": 0,
+    "to": 2.5,
+    "fmt": "f1",
+    "suffix": " MILLION",
+    "label": "YEARS ON THE ROAD",
+    "note": "light from the Andromeda galaxy",
+    "secs": 1.8,
+    "size": 190
+   },
+   "caption": "The light hitting your eyes from it left about 2.5 million years ago."
+  },
+  {
+   "text": "Look at almost any star tonight, and you may be seeing light that left it before you were born.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "STARLIGHT CAN BE",
+     "OLDER THAN YOU"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 120,
+    "y": 450
+   }
+  },
+  {
+   "text": "Every time you look up at night, you're not seeing space. You're seeing its history.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "THE NIGHT SKY",
+     "IS A TIME MACHINE"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 110,
+    "y": 450
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number two.",
+   "scene": {
+    "type": "chapter",
+    "ch": 2,
+    "title": "A DAY LONGER THAN A YEAR",
+    "sub": "The planet Venus"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "On Venus, a single spin takes about two hundred and forty-three Earth days.",
+   "scene": {
+    "type": "venus",
+    "mode": "spin"
+   },
+   "caption": "On Venus, a single spin takes about 243 Earth days."
+  },
+  {
+   "text": "But one trip around the Sun takes only about two hundred and twenty-five.",
+   "scene": {
+    "type": "venus",
+    "mode": "orbit"
+   },
+   "caption": "But one trip around the Sun takes only about 225."
+  },
+  {
+   "text": "So Venus finishes a whole year before it finishes turning around once.",
+   "scene": {
+    "type": "compare",
+    "left": [
+     "ONE SPIN"
+    ],
+    "lv": 243,
+    "lt": "≈ 243 DAYS",
+    "right": [
+     "ONE YEAR"
+    ],
+    "rv": 225,
+    "rt": "≈ 225 DAYS",
+    "colors": [
+     "gold",
+     "cyan"
+    ]
+   }
+  },
+  {
+   "text": "Think about that. On Venus, you could celebrate a birthday, and it would still be the very same day.",
+   "scene": {
+    "type": "venus",
+    "mode": "cake"
+   }
+  },
+  {
+   "text": "And it spins backwards compared to Earth. On Venus, the Sun rises in the west.",
+   "scene": {
+    "type": "venus",
+    "mode": "west"
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number three.",
+   "scene": {
+    "type": "chapter",
+    "ch": 3,
+    "title": "THE COUNTRY THAT DELETED 11 DAYS",
+    "sub": "Britain, 1752"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "For centuries, Britain used an old calendar that added leap days a little too often. So, over the centuries, the dates slowly drifted out of step with the seasons.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "THE CALENDAR",
+     "WAS DRIFTING"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 120,
+    "y": 440,
+    "clock": true
+   }
+  },
+  {
+   "text": "The first countries in Europe had already fixed this back in fifteen eighty-two. Britain held out for almost two hundred years.",
+   "scene": {
+    "type": "timeline",
+    "span": [
+     1550,
+     1800
+    ],
+    "unit": "YEAR",
+    "ad": true,
+    "events": [
+     [
+      1582,
+      "FIRST COUNTRIES SWITCH",
+      "cyan"
+     ],
+     [
+      1752,
+      "BRITAIN SWITCHES",
+      "gold"
+     ]
+    ],
+    "brackets": [
+     [
+      1582,
+      1752,
+      "170 YEARS LATE",
+      "gold"
+     ]
+    ],
+    "anim": 1
+   },
+   "caption": "The first countries in Europe had already fixed this back in 1582. Britain held out for almost 200 years."
+  },
+  {
+   "text": "To fix it in one go, Britain and its colonies simply skipped eleven days.",
+   "scene": {
+    "type": "counter",
+    "from": 0,
+    "to": 11,
+    "suffix": " DAYS",
+    "label": "GONE. JUST LIKE THAT.",
+    "secs": 1.4
+   },
+   "caption": "To fix it in one go, Britain and its colonies simply skipped 11 days."
+  },
+  {
+   "text": "People went to bed on Wednesday, the second of September, seventeen fifty-two. And woke up on Thursday, the fourteenth.",
+   "scene": {
+    "type": "calendar",
+    "month": "SEPTEMBER",
+    "year": 1752,
+    "first": 2,
+    "days": 30,
+    "cut": [
+     3,
+     13
+    ],
+    "hi": [
+     2,
+     14
+    ],
+    "slide": true
+   },
+   "caption": "People went to bed on Wednesday, September 2, 1752. And woke up on Thursday, the 14th."
+  },
+  {
+   "text": "You may have heard that angry crowds rioted, shouting give us our eleven days. Historians say there's very little evidence that ever happened.",
+   "scene": {
+    "type": "stamp",
+    "lines": [
+     "THE “RIOTS”?"
+    ],
+    "stamp": "MYTH",
+    "col": "red"
+   },
+   "caption": "You may have heard that angry crowds rioted, shouting \"Give us our 11 days!\" Historians say there's very little evidence that ever happened."
+  },
+  {
+   "text": "But the missing days were real. Look up a British calendar for that month, and they're simply not there.",
+   "scene": {
+    "type": "calendar",
+    "month": "SEPTEMBER",
+    "year": 1752,
+    "first": 2,
+    "days": 30,
+    "cut": [
+     3,
+     13
+    ],
+    "hi": [
+     2,
+     14
+    ],
+    "slide": true,
+    "done": true
+   }
+  },
+  {
+   "text": "That September had just nineteen days. Imagine paying a full month's rent for that.",
+   "scene": {
+    "type": "counter",
+    "from": 30,
+    "to": 19,
+    "suffix": " DAYS",
+    "label": "IN SEPTEMBER 1752",
+    "secs": 1.4
+   },
+   "caption": "That September had just 19 days. Imagine paying a full month's rent for that.",
+   "pause": 0.5
+  },
+  {
+   "text": "Number four.",
+   "scene": {
+    "type": "chapter",
+    "ch": 4,
+    "title": "FEBRUARY THE 30TH",
+    "sub": "Sweden, 1712"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "February has twenty-eight days, or twenty-nine in a leap year. Except once, in Sweden.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "28 OR 29 DAYS.",
+     "EXCEPT ONCE."
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 120,
+    "y": 440
+   },
+   "caption": "February has 28 days, or 29 in a leap year. Except once, in Sweden."
+  },
+  {
+   "text": "Sweden tried to switch to the new calendar slowly, by skipping leap days one at a time. The plan got muddled, and the country ended up out of step with everyone.",
+   "scene": {
+    "type": "leaps"
+   }
+  },
+  {
+   "text": "So in seventeen twelve, Sweden gave up and went back to the old calendar by adding two leap days in one year.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "1712:",
+     "TWO LEAP DAYS"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 130,
+    "y": 440
+   },
+   "caption": "So in 1712, Sweden gave up and went back to the old calendar by adding two leap days in one year."
+  },
+  {
+   "text": "And that's how February the thirtieth became a real date. It even appears in Swedish church records.",
+   "scene": {
+    "type": "calendar",
+    "month": "FEBRUARY",
+    "year": 1712,
+    "first": 4,
+    "days": 30,
+    "hi": [
+     30
+    ],
+    "star": 30
+   },
+   "caption": "And that's how February 30 became a real date. It even appears in Swedish church records."
+  },
+  {
+   "text": "A day that never existed anywhere else, before or since.",
+   "scene": {
+    "type": "stamp",
+    "lines": [
+     "FEBRUARY 30",
+     "WAS REAL"
+    ],
+    "stamp": "TRUE"
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number five.",
+   "scene": {
+    "type": "chapter",
+    "ch": 5,
+    "title": "THE ISLAND THAT SKIPPED A FRIDAY",
+    "sub": "Samoa, 2011"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "In the middle of the Pacific runs an invisible line called the International Date Line. Cross it, and the date changes.",
+   "scene": {
+    "type": "dateline",
+    "mode": "line"
+   }
+  },
+  {
+   "text": "Before the switch, Samoa was almost a whole day behind its closest neighbors.",
+   "scene": {
+    "type": "dateline",
+    "mode": "behind"
+   }
+  },
+  {
+   "text": "In twenty eleven, the island nation of Samoa decided to jump to the other side of that line, to share the same days as its big trading partners, Australia and New Zealand.",
+   "scene": {
+    "type": "dateline",
+    "mode": "jump"
+   },
+   "caption": "In 2011, the island nation of Samoa decided to jump to the other side of that line, to share the same days as its big trading partners, Australia and New Zealand."
+  },
+  {
+   "text": "So the country went from Thursday, the twenty-ninth of December, straight to Saturday, the thirty-first.",
+   "scene": {
+    "type": "calendar",
+    "month": "DECEMBER",
+    "year": 2011,
+    "first": 4,
+    "days": 31,
+    "cut": [
+     30,
+     30
+    ],
+    "hi": [
+     29,
+     31
+    ]
+   },
+   "caption": "So the country went from Thursday, December 29, straight to Saturday, the 31st."
+  },
+  {
+   "text": "Friday, the thirtieth of December, twenty eleven, never happened in Samoa. Anyone with a birthday that day simply didn't get one.",
+   "scene": {
+    "type": "stamp",
+    "lines": [
+     "FRIDAY, DEC 30",
+     "NEVER HAPPENED"
+    ],
+    "stamp": "TRUE"
+   },
+   "caption": "Friday, December 30, 2011, never happened in Samoa. Anyone with a birthday that day simply didn't get one.",
+   "pause": 0.5
+  },
+  {
+   "text": "Number six.",
+   "scene": {
+    "type": "chapter",
+    "ch": 6,
+    "title": "OLDER THAN THE AZTECS",
+    "sub": "A university vs. an empire"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "We tend to think of the Aztecs as ancient, and universities as modern. Here's the twist.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "ANCIENT?",
+     "MODERN?"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 140,
+    "y": 440
+   }
+  },
+  {
+   "text": "There was already teaching at Oxford, in England, by the year ten ninety-six.",
+   "scene": {
+    "type": "timeline",
+    "span": [
+     1050,
+     1550
+    ],
+    "unit": "YEAR",
+    "ad": true,
+    "events": [
+     [
+      1096,
+      "TEACHING AT OXFORD",
+      "gold"
+     ]
+    ]
+   },
+   "caption": "There was already teaching at Oxford, in England, by the year 1096."
+  },
+  {
+   "text": "The Aztec capital, Tenochtitlan, wasn't founded until about thirteen twenty-five. More than two centuries later.",
+   "scene": {
+    "type": "timeline",
+    "span": [
+     1050,
+     1550
+    ],
+    "unit": "YEAR",
+    "ad": true,
+    "events": [
+     [
+      1096,
+      "TEACHING AT OXFORD",
+      "gold"
+     ],
+     [
+      1325,
+      "TENOCHTITLAN FOUNDED",
+      "cyan"
+     ]
+    ],
+    "brackets": [
+     [
+      1096,
+      1325,
+      "≈ 230 YEARS",
+      "gold"
+     ]
+    ],
+    "anim": 1
+   },
+   "caption": "The Aztec capital, Tenochtitlan, wasn't founded until about 1325. More than two centuries later."
+  },
+  {
+   "text": "So when the Aztec capital was just being built on a lake in Mexico, students in Oxford were already walking to class. And Oxford is still teaching students today.",
+   "scene": {
+    "type": "stamp",
+    "lines": [
+     "OXFORD IS OLDER",
+     "THAN THE AZTECS"
+    ],
+    "stamp": "TRUE"
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number seven.",
+   "scene": {
+    "type": "chapter",
+    "ch": 7,
+    "title": "MAMMOTHS AND PYRAMIDS",
+    "sub": "They overlapped"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "The Great Pyramid of Giza was finished about four and a half thousand years ago.",
+   "scene": {
+    "type": "pyramid",
+    "mode": "build"
+   },
+   "caption": "The Great Pyramid of Giza was finished about 4,500 years ago."
+  },
+  {
+   "text": "You'd think woolly mammoths were long gone by then. They weren't.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "WOOLLY MAMMOTHS?",
+     "STILL ALIVE."
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 120,
+    "y": 440
+   }
+  },
+  {
+   "text": "A small group survived on Wrangel Island, in the Arctic Ocean north of Siberia, until about four thousand years ago.",
+   "scene": {
+    "type": "pyramid",
+    "mode": "island"
+   },
+   "caption": "A small group survived on Wrangel Island, in the Arctic Ocean north of Siberia, until about 4,000 years ago."
+  },
+  {
+   "text": "When the last mammoth died, the Great Pyramid was already centuries old.",
+   "scene": {
+    "type": "pyramid",
+    "mode": "both"
+   }
+  },
+  {
+   "text": "So for several centuries, while Egypt had its finished pyramids, mammoths were still walking the Earth.",
+   "scene": {
+    "type": "timeline",
+    "span": [
+     5000,
+     3000
+    ],
+    "unit": "YEARS AGO",
+    "events": [
+     [
+      4500,
+      "GREAT PYRAMID",
+      "gold"
+     ],
+     [
+      4000,
+      "LAST MAMMOTHS",
+      "cyan"
+     ]
+    ],
+    "brackets": [
+     [
+      4500,
+      4000,
+      "BOTH AT ONCE",
+      "gold"
+     ]
+    ]
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number eight.",
+   "scene": {
+    "type": "chapter",
+    "ch": 8,
+    "title": "CLEOPATRA AND THE MOON",
+    "sub": "How ancient is ancient?"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "Ancient Egypt lasted so long that it had its own ancient history.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "EVEN ANCIENT EGYPT",
+     "HAD ANCIENT HISTORY"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 110,
+    "y": 450
+   }
+  },
+  {
+   "text": "The Great Pyramid was built around two thousand five hundred and sixty BC.",
+   "scene": {
+    "type": "timeline",
+    "span": [
+     -2800,
+     2100
+    ],
+    "unit": "YEAR",
+    "ad": true,
+    "events": [
+     [
+      -2560,
+      "GREAT PYRAMID",
+      "gold"
+     ]
+    ]
+   },
+   "caption": "The Great Pyramid was built around 2560 BC."
+  },
+  {
+   "text": "Cleopatra, the last ruler of ancient Egypt, died in thirty BC. Already about two and a half thousand years later.",
+   "scene": {
+    "type": "timeline",
+    "span": [
+     -2800,
+     2100
+    ],
+    "unit": "YEAR",
+    "ad": true,
+    "events": [
+     [
+      -2560,
+      "GREAT PYRAMID",
+      "gold"
+     ],
+     [
+      -30,
+      "CLEOPATRA",
+      "white"
+     ]
+    ],
+    "brackets": [
+     [
+      -2560,
+      -30,
+      "≈ 2,500 YEARS",
+      "gold"
+     ]
+    ],
+    "anim": 1
+   },
+   "caption": "Cleopatra, the last ruler of ancient Egypt, died in 30 BC. Already about 2,500 years later."
+  },
+  {
+   "text": "And the first Moon landing was in nineteen sixty-nine. Only about two thousand years after her.",
+   "scene": {
+    "type": "timeline",
+    "span": [
+     -2800,
+     2100
+    ],
+    "unit": "YEAR",
+    "ad": true,
+    "events": [
+     [
+      -2560,
+      "GREAT PYRAMID",
+      "gold"
+     ],
+     [
+      -30,
+      "CLEOPATRA",
+      "white"
+     ],
+     [
+      1969,
+      "MOON LANDING",
+      "cyan"
+     ]
+    ],
+    "brackets": [
+     [
+      -2560,
+      -30,
+      "≈ 2,500 YEARS",
+      "gold"
+     ],
+     [
+      -30,
+      1969,
+      "≈ 2,000 YEARS",
+      "cyan"
+     ]
+    ],
+    "anim": 2
+   },
+   "caption": "And the first Moon landing was in 1969. Only about 2,000 years after her."
+  },
+  {
+   "text": "So Cleopatra lived closer in time to astronauts on the Moon than to the people who built the Great Pyramid. When she looked at the pyramids, they were older to her than she is to us.",
+   "scene": {
+    "type": "stamp",
+    "lines": [
+     "CLOSER TO THE MOON",
+     "THAN TO THE PYRAMID"
+    ],
+    "stamp": "TRUE"
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number nine.",
+   "scene": {
+    "type": "chapter",
+    "ch": 9,
+    "title": "THE DINOSAUR TIME GAP",
+    "sub": "T. rex vs. Stegosaurus"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "In movies, dinosaurs all seem to live together. In reality, the age of dinosaurs lasted an enormous stretch of time.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "NOT ONE ERA.",
+     "A HUGE STRETCH."
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 120,
+    "y": 440
+   }
+  },
+  {
+   "text": "Stegosaurus roamed North America about one hundred and fifty million years ago.",
+   "scene": {
+    "type": "timeline",
+    "span": [
+     160,
+     0
+    ],
+    "unit": "MILLION YEARS AGO",
+    "events": [
+     [
+      150,
+      "STEGOSAURUS",
+      "dim"
+     ]
+    ]
+   },
+   "caption": "Stegosaurus roamed North America about 150 million years ago."
+  },
+  {
+   "text": "It had been gone for roughly eighty million years before Tyrannosaurus rex ever appeared.",
+   "scene": {
+    "type": "timeline",
+    "span": [
+     160,
+     0
+    ],
+    "unit": "MILLION YEARS AGO",
+    "events": [
+     [
+      150,
+      "STEGOSAURUS",
+      "dim"
+     ],
+     [
+      66,
+      "T. REX",
+      "gold"
+     ]
+    ],
+    "brackets": [
+     [
+      150,
+      66,
+      "≈ 80+ MILLION YEARS",
+      "dim"
+     ]
+    ],
+    "anim": 1
+   },
+   "caption": "It had been gone for roughly 80 million years before Tyrannosaurus rex ever appeared."
+  },
+  {
+   "text": "And from the last T. rex to you? About sixty-six million years.",
+   "scene": {
+    "type": "timeline",
+    "span": [
+     160,
+     0
+    ],
+    "unit": "MILLION YEARS AGO",
+    "events": [
+     [
+      150,
+      "STEGOSAURUS",
+      "dim"
+     ],
+     [
+      66,
+      "T. REX",
+      "gold"
+     ],
+     [
+      0,
+      "YOU",
+      "cyan"
+     ]
+    ],
+    "brackets": [
+     [
+      150,
+      66,
+      "≈ 80+ MILLION YEARS",
+      "dim"
+     ],
+     [
+      66,
+      0,
+      "66 MILLION YEARS",
+      "gold"
+     ]
+    ],
+    "anim": 2
+   },
+   "caption": "And from the last T. rex to you? About 66 million years."
+  },
+  {
+   "text": "Stegosaurus and T. rex never met. Not even close.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "THEY NEVER MET.",
+     "NOT EVEN CLOSE."
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 120,
+    "y": 440
+   }
+  },
+  {
+   "text": "So to a T. rex, a Stegosaurus would have been a more ancient fossil than a T. rex is to us.",
+   "scene": {
+    "type": "stamp",
+    "lines": [
+     "T. REX IS CLOSER",
+     "TO YOU"
+    ],
+    "stamp": "TRUE"
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number ten. The one I promised.",
+   "scene": {
+    "type": "chapter",
+    "ch": 10,
+    "title": "YOUR HEAD IS OLDER THAN YOUR FEET",
+    "sub": "Einstein, proven at home"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "Einstein predicted that time runs a little faster the farther you are from Earth's gravity. Even a few centimeters farther.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "HIGHER UP,",
+     "TIME RUNS FASTER"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 120,
+    "y": 440,
+    "clock": true
+   }
+  },
+  {
+   "text": "In twenty ten, scientists at the U.S. National Institute of Standards and Technology tested it with two of the most precise clocks ever built.",
+   "scene": {
+    "type": "clocks",
+    "mode": "lab"
+   },
+   "caption": "In 2010, scientists at the U.S. National Institute of Standards and Technology (NIST) tested it with two of the most precise clocks ever built."
+  },
+  {
+   "text": "They raised one clock by just thirty-three centimeters, about one foot. And it really did tick faster.",
+   "scene": {
+    "type": "clocks",
+    "mode": "raise"
+   },
+   "caption": "They raised one clock by just 33 centimeters, about one foot. And it really did tick faster."
+  },
+  {
+   "text": "The difference is tiny. Over a whole lifetime, it adds up to about ninety billionths of a second.",
+   "scene": {
+    "type": "counter",
+    "from": 0,
+    "to": 90,
+    "suffix": "",
+    "label": "BILLIONTHS OF A SECOND",
+    "note": "≈ over a 79-year lifetime, for one foot of height",
+    "secs": 1.6,
+    "size": 230
+   },
+   "caption": "The difference is tiny. Over a whole lifetime, it adds up to about 90 billionths of a second."
+  },
+  {
+   "text": "But it's real. Your head sits higher than your feet, so your head is aging just a tiny bit faster.",
+   "scene": {
+    "type": "clocks",
+    "mode": "body"
+   }
+  },
+  {
+   "text": "Walk up a flight of stairs, and your clock speeds up. Just very, very slightly.",
+   "scene": {
+    "type": "clocks",
+    "mode": "stairs"
+   }
+  },
+  {
+   "text": "And this isn't just a lab trick. Your phone depends on it. G P S satellites fly about twenty thousand kilometers up, where gravity is weaker.",
+   "scene": {
+    "type": "gps",
+    "mode": "orbit"
+   },
+   "caption": "And this isn't just a lab trick. Your phone depends on it. GPS satellites fly about 20,000 kilometers up, where gravity is weaker."
+  },
+  {
+   "text": "Their clocks run fast by about thirty-eight millionths of a second every day.",
+   "scene": {
+    "type": "gps",
+    "mode": "drift"
+   },
+   "caption": "Their clocks run fast by about 38 millionths of a second every day."
+  },
+  {
+   "text": "If engineers didn't correct for that, your map's position errors would grow by about ten kilometers every single day.",
+   "scene": {
+    "type": "gps",
+    "mode": "error"
+   },
+   "caption": "If engineers didn't correct for that, your map's position errors would grow by about 10 kilometers every single day."
+  },
+  {
+   "text": "So every time your phone finds you on a map, it's quietly proving that time itself bends.",
+   "scene": {
+    "type": "stamp",
+    "lines": [
+     "YOUR HEAD IS",
+     "OLDER THAN YOUR FEET"
+    ],
+    "stamp": "TRUE"
+   },
+   "pause": 0.7
+  },
+  {
+   "text": "Quick recap. You see the past every time you look up. Venus has a day longer than its year. Britain deleted eleven days.",
+   "scene": {
+    "type": "recap",
+    "items": [
+     "YOU SEE THE PAST",
+     "VENUS: DAY > YEAR",
+     "BRITAIN DELETED 11 DAYS"
+    ]
+   },
+   "caption": "Quick recap. You see the past every time you look up. Venus has a day longer than its year. Britain deleted 11 days."
+  },
+  {
+   "text": "Sweden had a February thirtieth. Samoa skipped a Friday. Oxford is older than the Aztecs. Mammoths saw the pyramid age.",
+   "scene": {
+    "type": "recap",
+    "items": [
+     "FEBRUARY 30",
+     "SAMOA SKIPPED A FRIDAY",
+     "OXFORD > AZTECS",
+     "MAMMOTHS + PYRAMIDS"
+    ]
+   },
+   "caption": "Sweden had a February 30. Samoa skipped a Friday. Oxford is older than the Aztecs. Mammoths saw the pyramid age."
+  },
+  {
+   "text": "Cleopatra was closer to the Moon landing. T. rex is closer to you. And your head is older than your feet.",
+   "scene": {
+    "type": "recap",
+    "items": [
+     "CLEOPATRA ↔ MOON",
+     "T. REX ↔ YOU",
+     "HEAD OLDER THAN FEET"
+    ]
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Which one sounded the most fake? Tell me in the comments. A new deep dive comes out every Tuesday and Friday. See you in the next one.",
+   "scene": {
+    "type": "outro",
+    "click_at": 2.2
+   }
+  }
+ ]
+}
