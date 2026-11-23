@@ -1,0 +1,59 @@
+{
+ "voice": "am_michael",
+ "speed": 1.1,
+ "lines": [
+  {
+   "text": "This shrimp punches so hard, water boils.",
+   "pause": 0.1,
+   "scene": {
+    "type": "hook"
+   }
+  },
+  {
+   "text": "But the weird part comes after the punch.",
+   "pause": 0.15,
+   "scene": {
+    "type": "charge"
+   }
+  },
+  {
+   "text": "Its club swings at about eighty kilometers an hour.",
+   "caption": "Its club swings at about 80 km/h.",
+   "scene": {
+    "type": "speed"
+   }
+  },
+  {
+   "text": "And it gets there with up to ten thousand G's.",
+   "caption": "And it gets there with up to 10,000 G's.",
+   "scene": {
+    "type": "gforce"
+   }
+  },
+  {
+   "text": "So the water in front of it boils into bubbles.",
+   "scene": {
+    "type": "boil"
+   }
+  },
+  {
+   "text": "Then the bubbles collapse, with a bang, heat, and a flash of light.",
+   "scene": {
+    "type": "collapse"
+   }
+  },
+  {
+   "text": "Some have even cracked aquarium glass.",
+   "scene": {
+    "type": "glass"
+   }
+  },
+  {
+   "text": "Sounds fake? It's true. Follow for more.",
+   "scene": {
+    "type": "end",
+    "click_at": 0.45
+   }
+  }
+ ]
+}
