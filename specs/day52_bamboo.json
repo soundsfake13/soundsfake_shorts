@@ -1,0 +1,14 @@
+{
+ "voice": "am_michael",
+ "speed": 1.06,
+ "lines": [
+  {"text": "This grass grows almost a meter a day.", "caption": "This grass grows almost a meter a day.", "pause": 0.12, "scene": {"type": "hook"}},
+  {"text": "And it isn't even a tree. Wait for the last part.", "pause": 0.15, "scene": {"type": "tree"}},
+  {"text": "Some bamboo can shoot up ninety-one centimeters in twenty-four hours.", "caption": "Some bamboo can shoot up 91 cm in 24 hours.", "scene": {"type": "day"}},
+  {"text": "That's nearly four centimeters every hour.", "caption": "That's nearly 4 cm every hour.", "scene": {"type": "hour"}},
+  {"text": "Its cells fill with water, so each section stretches long, fast.", "scene": {"type": "cells"}},
+  {"text": "The tallest kinds reach about thirty meters.", "caption": "The tallest kinds reach about 30 meters.", "scene": {"type": "tall"}},
+  {"text": "And bamboo isn't a tree at all. It's a giant grass.", "scene": {"type": "grass"}},
+  {"text": "Sounds fake? It's true. Follow for more.", "scene": {"type": "end", "click_at": 0.45}}
+ ]
+}
