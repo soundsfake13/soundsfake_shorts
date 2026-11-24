@@ -1,0 +1,14 @@
+{
+ "voice": "am_michael",
+ "speed": 1.1,
+ "lines": [
+  {"text": "Some ancient people brushed their teeth with urine.", "pause": 0.12, "scene": {"type": "hook"}},
+  {"text": "And in Rome, it gets weirder. Wait for the end.", "pause": 0.15, "scene": {"type": "tease"}},
+  {"text": "Over two thousand years ago, a Roman poet mocked a man for his gleaming teeth.", "caption": "Over 2,000 years ago, a Roman poet mocked a man for his gleaming teeth.", "scene": {"type": "poet"}},
+  {"text": "His joke? The man rinsed them with urine, a habit blamed on ancient Spain.", "scene": {"type": "spain"}},
+  {"text": "Romans used urine too. Laundry workers used its ammonia to whiten wool togas.", "scene": {"type": "fullers"}},
+  {"text": "It was so valuable, Emperor Vespasian taxed it.", "scene": {"type": "tax"}},
+  {"text": "When his son complained, he held a tax coin to his son's nose. Smell anything? Money doesn't stink.", "scene": {"type": "coin"}},
+  {"text": "Sounds fake? It's true. Follow for more.", "scene": {"type": "end", "click_at": 0.45}}
+ ]
+}

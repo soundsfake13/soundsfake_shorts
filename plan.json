@@ -431,7 +431,10 @@
    "status": "planned",
    "style": "roman-mosaic",
    "style_idea": "Roman floor mosaic: everything built from small stone tesserae that assemble and re-tile into each scene; terracotta, ochre, black, white.",
-   "time": "19:00"
+   "time": "19:00",
+   "engine": "engine/styles/day28_mosaic.py",
+   "spec": "specs/day28_urineteeth.json",
+   "note": "Reframed: the tooth-rinsing is a Celtiberian habit per Catullus 39 / Diodorus / Strabo (satire), so the video says \"some ancient people\" and \"blamed on ancient Spain\"; Romans used urine for laundry (fullers) and Vespasian taxed it (Suetonius, Vesp. 23). No claim that urine whitens teeth. claudevideo.org not reachable this run."
   },
   {
    "day": 29,
