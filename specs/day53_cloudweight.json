@@ -1,0 +1,62 @@
+{
+ "voice": "am_michael",
+ "speed": 1.1,
+ "lines": [
+  {
+   "text": "That fluffy cloud weighs as much as a hundred elephants.",
+   "caption": "That fluffy cloud weighs as much as 100 elephants.",
+   "pause": 0.12,
+   "scene": {
+    "type": "hook"
+   }
+  },
+  {
+   "text": "So why doesn't it fall? Wait for the end.",
+   "pause": 0.15,
+   "scene": {
+    "type": "why"
+   }
+  },
+  {
+   "text": "Picture a cloud one kilometer wide, tall and deep.",
+   "caption": "Picture a cloud 1 km wide, tall and deep.",
+   "scene": {
+    "type": "cube"
+   }
+  },
+  {
+   "text": "Each cubic meter holds about half a gram of water.",
+   "caption": "Each cubic meter holds about ½ gram of water.",
+   "scene": {
+    "type": "drop"
+   }
+  },
+  {
+   "text": "But that cloud is a billion cubic meters.",
+   "caption": "But that cloud is 1,000,000,000 cubic meters.",
+   "scene": {
+    "type": "billion"
+   }
+  },
+  {
+   "text": "Add it up: about five hundred thousand kilograms. A hundred elephants!",
+   "caption": "Add it up: about 500,000 kg. 100 elephants!",
+   "scene": {
+    "type": "scale"
+   }
+  },
+  {
+   "text": "It floats because the water is split into tiny droplets, held up by rising warm air.",
+   "scene": {
+    "type": "float"
+   }
+  },
+  {
+   "text": "Sounds fake? It's true. Follow for more.",
+   "scene": {
+    "type": "end",
+    "click_at": 0.45
+   }
+  }
+ ]
+}
