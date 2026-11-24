@@ -808,9 +808,15 @@
    "topic": "A fluffy cloud can weigh as much as 100 elephants",
    "hook": "That fluffy cloud weighs about as much as a hundred elephants.",
    "facts": "USGS: a typical cumulus cloud holds ~500 tonnes (≈1.1 million lb) of water; an elephant ~5–6 tonnes.",
-   "status": "planned",
+   "status": "scheduled",
    "style": "watercolor-sky",
-   "style_idea": "Dreamy watercolor sky: soft bleeding washes, paper grain, elephants drawn as clouds drifting, a hanging scale."
+   "style_idea": "Dreamy watercolor sky: soft bleeding washes, paper grain, elephants drawn as clouds drifting, a hanging scale.",
+   "title": "This Fluffy Cloud Weighs 100 Elephants ☁️ #shorts",
+   "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/day53.mp4",
+   "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7727862&openWithPostUuid=-2442367399832695132",
+   "engine": "engine/styles/day53_watercolorsky.py",
+   "spec": "specs/day53_cloudweight.json",
+   "note": "Facts verified (USGS, Library of Congress, Smithsonian How Things Fly, EarthDate; elephant weights NatGeo/National Zoo). The 1 km cube is framed as 'picture a cloud'; numbers say 'about'. claudevideo.org not reachable this run."
   },
   {
    "day": 54,
