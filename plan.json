@@ -428,13 +428,16 @@
    "topic": "Ancient Romans used urine to whiten teeth",
    "hook": "Ancient Romans brushed their teeth with urine.",
    "facts": "The ammonia in urine was used in Roman times for cleaning, laundry (fullonicae) and reportedly tooth whitening (mentioned by the poet Catullus); urine was valuable enough to be taxed under Vespasian.",
-   "status": "planned",
+   "status": "scheduled",
    "style": "roman-mosaic",
    "style_idea": "Roman floor mosaic: everything built from small stone tesserae that assemble and re-tile into each scene; terracotta, ochre, black, white.",
    "time": "19:00",
    "engine": "engine/styles/day28_mosaic.py",
    "spec": "specs/day28_urineteeth.json",
-   "note": "Reframed: the tooth-rinsing is a Celtiberian habit per Catullus 39 / Diodorus / Strabo (satire), so the video says \"some ancient people\" and \"blamed on ancient Spain\"; Romans used urine for laundry (fullers) and Vespasian taxed it (Suetonius, Vesp. 23). No claim that urine whitens teeth. claudevideo.org not reachable this run."
+   "note": "Reframed: the tooth-rinsing is a Celtiberian habit per Catullus 39 / Diodorus / Strabo (satire), so the video says \"some ancient people\" and \"blamed on ancient Spain\"; Romans used urine for laundry (fullers) and Vespasian taxed it (Suetonius, Vesp. 23). No claim that urine whitens teeth. claudevideo.org not reachable this run.",
+   "title": "Ancient People Brushed Their Teeth With… Urine?! 🦷 #shorts",
+   "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/day28.mp4",
+   "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7727862&openWithPostUuid=-4371567863973330300"
   },
   {
    "day": 29,
