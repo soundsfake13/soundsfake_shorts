@@ -1,0 +1,66 @@
+{
+ "voice": "am_michael",
+ "speed": 1.14,
+ "lines": [
+  {
+   "text": "Bees give each other directions by dancing.",
+   "pause": 0.12,
+   "scene": {
+    "type": "hook"
+   }
+  },
+  {
+   "text": "And the whole map hides in one wiggle. Wait for it.",
+   "pause": 0.15,
+   "scene": {
+    "type": "why"
+   }
+  },
+  {
+   "text": "She finds flowers, flies home, and dances in the dark hive.",
+   "scene": {
+    "type": "forage"
+   },
+   "pause": 0.2
+  },
+  {
+   "text": "Dancing straight up means: fly toward the sun.",
+   "scene": {
+    "type": "up"
+   },
+   "pause": 0.2
+  },
+  {
+   "text": "Tilt it forty degrees right, and the food is forty degrees right of the sun.",
+   "caption": "Tilt it 40° right, and the food is 40° right of the sun.",
+   "scene": {
+    "type": "angle",
+    "deg": 40
+   },
+   "pause": 0.2
+  },
+  {
+   "text": "The payoff: the longer she waggles, the farther the food. About one second means roughly a kilometer.",
+   "caption": "The payoff: the longer she waggles, the farther the food. About 1 second means roughly 1 km.",
+   "scene": {
+    "type": "distance"
+   },
+   "pause": 0.2
+  },
+  {
+   "text": "Karl von Frisch cracked this code and won a Nobel Prize in nineteen seventy-three.",
+   "caption": "Karl von Frisch cracked this code and won a Nobel Prize in 1973.",
+   "scene": {
+    "type": "nobel"
+   },
+   "pause": 0.2
+  },
+  {
+   "text": "Sounds fake? It's true. Follow for more.",
+   "scene": {
+    "type": "end",
+    "click_at": 0.45
+   }
+  }
+ ]
+}
