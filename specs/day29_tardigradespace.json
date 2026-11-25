@@ -1,0 +1,59 @@
+{
+ "voice": "am_michael",
+ "speed": 1.13,
+ "lines": [
+  {
+   "text": "This tiny animal survived the vacuum of space.",
+   "pause": 0.12,
+   "scene": {
+    "type": "hook"
+   }
+  },
+  {
+   "text": "No spacesuit. And wait for what happened next.",
+   "pause": 0.15,
+   "scene": {
+    "type": "nosuit"
+   }
+  },
+  {
+   "text": "Meet the tardigrade, or water bear. Most are a millimeter long, or less.",
+   "caption": "Meet the tardigrade, or water bear. Most are 1 mm long, or less.",
+   "scene": {
+    "type": "meet"
+   }
+  },
+  {
+   "text": "To survive, it dries out into a lifeless-looking ball called a tun.",
+   "scene": {
+    "type": "tun"
+   }
+  },
+  {
+   "text": "In two thousand seven, thousands of dried ones rode a capsule into orbit.",
+   "caption": "In 2007, thousands of dried ones rode a capsule into orbit.",
+   "scene": {
+    "type": "launch"
+   }
+  },
+  {
+   "text": "Exposed to open space for over a week, most survived the vacuum. A few even survived raw sunlight.",
+   "scene": {
+    "type": "space"
+   }
+  },
+  {
+   "text": "Back on Earth, add water: they woke up, and laid eggs that hatched!",
+   "scene": {
+    "type": "wake"
+   }
+  },
+  {
+   "text": "Sounds fake? It's true. Follow for more.",
+   "scene": {
+    "type": "end",
+    "click_at": 0.45
+   }
+  }
+ ]
+}
