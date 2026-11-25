@@ -445,10 +445,16 @@
    "topic": "Tardigrades survived in open space",
    "hook": "This tiny animal survived the vacuum of space.",
    "facts": "Tardigrades (water bears, ~0.5 mm) survived exposure to space vacuum and cosmic radiation on the FOTON-M3 mission in 2007 by entering a dried-out 'tun' state.",
-   "status": "planned",
+   "status": "scheduled",
    "style": "microscope",
    "style_idea": "Microscope slide view: circular lens vignette, focus pulls, a tardigrade drawn as a scientific illustration, then a mission capsule. Ref: 'Proton collision inside a Large Hadron Collider detector'.",
-   "time": "19:00"
+   "time": "19:00",
+   "title": "This Tiny Animal Survived the Vacuum of Space 🔬 #shorts",
+   "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/day29.mp4",
+   "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7727862&openWithPostUuid=-9105452314925576226",
+   "engine": "engine/styles/day29_microscope.py",
+   "spec": "specs/day29_tardigradespace.json",
+   "note": "Facts verified (ESA, ScienceDaily/Cell Press, NatGeo, Scientific American, Britannica). Duration said as 'over a week' (sources give 10 or 12 days); 'most survived the vacuum, a few survived raw sunlight'; survivors laid eggs that hatched. 33.6 s. claudevideo.org not reachable this run."
   },
   {
    "day": 30,
