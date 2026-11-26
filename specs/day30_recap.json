@@ -1,0 +1,27 @@
+{
+ "voice": "am_michael",
+ "speed": 1.1,
+ "lines": [
+  {"text": "Five facts that sound fake. All true.", "caption": "5 facts that sound fake. All true.", "pause": 0.12,
+   "scene": {"type": "hook"}},
+  {"text": "And number one is the hardest to believe.", "caption": "And #1 is the hardest to believe.", "pause": 0.15,
+   "scene": {"type": "tease"}},
+  {"text": "Number five. Scotland's national animal is the unicorn.", "caption": "#5. Scotland's national animal is the unicorn.", "pause": 0.15,
+   "scene": {"type": "card", "rank": 5, "meter": 3, "name": "THE UNICORN", "from": "DAY 18 · HERALDRY",
+             "src": "videos/day18.mp4", "clips": [0.0, 6.2]}},
+  {"text": "Four. Wombats poop cubes. Their intestines shape them.", "caption": "#4. Wombats poop cubes. Their intestines shape them.", "pause": 0.15,
+   "scene": {"type": "card", "rank": 4, "meter": 3, "name": "CUBE POOP", "from": "DAY 2 · TRAIL CAM",
+             "src": "videos/day02b.mp4", "clips": [0.4, 3.0]}},
+  {"text": "Three. An octopus has three hearts, and blue blood.", "caption": "#3. An octopus has 3 hearts, and blue blood.", "pause": 0.15,
+   "scene": {"type": "card", "rank": 3, "meter": 4, "name": "THREE HEARTS", "from": "DAY 6 · PAPER CUT",
+             "src": "videos/day06.mp4", "clips": [0.0, 5.6]}},
+  {"text": "Two. Cleopatra lived closer to the Moon landing than to the Great Pyramid.", "caption": "#2. Cleopatra lived closer to the Moon landing than to the Great Pyramid.", "pause": 0.15,
+   "scene": {"type": "card", "rank": 2, "meter": 4, "name": "CLEOPATRA", "from": "DAY 5 · HISTORY CLOCK",
+             "src": "videos/day05.mp4", "clips": [0.9, 22.6]}},
+  {"text": "And number one. A day on Venus is longer than its year.", "caption": "And #1. A day on Venus is longer than its year.", "pause": 0.2,
+   "scene": {"type": "card", "rank": 1, "meter": 6, "name": "VENUS", "from": "DAY 1 · KINETIC",
+             "src": "videos/day01.mp4", "clips": [0.9, 16.2]}},
+  {"text": "Sounds fake? It's true. Follow for more.",
+   "scene": {"type": "end", "click_at": 0.5}}
+ ]
+}
