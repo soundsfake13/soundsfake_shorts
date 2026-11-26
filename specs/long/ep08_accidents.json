@@ -1,0 +1,1011 @@
+{
+ "voice": "am_michael",
+ "speed": 0.93,
+ "lines": [
+  {
+   "text": "The microwave oven exists because a candy bar melted in an engineer's pocket.",
+   "scene": {
+    "type": "hook",
+    "lines": [
+     "A MELTED CANDY BAR",
+     "GAVE US THE MICROWAVE"
+    ]
+   }
+  },
+  {
+   "text": "And that's not even the strangest one. Before this video ends, you'll know how two scientists blamed pigeons, and found the beginning of the universe.",
+   "scene": {
+    "type": "sketch",
+    "icon": "antenna",
+    "lines": [
+     "THEY BLAMED PIGEONS…",
+     "AND FOUND THE BIG BANG"
+    ],
+    "mode": "tease"
+   }
+  },
+  {
+   "text": "Some of the most important things ever made were mistakes. Wrong parts. Dirty hands. Spoiled fruit. Today, ten accidents that changed the world, and the strange stories behind them.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "10 ACCIDENTS THAT",
+     "CHANGED THE WORLD"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 116,
+    "y": 440
+   }
+  },
+  {
+   "text": "Every story is real, and checked. Sources are in the description. Let's go.",
+   "scene": {
+    "type": "cold",
+    "lines": [
+     "ALL REAL.",
+     "ALL CHECKED."
+    ],
+    "sub": "SOURCES IN THE DESCRIPTION",
+    "size": 120
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number one.",
+   "scene": {
+    "type": "chapter",
+    "ch": 1,
+    "title": "THE WALLPAPER NOBODY WANTED",
+    "sub": "Bubble wrap"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "In nineteen fifty-seven, two inventors sealed two sheets of plastic together, and trapped rows of air bubbles inside.",
+   "scene": {
+    "type": "sketch",
+    "icon": "bubbles",
+    "lines": [
+     "1957"
+    ],
+    "notes": [
+     "2 SHEETS OF PLASTIC",
+     "AIR TRAPPED INSIDE"
+    ]
+   },
+   "caption": "In 1957, two inventors sealed two sheets of plastic together, and trapped rows of air bubbles inside."
+  },
+  {
+   "text": "Their big idea? A modern, textured wallpaper.",
+   "scene": {
+    "type": "sketch",
+    "icon": "wall",
+    "lines": [
+     "THE PLAN:",
+     "BUBBLE WALLPAPER"
+    ]
+   }
+  },
+  {
+   "text": "It turns out, nobody wanted bubbles on their walls. The wallpaper flopped.",
+   "scene": {
+    "type": "stamp",
+    "lines": [
+     "BUBBLE WALLPAPER"
+    ],
+    "stamp": "FLOP",
+    "col": "red"
+   }
+  },
+  {
+   "text": "So they hunted for another use, and found one: wrapping fragile things for shipping.",
+   "scene": {
+    "type": "sketch",
+    "icon": "box",
+    "lines": [
+     "PLAN B:",
+     "PROTECT FRAGILE THINGS"
+    ]
+   }
+  },
+  {
+   "text": "The wallpaper that failed now protects packages all over the world. And it's fun to pop.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "FAILED WALLPAPER",
+     "→ WORLD'S FAVORITE PACKING"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 96,
+    "y": 440
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number two.",
+   "scene": {
+    "type": "chapter",
+    "ch": 2,
+    "title": "A GLUE THAT BARELY STUCK",
+    "sub": "Sticky notes"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "In nineteen sixty-eight, a chemist made an adhesive that was, well, weak. It stuck, but it peeled right off, and left nothing behind.",
+   "scene": {
+    "type": "sketch",
+    "icon": "note",
+    "lines": [
+     "1968: A WEAK GLUE"
+    ],
+    "notes": [
+     "STICKS",
+     "PEELS OFF",
+     "LEAVES NO MARK"
+    ]
+   },
+   "caption": "In 1968, a chemist made an adhesive that was, well, weak. It stuck, but it peeled right off, and left nothing behind."
+  },
+  {
+   "text": "For years, nobody could figure out what it was good for.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "A GLUE IN SEARCH",
+     "OF A PROBLEM"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 116,
+    "y": 440
+   }
+  },
+  {
+   "text": "Then a colleague who sang in a church choir had an annoying problem. His paper bookmarks kept falling out of his hymn book.",
+   "scene": {
+    "type": "sketch",
+    "icon": "book",
+    "lines": [
+     "THE PROBLEM:"
+    ],
+    "notes": [
+     "BOOKMARKS KEPT FALLING OUT"
+    ],
+    "mode": "fall"
+   }
+  },
+  {
+   "text": "So he coated them with the weak glue. They stayed put, and peeled off without tearing a single page.",
+   "scene": {
+    "type": "sketch",
+    "icon": "book",
+    "lines": [
+     "THE FIX:"
+    ],
+    "notes": [
+     "STAYS PUT",
+     "PEELS OFF CLEAN"
+    ],
+    "mode": "stick"
+   }
+  },
+  {
+   "text": "In nineteen eighty, sticky notes went on sale across America. Today they're in offices everywhere.",
+   "scene": {
+    "type": "timeline",
+    "span": [
+     1965,
+     1985
+    ],
+    "ad": true,
+    "events": [
+     [
+      1968,
+      "WEAK GLUE",
+      "dim"
+     ],
+     [
+      1974,
+      "BOOKMARK IDEA",
+      "cyan"
+     ],
+     [
+      1980,
+      "ON SALE NATIONWIDE",
+      "gold"
+     ]
+    ],
+    "brackets": [
+     [
+      1968,
+      1980,
+      "12 YEARS",
+      "gold"
+     ]
+    ]
+   },
+   "caption": "In 1980, sticky notes went on sale across America. Today they're in offices everywhere.",
+   "pause": 0.5
+  },
+  {
+   "text": "Number three.",
+   "scene": {
+    "type": "chapter",
+    "ch": 3,
+    "title": "THE CHEMIST WITH SWEET HANDS",
+    "sub": "Saccharin"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "In the late eighteen seventies, a chemist was working with substances made from coal tar.",
+   "scene": {
+    "type": "sketch",
+    "icon": "flask",
+    "lines": [
+     "LATE 1870s"
+    ],
+    "notes": [
+     "COAL-TAR CHEMICALS"
+    ]
+   },
+   "caption": "In the late 1870s, a chemist was working with substances made from coal tar."
+  },
+  {
+   "text": "Then he sat down to dinner, and noticed something odd. His bread tasted strangely sweet.",
+   "scene": {
+    "type": "sketch",
+    "icon": "bread",
+    "lines": [
+     "HIS BREAD",
+     "TASTED SWEET"
+    ]
+   }
+  },
+  {
+   "text": "The sweetness wasn't in the bread. It was on him. He'd carried it home from the lab.",
+   "scene": {
+    "type": "sketch",
+    "icon": "hand",
+    "lines": [
+     "IT WAS ON",
+     "HIS HANDS"
+    ],
+    "mode": "sweet"
+   }
+  },
+  {
+   "text": "He traced it back to a chemical he'd been working on. It was about three hundred times sweeter than sugar.",
+   "scene": {
+    "type": "counter",
+    "from": 1,
+    "to": 300,
+    "fmt": "int",
+    "suffix": "×",
+    "label": "SWEETER THAN SUGAR",
+    "note": "saccharin",
+    "secs": 1.8,
+    "size": 220
+   },
+   "caption": "He traced it back to a chemical he'd been working on. It was about 300 times sweeter than sugar."
+  },
+  {
+   "text": "That chemical is saccharin, one of the oldest artificial sweeteners. Found by tasting dinner.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "DISCOVERED",
+     "AT DINNER"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 130,
+    "y": 440
+   }
+  },
+  {
+   "text": "Chemists have a golden rule: never taste your work. He broke it by accident, at the dinner table.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "RULE #1:",
+     "DON'T TASTE YOUR WORK"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 110,
+    "y": 440
+   },
+   "caption": "Chemists have a golden rule: never taste your work. He broke it by accident, at the dinner table.",
+   "pause": 0.5
+  },
+  {
+   "text": "Number four.",
+   "scene": {
+    "type": "chapter",
+    "ch": 4,
+    "title": "TOO STICKY FOR THE ARMY",
+    "sub": "Super glue"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "In nineteen forty-two, during World War Two, researchers were trying to make crystal-clear plastic for gun sights.",
+   "scene": {
+    "type": "sketch",
+    "icon": "sight",
+    "lines": [
+     "1942"
+    ],
+    "notes": [
+     "GOAL: CLEAR PLASTIC"
+    ]
+   },
+   "caption": "In 1942, during World War Two, researchers were trying to make crystal-clear plastic for gun sights."
+  },
+  {
+   "text": "One family of chemicals had a big problem. It stuck to everything it touched.",
+   "scene": {
+    "type": "sketch",
+    "icon": "drop",
+    "lines": [
+     "IT STUCK TO",
+     "EVERYTHING"
+    ]
+   }
+  },
+  {
+   "text": "Useless. So it was rejected.",
+   "scene": {
+    "type": "stamp",
+    "lines": [
+     "TOO STICKY"
+    ],
+    "stamp": "REJECTED",
+    "col": "red"
+   }
+  },
+  {
+   "text": "Nine years later, the same chemist ran into it again, while working on canopies for jet planes. This time, he saw what it really was: an incredibly strong glue.",
+   "scene": {
+    "type": "sketch",
+    "icon": "jet",
+    "lines": [
+     "1951: SECOND CHANCE"
+    ],
+    "notes": [
+     "WAIT… THIS IS A GLUE!"
+    ]
+   },
+   "caption": "Nine years later, the same chemist ran into it again, while working on canopies for jet planes. This time, he saw what it really was: an incredibly strong glue."
+  },
+  {
+   "text": "It went on sale in nineteen fifty-eight. And during the Vietnam War, medics reportedly sprayed it on wounds to stop bleeding.",
+   "scene": {
+    "type": "timeline",
+    "span": [
+     1940,
+     1970
+    ],
+    "ad": true,
+    "events": [
+     [
+      1942,
+      "REJECTED",
+      "red"
+     ],
+     [
+      1951,
+      "REDISCOVERED",
+      "cyan"
+     ],
+     [
+      1958,
+      "ON SALE",
+      "gold"
+     ],
+     [
+      1966,
+      "USED ON WOUNDS",
+      "green"
+     ]
+    ]
+   },
+   "caption": "It went on sale in 1958. And during the Vietnam War, medics reportedly sprayed it on wounds to stop bleeding.",
+   "pause": 0.5
+  },
+  {
+   "text": "Number five.",
+   "scene": {
+    "type": "chapter",
+    "ch": 5,
+    "title": "THE MELTED CANDY BAR",
+    "sub": "The microwave oven"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "Back to that candy bar. Around the end of World War Two, an engineer was working next to a magnetron, the device that powered radar.",
+   "scene": {
+    "type": "sketch",
+    "icon": "magnetron",
+    "lines": [
+     "RADAR LAB"
+    ],
+    "notes": [
+     "MAGNETRON"
+    ]
+   }
+  },
+  {
+   "text": "He noticed the candy bar in his pocket had melted. He hadn't felt a thing.",
+   "scene": {
+    "type": "hook",
+    "lines": [
+     "HIS CANDY BAR",
+     "MELTED"
+    ],
+    "plain": true
+   }
+  },
+  {
+   "text": "Curious, he held popcorn kernels near it. They popped.",
+   "scene": {
+    "type": "sketch",
+    "icon": "popcorn",
+    "lines": [
+     "POPCORN TEST"
+    ]
+   }
+  },
+  {
+   "text": "The first microwave oven went on sale a couple of years later. It stood nearly six feet tall, and weighed about seven hundred and fifty pounds.",
+   "scene": {
+    "type": "tower"
+   },
+   "caption": "The first microwave oven went on sale a couple of years later. It stood nearly 6 feet tall, and weighed about 750 pounds."
+  },
+  {
+   "text": "That's about as heavy as five adults. And the inventor? He had left school when he was about twelve.",
+   "scene": {
+    "type": "counter",
+    "from": 0,
+    "to": 340,
+    "fmt": "int",
+    "suffix": " KG",
+    "label": "THE FIRST MICROWAVE",
+    "note": "≈ 750 lb · about 1.8 m tall",
+    "secs": 1.6,
+    "size": 220
+   },
+   "caption": "That's about as heavy as 5 adults. And the inventor? He had left school when he was about 12.",
+   "pause": 0.5
+  },
+  {
+   "text": "Number six.",
+   "scene": {
+    "type": "chapter",
+    "ch": 6,
+    "title": "THE EMPTY TANK THAT WASN'T",
+    "sub": "Non-stick coating"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "In nineteen thirty-eight, a young chemist was experimenting with a gas for refrigerators.",
+   "scene": {
+    "type": "sketch",
+    "icon": "cylinder",
+    "lines": [
+     "1938"
+    ],
+    "notes": [
+     "A REFRIGERATOR GAS"
+    ],
+    "mode": "plain"
+   },
+   "caption": "In 1938, a young chemist was experimenting with a gas for refrigerators."
+  },
+  {
+   "text": "One day, he opened the valve on a cylinder of it. Nothing came out.",
+   "scene": {
+    "type": "sketch",
+    "icon": "cylinder",
+    "lines": [
+     "OPEN THE VALVE…"
+    ],
+    "notes": [
+     "NOTHING CAME OUT"
+    ],
+    "mode": "valve"
+   }
+  },
+  {
+   "text": "Empty? But on the scale, it weighed just as much as before.",
+   "scene": {
+    "type": "sketch",
+    "icon": "cylinder",
+    "lines": [
+     "EMPTY?",
+     "BUT STILL HEAVY"
+    ],
+    "mode": "scale"
+   }
+  },
+  {
+   "text": "So they cut the cylinder open. Inside was a white, waxy, super slippery powder. The gas had turned into a solid, all by itself.",
+   "scene": {
+    "type": "sketch",
+    "icon": "cylinder",
+    "lines": [
+     "CUT IT OPEN"
+    ],
+    "notes": [
+     "WHITE SLIPPERY POWDER"
+    ],
+    "mode": "cut"
+   }
+  },
+  {
+   "text": "That powder became the non-stick coating on frying pans.",
+   "scene": {
+    "type": "sketch",
+    "icon": "pan",
+    "lines": [
+     "NON-STICK",
+     "COATING"
+    ]
+   }
+  },
+  {
+   "text": "But its first big job was top secret: sealing valves in the Manhattan Project, the wartime program that built the first atomic bomb.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "FIRST JOB:",
+     "TOP SECRET"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 130,
+    "y": 440
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number seven.",
+   "scene": {
+    "type": "chapter",
+    "ch": 7,
+    "title": "THE WRONG RESISTOR",
+    "sub": "The implantable pacemaker"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "In nineteen fifty-six, an engineer was building a circuit to record the sounds of the heart.",
+   "scene": {
+    "type": "sketch",
+    "icon": "circuit",
+    "lines": [
+     "1956"
+    ],
+    "notes": [
+     "A HEART-SOUND RECORDER"
+    ]
+   },
+   "caption": "In 1956, an engineer was building a circuit to record the sounds of the heart."
+  },
+  {
+   "text": "He reached into a box, grabbed a resistor, and plugged it in. It was the wrong one.",
+   "scene": {
+    "type": "sketch",
+    "icon": "resistor",
+    "lines": [
+     "WRONG",
+     "RESISTOR"
+    ]
+   }
+  },
+  {
+   "text": "When he switched it on, the circuit didn't record anything. It pulsed. Steady. Like a heartbeat.",
+   "scene": {
+    "type": "ecg",
+    "lines": [
+     "IT PULSED",
+     "LIKE A HEARTBEAT"
+    ]
+   }
+  },
+  {
+   "text": "He realized this could keep the beat for a heart that had lost its rhythm. So he shrank it down to fit inside a person.",
+   "scene": {
+    "type": "sketch",
+    "icon": "pacer",
+    "lines": [
+     "A HEARTBEAT",
+     "IN A BOX"
+    ]
+   }
+  },
+  {
+   "text": "Within a few years, it was keeping real patients alive. Since then, pacemakers have helped millions of people.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "A WRONG PART",
+     "→ MILLIONS OF HEARTBEATS"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 104,
+    "y": 440
+   }
+  },
+  {
+   "text": "Think about that. One mix-up with a tiny part became a machine that keeps human hearts beating.",
+   "scene": {
+    "type": "sketch",
+    "icon": "pacer",
+    "lines": [
+     "ONE TINY MIX-UP"
+    ],
+    "mode": "beat"
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number eight.",
+   "scene": {
+    "type": "chapter",
+    "ch": 8,
+    "title": "THE GLOW IN THE DARK LAB",
+    "sub": "X-rays"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "In November eighteen ninety-five, a physicist in Germany was experimenting with a glass tube that fired invisible rays.",
+   "scene": {
+    "type": "sketch",
+    "icon": "tube",
+    "lines": [
+     "NOVEMBER 1895"
+    ],
+    "mode": "off"
+   },
+   "caption": "In November 1895, a physicist in Germany was experimenting with a glass tube that fired invisible rays."
+  },
+  {
+   "text": "Then he noticed something that shouldn't happen. A coated screen nearby was glowing.",
+   "scene": {
+    "type": "sketch",
+    "icon": "tube",
+    "lines": [
+     "A SCREEN",
+     "STARTED GLOWING"
+    ],
+    "mode": "glow"
+   }
+  },
+  {
+   "text": "Some unknown ray was passing straight through things. Paper. Wood. Even skin.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "IT WENT THROUGH",
+     "SKIN"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 130,
+    "y": 440
+   }
+  },
+  {
+   "text": "One of his first X-ray pictures showed his wife's hand. Her bones, and her wedding ring.",
+   "scene": {
+    "type": "xray"
+   }
+  },
+  {
+   "text": "Within weeks, the news had spread around the world.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "WITHIN WEEKS:",
+     "WORLDWIDE NEWS"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 120,
+    "y": 440
+   }
+  },
+  {
+   "text": "And then it got weird. From the nineteen twenties to the fifties, thousands of shoe stores had X-ray machines, so customers could see the bones of their feet inside new shoes.",
+   "scene": {
+    "type": "shoe"
+   },
+   "caption": "And then it got weird. From the 1920s to the '50s, thousands of shoe stores had X-ray machines, so customers could see the bones of their feet inside new shoes."
+  },
+  {
+   "text": "We now know that wasn't safe, and states began banning them.",
+   "scene": {
+    "type": "stamp",
+    "lines": [
+     "X-RAY SHOE FITTING"
+    ],
+    "stamp": "BANNED",
+    "col": "red"
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Number nine.",
+   "scene": {
+    "type": "chapter",
+    "ch": 9,
+    "title": "THE MOLDY DISH",
+    "sub": "Penicillin"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "In nineteen twenty-eight, a scientist came back from a holiday to a messy lab, with old dishes of bacteria still lying around.",
+   "scene": {
+    "type": "sketch",
+    "icon": "dish",
+    "lines": [
+     "1928"
+    ],
+    "mode": "plain"
+   },
+   "caption": "In 1928, a scientist came back from a holiday to a messy lab, with old dishes of bacteria still lying around."
+  },
+  {
+   "text": "One dish of bacteria had been invaded by mold. And all around the mold, the bacteria were dead.",
+   "scene": {
+    "type": "sketch",
+    "icon": "dish",
+    "lines": [
+     "MOLD KILLED",
+     "THE BACTERIA"
+    ],
+    "mode": "mold"
+   }
+  },
+  {
+   "text": "That mold was making penicillin, the world's first antibiotic.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "THE FIRST",
+     "ANTIBIOTIC"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 130,
+    "y": 440
+   }
+  },
+  {
+   "text": "But making it was brutally hard. In early nineteen forty-two, there was only enough to treat a single patient.",
+   "scene": {
+    "type": "counter",
+    "from": 1,
+    "to": 1,
+    "fmt": "int",
+    "suffix": "",
+    "label": "PATIENT",
+    "note": "enough for just one, in early 1942",
+    "secs": 0.6,
+    "size": 240
+   },
+   "caption": "But making it was brutally hard. In early 1942, there was only enough to treat a single patient."
+  },
+  {
+   "text": "Then, in Peoria, Illinois, someone brought a moldy cantaloupe from the market into the lab.",
+   "scene": {
+    "type": "sketch",
+    "icon": "melon",
+    "lines": [
+     "A MOLDY",
+     "CANTALOUPE"
+    ]
+   }
+  },
+  {
+   "text": "The mold on that melon made far more penicillin than Fleming's original. Production took off.",
+   "scene": {
+    "type": "compare",
+    "left": [
+     "ORIGINAL MOLD"
+    ],
+    "lv": 1,
+    "lt": "1×",
+    "right": [
+     "MELON MOLD"
+    ],
+    "rv": 10,
+    "rt": "FAR MORE",
+    "pill": "PRODUCTION TOOK OFF",
+    "colors": [
+     "dim",
+     "gold"
+    ]
+   }
+  },
+  {
+   "text": "A rotten melon helped turn a miracle drug into an everyday medicine.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "A ROTTEN MELON",
+     "CHANGED MEDICINE"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 120,
+    "y": 440
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "And number ten. The one I promised.",
+   "scene": {
+    "type": "chapter",
+    "ch": 10,
+    "title": "THE PIGEON PROBLEM",
+    "sub": "The echo of the Big Bang"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "In nineteen sixty-four, two radio astronomers in New Jersey had a giant horn-shaped antenna, and a very annoying problem.",
+   "scene": {
+    "type": "sketch",
+    "icon": "antenna",
+    "lines": [
+     "1964"
+    ],
+    "mode": "plain"
+   },
+   "caption": "In 1964, two radio astronomers in New Jersey had a giant horn-shaped antenna, and a very annoying problem."
+  },
+  {
+   "text": "A faint hiss. It came from every direction in the sky, day and night, season after season. They thought their equipment was broken.",
+   "scene": {
+    "type": "sketch",
+    "icon": "antenna",
+    "lines": [
+     "A HISS FROM",
+     "EVERY DIRECTION"
+    ],
+    "mode": "hiss"
+   }
+  },
+  {
+   "text": "Then they found the suspects. Pigeons, nesting inside the antenna. And their droppings.",
+   "scene": {
+    "type": "sketch",
+    "icon": "antenna",
+    "lines": [
+     "SUSPECTS:",
+     "PIGEONS"
+    ],
+    "mode": "pigeons"
+   }
+  },
+  {
+   "text": "So they evicted the pigeons and scrubbed the antenna clean.",
+   "scene": {
+    "type": "sketch",
+    "icon": "antenna",
+    "lines": [
+     "EVICTED.",
+     "SCRUBBED."
+    ],
+    "mode": "clean"
+   }
+  },
+  {
+   "text": "The hiss was still there.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     "THE HISS",
+     "WAS STILL THERE"
+    ],
+    "accent": {
+     "1": 1
+    },
+    "size": 130,
+    "y": 440
+   }
+  },
+  {
+   "text": "Because it wasn't coming from the antenna. It was coming from the universe itself. The faint afterglow of the Big Bang, some of the earliest light ever released.",
+   "scene": {
+    "type": "bigbang"
+   }
+  },
+  {
+   "text": "Their annoying noise was evidence of how the universe began. It won them the Nobel Prize in Physics in nineteen seventy-eight.",
+   "scene": {
+    "type": "stamp",
+    "lines": [
+     "THE PIGEON PROBLEM",
+     "WAS THE BIG BANG"
+    ],
+    "stamp": "NOBEL",
+    "col": "green"
+   },
+   "caption": "Their annoying noise was evidence of how the universe began. It won them the Nobel Prize in Physics in 1978."
+  },
+  {
+   "text": "And here's the wildest part. If you've ever seen the fuzzy static on an old TV between channels, a small fraction of that fuzz was the same afterglow. You were watching the Big Bang.",
+   "scene": {
+    "type": "tv"
+   },
+   "pause": 0.6
+  },
+  {
+   "text": "Quick recap. Bubble wrap was failed wallpaper. Sticky notes came from a weak glue. Saccharin was found on a chemist's hands.",
+   "scene": {
+    "type": "recap",
+    "items": [
+     "BUBBLE WRAP = FAILED WALLPAPER",
+     "STICKY NOTES = WEAK GLUE",
+     "SACCHARIN = SWEET HANDS"
+    ]
+   }
+  },
+  {
+   "text": "Super glue was too sticky. A candy bar melted. A tank wasn't empty. A resistor was wrong.",
+   "scene": {
+    "type": "recap",
+    "items": [
+     "SUPER GLUE = TOO STICKY",
+     "MICROWAVE = MELTED CANDY",
+     "NON-STICK = 'EMPTY' TANK",
+     "PACEMAKER = WRONG PART"
+    ]
+   }
+  },
+  {
+   "text": "A screen glowed. A melon got moldy. And pigeons led to the Big Bang.",
+   "scene": {
+    "type": "recap",
+    "items": [
+     "X-RAYS = A GLOWING SCREEN",
+     "PENICILLIN = A MOLDY MELON",
+     "PIGEONS → THE BIG BANG"
+    ]
+   },
+   "pause": 0.5
+  },
+  {
+   "text": "Which one sounded the most fake? Tell me in the comments. A new deep dive comes out every Tuesday and Friday. See you in the next one.",
+   "scene": {
+    "type": "outro",
+    "click_at": 2.2
+   }
+  }
+ ]
+}
