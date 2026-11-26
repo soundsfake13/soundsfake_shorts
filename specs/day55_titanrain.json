@@ -1,0 +1,14 @@
+{
+ "voice": "am_michael",
+ "speed": 1.14,
+ "lines": [
+  {"text": "It rains on Titan. But not water.", "pause": 0.12, "scene": {"type": "hook"}},
+  {"text": "And what fills its lakes is even stranger. Stay for it.", "pause": 0.15, "scene": {"type": "why"}},
+  {"text": "Titan is Saturn's biggest moon, larger than the planet Mercury.", "scene": {"type": "size"}, "pause": 0.18},
+  {"text": "It's about minus one hundred seventy-nine degrees. Far too cold for liquid water.", "caption": "It's about -179°C. Far too cold for liquid water.", "scene": {"type": "cold"}, "pause": 0.18},
+  {"text": "Instead, the clouds rain methane, and it carves real rivers.", "scene": {"type": "rain"}, "pause": 0.18},
+  {"text": "Those rivers fill lakes and seas of liquid natural gas, the kind some stoves burn on Earth.", "scene": {"type": "lakes"}, "pause": 0.18},
+  {"text": "It's the only place besides Earth known to have liquid on its surface.", "scene": {"type": "only"}, "pause": 0.2},
+  {"text": "Sounds fake? It's true. Follow for more.", "scene": {"type": "end", "click_at": 0.45}}
+ ]
+}
