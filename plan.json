@@ -854,9 +854,15 @@
    "topic": "Titan has rain, rivers and lakes — of methane",
    "hook": "On Saturn's moon Titan, it rains. But not water.",
    "facts": "Titan has methane/ethane rain, rivers and lakes (Cassini–Huygens); surface ~-179°C.",
-   "status": "planned",
+   "status": "scheduled",
    "style": "pulp-scifi",
-   "style_idea": "1950s pulp sci-fi magazine cover: painterly orange skies, bold retro lettering, halftone, rocket-age drama (no real titles)."
+   "style_idea": "1950s pulp sci-fi magazine cover: painterly orange skies, bold retro lettering, halftone, rocket-age drama (no real titles).",
+   "title": "It Rains on Titan. But Not Water. 🪐 #shorts",
+   "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/day55.mp4",
+   "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7727862&openWithPostUuid=-1398540346873983572",
+   "engine": "engine/styles/day55_pulp.py",
+   "spec": "specs/day55_titanrain.json",
+   "note": "Facts verified (NASA Science Titan facts, Planetary Society, ESA Cassini-Huygens, Space.com). Temperature said as 'about -179°C'; lakes described with NASA's 'liquid natural gas'; size compare drawn to scale. 32.0 s. claudevideo.org not reachable this run."
   },
   {
    "day": 56,
