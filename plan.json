@@ -871,9 +871,15 @@
    "topic": "Chickens are close relatives of T. rex",
    "hook": "The closest living relatives of T. rex include… chickens.",
    "facts": "Birds are living dinosaurs; 2007–2008 T. rex collagen protein studies found its closest match among living animals in chickens and ostriches.",
-   "status": "planned",
+   "status": "scheduled",
    "style": "chalk-skeleton",
-   "style_idea": "Museum blackboard chalk drawings: skeletons sketched in chalk, dust, arrows morphing a T. rex skeleton into a chicken."
+   "style_idea": "Museum blackboard chalk drawings: skeletons sketched in chalk, dust, arrows morphing a T. rex skeleton into a chicken.",
+   "title": "T. Rex's Closest Living Relative? A Chicken 🐔 #shorts",
+   "video_url": "https://raw.githubusercontent.com/soundsfake13/soundsfake_shorts/main/videos/day56.mp4",
+   "metricool_url": "https://app.metricool.com/planner/calendar?blogId=7727862&openWithPostUuid=-7325656171348997620",
+   "engine": "engine/styles/day56_chalk.py",
+   "spec": "specs/day56_trexchicken.json",
+   "note": "Facts verified (Harvard Gazette 2008, NPR 2008, Scientific American, NHM London, Australian Museum). Protein claim phrased as best match among animals compared (vs lizards, alligators); 'cousin' wording (shared ancestry). T. rex -> chicken skeleton morph. 29.2 s. claudevideo.org not reachable this run."
   }
  ],
  "style_rule": "Every video gets its own visual style designed around its topic (see PIPELINE.md step 3 and STYLES.md). Never reuse a previous video's look.",
