@@ -1,0 +1,65 @@
+{
+ "voice": "am_michael",
+ "speed": 1.14,
+ "lines": [
+  {
+   "text": "T. rex's closest living relatives? Chickens.",
+   "caption": "T. rex's closest living relatives? Chickens.",
+   "pause": 0.12,
+   "scene": {
+    "type": "hook"
+   }
+  },
+  {
+   "text": "The proof hid inside a bone. Wait for it.",
+   "pause": 0.15,
+   "scene": {
+    "type": "why"
+   }
+  },
+  {
+   "text": "Birds don't just look like dinosaurs. They are dinosaurs.",
+   "pause": 0.18,
+   "scene": {
+    "type": "tree"
+   }
+  },
+  {
+   "text": "Scientists studied a sixty-eight-million-year-old T. rex thighbone with traces of protein.",
+   "caption": "Scientists studied a 68-million-year-old T. rex thighbone with traces of protein.",
+   "pause": 0.18,
+   "scene": {
+    "type": "bone"
+   }
+  },
+  {
+   "text": "They compared its collagen protein with living animals.",
+   "pause": 0.15,
+   "scene": {
+    "type": "compare"
+   }
+  },
+  {
+   "text": "The best matches? Not lizards. Not alligators. Chickens and ostriches!",
+   "pause": 0.18,
+   "scene": {
+    "type": "match"
+   }
+  },
+  {
+   "text": "So that chicken? It's a tiny cousin of T. rex.",
+   "caption": "So that chicken? It's a tiny cousin of T. rex.",
+   "pause": 0.2,
+   "scene": {
+    "type": "morph"
+   }
+  },
+  {
+   "text": "Sounds fake? It's true. Follow for more.",
+   "scene": {
+    "type": "end",
+    "click_at": 0.45
+   }
+  }
+ ]
+}
